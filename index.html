@@ -1,0 +1,1364 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CucinaGuida</title>
+
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#e85d04">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="CucinaGuida">
+<link rel="apple-touch-icon" href="icon-192.png">
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'DM Sans', sans-serif; background: #fdf6ee; color: #333; min-height: 100vh; }
+  header { background: #e85d04; color: white; padding: 16px 20px; display: flex; align-items: center; gap: 10px; box-shadow: 0 2px 12px rgba(232,93,4,0.3); }
+  header h1 { font-family: 'Playfair Display', serif; font-size: 1.4rem; font-weight: 800; letter-spacing: -0.5px; }
+  .container { max-width: 500px; margin: 0 auto; padding: 16px; }
+
+  /* TABS */
+  .tabs { display: flex; gap: 6px; margin-bottom: 16px; }
+  .tab { flex: 1; padding: 10px 6px; border-radius: 12px; border: 2px solid #e85d04; background: white; color: #e85d04; font-weight: 700; font-size: 0.78rem; cursor: pointer; text-align: center; font-family: 'DM Sans', sans-serif; transition: all 0.15s; }
+  .tab.active { background: #e85d04; color: white; }
+
+  /* RICERCA */
+  .search-box { position: relative; margin-bottom: 14px; }
+  .search-box input { width: 100%; padding: 12px 16px 12px 40px; border-radius: 12px; border: 2px solid #f0e8dc; background: white; font-size: 0.9rem; font-family: 'DM Sans', sans-serif; outline: none; transition: border-color 0.2s; }
+  .search-box input:focus { border-color: #e85d04; }
+  .search-icon { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); font-size: 1rem; }
+
+  /* FILTRO INGREDIENTI */
+  .filter-box { background: white; border-radius: 16px; padding: 16px; margin-bottom: 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.07); }
+  .filter-box h3 { font-size: 0.9rem; font-weight: 700; margin-bottom: 10px; color: #555; }
+  .filter-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+  .filter-tag { padding: 6px 12px; border-radius: 20px; border: 2px solid #ddd; background: white; color: #888; font-size: 0.8rem; cursor: pointer; font-weight: 600; transition: all 0.15s; }
+  .filter-tag.selected { border-color: #e85d04; background: #fdf0e8; color: #e85d04; }
+
+  /* LISTA RICETTE */
+  .category-label { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1.5px; color: #bbb; font-weight: 700; margin: 18px 0 10px; font-family: 'DM Sans', sans-serif; }
+  .recipe-card { background: white; border-radius: 16px; cursor: pointer; box-shadow: 0 2px 8px rgba(0,0,0,0.07); overflow: hidden; margin-bottom: 12px; transition: transform 0.15s, box-shadow 0.15s; display: flex; }
+  .recipe-card:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,0.12); }
+  .recipe-card.dimmed { opacity: 0.3; pointer-events: none; }
+  .recipe-img { width: 90px; height: 90px; object-fit: cover; flex-shrink: 0; background: #f0e8dc; }
+  .recipe-img-placeholder { width: 90px; height: 90px; flex-shrink: 0; background: linear-gradient(135deg, #fdf0e8, #f0e8dc); display: flex; align-items: center; justify-content: center; font-size: 2rem; }
+  .recipe-body { padding: 12px 14px; flex: 1; }
+  .recipe-body h3 { font-size: 0.95rem; font-weight: 700; font-family: 'Playfair Display', serif; }
+  .recipe-body p { font-size: 0.78rem; color: #999; margin-top: 2px; }
+  .recipe-meta { margin-top: 6px; display: flex; gap: 6px; }
+  .badge { font-size: 0.7rem; background: #fdf6ee; color: #e85d04; padding: 2px 7px; border-radius: 20px; font-weight: 600; }
+
+  /* SCHERMATA INGREDIENTI */
+  .back-btn { background: none; border: none; color: #e85d04; font-size: 0.88rem; cursor: pointer; display: flex; align-items: center; gap: 6px; margin-bottom: 14px; font-weight: 700; padding: 0; font-family: 'DM Sans', sans-serif; }
+  .ing-hero { width: 100%; height: 200px; object-fit: cover; border-radius: 16px; margin-bottom: 16px; }
+  .ing-hero-placeholder { width: 100%; height: 200px; border-radius: 16px; background: linear-gradient(135deg, #fdf0e8, #f0e8dc); display: flex; align-items: center; justify-content: center; font-size: 4rem; margin-bottom: 16px; }
+  .recipe-title { font-family: 'Playfair Display', serif; font-size: 1.5rem; font-weight: 800; margin-bottom: 3px; }
+  .recipe-subtitle { color: #888; font-size: 0.85rem; margin-bottom: 18px; }
+  .section-title { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 1.5px; color: #aaa; font-weight: 700; margin-bottom: 8px; }
+  /* SELETTORE PORZIONI */
+  .portions-box { background: white; border-radius: 14px; padding: 14px 16px; margin-bottom: 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.07); display: flex; align-items: center; justify-content: space-between; }
+  .portions-label { font-size: 0.85rem; font-weight: 700; color: #555; }
+  .portions-label span { color: #e85d04; }
+  .portions-btns { display: flex; align-items: center; gap: 0; background: #fdf6ee; border-radius: 30px; overflow: hidden; border: 2px solid #f0e8dc; }
+  .pbtn-p { background: none; border: none; font-size: 1rem; font-weight: 800; color: #e85d04; cursor: pointer; padding: 6px 14px; transition: background 0.15s; line-height: 1; }
+  .pbtn-p:hover { background: #f0e8dc; }
+  .pbtn-p:disabled { color: #ccc; cursor: default; }
+  .portions-num { font-size: 1.1rem; font-weight: 800; color: #333; min-width: 28px; text-align: center; font-family: 'Playfair Display', serif; }
+  .portions-chips { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 8px; }
+  .pchip { padding: 5px 12px; border-radius: 20px; border: 2px solid #f0e8dc; background: white; color: #888; font-size: 0.8rem; font-weight: 700; cursor: pointer; transition: all 0.15s; font-family: 'DM Sans', sans-serif; }
+  .pchip.active { border-color: #e85d04; background: #fdf0e8; color: #e85d04; }
+  .ing-scaled { color: #e85d04; font-weight: 700; }
+
+  .ing-list { list-style: none; margin-bottom: 20px; }
+  .ing-list li { padding: 9px 0; border-bottom: 1px solid #f0e8dc; font-size: 0.9rem; display: flex; align-items: flex-start; gap: 8px; line-height: 1.4; }
+  .ing-list li::before { content: '•'; color: #e85d04; font-size: 1.1rem; flex-shrink: 0; margin-top: 1px; }
+  .equip-grid { display: flex; flex-direction: column; gap: 8px; margin-bottom: 24px; }
+  .equip-item { display: flex; align-items: flex-start; gap: 12px; background: #fff8f2; border: 1px solid #f0e0cc; border-radius: 12px; padding: 12px 14px; }
+  .equip-emoji { font-size: 1.4rem; flex-shrink: 0; margin-top: 1px; }
+  .equip-info { flex: 1; min-width: 0; }
+  .equip-name { font-weight: 700; font-size: 0.9rem; color: #1a1a1a; }
+  .equip-alt { font-size: 0.75rem; color: #888; margin-top: 3px; line-height: 1.4; }
+  .start-btn { width: 100%; background: #e85d04; color: white; border: none; padding: 15px; border-radius: 14px; font-size: 1rem; font-weight: 700; cursor: pointer; font-family: 'DM Sans', sans-serif; transition: background 0.15s; }
+  .start-btn:hover { background: #c94f02; }
+
+  /* PANORAMICA PASSI */
+  .overview-toggle { width: 100%; background: white; border: 2px solid #f0e8dc; border-radius: 12px; padding: 10px 14px; display: flex; align-items: center; justify-content: space-between; cursor: pointer; margin-bottom: 10px; font-family: 'DM Sans', sans-serif; }
+  .overview-toggle span { font-size: 0.85rem; font-weight: 700; color: #555; }
+  .overview-toggle .ov-arrow { font-size: 0.8rem; color: #aaa; transition: transform 0.2s; }
+  .overview-toggle.open .ov-arrow { transform: rotate(180deg); }
+  .overview-panel { background: white; border-radius: 14px; margin-bottom: 14px; box-shadow: 0 2px 8px rgba(0,0,0,0.07); overflow: hidden; }
+  .ov-summary { display: flex; gap: 8px; padding: 10px 14px; border-bottom: 1px solid #f0e8dc; flex-wrap: wrap; }
+  .ov-sum-chip { font-size: 0.72rem; background: #fdf6ee; color: #888; padding: 3px 9px; border-radius: 20px; font-weight: 600; }
+  .ov-sum-chip strong { color: #e85d04; }
+  .ov-row { display: flex; align-items: flex-start; gap: 10px; padding: 9px 14px; border-bottom: 1px solid #f8f0e8; cursor: pointer; transition: background 0.1s; }
+  .ov-row:last-child { border-bottom: none; }
+  .ov-row:hover { background: #fdf6ee; }
+  .ov-row.ov-current { background: #fdf0e8; }
+  .ov-num { width: 22px; height: 22px; border-radius: 50%; background: #f0e8dc; color: #aaa; font-size: 0.7rem; font-weight: 800; display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 1px; }
+  .ov-current .ov-num { background: #e85d04; color: white; }
+  .ov-row.ov-done .ov-num { background: #4caf50; color: white; }
+  .ov-text { flex: 1; font-size: 0.8rem; color: #555; line-height: 1.3; }
+  .ov-current .ov-text { color: #333; font-weight: 600; }
+  .ov-done .ov-text { color: #bbb; }
+  .ov-time { font-size: 0.7rem; background: #fdf6ee; color: #e85d04; padding: 2px 7px; border-radius: 20px; font-weight: 600; flex-shrink: 0; white-space: nowrap; margin-top: 2px; }
+  .timer-badge { display: none; background: #1a1a1a; color: #ff9a3c; font-size: 0.75rem; font-weight: 800; padding: 3px 9px; border-radius: 20px; letter-spacing: 1px; }
+  .timer-badge.visible { display: inline-block; }
+
+  /* STEP */
+  .progress-wrap { background: #f0e8dc; border-radius: 20px; height: 5px; margin-bottom: 6px; }
+  .progress-bar { background: #e85d04; height: 5px; border-radius: 20px; transition: width 0.4s ease; }
+  .progress-label { font-size: 0.78rem; color: #aaa; margin-bottom: 12px; display: flex; align-items: center; justify-content: space-between; }
+  .step-card { background: white; border-radius: 18px; padding: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.08); margin-bottom: 16px; }
+  .step-num { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 1px; color: #e85d04; font-weight: 700; margin-bottom: 6px; }
+  .step-action { font-size: 1.05rem; font-weight: 700; margin-bottom: 12px; line-height: 1.5; font-family: 'Playfair Display', serif; }
+  .step-why { background: #fdf6ee; border-left: 3px solid #e85d04; padding: 9px 12px; border-radius: 0 8px 8px 0; font-size: 0.84rem; color: #666; line-height: 1.6; }
+
+  /* GLOSSARIO TOOLTIP */
+  .gloss { border-bottom: 2px dotted #e85d04; color: #e85d04; cursor: pointer; font-weight: 600; position: relative; display: inline; }
+  .gloss-popup { display: none; position: fixed; z-index: 9999; background: #1a1a1a; color: #fff; border-radius: 12px; padding: 12px 15px; font-size: 0.82rem; line-height: 1.5; max-width: 260px; box-shadow: 0 8px 30px rgba(0,0,0,0.3); pointer-events: none; }
+  .gloss-popup .gloss-term { font-weight: 700; color: #ff9a3c; font-size: 0.85rem; margin-bottom: 4px; }
+  .gloss-popup.visible { display: block; }
+
+  /* TIMER */
+  .timer-box { background: #1a1a1a; border-radius: 14px; padding: 18px; margin: 14px 0; text-align: center; color: white; }
+  .timer-display { font-size: 2.8rem; font-weight: 800; letter-spacing: 3px; font-family: 'Playfair Display', serif; transition: color 0.3s; }
+  .timer-display.running { color: #ff9a3c; }
+  .timer-display.done { color: #4caf50; }
+  .timer-lbl { font-size: 0.78rem; color: #aaa; margin-top: 3px; }
+  .timer-btns { display: flex; gap: 8px; margin-top: 12px; justify-content: center; }
+  .tbtn { padding: 9px 20px; border-radius: 9px; border: none; font-size: 0.85rem; font-weight: 700; cursor: pointer; font-family: 'DM Sans', sans-serif; }
+  .tbtn.go { background: #e85d04; color: white; }
+  .tbtn.rst { background: #333; color: white; }
+
+  .nav-btns { display: flex; gap: 10px; }
+  .nbtn { flex: 1; padding: 13px; border-radius: 13px; border: none; font-size: 0.9rem; font-weight: 700; cursor: pointer; font-family: 'DM Sans', sans-serif; transition: all 0.15s; }
+  .nbtn.next { background: #e85d04; color: white; }
+  .nbtn.next:hover { background: #c94f02; }
+  .nbtn.prev { background: #f0e8dc; color: #666; }
+
+  /* FINE */
+  .finish { text-align: center; padding: 36px 16px; }
+  .finish .fi { font-size: 4.5rem; margin-bottom: 14px; }
+  .finish h2 { font-family: 'Playfair Display', serif; font-size: 1.5rem; font-weight: 800; margin-bottom: 8px; }
+  .finish p { color: #666; margin-bottom: 24px; font-size: 0.9rem; line-height: 1.6; }
+  .rbtn { display:block; width:100%; background: #e85d04; color: white; border: none; padding: 13px 28px; border-radius: 13px; font-size: 0.95rem; font-weight: 700; cursor: pointer; font-family: 'DM Sans', sans-serif; margin-bottom: 10px; }
+  .rbtn-outline { background: white; color: #e85d04; border: 2px solid #e85d04; }
+  /* Feedback */
+  .feedback-box { background: #fff8f2; border: 1.5px solid #f0dcc8; border-radius: 16px; padding: 20px 16px; margin: 0 0 20px; text-align: left; }
+  .feedback-title { font-weight: 700; font-size: 0.95rem; margin-bottom: 12px; text-align: center; }
+  .feedback-stars { display: flex; justify-content: center; gap: 8px; margin-bottom: 14px; }
+  .fstar { font-size: 2rem; color: #ddd; cursor: pointer; transition: color 0.1s, transform 0.1s; line-height: 1; }
+  .fstar.active { color: #e85d04; transform: scale(1.1); }
+  .feedback-problems-label { font-size: 0.82rem; color: #666; margin-bottom: 10px; font-weight: 600; }
+  .feedback-chips { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 12px; }
+  .fchip { background: white; border: 1.5px solid #e0d0c0; border-radius: 20px; padding: 6px 12px; font-size: 0.8rem; cursor: pointer; transition: all 0.15s; }
+  .fchip.selected { background: #e85d04; color: white; border-color: #e85d04; }
+  .feedback-note { width: 100%; box-sizing: border-box; border: 1.5px solid #e0d0c0; border-radius: 10px; padding: 10px; font-size: 0.85rem; font-family: 'DM Sans', sans-serif; resize: vertical; min-height: 70px; margin-top: 4px; }
+  .feedback-send { width: 100%; margin-top: 12px; padding: 11px; background: #e85d04; color: white; border: none; border-radius: 11px; font-size: 0.9rem; font-weight: 700; cursor: pointer; font-family: 'DM Sans', sans-serif; }
+  .feedback-thanks { text-align: center; color: #2a9d2a; font-weight: 700; padding: 8px 0; }
+  /* Admin */
+  .admin-card { background: white; border: 1.5px solid #eee; border-radius: 14px; padding: 14px 16px; margin-bottom: 12px; }
+  .admin-card-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; margin-bottom: 4px; }
+  .admin-recipe-name { font-weight: 700; font-size: 0.95rem; }
+  .admin-stars { font-size: 0.9rem; font-weight: 700; white-space: nowrap; }
+  .admin-meta { font-size: 0.75rem; color: #999; margin-bottom: 8px; }
+  .admin-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
+  .admin-tag { background: #fff0e8; border: 1px solid #f0d0b0; border-radius: 10px; padding: 3px 9px; font-size: 0.75rem; color: #c0502a; }
+  .admin-notes { border-top: 1px solid #f0f0f0; padding-top: 8px; }
+  .admin-note { font-size: 0.82rem; color: #555; padding: 4px 0; font-style: italic; }
+  .admin-date { color: #bbb; font-style: normal; font-size: 0.75rem; }
+
+  .hidden { display: none; }
+  #screen-list .no-results { text-align: center; color: #aaa; padding: 30px; font-size: 0.9rem; }
+
+  /* STATS BAR */
+  .stats-bar { display: flex; gap: 10px; margin-bottom: 16px; }
+  .stat-chip { background: white; border-radius: 10px; padding: 8px 12px; font-size: 0.78rem; color: #888; box-shadow: 0 1px 4px rgba(0,0,0,0.06); flex: 1; text-align: center; }
+  .stat-chip strong { display: block; font-size: 1.1rem; color: #e85d04; font-family: 'Playfair Display', serif; }
+
+
+  /* ── LOADING SCREEN ── */
+  #screen-loading {
+    display: flex; flex-direction: column; align-items: center;
+    justify-content: center; min-height: 60vh; gap: 20px;
+  }
+  .loader-spinner {
+    width: 48px; height: 48px;
+    border: 5px solid #fde8d0;
+    border-top-color: #e85d04;
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .loader-text { color: #e85d04; font-size: 1rem; font-weight: 600; }
+
+  /* ── LIVELLI ── */
+  .level-bar {
+    display: flex; gap: 6px; margin-bottom: 14px;
+    background: #fff3e8; border-radius: 14px; padding: 5px;
+  }
+  .level-btn {
+    flex: 1; padding: 8px 4px; border-radius: 10px; border: none;
+    background: transparent; font-size: 0.78rem; font-weight: 700;
+    cursor: pointer; color: #888; transition: all 0.2s;
+  }
+  .level-btn.active { background: #e85d04; color: white; }
+  .level-btn.lv-trattoria.active { background: #2d6a4f; }
+  .level-btn.lv-stellato.active  { background: #1a1a2e; }
+
+  /* ── BADGE LIVELLO sulla card ── */
+  .lv-badge {
+    font-size: 0.65rem; font-weight: 700; padding: 2px 7px;
+    border-radius: 20px; margin-left: 4px;
+  }
+  .lv-casa      { background:#fde8d0; color:#e85d04; }
+  .lv-trattoria { background:#d8f3dc; color:#2d6a4f; }
+  .lv-stellato  { background:#e8e8f0; color:#1a1a2e; }
+
+  /* ── OFFLINE BANNER ── */
+  #offline-banner {
+    display: none; background: #fff3cd; color: #856404;
+    padding: 8px 16px; text-align: center; font-size: 0.82rem;
+    border-bottom: 1px solid #ffc107;
+  }
+
+
+</style>
+</head>
+<body>
+<header><span>🍳</span><h1>CucinaGuida</h1></header>
+
+<!-- GLOSSARIO POPUP GLOBALE -->
+<div class="gloss-popup" id="glossPopup">
+  <div class="gloss-term" id="glossTerm"></div>
+  <div id="glossDef"></div>
+</div>
+
+
+<div id="offline-banner">📶 Modalità offline — ricette dalla cache</div>
+<div id="screen-loading">
+  <div class="loader-spinner"></div>
+  <div class="loader-text">Caricamento ricette...</div>
+</div>
+
+<div class="container">
+  <div id="screen-list">
+    <div class="tabs" style="margin-top:12px">
+      <div class="tab active" onclick="setTab('all')">Tutte le ricette</div>
+    <div class="level-bar" id="level-bar">
+      <button class="level-btn active" onclick="setLevel('all')">🍽 Tutte</button>
+      <button class="level-btn lv-casa" onclick="setLevel('casa')">🏠 Casa</button>
+      <button class="level-btn lv-trattoria" onclick="setLevel('trattoria')">👨‍🍳 Trattoria</button>
+      <button class="level-btn lv-stellato" onclick="setLevel('stellato')">⭐ Stellato</button>
+    </div>
+
+      <div class="tab" onclick="setTab('filter')">🧅 Ho in frigo...</div>
+      <div class="tab" onclick="setTab('sort')">⏱ Filtra</div>
+    </div>
+    <div class="search-box">
+      <span class="search-icon">🔍</span>
+      <input type="text" placeholder="Cerca una ricetta..." oninput="onSearch(this.value)" id="searchInput">
+    </div>
+    <div class="stats-bar">
+      <div class="stat-chip"><strong id="totalCount">0</strong>ricette</div>
+      <div class="stat-chip"><strong id="catCount">0</strong>categorie</div>
+    </div>
+    <div id="filter-panel" class="hidden">
+      <div class="filter-box">
+        <h3>Seleziona gli ingredienti che hai:</h3>
+        <div class="filter-tags" id="filter-tags"></div>
+      </div>
+    </div>
+    <div id="sort-panel" class="hidden">
+      <div class="filter-box">
+        <h3>Difficoltà</h3>
+        <div class="filter-tags">
+          <div class="filter-tag" id="diff-facile" onclick="toggleDiff('Facile')">⭐ Facile</div>
+          <div class="filter-tag" id="diff-media" onclick="toggleDiff('Media')">⭐⭐ Media</div>
+          <div class="filter-tag" id="diff-difficile" onclick="toggleDiff('Difficile')">⭐⭐⭐ Difficile</div>
+        </div>
+        <h3 style="margin-top:14px">Tempo massimo</h3>
+        <div class="filter-tags">
+          <div class="filter-tag" id="time-15" onclick="toggleTime(15)">⏱ 15 min</div>
+          <div class="filter-tag" id="time-30" onclick="toggleTime(30)">⏱ 30 min</div>
+          <div class="filter-tag" id="time-60" onclick="toggleTime(60)">⏱ 1 ora</div>
+          <div class="filter-tag" id="time-999" onclick="toggleTime(999)">⏱ Tutto il tempo</div>
+        </div>
+        <h3 style="margin-top:14px">Ordina per</h3>
+        <div class="filter-tags">
+          <div class="filter-tag" id="sort-default" onclick="setSort('default')">📋 Predefinito</div>
+          <div class="filter-tag selected" id="sort-time" onclick="setSort('time')">⏱ Più veloci prima</div>
+          <div class="filter-tag" id="sort-diff" onclick="setSort('diff')">⭐ Più facili prima</div>
+        </div>
+      </div>
+    </div>
+    <div id="recipe-list"></div>
+  </div>
+
+  <div id="screen-ingredients" class="hidden">
+    <button class="back-btn" onclick="showList()">← Torna alle ricette</button>
+    <div id="ing-hero-wrap"></div>
+    <div class="recipe-title" id="ing-title"></div>
+    <div class="recipe-subtitle" id="ing-sub"></div>
+    <div class="portions-box">
+      <div style="flex:1">
+        <div class="portions-label">Porzioni: <span id="portions-display">4</span> 👤</div>
+        <div class="portions-chips" id="portions-chips"></div>
+      </div>
+      <div class="portions-btns">
+        <button class="pbtn-p" id="portions-minus" onclick="changePortion(-1)">−</button>
+        <div class="portions-num" id="portions-num">4</div>
+        <button class="pbtn-p" id="portions-plus" onclick="changePortion(+1)">+</button>
+      </div>
+    </div>
+    <div class="section-title">Ingredienti</div>
+    <ul class="ing-list" id="ing-list"></ul>
+    <div class="section-title" style="margin-top:20px">🔧 Strumenti necessari</div>
+    <div id="equipment-list"></div>
+    <button class="start-btn" onclick="startCooking()">Inizia a cucinare →</button>
+  </div>
+
+  <div id="screen-step" class="hidden">
+    <button class="back-btn" onclick="showIngredients()">← Ingredienti</button>
+    <div class="progress-wrap"><div class="progress-bar" id="pbar"></div></div>
+    <div class="progress-label" id="plbl"><span id="plbl-text"></span><span class="timer-badge" id="timer-badge">⏱ <span id="badge-time"></span></span></div>
+
+    <!-- PANORAMICA PASSI -->
+    <button class="overview-toggle" id="ov-toggle" onclick="toggleOverview()">
+      <span>📋 Panoramica ricetta</span>
+      <span class="ov-arrow">▼</span>
+    </button>
+    <div class="overview-panel hidden" id="ov-panel"></div>
+
+    <div class="step-card">
+      <div class="step-num" id="snum"></div>
+      <div class="step-action" id="sact"></div>
+      <div class="step-why" id="swhy"></div>
+    </div>
+    <div id="timer-sec" class="hidden">
+      <div class="timer-box">
+        <div class="timer-display" id="tdis">00:00</div>
+        <div class="timer-lbl" id="tlbl"></div>
+        <div class="timer-btns">
+          <button class="tbtn go" id="tsbtn" onclick="toggleTimer()">▶ Avvia</button>
+          <button class="tbtn rst" onclick="resetTimer()">↺ Reset</button>
+        </div>
+      </div>
+    </div>
+    <div class="nav-btns">
+      <button class="nbtn prev" id="pbtn" onclick="prevStep()">← Indietro</button>
+      <button class="nbtn next" id="nbtn" onclick="nextStep()">Avanti →</button>
+    </div>
+  </div>
+
+  <div id="screen-finish" class="hidden">
+    <div class="finish">
+      <div class="fi">🎉</div>
+      <h2>Complimenti!</h2>
+      <p id="fmsg"></p>
+
+      <!-- FEEDBACK SECTION -->
+      <div class="feedback-box" id="feedback-box">
+        <div class="feedback-title">Come è andata?</div>
+        <div class="feedback-stars" id="feedback-stars">
+          <span class="fstar" data-v="1" onclick="setStars(1)">★</span>
+          <span class="fstar" data-v="2" onclick="setStars(2)">★</span>
+          <span class="fstar" data-v="3" onclick="setStars(3)">★</span>
+          <span class="fstar" data-v="4" onclick="setStars(4)">★</span>
+          <span class="fstar" data-v="5" onclick="setStars(5)">★</span>
+        </div>
+        <div class="feedback-problems hidden" id="feedback-problems">
+          <div class="feedback-problems-label">Cosa non andava? (seleziona tutto ciò che vale)</div>
+          <div class="feedback-chips">
+            <div class="fchip" onclick="toggleChip(this)" data-k="tempi">⏱ Tempi sbagliati</div>
+            <div class="fchip" onclick="toggleChip(this)" data-k="passi">📝 Passaggi poco chiari</div>
+            <div class="fchip" onclick="toggleChip(this)" data-k="dosi">⚖️ Dosi imprecise</div>
+            <div class="fchip" onclick="toggleChip(this)" data-k="tecnica">🍳 Tecnica difficile</div>
+            <div class="fchip" onclick="toggleChip(this)" data-k="risultato">😔 Risultato deludente</div>
+          </div>
+          <textarea class="feedback-note" id="feedback-note" placeholder="Dettagli opzionali: quale passo, quale tempo, cosa è successo..."></textarea>
+        </div>
+        <button class="feedback-send hidden" id="feedback-send" onclick="submitFeedback()">Invia feedback</button>
+        <div class="feedback-thanks hidden" id="feedback-thanks">✓ Grazie! Lo terrò in conto.</div>
+      </div>
+
+      <button class="rbtn" onclick="showList()">Cucina un'altra ricetta</button>
+      <button class="rbtn rbtn-outline" onclick="showFeedbackAdmin()">📊 Vedi tutti i feedback</button>
+    </div>
+  </div>
+
+  <!-- ADMIN FEEDBACK PANEL -->
+  <div id="screen-admin" class="hidden">
+    <button class="back-btn" onclick="show('screen-finish')">← Torna</button>
+    <div style="padding:16px">
+      <h2 style="font-family:'Playfair Display',serif;margin-bottom:4px">📊 Log feedback ricette</h2>
+      <p style="color:#888;font-size:0.85rem;margin-bottom:16px">Feedback raccolti durante l'uso dell'app</p>
+      <div id="admin-content"></div>
+      <button onclick="clearAllFeedback()" style="margin-top:20px;padding:10px 16px;background:#fee;border:1px solid #fcc;border-radius:10px;color:#c00;font-size:0.8rem;cursor:pointer">🗑 Cancella tutti i feedback</button>
+    </div>
+  </div>
+</div>
+<script>
+
+// ─────────────────────────────────────────────────────────────────────────────
+// GLOSSARIO
+// ─────────────────────────────────────────────────────────────────────────────
+const glossary = {
+  "bagnomaria": "Tecnica di cottura indiretta: si mette una ciotola sopra una pentola con acqua che sobbolle, senza che la ciotola tocchi l'acqua. Ideale per sciogliere cioccolato o cuocere creme delicate senza rischio di bruciare.",
+  "mantecatura": "Tecnica finale in cui si amalgama la pasta o il risotto con il condimento, aggiungendo liquido (acqua di cottura, burro) e mescolando energicamente fino a creare una crema lucida e avvolgente.",
+  "sfumare": "Aggiungere un liquido alcolico (vino, birra, grappa) su ingredienti caldi in padella. Il calore fa evaporare l'alcol, lasciando i profumi e i sapori. Si sente il vapore e lo sfrigolio caratteristico.",
+  "rosolatura": "Cottura rapida ad alta temperatura che crea una crosticina dorata sulla superficie degli alimenti per reazione di Maillard. Sigilla i succhi e aggiunge sapore.",
+  "deglassare": "Tecnica per raccogliere i succhi caramellizzati sul fondo della padella aggiungendo un liquido (vino, brodo, acqua) e raschiando con un cucchiaio. Quei residui sono pieni di sapore.",
+  "julienne": "Taglio a bastoncini sottilissimi (2-3mm di spessore, 5-6cm di lunghezza), come fiammiferi. Usato per verdure come carote, zucchine, porri. Cuoce velocemente e dà una texture delicata.",
+  "brunoise": "Taglio a cubetti minuscoli (3-4mm per lato), preciso e uniforme. Si ottiene prima facendo le julienne poi tagliandole trasversalmente. Usato per soffritti e basi aromatiche.",
+  "mirepoix": "Misto di carota, sedano e cipolla tagliati a pezzi rustici, base aromatica per sughi, stufati e brodi. Proporzioni classiche: 1 parte carota, 1 sedano, 2 cipolle.",
+  "soffritto": "Verdure aromatiche (cipolla, sedano, carota, aglio) cotte lentamente nell'olio o burro fino a diventare morbide e dolci, senza bruciarsi. È la base di molti piatti italiani.",
+  "soffriggere": "Cuocere gli ingredienti in poco olio o burro a fuoco medio-basso, mescolando, finché diventano morbidi e traslucidi senza colorarsi. Diverso dal rosolare che richiede fuoco alto.",
+  "reazione di maillard": "Reazione chimica tra proteine e zuccheri che avviene sopra i 140°C, creando la crosticina dorata e i sapori complessi nella carne, pane e verdure. Non è caramellizzazione.",
+  "al dente": "Cottura della pasta o del riso in cui al morso si sente ancora una leggera resistenza al centro. 'Al dente' letteralmente significa 'al dente'. È il punto di cottura ideale per la pasta.",
+  "emulsione": "Miscela stabile di due liquidi che normalmente non si mescolano (come olio e acqua). In cucina si ottiene mescolando energicamente: la vinaigrette e la maionese sono emulsioni.",
+  "bagnare": "Aggiungere brodo, vino o altro liquido durante la cottura per mantenere l'umidità e creare un fondo saporito. Diverso dallo sfumare: si aggiunge in piccole quantità durante la cottura.",
+  "casseruola": "Pentola larga e bassa con manici e coperchio, ideale per cotture lunghe, stufati e umidi. Ha più superficie di contatto col fuoco rispetto a una pentola alta.",
+  "padella antiaderente": "Padella con rivestimento che impedisce agli alimenti di attaccarsi. Ideale per uova, frittate e alimenti delicati. Non usarla a fuoco molto alto per non danneggiare il rivestimento.",
+  "wok": "Padella di origine asiatica a forma conica con pareti alte e inclinate. Permette cotture rapidissime a fuoco altissimo (stir-fry). Distribuisce il calore in modo uniforme.",
+  "saltare in padella": "Cuocere rapidamente gli alimenti in pochissimo grasso a fuoco alto, muovendoli continuamente scuotendo la padella. Il termine viene dal francese 'sauter' (saltare).",
+  "stufato": "Cottura lenta e prolungata in poco liquido (brodo, vino, acqua) con coperchio. La carne diventa tenerissima e il liquido si riduce in un sugo concentrato e gelatinoso.",
+  "brasatura": "Tecnica che combina rosolatura iniziale ad alta temperatura con cottura lenta in poco liquido, coperta. Ideale per carni dure (stinco, guancia, spalla) che diventano morbidissime.",
+  "sbianchire": "Immergere brevemente verdure in acqua bollente salata (30 secondi - 2 minuti) poi raffreddarle subito in acqua gelata. Fissa il colore verde, ammorbidisce la texture, elimina il sapore amaro.",
+  "spicchio": "Una sezione singola di aglio o arancia. Una testa d'aglio contiene 8-12 spicchi. Per lo spicchio d'aglio: si schiaccia con il palmo per separarlo dalla testa, poi si sbuccia facilmente.",
+  "schiacciapatate": "Utensile con pistone forato che passa le patate cotte attraverso i fori creando fiocchi soffici. Produce un purè vellutato senza attivare il glutine (cosa che farebbe il mixer).",
+  "mortaio": "Recipiente in marmo o granito con pestello per ridurre spezie, erbe e ingredienti in pasta o polvere. La pressione rotante sprigiona oli essenziali meglio di un macinino elettrico.",
+  "zeste": "Scorza esterna colorata degli agrumi (limone, arancia, lime) grattugiata o tagliata a listarelle. Contiene gli oli essenziali profumati. Si usa solo la parte colorata, non la parte bianca amara.",
+  "riduzione": "Tecnica di cottura che consiste nel far evaporare parte del liquido a fuoco vivo per concentrare sapori e addensare le salse naturalmente, senza aggiungere addensanti.",
+  "stampo a cerniera": "Stampo da forno con chiusura laterale a gancio che permette di aprire e sfilare il bordo facilmente. Ideale per torte delicate e cheesecake.",
+  "lievito per dolci": "Lievito chimico (bicarbonato + acido tartarico) che produce CO2 durante la cottura gonfiando l'impasto. Diverso dal lievito di birra: agisce con il calore, non con la fermentazione.",
+  "setacciare": "Passare la farina o altri ingredienti secchi attraverso un colino a maglia fine. Elimina grumi, incorpora aria e rende l'impasto più soffice.",
+  "a neve": "Albumi montati con le fruste elettriche fino a formare una schiuma bianca e soda che mantiene la forma. 'A neve ferma' = rigida e stabile; 'a neve morbida' = ancora cremosa.",
+  "tempera": "Tecnica per portare il cioccolato alla temperatura corretta (sciogliendo e raffreddando) per ottenere una copertura lucida e croccante. Importante per cioccolatini e decorazioni.",
+  "manteca": "Aggiungere burro freddo fuori dal fuoco mescolando rapidamente per creare una salsa cremosa e lucida. Usata per risotti, paste e salse. Il burro freddo crea un'emulsione stabile.",
+  "tostatura": "Riscaldare a secco (senza grassi) spezie, cereali o frutta secca in padella o forno per attivare gli aromi e aggiungere note tostate. Il riso da risotto si tosta prima di aggiungere il brodo.",
+  "brodo": "Liquido aromatico ottenuto cuocendo a lungo ossa, carne o verdure in acqua. È la base di zuppe, risotti e salse. Il brodo vegetale si fa con cipolla, carota, sedano; quello di carne con ossa.",
+  "dado da cucina": "Concentrato di brodo compresso in cubetti. Pratico ma molto salato, se lo usi, riduci il sale nelle ricette. Meglio usare brodo fatto in casa quando possibile.",
+  "aglio in camicia": "Spicchio d'aglio non sbucciato, utilizzato così com'è in padella o nel sugo. La buccia lo protegge, lasciando un sapore più delicato e dolce rispetto all'aglio sbucciato.",
+  "cipolla di tropea": "Cipolla rossa dolce e succosa tipica della Calabria. Meno pungente delle cipolle comuni, ideale da mangiare cruda in insalata o per marmellate. Si riconosce per il colore viola intenso.",
+  "parmigiano reggiano": "Formaggio DOP invecchiato almeno 12 mesi (24-36 mesi per quelli superiori). Si riconosce dalla crosta marchiata. Diverso dal Grana Padano, più delicato. Usare sempre quello grattugiato al momento.",
+  "pecorino romano": "Formaggio DOP fatto con latte di pecora, prodotto nel Lazio, Sardegna e Toscana. Sapore intenso e salato. Ingrediente fondamentale in carbonara, cacio e pepe e amatriciana.",
+  "guanciale": "Salume ottenuto dalla guancia del maiale, stagionato con sale e pepe. Più grasso e saporito della pancetta, è l'ingrediente originale di carbonara e amatriciana. Non si sostituisce.",
+  "pancetta tesa": "Pancetta di maiale stagionata e pressata piatta (non arrotolata). Sapore più delicato del guanciale. Usata come sostituto del guanciale ma non è la stessa cosa.",
+  "olio evo": "Olio Extra Vergine di Oliva, ottenuto dalla prima spremitura meccanica a freddo delle olive. Acidità massima 0,8%. È il condimento base della cucina italiana. Diverso dall'olio di oliva raffinato.",
+  "vino bianco secco": "Vino bianco senza residuo zuccherino, usato per sfumare. Non usare mai il vino da cucina: se non lo berresti, non cuinarci. Un Pinot Grigio o Vermentino sono perfetti.",
+  "acciuga": "Piccolo pesce azzurro conservato sotto sale o sott'olio. Quando si scioglie in olio caldo perde completamente il sapore di pesce e dà solo una profondità umami al piatto. Ingrediente segreto di molte ricette.",
+  "capperi": "Boccioli di fiori essiccati e conservati sotto sale o aceto. Sapore intenso, leggermente amaro e pungente. Vanno dissalati in acqua per 10 minuti prima dell'uso se sotto sale.",
+  "prezzemolo": "Erba aromatica fresca fondamentale nella cucina italiana. Va aggiunto sempre a fine cottura per mantenere il colore e il profumo. Il gambo è più saporito delle foglie, usalo nei brodi.",
+  "basilico": "Erba aromatica profumatissima, simbolo della cucina mediterranea. Non va cotto: si aggiunge sempre a fine cottura o a crudo. Il freddo del frigo lo annerisce, tienilo a temperatura ambiente.",
+  "rosmarino": "Erba aromatica con foglie aghiformi molto profumate. Resiste alla cottura. Ottimo con arrosti, patate e agnello. Usarlo fresco è meglio che secco.",
+  "salvia": "Erba aromatica con foglie grigio-verdi vellutate. Sapore forte e leggermente amaro. Ottima fritta nel burro per condire gnocchi e tortelli. Fresca è molto diversa da quella secca.",
+  "timo": "Erba aromatica con foglioline minuscole. Sapore intenso e leggermente agrumato. Ottimo per marinature, arrosti e zuppe. Più resistente del basilico alla cottura.",
+  "finocchietto": "Erba aromatica con sapore simile all'anice. Usata nella pasta con le sarde siciliana. Il bulbo di finocchio (verdura) è diverso dal finocchietto selvatico (erba).",
+  "scalogno": "Bulbo della famiglia delle cipolle, più piccolo e dal sapore più delicato ed elegante. Ideale per sauté e salse dove la cipolla sarebbe troppo invadente.",
+  "porro": "Verdura della famiglia delle cipolle con sapore dolce e delicato. Si usa la parte bianca e verde chiara. Ottimo in zuppe, vellutate e quiche.",
+  "zafferano": "Spezia ottenuta dagli stigmi del Crocus sativus. La più cara al mondo. Usato nel risotto alla milanese. Va sciolto in acqua tiepida o brodo prima di aggiungerlo.",
+  "noce moscata": "Spezia da grattugiare fresca al momento dell'uso. Un pizzico aromatizza béchamel, purè e pasta ripiena. Quella in polvere ha perso quasi tutto il profumo.",
+  "pepe nero": "Spezia ottienuta dai grani del pepe macinati. Per il meglio del sapore, comprare i grani interi e macinarli al momento. Il pepe pre-macinato perde rapidamente il profumo.",
+  "peperoncino": "Frutto piccante della famiglia dei Capsicum. Il principio attivo è la capsaicina. Il grado di piccantezza varia enormemente: il peperoncino calabrese è più delicato di quello asiatico.",
+  "cannella": "Spezia in polvere o in stecche con profumo dolce e speziato. Usata nei dolci ma anche nella carne (es. ragù siciliano). La varietà Ceylon è più delicata di quella Cassia.",
+  "stock": "Sinonimo di brodo, termine usato nella cucina professionale. Esistono: stock bianco (ossa crude), stock bruno (ossa tostate), fumetto (pesce), nage (crostacei).",
+  "roux": "Miscela di farina e burro cotti insieme usata per addensare salse. Roux bianco (pochi minuti) = béchamel; roux dorato (5 min) = vellutata; roux bruno (10+ min) = salse scure.",
+  "béchamel": "Salsa madre della cucina francese: roux bianco diluito con latte caldo, condito con noce moscata. Base per lasagne, crêpes e pasta al forno. Si chiama anche 'besciamella' in italiano.",
+  "macerazione": "Immergere un alimento in un liquido (vino, aceto, succo di limone, alcol) a freddo per ammorbidirlo, aromatizzarlo o conservarlo. La marinatura della carne è una forma di macerazione.",
+  "marinatura": "Lasciare la carne o il pesce in un mix di liquidi (vino, olio, aceto) e aromi per alcune ore prima della cottura. Ammorbidisce, insaporisce e a volte preserva.",
+};
+
+// Applica glossario al testo HTML
+function applyGlossary(html) {
+  let result = html;
+  // Sort by length descending to match longer terms first
+  const terms = Object.keys(glossary).sort((a,b) => b.length - a.length);
+  terms.forEach(term => {
+    const regex = new RegExp('(?<![\\w])(' + term.replace(/[-\/\\^$*+?.()|[\]{}]/g,'\\$&') + ')(?![\\w])', 'gi');
+    result = result.replace(regex, (match) => {
+      return `<span class="gloss" data-term="${term}">${match}</span>`;
+    });
+  });
+  return result;
+}
+
+// Glossario tooltip
+let glossTimeout;
+document.addEventListener('click', (e) => {
+  const g = e.target.closest('.gloss');
+  if (g) {
+    e.stopPropagation();
+    const popup = document.getElementById('glossPopup');
+    const term = g.dataset.term;
+    document.getElementById('glossTerm').textContent = term.charAt(0).toUpperCase() + term.slice(1);
+    document.getElementById('glossDef').textContent = glossary[term];
+    const rect = g.getBoundingClientRect();
+    let top = rect.bottom + window.scrollY + 8;
+    let left = rect.left + window.scrollX;
+    if (left + 270 > window.innerWidth) left = window.innerWidth - 275;
+    if (top + 150 > window.innerHeight + window.scrollY) top = rect.top + window.scrollY - 160;
+    popup.style.top = top + 'px';
+    popup.style.left = left + 'px';
+    popup.classList.add('visible');
+    clearTimeout(glossTimeout);
+    glossTimeout = setTimeout(() => popup.classList.remove('visible'), 5000);
+    return;
+  }
+  document.getElementById('glossPopup').classList.remove('visible');
+});
+
+// ─────────────────────────────────────────────────────────────────────────────
+// SUONO TIMER (Web Audio API)
+// ─────────────────────────────────────────────────────────────────────────────
+let audioCtx = null;
+function initAudio() {
+  if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+}
+function playTimerDone() {
+  if (!audioCtx) return;
+  // Tre ding progressivi
+  const times = [0, 0.4, 0.8];
+  times.forEach((t, i) => {
+    const osc = audioCtx.createOscillator();
+    const gain = audioCtx.createGain();
+    osc.connect(gain);
+    gain.connect(audioCtx.destination);
+    osc.type = 'sine';
+    osc.frequency.value = 660 + (i * 110);
+    gain.gain.setValueAtTime(0, audioCtx.currentTime + t);
+    gain.gain.linearRampToValueAtTime(0.5, audioCtx.currentTime + t + 0.05);
+    gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + t + 0.6);
+    osc.start(audioCtx.currentTime + t);
+    osc.stop(audioCtx.currentTime + t + 0.7);
+  });
+}
+// Init audio on first touch/click
+document.addEventListener('click', initAudio, {once: false});
+
+// ─────────────────────────────────────────────────────────────────────────────
+
+// ─────────────────────────────────────────────────────────────────────────────
+// STATO GLOBALE
+// ─────────────────────────────────────────────────────────────────────────────
+const RECIPES_URL = 'https://raw.githubusercontent.com/AlimThedas/cucina-guida/refs/heads/main/ricette.json';
+const CACHE_KEY   = 'cg_recipes_v1';
+
+let recipes      = [];   // populated async
+let cur          = null, step = 0, tRun = false;
+let activeTab    = 'all', searchQuery = '';
+let selDiff      = new Set();
+let selTimeMax   = null;
+let sortMode     = 'time';
+let selLevel     = 'all';   // 'all' | 'casa' | 'trattoria' | 'stellato'
+const selTags    = new Set();
+let allTags      = [];
+let cats         = [];
+
+// ── Offline detection ────────────────────────────────────────────────────
+window.addEventListener('online',  () => document.getElementById('offline-banner').style.display = 'none');
+window.addEventListener('offline', () => document.getElementById('offline-banner').style.display = 'block');
+
+// ── Load recipes ─────────────────────────────────────────────────────────
+async function loadRecipes() {
+  // 1. Try network first
+  try {
+    const res = await fetch(RECIPES_URL, { cache: 'no-cache' });
+    if (res.ok) {
+      const data = await res.json();
+      recipes = data;
+      // Save to localStorage as cache
+      try { localStorage.setItem(CACHE_KEY, JSON.stringify(data)); } catch(e) {}
+      initApp();
+      return;
+    }
+  } catch(e) {}
+
+  // 2. Fallback: localStorage cache
+  try {
+    const cached = localStorage.getItem(CACHE_KEY);
+    if (cached) {
+      recipes = JSON.parse(cached);
+      document.getElementById('offline-banner').style.display = 'block';
+      initApp();
+      return;
+    }
+  } catch(e) {}
+
+  // 3. Nothing available
+  document.getElementById('screen-loading').innerHTML =
+    '<div style="text-align:center;padding:40px;color:#c0392b">' +
+    '<div style="font-size:3rem">📶</div>' +
+    '<p style="margin-top:16px;font-weight:700">Nessuna connessione</p>' +
+    '<p style="margin-top:8px;color:#888;font-size:0.9rem">Connettiti a internet per caricare le ricette.</p>' +
+    '<button onclick="loadRecipes()" style="margin-top:20px;padding:12px 24px;background:#e85d04;color:white;border:none;border-radius:12px;font-size:1rem;cursor:pointer">🔄 Riprova</button>' +
+    '</div>';
+}
+
+function initApp() {
+  allTags = [...new Set(recipes.flatMap(r => r.tags))].sort();
+  cats    = [...new Set(recipes.map(r => r.cat))];
+  document.getElementById('totalCount').textContent = recipes.length;
+  document.getElementById('catCount').textContent   = cats.length;
+  document.getElementById('screen-loading').style.display = 'none';
+  renderFilterTags();
+  renderList();
+  show('screen-list');
+}
+
+
+
+
+// ─────────────────────────────────────────────────────────────────────────────
+// FILTRO LIVELLO
+// ─────────────────────────────────────────────────────────────────────────────
+function setLevel(l) {
+  selLevel = l;
+  document.querySelectorAll('.level-btn').forEach(b => b.classList.remove('active'));
+  const map = {'all':0,'casa':1,'trattoria':2,'stellato':3};
+  document.querySelectorAll('.level-btn')[map[l]].classList.add('active');
+  renderList();
+}
+
+
+
+// TABS E RICERCA
+// ─────────────────────────────────────────────────────────────────────────────
+function setTab(t) {
+  activeTab = t;
+  document.querySelectorAll('.tab').forEach((el,i) => {
+    el.classList.toggle('active', (i===0&&t==='all')||(i===1&&t==='filter')||(i===2&&t==='sort'));
+  });
+  document.getElementById('filter-panel').classList.toggle('hidden', t !== 'filter');
+  document.getElementById('sort-panel').classList.toggle('hidden', t !== 'sort');
+  renderList();
+}
+
+function onSearch(val) {
+  searchQuery = val.toLowerCase().trim();
+  renderList();
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// FILTRI TEMPO / DIFFICOLTÀ
+// ─────────────────────────────────────────────────────────────────────────────
+function toggleDiff(d) {
+  selDiff.has(d) ? selDiff.delete(d) : selDiff.add(d);
+  ['Facile','Media','Difficile'].forEach(v => {
+    const el = document.getElementById('diff-' + v.toLowerCase());
+    if (el) el.classList.toggle('selected', selDiff.has(v));
+  });
+  renderList();
+}
+
+function toggleTime(mins) {
+  selTimeMax = (selTimeMax === mins) ? null : mins;
+  [15,30,60,999].forEach(v => {
+    const el = document.getElementById('time-' + v);
+    if (el) el.classList.toggle('selected', selTimeMax === v);
+  });
+  renderList();
+}
+
+function setSort(mode) {
+  sortMode = mode;
+  ['default','time','diff'].forEach(v => {
+    const el = document.getElementById('sort-' + v);
+    if (el) el.classList.toggle('selected', sortMode === v);
+  });
+  renderList();
+}
+
+// Converte la stringa tempo in minuti per il confronto
+function parseMinutes(timeStr) {
+  if (!timeStr) return 999;
+  const h = timeStr.match(/(\d+)\s*or/i);
+  const m = timeStr.match(/(\d+)\s*min/i);
+  return (h ? parseInt(h[1]) * 60 : 0) + (m ? parseInt(m[1]) : 0) || 999;
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// FILTRI ,  logica "ho in frigo": mostra ricette che contengono ALMENO UNO
+//            degli ingredienti selezionati, ordinate per quanti ne hanno
+// ─────────────────────────────────────────────────────────────────────────────
+function renderFilterTags() {
+  document.getElementById('filter-tags').innerHTML = allTags.map(tag =>
+    `<div class="filter-tag${selTags.has(tag)?' selected':''}" onclick="toggleTag('${tag}')">${tag}</div>`
+  ).join('');
+}
+function toggleTag(tag) {
+  selTags.has(tag) ? selTags.delete(tag) : selTags.add(tag);
+  renderFilterTags();
+  renderList();
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// LISTA RICETTE
+// ─────────────────────────────────────────────────────────────────────────────
+function renderList() {
+  const tagArr = [...selTags];
+  let rws = recipes.map(r => ({ r, matches: tagArr.filter(t => r.tags.includes(t)).length }));
+
+  // Filtro livello
+  if (selLevel !== 'all') {
+    rws = rws.filter(({r}) => r.level === selLevel);
+  }
+
+  // Filtro testo (funziona sempre)
+  if (searchQuery) {
+    rws = rws.filter(({r}) =>
+      r.name.toLowerCase().includes(searchQuery) ||
+      r.subtitle.toLowerCase().includes(searchQuery) ||
+      r.tags.some(t => t.includes(searchQuery))
+    );
+  }
+
+  // Filtro ingredienti (tab frigo)
+  if (activeTab === 'filter' && tagArr.length > 0) {
+    const minMatch = tagArr.length === 1 ? 1 : 2;
+    rws = rws.filter(({matches}) => matches >= minMatch);
+    rws.sort((a, b) => b.matches - a.matches);
+  }
+
+  // Filtro difficoltà (tab filtra)
+  if (activeTab === 'sort' && selDiff.size > 0) {
+    rws = rws.filter(({r}) => selDiff.has(r.diff));
+  }
+
+  // Filtro tempo massimo (tab filtra)
+  if (activeTab === 'sort' && selTimeMax !== null) {
+    rws = rws.filter(({r}) => parseMinutes(r.time) <= selTimeMax);
+  }
+
+  // Ordinamento (tab filtra)
+  if (activeTab === 'sort') {
+    if (sortMode === 'time') rws.sort((a,b) => parseMinutes(a.r.time) - parseMinutes(b.r.time));
+    else if (sortMode === 'diff') {
+      const o = {Facile:0,Media:1,Difficile:2};
+      rws.sort((a,b) => (o[a.r.diff]||1) - (o[b.r.diff]||1));
+    }
+  }
+
+  // Render
+  let html = '';
+  const makeCard = (r, matches) => {
+    const idx = recipes.indexOf(r);
+    const imgHtml = r.photo
+      ? `<img class="recipe-img" src="${r.photo}" alt="${r.name}" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">`+`<div class="recipe-img-placeholder" style="display:none">${r.icon}</div>`
+      : `<div class="recipe-img-placeholder">${r.icon}</div>`;
+    const lvLabels = {casa:'🏠 Casa', trattoria:'👨‍🍳 Trattoria', stellato:'⭐ Stellato'};
+    const lvClass  = {casa:'lv-casa', trattoria:'lv-trattoria', stellato:'lv-stellato'};
+    const lvBadge  = r.level && r.level !== 'casa'
+      ? `<span class="lv-badge ${lvClass[r.level]}">${lvLabels[r.level]}</span>` : '';
+    const matchBadge = (activeTab === 'filter' && tagArr.length > 0)
+      ? `<span class="badge" style="background:#fdf0e8;color:#e85d04">✓ ${matches}/${r.tags.length} ing.</span>` : '';
+    return `<div class="recipe-card" onclick="selectRecipe(${idx})">${imgHtml}
+      <div class="recipe-body"><h3>${r.name}</h3><p>${r.subtitle}</p>
+      <div class="recipe-meta"><span class="badge">⏱ ${r.time}</span><span class="badge">⭐ ${r.diff}</span>${lvBadge}${matchBadge}</div>
+      </div></div>`;
+  };
+
+  if (activeTab === 'sort') {
+    // Lista piatta senza raggruppamento per categoria
+    rws.forEach(({r, matches}) => { html += makeCard(r, matches); });
+  } else {
+    cats.forEach(cat => {
+      const inCat = rws.filter(({r}) => r.cat === cat);
+      if (activeTab === 'filter' && tagArr.length > 0) inCat.sort((a,b) => b.matches - a.matches);
+      if (inCat.length === 0) return;
+      html += `<div class="category-label">${cat}</div>`;
+      inCat.forEach(({r, matches}) => { html += makeCard(r, matches); });
+    });
+  }
+
+  if (!html) html = '<div class="no-results">Nessuna ricetta trovata.<br>Prova a cambiare i filtri.</div>';
+  document.getElementById('recipe-list').innerHTML = html;
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// SCHERMATA INGREDIENTI + PORZIONI
+// ─────────────────────────────────────────────────────────────────────────────
+const BASE_PORTIONS = 4;
+let currentPortions = 4;
+
+function selectRecipe(i) { cur = recipes[i]; currentPortions = 4; showIngredients(); }
+
+function showIngredients() {
+  const heroWrap = document.getElementById('ing-hero-wrap');
+  if (cur.photo) {
+    heroWrap.innerHTML = `<img class="ing-hero" src="${cur.photo}" alt="${cur.name}" onerror="this.style.display='none'">`;
+  } else {
+    heroWrap.innerHTML = `<div class="ing-hero-placeholder">${cur.icon}</div>`;
+  }
+  document.getElementById('ing-title').textContent = cur.icon + ' ' + cur.name;
+  document.getElementById('ing-sub').textContent = cur.subtitle;
+  renderPortions();
+  renderIngredients();
+  show('screen-ingredients');
+}
+
+function renderPortions() {
+  const chips = [2,3,4,5,6];
+  document.getElementById('portions-display').textContent = currentPortions;
+  document.getElementById('portions-num').textContent = currentPortions;
+  document.getElementById('portions-minus').disabled = currentPortions <= 2;
+  document.getElementById('portions-plus').disabled = currentPortions >= 6;
+  document.getElementById('portions-chips').innerHTML = chips.map(n =>
+    `<button class="pchip${n===currentPortions?' active':''}" onclick="setPortion(${n})">${n}p</button>`
+  ).join('');
+}
+
+function changePortion(delta) {
+  const next = currentPortions + delta;
+  if (next < 2 || next > 6) return;
+  currentPortions = next;
+  renderPortions();
+  renderIngredients();
+}
+
+function setPortion(n) {
+  currentPortions = n;
+  renderPortions();
+  renderIngredients();
+}
+
+// ── Scaling intelligente degli ingredienti ──────────────────────────────────
+// Riconosce i numeri negli ingredienti e li scala proporzionalmente
+function scaleIngredient(text, ratio) {
+  if (ratio === 1) return text;
+
+  // Sostituisce tutti i numeri (incluse frazioni come 1/2) nel testo
+  return text.replace(/(\d+([.,]\d+)?)\s*(\/\s*\d+)?/g, (match, num1, dec, frac) => {
+    let value;
+    if (frac) {
+      // Es: "1/2" → gestito tutto insieme
+      const parts = match.trim().split('/');
+      value = parseFloat(parts[0]) / parseFloat(parts[1]);
+    } else {
+      value = parseFloat(num1.replace(',','.'));
+    }
+    const scaled = value * ratio;
+
+    // Formatta il risultato in modo leggibile
+    let result;
+    if (scaled % 1 === 0) {
+      result = scaled.toString();
+    } else if (Math.abs(scaled - Math.round(scaled * 2) / 2) < 0.01) {
+      // Arrotonda a 0.5
+      result = (Math.round(scaled * 2) / 2).toString().replace('.',',');
+    } else {
+      result = scaled.toFixed(1).replace('.',',');
+    }
+    return `<span class="ing-scaled">${result}</span>`;
+  });
+}
+
+function renderIngredients() {
+  const ratio = currentPortions / BASE_PORTIONS;
+  document.getElementById('ing-list').innerHTML = cur.ing.map(line =>
+    `<li>${scaleIngredient(line, ratio)}</li>`
+  ).join('');
+  renderEquipment();
+}
+
+// ── Rilevamento automatico strumenti dalla ricetta ───────────────────────────
+// Ogni strumento ha: nome, emoji, alternative (se non ce l'hai usa questo),
+// e keyword che lo identificano nel testo degli step
+const EQUIPMENT_DB = [
+  { name:'Pentola grande',    emoji:'🫕', alt:'Casseruola alta o pentola capiente', kw:['pentola','bollore','lessare','lessali','acqua salata','pasta in acqua','cuoci in acqua'] },
+  { name:'Padella larga',     emoji:'🍳', alt:'Padella antiaderente da 28-30cm', kw:['padella larga','padella grande','padella antiader','in padella','salta in padella','soffriggi','rosola','sfrigola'] },
+  { name:'Padella piccola',   emoji:'🍳', alt:'Padellino o casseruolino da 18cm', kw:['padellino','pentolino','scalda il latte','fai sciogliere il burro'] },
+  { name:'Casseruola',        emoji:'🫕', alt:'Pentola con coperchio dai bordi alti', kw:['casseruola','in umido','brasato','stufato','cuoci coperto','fuoco basso coperto'] },
+  { name:'Forno',             emoji:'🔥', alt:'Necessario: non sostituibile', kw:['forno','inforna','preriscalda','gratin','teglia in forno','cuoci a 1','cuoci a 2'] },
+  { name:'Teglia da forno',   emoji:'🟫', alt:'Pirofila o teglia usa-e-getta in alluminio', kw:['teglia','pirofila','stampo','in forno'] },
+  { name:'Stampo da dolci',   emoji:'🟫', alt:'Teglia rotonda o pirofila da 24cm', kw:['stampo','tortiera','stampo da','stampo per','forma rotonda'] },
+  { name:'Mixer / frullatore',emoji:'⚡', alt:'Frullatore a immersione o robot da cucina', kw:['mixer','frullatore','frulla','frullate','robot','tritatutto','frullato'] },
+  { name:'Frullatore a immersione', emoji:'⚡', alt:'Mixer da cucina o frullatore normale', kw:['frullatore a immersione','minipimer','frulla con il minipimer','frulla direttamente'] },
+  { name:'Schiacciapatate',   emoji:'🔧', alt:'Forchetta (più fatica, stesso risultato)', kw:['schiacciapatate','schiaccia le patate','passale allo schiaccia'] },
+  { name:'Frusta',            emoji:'🌀', alt:'Forchetta o cucchiaio di legno (più fatica)', kw:['frusta','frustando','monta con la frusta','sbatti con la frusta','mescolando con una frusta'] },
+  { name:'Fruste elettriche', emoji:'⚡', alt:'Frusta a mano (richiede più tempo e forza)', kw:['fruste elettriche','sbattitore','monta con le fruste','fruste a velocità'] },
+  { name:'Colino / scolapasta',emoji:'🫙', alt:'Coperchio della pentola tenuto di lato', kw:['scola','scolapasta','colino','filtra','scolate'] },
+  { name:'Grattugia',         emoji:'🔧', alt:'Coltello affilato per tritare finissimo', kw:['grattugia','grattugiate','grattugiato','scorza grattug','zest'] },
+  { name:'Coltello da chef',  emoji:'🔪', alt:'Coltello affilato qualsiasi', kw:['trita','taglia a','tagliare','affetta','brunoise','julienne','dadini','a fette','a cubetti'] },
+  { name:'Tagliere',          emoji:'🟫', alt:'Piano di lavoro pulito', kw:['tagliere','sul piano','taglia ','spianatoia'] },
+  { name:'Ciotola grande',    emoji:'🥣', alt:'Pentola o insalatiera', kw:['ciotola','in una ciotola','mescola in','sbatti in'] },
+  { name:'Spatola / cucchiaio di legno', emoji:'🥄', alt:'Qualsiasi cucchiaio resistente al calore', kw:['cucchiaio di legno','spatola','mescola energic','raschia il fondo'] },
+  { name:'Mattarello',        emoji:'🟫', alt:'Bottiglia di vino o bicchiere per stendere', kw:['mattarello','stendi con il mattarello','stendila','stendi l\'impasto'] },
+  { name:'Sac à poche',       emoji:'🔧', alt:'Sacchetto da freezer con un angolo tagliato', kw:['sac à poche','sacca da pasticcere','sac a poche','usa la sac'] },
+  { name:'Pellicola alimentare',emoji:'📦', alt:'Coperchio o piatto appogiato sopra', kw:['pellicola','copri con pellicola','avvolgi in pellicola'] },
+  { name:'Carta forno',       emoji:'📄', alt:'Teglia ben unta con olio o burro', kw:['carta forno','carta da forno'] },
+  { name:'Mortaio',           emoji:'🔧', alt:'Sacchetto + mattarello per pestare', kw:['mortaio','pesta nel mortaio','pestalo nel mortaio'] },
+  { name:'Bagnomaria',        emoji:'🫕', alt:'Microonde a 30 secondi per volta', kw:['bagnomaria','a bagnomaria'] },
+  { name:'Griglia / bistecchiera', emoji:'🔥', alt:'Padella antiaderente caldissima', kw:['griglia','bistecchiera','grigliare','griglia calda'] },
+  { name:'Stuzzicadenti',     emoji:'🔧', alt:'Spiedino di legno o stecchino', kw:['stuzzicadenti','stecchino'] },
+  { name:'Coperchio',         emoji:'🔧', alt:'Foglio di alluminio o piatto più grande', kw:['copri con coperchio','con il coperchio','coperto','copri e cuoci'] },
+  { name:'Carta assorbente',  emoji:'📄', alt:'Canovaccio pulito', kw:['carta assorbente','carta da cucina','asciuga con carta'] },
+];
+
+function detectEquipment(recipe) {
+  const allText = recipe.steps.map(s => (s.a + ' ' + s.w).toLowerCase()).join(' ');
+  const found = [];
+  const seen = new Set();
+  EQUIPMENT_DB.forEach(eq => {
+    if (seen.has(eq.name)) return;
+    if (eq.kw.some(k => allText.includes(k.toLowerCase()))) {
+      found.push(eq);
+      seen.add(eq.name);
+    }
+  });
+  return found;
+}
+
+function renderEquipment() {
+  const items = detectEquipment(cur);
+  if (items.length === 0) {
+    document.getElementById('equipment-list').innerHTML = '';
+    return;
+  }
+  const html = items.map(eq => `
+    <div class="equip-item">
+      <span class="equip-emoji">${eq.emoji}</span>
+      <div class="equip-info">
+        <div class="equip-name">${eq.name}</div>
+        <div class="equip-alt">💡 Non ce l'hai? ${eq.alt}</div>
+      </div>
+    </div>`).join('');
+  document.getElementById('equipment-list').innerHTML = `<div class="equip-grid">${html}</div>`;
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// STEP CON GLOSSARIO + TIMER BASATO SU TIMESTAMP + PANORAMICA
+//
+// Come funziona il timer con timestamp:
+// Invece di decrementare un contatore ogni secondo, salviamo l'ora esatta
+// di avvio (startedAt) e la durata totale (totalSecs).
+// In qualsiasi momento: secsLeft = totalSecs - (now - startedAt)
+// Se l'app va in standby o cambi pagina, al ritorno calcola quanto è passato
+// davvero e mostra il tempo corretto. Se è già scaduto, avvisa subito.
+// ─────────────────────────────────────────────────────────────────────────────
+let ovOpen = false;
+
+// timerState[stepIndex] = {
+//   totalSecs: number,      durata originale
+//   startedAt: number|null, timestamp ms quando è stato avviato (null = in pausa)
+//   pausedLeft: number,     secondi rimasti al momento della pausa
+//   done: bool
+// }
+let timerState = {};
+
+// Intervallo UI (solo per aggiornare il display, NON conta il tempo)
+let uiInterval = null;
+
+function startCooking() {
+  step = 0;
+  ovOpen = false;
+  timerState = {};
+  clearInterval(uiInterval); uiInterval = null;
+  tRun = false;
+  renderStep();
+  show('screen-step');
+}
+
+// ── Calcolo tempo rimasto ────────────────────────────────────────────────────
+function getSecsLeft(state) {
+  if (!state) return null;
+  if (state.done) return 0;
+  if (state.startedAt !== null) {
+    // Timer in corsa: calcola dal timestamp reale
+    const elapsed = Math.floor((Date.now() - state.startedAt) / 1000);
+    return Math.max(0, state.pausedLeft - elapsed);
+  }
+  // Timer in pausa
+  return state.pausedLeft;
+}
+
+function isRunning(state) {
+  return state && !state.done && state.startedAt !== null;
+}
+
+// ── Render dello step ────────────────────────────────────────────────────────
+function renderStep() {
+  // Ferma l'intervallo UI precedente (ma NON il timer reale)
+  clearInterval(uiInterval); uiInterval = null;
+
+  const s = cur.steps[step], tot = cur.steps.length;
+  document.getElementById('pbar').style.width = ((step+1)/tot*100)+'%';
+  document.getElementById('plbl-text').textContent = `Passo ${step+1} di ${tot}`;
+  document.getElementById('snum').textContent = `Passo ${step+1}`;
+  document.getElementById('sact').innerHTML = applyGlossary(s.a);
+  document.getElementById('swhy').innerHTML = applyGlossary(s.w);
+
+  const ts = document.getElementById('timer-sec');
+  if (s.t) {
+    ts.classList.remove('hidden');
+    document.getElementById('tlbl').textContent = s.t.l;
+
+    // Inizializza lo stato se questo step non è mai stato toccato
+    if (!timerState[step]) {
+      timerState[step] = {
+        totalSecs: s.t.s,
+        startedAt: null,
+        pausedLeft: s.t.s,
+        done: false
+      };
+    }
+
+    const state = timerState[step];
+    const secsLeft = getSecsLeft(state);
+
+    // Controlla se il timer è scaduto mentre eravamo via
+    if (secsLeft <= 0 && !state.done) {
+      state.done = true;
+      state.startedAt = null;
+    }
+
+    if (state.done) {
+      showTimerDone();
+    } else if (isRunning(state)) {
+      // Il timer sta girando: aggiorna display e avvia l'intervallo UI
+      tRun = true;
+      updateTimerDisplay(secsLeft);
+      document.getElementById('tdis').className = 'timer-display running';
+      document.getElementById('tsbtn').textContent = '⏸ Pausa';
+      document.getElementById('timer-badge').classList.add('visible');
+      startUIInterval();
+    } else {
+      // In pausa o mai avviato
+      tRun = false;
+      updateTimerDisplay(secsLeft);
+      document.getElementById('tdis').className = 'timer-display';
+      const neverStarted = state.pausedLeft === state.totalSecs;
+      document.getElementById('tsbtn').textContent = neverStarted ? '▶ Avvia' : '▶ Riprendi';
+      document.getElementById('timer-badge').classList.remove('visible');
+    }
+  } else {
+    // Questo step non ha timer
+    tRun = false;
+    ts.classList.add('hidden');
+    document.getElementById('timer-badge').classList.remove('visible');
+  }
+
+  document.getElementById('pbtn').style.visibility = step===0?'hidden':'visible';
+  document.getElementById('nbtn').textContent = step===tot-1?'Fine ✓':'Avanti →';
+  renderOverview();
+}
+
+// ── Intervallo UI: aggiorna solo il display ogni secondo ─────────────────────
+function startUIInterval() {
+  clearInterval(uiInterval);
+  uiInterval = setInterval(() => {
+    const state = timerState[step];
+    if (!state || !isRunning(state)) { clearInterval(uiInterval); return; }
+    const secsLeft = getSecsLeft(state);
+    updateTimerDisplay(secsLeft);
+    // Aggiorna badge
+    const m = Math.floor(secsLeft/60).toString().padStart(2,'0');
+    const s2 = (secsLeft%60).toString().padStart(2,'0');
+    document.getElementById('badge-time').textContent = m+':'+s2;
+    if (secsLeft <= 0) {
+      clearInterval(uiInterval);
+      timerState[step].done = true;
+      timerState[step].startedAt = null;
+      tRun = false;
+      showTimerDone();
+      playTimerDone();
+    }
+  }, 500); // 500ms per reattività
+}
+
+function updateTimerDisplay(secs) {
+  const m = Math.floor(secs/60).toString().padStart(2,'0');
+  const s2 = (secs%60).toString().padStart(2,'0');
+  document.getElementById('tdis').textContent = m+':'+s2;
+  document.getElementById('badge-time').textContent = m+':'+s2;
+}
+
+function showTimerDone() {
+  tRun = false;
+  document.getElementById('tdis').className = 'timer-display done';
+  document.getElementById('tdis').textContent = '✓ Fatto!';
+  document.getElementById('tsbtn').textContent = '✓ Completato';
+  document.getElementById('timer-badge').classList.remove('visible');
+}
+
+// ── Cambio step: NON tocca il timer, lo lascia girare ────────────────────────
+function nextStep() {
+  if (step < cur.steps.length-1) { step++; renderStep(); }
+  else { document.getElementById('fmsg').textContent = cur.fin; resetFeedbackUI(); show('screen-finish'); }
+}
+function prevStep() {
+  if (step>0) { step--; renderStep(); }
+}
+
+// ── Panoramica ───────────────────────────────────────────────────────────────
+function toggleOverview() {
+  ovOpen = !ovOpen;
+  document.getElementById('ov-toggle').classList.toggle('open', ovOpen);
+  document.getElementById('ov-panel').classList.toggle('hidden', !ovOpen);
+}
+
+function renderOverview() {
+  const steps = cur.steps;
+  const totalSecs = steps.reduce((sum, s) => sum + (s.t ? s.t.s : 0), 0);
+  const totalMin = Math.ceil(totalSecs / 60);
+  const stepsWithTimer = steps.filter(s => s.t).length;
+
+  let html = `<div class="ov-summary">
+    <span class="ov-sum-chip"><strong>${steps.length}</strong> passi</span>
+    ${totalMin > 0 ? `<span class="ov-sum-chip">⏱ <strong>${totalMin}</strong> min di timer</span>` : ''}
+    <span class="ov-sum-chip"><strong>${stepsWithTimer}</strong> con timer</span>
+  </div>`;
+
+  steps.forEach((s, i) => {
+    const state = timerState[i];
+    const isDone = i < step || (state && state.done);
+    const isCurrent = i === step;
+    const isActive = state && isRunning(state);
+    const cls = isDone ? 'ov-done' : isCurrent ? 'ov-current' : '';
+    // Timer badge: se attivo mostra il tempo rimanente, altrimenti la durata originale
+    let timeChip = '';
+    if (s.t) {
+      if (isActive) {
+        const left = getSecsLeft(state);
+        timeChip = `<span class="ov-time" style="background:#1a1a1a;color:#ff9a3c">⏱ ${fmtSecs(left)}</span>`;
+      } else if (state && state.done) {
+        timeChip = `<span class="ov-time" style="background:#e8f5e9;color:#4caf50">✓ finito</span>`;
+      } else {
+        timeChip = `<span class="ov-time">⏱ ${fmtSecs(s.t.s)}</span>`;
+      }
+    }
+    const shortText = s.a.length > 65 ? s.a.substring(0,63)+'…' : s.a;
+    html += `<div class="ov-row ${cls}" onclick="jumpToStep(${i})">
+      <div class="ov-num">${isDone && !isActive ? '✓' : i+1}</div>
+      <div class="ov-text">${shortText}</div>
+      ${timeChip}
+    </div>`;
+  });
+
+  const panel = document.getElementById('ov-panel');
+  panel.innerHTML = html;
+  panel.classList.toggle('hidden', !ovOpen);
+  document.getElementById('ov-toggle').classList.toggle('open', ovOpen);
+}
+
+function jumpToStep(i) {
+  step = i;
+  renderStep();
+  ovOpen = false;
+  document.getElementById('ov-panel').classList.add('hidden');
+  document.getElementById('ov-toggle').classList.remove('open');
+  window.scrollTo(0,0);
+}
+
+function fmtSecs(s) {
+  const m = Math.floor(s/60), sec = s%60;
+  return sec > 0 ? `${m}:${String(sec).padStart(2,'0')}` : `${m} min`;
+}
+
+// Visibilità pagina: quando torni sull'app, aggiorna subito il display
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState === 'visible') {
+    const state = timerState[step];
+    if (!state) return;
+    const secsLeft = getSecsLeft(state);
+    if (secsLeft <= 0 && !state.done) {
+      state.done = true;
+      state.startedAt = null;
+      clearInterval(uiInterval);
+      showTimerDone();
+      playTimerDone(); // suono al ritorno se scaduto mentre eri via
+    } else if (isRunning(state)) {
+      updateTimerDisplay(secsLeft);
+      startUIInterval(); // riavvia l'intervallo UI
+    }
+  }
+});
+
+// ─────────────────────────────────────────────────────────────────────────────
+// TIMER CON SUONO + TIMESTAMP
+// ─────────────────────────────────────────────────────────────────────────────
+function toggleTimer() {
+  initAudio();
+  const state = timerState[step];
+  if (!state) return;
+
+  if (isRunning(state)) {
+    // PAUSA: salva il tempo rimasto e azzera il timestamp
+    const secsLeft = getSecsLeft(state);
+    state.pausedLeft = secsLeft;
+    state.startedAt = null;
+    tRun = false;
+    clearInterval(uiInterval); uiInterval = null;
+    updateTimerDisplay(secsLeft);
+    document.getElementById('tdis').className = 'timer-display';
+    document.getElementById('tsbtn').textContent = '▶ Riprendi';
+    document.getElementById('timer-badge').classList.remove('visible');
+  } else {
+    // AVVIO o RIPRESA: salva il timestamp corrente
+    state.startedAt = Date.now();
+    tRun = true;
+    document.getElementById('tdis').className = 'timer-display running';
+    document.getElementById('tsbtn').textContent = '⏸ Pausa';
+    document.getElementById('timer-badge').classList.add('visible');
+    startUIInterval();
+  }
+}
+
+function resetTimer() {
+  const s = cur.steps[step];
+  if (!s.t) return;
+  clearInterval(uiInterval); uiInterval = null;
+  tRun = false;
+  timerState[step] = {
+    totalSecs: s.t.s,
+    startedAt: null,
+    pausedLeft: s.t.s,
+    done: false
+  };
+  updateTimerDisplay(s.t.s);
+  document.getElementById('tdis').className = 'timer-display';
+  document.getElementById('tsbtn').textContent = '▶ Avvia';
+  document.getElementById('timer-badge').classList.remove('visible');
+}
+function show(id) {
+  ['screen-list','screen-ingredients','screen-step','screen-finish','screen-admin'].forEach(s=>document.getElementById(s).classList.add('hidden'));
+  document.getElementById(id).classList.remove('hidden');
+  window.scrollTo(0,0);
+}
+function showList() { show('screen-list'); }
+
+// ─────────────────────────────────────────────────────────────────────────────
+// SISTEMA FEEDBACK
+// ─────────────────────────────────────────────────────────────────────────────
+let currentStars = 0;
+const FEEDBACK_KEY = 'cg_feedback_v1';
+
+function loadFeedbacks() {
+  try { return JSON.parse(localStorage.getItem(FEEDBACK_KEY) || '[]'); }
+  catch(e) { return []; }
+}
+function saveFeedbacks(arr) {
+  try { localStorage.setItem(FEEDBACK_KEY, JSON.stringify(arr)); } catch(e) {}
+}
+
+function resetFeedbackUI() {
+  currentStars = 0;
+  document.querySelectorAll('.fstar').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('.fchip').forEach(c => c.classList.remove('selected'));
+  const noteEl = document.getElementById('feedback-note');
+  if (noteEl) noteEl.value = '';
+  document.getElementById('feedback-problems').classList.add('hidden');
+  document.getElementById('feedback-send').classList.add('hidden');
+  document.getElementById('feedback-thanks').classList.add('hidden');
+  document.getElementById('feedback-box').classList.remove('hidden');
+}
+
+function setStars(n) {
+  currentStars = n;
+  document.querySelectorAll('.fstar').forEach(s => {
+    s.classList.toggle('active', parseInt(s.dataset.v) <= n);
+  });
+  document.getElementById('feedback-send').classList.remove('hidden');
+  // Mostra sezione problemi solo se voto <= 3
+  document.getElementById('feedback-problems').classList.toggle('hidden', n > 3);
+}
+
+function toggleChip(el) {
+  el.classList.toggle('selected');
+}
+
+function submitFeedback() {
+  if (!currentStars) return;
+  const problems = [...document.querySelectorAll('.fchip.selected')].map(c => c.dataset.k);
+  const note = document.getElementById('feedback-note').value.trim();
+  const entry = {
+    recipe: cur.name,
+    cat: cur.cat,
+    stars: currentStars,
+    problems,
+    note,
+    date: new Date().toLocaleDateString('it-IT')
+  };
+  const all = loadFeedbacks();
+  all.unshift(entry);
+  saveFeedbacks(all);
+  document.getElementById('feedback-send').classList.add('hidden');
+  document.getElementById('feedback-problems').classList.add('hidden');
+  document.getElementById('feedback-thanks').classList.remove('hidden');
+}
+
+function showFeedbackAdmin() {
+  const all = loadFeedbacks();
+  const adminEl = document.getElementById('admin-content');
+  if (all.length === 0) {
+    adminEl.innerHTML = '<p style="color:#888;text-align:center;padding:32px 0">Nessun feedback ancora.<br>Cucina una ricetta e lascia una valutazione!</p>';
+  } else {
+    // Raggruppa per ricetta
+    const byRecipe = {};
+    all.forEach(f => {
+      if (!byRecipe[f.recipe]) byRecipe[f.recipe] = [];
+      byRecipe[f.recipe].push(f);
+    });
+    // Ordina per media stelle crescente (i problemi per prima)
+    const sorted = Object.entries(byRecipe).sort((a,b) => {
+      const avgA = a[1].reduce((s,f)=>s+f.stars,0)/a[1].length;
+      const avgB = b[1].reduce((s,f)=>s+f.stars,0)/b[1].length;
+      return avgA - avgB;
+    });
+    const problemLabels = {tempi:'⏱ Tempi',passi:'📝 Passaggi',dosi:'⚖️ Dosi',tecnica:'🍳 Tecnica',risultato:'😔 Risultato'};
+    adminEl.innerHTML = sorted.map(([name, feedbacks]) => {
+      const avg = (feedbacks.reduce((s,f)=>s+f.stars,0)/feedbacks.length).toFixed(1);
+      const stars = '★'.repeat(Math.round(avg)) + '☆'.repeat(5-Math.round(avg));
+      const allProblems = feedbacks.flatMap(f=>f.problems);
+      const problemCounts = {};
+      allProblems.forEach(p => { problemCounts[p] = (problemCounts[p]||0)+1; });
+      const problemTags = Object.entries(problemCounts)
+        .sort((a,b)=>b[1]-a[1])
+        .map(([k,v]) => `<span class="admin-tag">${problemLabels[k]||k} ×${v}</span>`)
+        .join('');
+      const notes = feedbacks.filter(f=>f.note).map(f=>`<div class="admin-note">"${f.note}" <span class="admin-date">${f.date}</span></div>`).join('');
+      const starColor = avg >= 4 ? '#2a9d2a' : avg >= 3 ? '#e85d04' : '#c0392b';
+      return `<div class="admin-card">
+        <div class="admin-card-header">
+          <span class="admin-recipe-name">${name}</span>
+          <span class="admin-stars" style="color:${starColor}">${stars} ${avg}</span>
+        </div>
+        <div class="admin-meta">${feedbacks.length} valutazione${feedbacks.length>1?'i':''} · ${feedbacks[0].cat}</div>
+        ${problemTags ? `<div class="admin-tags">${problemTags}</div>` : ''}
+        ${notes ? `<div class="admin-notes">${notes}</div>` : ''}
+      </div>`;
+    }).join('');
+  }
+  show('screen-admin');
+}
+
+function clearAllFeedback() {
+  if (confirm('Cancellare tutti i feedback?')) {
+    saveFeedbacks([]);
+    showFeedbackAdmin();
+  }
+}
+
+// Reset feedback UI ogni volta che si arriva alla schermata finish è fatto in goNext()
+
+// ─────────────────────────────────────────────────────────────────────────────
+// INIT
+// ─────────────────────────────────────────────────────────────────────────────
+loadRecipes();
+
+// ─────────────────────────────────────────────────────────────────────────────
+// SERVICE WORKER REGISTRATION (PWA)
+// ─────────────────────────────────────────────────────────────────────────────
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('sw.js').catch(() => {});
+  });
+}
+</script>
+</body>
+</html>
