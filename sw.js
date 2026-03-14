@@ -1,12 +1,12 @@
-const CACHE_NAME = 'cucina-guida-v1';
+const CACHE_NAME = 'cucina-guida-v2';
+
+// Cache solo l'HTML principale e il JSON delle ricette
 const STATIC_ASSETS = [
-  '/',
-  '/index.html',
-  '/manifest.json',
-  'https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=DM+Sans:wght@400;500;600;700&display=swap'
+  '/cucina-guida/',
+  '/cucina-guida/index.html',
+  '/cucina-guida/manifest.json'
 ];
 
-// Install: cache static assets
 self.addEventListener('install', event => {
   event.waitUntil(
     caches.open(CACHE_NAME)
@@ -15,28 +15,27 @@ self.addEventListener('install', event => {
   );
 });
 
-// Activate: clean old caches
 self.addEventListener('activate', event => {
   event.waitUntil(
-    caches.keys().then(keys =>
-      Promise.all(keys.filter(k => k !== CACHE_NAME).map(k => caches.delete(k)))
-    ).then(() => self.clients.claim())
+    caches.keys()
+      .then(keys => Promise.all(
+        keys.filter(k => k !== CACHE_NAME).map(k => caches.delete(k))
+      ))
+      .then(() => self.clients.claim())
   );
 });
 
-// Fetch: network first, then cache
 self.addEventListener('fetch', event => {
-  // Skip non-GET and chrome-extension requests
   if (event.request.method !== 'GET') return;
   if (event.request.url.startsWith('chrome-extension')) return;
 
   event.respondWith(
     fetch(event.request)
       .then(response => {
-        // Cache successful responses
         if (response.ok) {
           const clone = response.clone();
-          caches.open(CACHE_NAME).then(cache => cache.put(event.request, clone));
+          caches.open(CACHE_NAME)
+            .then(cache => cache.put(event.request, clone));
         }
         return response;
       })

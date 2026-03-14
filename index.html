@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>CucinaGuida</title>
 
-<link rel="manifest" href="manifest.json">
+<link rel="manifest" href="/cucina-guida/manifest.json">
 <meta name="theme-color" content="#e85d04">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
@@ -1356,7 +1356,7 @@ loadRecipes();
 // ─────────────────────────────────────────────────────────────────────────────
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register('sw.js').catch(() => {});
+    navigator.serviceWorker.register('/cucina-guida/sw.js').catch(() => {});
   });
 }
 </script>
