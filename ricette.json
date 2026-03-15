@@ -5079,5 +5079,1511 @@
     "fin": "Mousse al cioccolato perfetta! Tre ingredienti, risultato straordinario. Con lamponi freschi e panna montata è un dessert da grande ristorante. Si conserva 2 giorni in frigo coperta.",
     "id": 74,
     "level": "casa"
+  },
+  {
+    "cat": "🍝 Pasta",
+    "name": "Tagliatelle al ragù bolognese",
+    "icon": "🍝",
+    "photo": "https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?w=600&q=80",
+    "time": "180 min",
+    "diff": "Media",
+    "level": "trattoria",
+    "subtitle": "Il ragù vero, quello che cuoce tre ore",
+    "tags": [
+      "pasta",
+      "carne",
+      "vino",
+      "burro",
+      "cipolla",
+      "carota",
+      "sedano"
+    ],
+    "steps": [
+      {
+        "a": "Trita finissimi cipolla, carota e sedano (brunoise). In una casseruola pesante scalda burro e olio a fuoco BASSO. Soffriggi le verdure per 15 minuti mescolando spesso: devono diventare morbide, dolci e quasi trasparenti, MAI dorate.",
+        "w": "💡 Il soffritto della bolognese vuole pazienza: 15 minuti a fuoco basso. Se dorasse cambierebbe il sapore del ragù. Questo è il fondamento di tutto.",
+        "t": {
+          "s": 900,
+          "l": "15 min soffritto dolce"
+        }
+      },
+      {
+        "a": "Aggiungi la pancetta tesa tritata finissima. Cuoci altri 5 minuti finché è traslucida.",
+        "w": "💡 La pancetta nel ragù bolognese non è opzionale — è strutturale. Dà la base grassa e salata che lega tutto.",
+        "t": {
+          "s": 300,
+          "l": "5 min pancetta"
+        }
+      },
+      {
+        "a": "Alza a fuoco VIVO. Aggiungi la carne macinata (metà manzo, metà maiale) in piccole aggiunte, sgranando con un cucchiaio. Ogni aggiunta deve rosolare prima della successiva. Non deve bollire — deve sfrigolare.",
+        "w": "💡 La carne va aggiunta poco alla volta perché ogni aggiunta abbassa la temperatura. Se metti tutto insieme, la carne rilascia acqua e lessa invece di rosolare. Il suono deve essere uno sfrigolìo secco.",
+        "t": {
+          "s": 600,
+          "l": "10 min rosolatura carne"
+        }
+      },
+      {
+        "a": "Sfuma con il vino rosso corposo. Mescola raschiando il fondo. Cuoci a fuoco alto finché l'alcol è evaporato completamente (2-3 min) — lo senti dall'odore.",
+        "w": "💡 Il vino deve evaporare: l'alcol residuo renderebbe il ragù acido. Aspetta che l'odore pungente sparisca.",
+        "t": {
+          "s": 180,
+          "l": "3 min evaporazione vino"
+        }
+      },
+      {
+        "a": "Aggiungi il latte intero. Mescola bene. Cuoci a fuoco medio finché il latte è completamente assorbito (5-8 min).",
+        "w": "💡 Il latte è il segreto della bolognese vera: ammorbidisce la carne, bilancia l'acidità e dà dolcezza. Nella ricetta depositata alla Camera di Commercio di Bologna non c'è concentrato di pomodoro — solo latte.",
+        "t": {
+          "s": 420,
+          "l": "7 min assorbimento latte"
+        }
+      },
+      {
+        "a": "Aggiungi i pomodori pelati schiacciati con le mani (pochissimi — solo 200g per 500g carne). Il ragù bolognese è quasi senza pomodoro. Porta a bollore poi abbassa al MINIMO assoluto.",
+        "w": "💡 Il ragù bolognese NON è un sugo di pomodoro con carne — è il contrario. Il pomodoro è quasi un aroma, non la base.",
+        "t": null
+      },
+      {
+        "a": "Copri con coperchio semi-aperto e cuoci a fuoco BASSISSIMO per 2-3 ore mescolando ogni 20-30 minuti. Se si asciuga aggiungi mestoli di brodo caldo. Alla fine deve essere denso, scuro, profumato.",
+        "w": "💡 Non esiste ragù bolognese in meno di 2 ore. Tre ore è meglio. Il colore finale deve essere marrone scuro, non arancione. Se è arancione ci vuole ancora tempo.",
+        "t": {
+          "s": 9000,
+          "l": "2.5 ore cottura lenta"
+        }
+      },
+      {
+        "a": "Cuoci le tagliatelle fresche in acqua abbondante salata (2 min). Scolale al dente conservando acqua di cottura. Versa nel ragù, salta 1 minuto con un mestolo di acqua di cottura.",
+        "w": "💡 Le tagliatelle per la bolognese devono essere fresche all'uovo, larghe 8mm. Non spaghetti, non rigatoni: la tagliatella trattiene il ragù nella sua superficie ruvida.",
+        "t": {
+          "s": 60,
+          "l": "1 min mantecatura"
+        }
+      },
+      {
+        "a": "Servi con parmigiano reggiano grattugiato abbondante. Nient'altro.",
+        "w": "💡 Solo parmigiano. Niente prezzemolo, niente basilico, niente pepe extra. Il ragù parla da solo.",
+        "t": null
+      }
+    ],
+    "fin": "Tagliatelle al ragù bolognese perfette! La ricetta depositata alla Camera di Commercio di Bologna nel 1982 è il riferimento assoluto. Tre ore di cottura non si negoziano.",
+    "id": 75
+  },
+  {
+    "cat": "🍝 Pasta",
+    "name": "Orecchiette alle cime di rapa",
+    "icon": "🍝",
+    "photo": "https://images.unsplash.com/photo-1598866594230-a7c12756260f?w=600&q=80",
+    "time": "30 min",
+    "diff": "Facile",
+    "level": "trattoria",
+    "subtitle": "Il piatto simbolo della Puglia",
+    "tags": [
+      "pasta",
+      "verdure",
+      "aglio",
+      "acciughe",
+      "olio",
+      "peperoncino"
+    ],
+    "steps": [
+      {
+        "a": "Pulisci le cime di rapa: tieni le cimette fiorite, le foglie tenere e i gambi più sottili. Scarta i gambi duri e le foglie gialle. Lavale abbondantemente.",
+        "w": "💡 Le cimette fiorite (le parti verdi più piccole con i fiorellini gialli) sono la parte più pregiata — dolce e tenera. Le foglie grandi sono più amare ma necessarie per la salsa.",
+        "t": null
+      },
+      {
+        "a": "Porta a bollore abbondante acqua salata. Butta prima i gambi e le foglie grandi, dopo 2 minuti le cimette. Cuoci tutto insieme 5-6 minuti finché le cime sono tenere.",
+        "w": "💡 Cuocere le verdure nell'acqua della pasta è la tecnica pugliese: l'acqua diventa verde e ricca di sapore, e cuoce meglio le orecchiette.",
+        "t": {
+          "s": 360,
+          "l": "5-6 min cime di rapa"
+        }
+      },
+      {
+        "a": "Scola le cime tenendo tutta l'acqua di cottura. Nello stesso bollente butta le orecchiette fresche (o secche).",
+        "w": "💡 L'acqua verde delle cime di rapa è il condimento liquido del piatto. Non buttarla mai.",
+        "t": null
+      },
+      {
+        "a": "In una padella larga scalda olio abbondante con aglio schiacciato e peperoncino a fuoco BASSO. Aggiungi le acciughe e scioglile nell'olio mescolando — devono sparire completamente.",
+        "w": "💡 Le acciughe danno la sapidità umami che trasforma le cime amare in qualcosa di complesso. Si sciolgono completamente — non si sente il pesce, si sente il sapore.",
+        "t": {
+          "s": 120,
+          "l": "2 min base aromatica"
+        }
+      },
+      {
+        "a": "Aggiungi le cime di rapa nella padella. Salta a fuoco VIVO 2 minuti, schiacciando leggermente le cime con il cucchiaio.",
+        "w": "💡 Schiacciare le cime crea una salsina verde che condisce le orecchiette. Non deve restare tutto intero.",
+        "t": {
+          "s": 120,
+          "l": "2 min cime in padella"
+        }
+      },
+      {
+        "a": "Scola le orecchiette al dente, versale nella padella con abbondante acqua di cottura verde. Salta a fuoco VIVO 2 minuti fino a che il condimento lega.",
+        "w": "💡 L'amido delle orecchiette e l'acqua verde delle cime creano una crema naturale. Non aggiungere parmigiano — è un piatto del Sud con pesce, il formaggio non si usa.",
+        "t": {
+          "s": 120,
+          "l": "2 min mantecatura"
+        }
+      },
+      {
+        "a": "Servi con un filo di olio EVO crudo e peperoncino fresco se vuoi più piccante. Niente formaggio.",
+        "w": "💡 L'olio crudo finale è fondamentale — completa il piatto con freschezza. Usa un olio pugliese se possibile.",
+        "t": null
+      }
+    ],
+    "fin": "Orecchiette alle cime di rapa perfette! È il piatto più pugliese che esista. Le orecchiette fresche fatte a mano (pasta di semola e acqua) sono incomparabili rispetto a quelle secche.",
+    "id": 76
+  },
+  {
+    "cat": "🍝 Pasta",
+    "name": "Trofie al pesto genovese",
+    "icon": "🍝",
+    "photo": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=600&q=80",
+    "time": "25 min",
+    "diff": "Facile",
+    "level": "trattoria",
+    "subtitle": "Il pesto vero, nel mortaio",
+    "tags": [
+      "pasta",
+      "basilico",
+      "pinoli",
+      "parmigiano",
+      "aglio",
+      "olio"
+    ],
+    "steps": [
+      {
+        "a": "Per il pesto nel mortaio: metti l'aglio con un pizzico di sale grosso nel mortaio e pestalo fino a crema. Aggiungi i pinoli e pesta fino a pasta grossolana.",
+        "w": "💡 Il mortaio non è romantico — è funzionale. La pestatura rompe le cellule del basilico senza scaldarle (come fa il mixer) mantenendo il colore verde brillante e gli aromi volatili intatti.",
+        "t": null
+      },
+      {
+        "a": "Aggiungi le foglie di basilico genovese (DOP se possibile) in tre riprese, pestando con movimenti rotatori. Le foglie devono diventare una pasta verde brillante, non nera.",
+        "w": "💡 Il basilico genovese ha foglie piccole e un profumo dolce senza anice. Se usi basilico grande (da supermercato) aggiungi qualche fogliolina di menta per bilanciare. Non pestare mai il basilico bagnato — lo fa ossidare e diventa nero.",
+        "t": null
+      },
+      {
+        "a": "Aggiungi parmigiano e pecorino (rapporto 2:1) grattugiati finissimi. Incorpora con movimenti circolari.",
+        "w": "💡 La combinazione parmigiano + pecorino è classica ligure. Solo parmigiano = meno carattere. Solo pecorino = troppo salato e pungente. Il 2:1 è l'equilibrio.",
+        "t": null
+      },
+      {
+        "a": "Aggiungi l'olio EVO ligure a filo continuando a mescolare fino a ottenere una crema liscia. Assaggia e aggiusta di sale.",
+        "w": "💡 L'olio ligure è delicato e fruttato — non usare olio toscano (troppo amaro) o pugliese (troppo intenso). Il pesto non deve essere liquido né troppo denso: deve cadere lentamente dal cucchiaio.",
+        "t": null
+      },
+      {
+        "a": "Cuoci le trofie in abbondante acqua salata. Metti il pesto in una ciotola grande. Prima di scolare le trofie aggiungi 2-3 cucchiai di acqua di cottura al pesto e mescola.",
+        "w": "💡 L'acqua di cottura calda ammorbidisce il pesto e lo prepara a legarsi con la pasta. Il pesto non va mai scaldato direttamente — i 65°C distruggono il profumo del basilico.",
+        "t": null
+      },
+      {
+        "a": "Scola le trofie al dente, versale nella ciotola col pesto. Aggiungi patate lessate a cubetti e fagiolini al dente (se li usi — sono la versione tradizionale). Mescola delicatamente.",
+        "w": "💡 Le patate e i fagiolini non sono opzionali nella versione tradizionale — ammorbidiscono il sapore intenso del pesto e aggiungono sostanza. In Liguria si servono sempre così.",
+        "t": null
+      }
+    ],
+    "fin": "Trofie al pesto perfette! Il pesto avanzato si conserva in frigo coperto di olio per 5 giorni. Non congelarlo — perde tutto il profumo.",
+    "id": 77
+  },
+  {
+    "cat": "🍝 Pasta",
+    "name": "Spaghetti alla chitarra con pallottine",
+    "icon": "🍝",
+    "photo": "https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?w=600&q=80",
+    "time": "90 min",
+    "diff": "Media",
+    "level": "trattoria",
+    "subtitle": "Il sugo della domenica abruzzese",
+    "tags": [
+      "pasta",
+      "carne",
+      "pomodoro",
+      "uova",
+      "parmigiano"
+    ],
+    "steps": [
+      {
+        "a": "Prepara le pallottine: mescola carne macinata mista con uovo, parmigiano, aglio tritato, prezzemolo, sale e pepe. Forma palline piccole come nocciole (2cm). Friggile in olio abbondante a fuoco vivo finché dorate su tutti i lati.",
+        "w": "💡 Le pallottine abruzzesi sono minuscole — non polpette normali. La piccola dimensione le fa cuocere uniformemente e le rende tenere nel sugo.",
+        "t": {
+          "s": 600,
+          "l": "10 min pallottine"
+        }
+      },
+      {
+        "a": "In un'altra padella prepara un sugo semplice: cipolla in olio, poi pomodori pelati schiacciati, sale, basilico. Cuoci 20 minuti a fuoco medio.",
+        "w": "💡 Il sugo deve essere semplice e dolce: la complessità viene dalle pallottine. Non aggiungere aglio o peperoncino.",
+        "t": {
+          "s": 1200,
+          "l": "20 min sugo"
+        }
+      },
+      {
+        "a": "Aggiungi le pallottine fritte nel sugo. Copri e cuoci a fuoco basso per 30 minuti — devono assorbire il sugo diventando morbidissime.",
+        "w": "💡 La cottura lenta nel sugo è fondamentale: le pallottine cedono il loro sapore al sugo e viceversa. Il sugo finale sarà intenso e corposo.",
+        "t": {
+          "s": 1800,
+          "l": "30 min pallottine nel sugo"
+        }
+      },
+      {
+        "a": "Cuoci gli spaghetti alla chitarra (o spaghetti normali se non li hai) in acqua abbondante salata. Scolali al dente.",
+        "w": "💡 La chitarra è uno strumento abruzzese con fili metallici che taglia la sfoglia in spaghetti a sezione quadrata. Trattengono meglio il sugo degli spaghetti rotondi.",
+        "t": null
+      },
+      {
+        "a": "Versa la pasta nel sugo con le pallottine. Salta 1 minuto a fuoco vivo. Servi con parmigiano abbondante e basilico fresco.",
+        "w": "💡 Le pallottine devono restare intere nel piatto: servile con cura. È un piatto di domenica — abbondante, saporito, soddisfacente.",
+        "t": {
+          "s": 60,
+          "l": "1 min mantecatura"
+        }
+      }
+    ],
+    "fin": "Spaghetti alla chitarra con pallottine perfetti! È il piatto della domenica abruzzese per eccellenza. Le pallottine avanzate sono buonissime nel giorno dopo.",
+    "id": 78
+  },
+  {
+    "cat": "🍝 Pasta",
+    "name": "Pasta e fagioli alla veneta",
+    "icon": "🍝",
+    "photo": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600&q=80",
+    "time": "60 min",
+    "diff": "Facile",
+    "level": "trattoria",
+    "subtitle": "Densa, fumante, con il rosmarino",
+    "tags": [
+      "pasta",
+      "fagioli",
+      "rosmarino",
+      "aglio",
+      "cipolla",
+      "sedano",
+      "carota"
+    ],
+    "steps": [
+      {
+        "a": "Soffriggi sedano, carota, cipolla e aglio in olio e burro per 10 minuti a fuoco basso. Aggiungi la cotenna di maiale (o pancetta a cubetti) e rosola altri 3 minuti.",
+        "w": "💡 La cotenna di maiale è il segreto della pasta e fagioli veneta: sciogliendosi durante la cottura dà corpo, sapore e quella consistenza quasi gelatinosa che la rende unica.",
+        "t": {
+          "s": 780,
+          "l": "13 min soffritto"
+        }
+      },
+      {
+        "a": "Aggiungi i fagioli borlotti (metà interi, metà frullati con poco brodo). Aggiungi brodo di carne caldo a coprire abbondantemente. Porta a bollore.",
+        "w": "💡 Il trucco di frullare metà fagioli crea la consistenza cremosa naturale senza aggiungere farine. La pasta e fagioli veneta è densa — quasi si mangia col coltello.",
+        "t": null
+      },
+      {
+        "a": "Aggiungi un rametto di rosmarino intero, sale e pepe. Cuoci 20 minuti a fuoco basso.",
+        "w": "💡 Il rosmarino intero si toglie alla fine — dà profumo senza essere invasivo. È il profumo caratteristico di questo piatto.",
+        "t": {
+          "s": 1200,
+          "l": "20 min cottura"
+        }
+      },
+      {
+        "a": "Butta la pasta corta (maltagliati, ditaloni o pasta mista) direttamente nella zuppa. Cuoci secondo i tempi della pasta mescolando spesso — la pasta assorbe liquido quindi aggiungi brodo se necessario.",
+        "w": "💡 La pasta si cuoce nella zuppa: assorbe il sapore dei fagioli diventando qualcosa di completamente diverso da pasta e sugo serviti insieme. Aggiungi brodo poco alla volta.",
+        "t": {
+          "s": 600,
+          "l": "10-12 min pasta nella zuppa"
+        }
+      },
+      {
+        "a": "Togli il rosmarino. Aggiusta di sale. Lascia riposare 5 minuti — la pasta continua ad assorbire. Servi con olio EVO crudo abbondante e pepe nero macinato fresco.",
+        "w": "💡 L'olio crudo alla fine è obbligatorio — trasforma completamente il piatto. Usa un olio buono, fruttato. Il pepe nero è l'altra firma veneta.",
+        "t": {
+          "s": 300,
+          "l": "5 min riposo"
+        }
+      }
+    ],
+    "fin": "Pasta e fagioli alla veneta perfetta! Il giorno dopo è ancora più densa e buona. Se si rapprende troppo aggiungi un mestolo di brodo caldo.",
+    "id": 79
+  },
+  {
+    "cat": "🍗 Secondi",
+    "name": "Ossobuco alla milanese",
+    "icon": "🍗",
+    "photo": "https://images.unsplash.com/photo-1574484284002-952d92456975?w=600&q=80",
+    "time": "120 min",
+    "diff": "Media",
+    "level": "trattoria",
+    "subtitle": "Il grande classico lombardo con la gremolata",
+    "tags": [
+      "carne",
+      "vino",
+      "cipolla",
+      "carota",
+      "sedano",
+      "pomodoro",
+      "limone",
+      "prezzemolo"
+    ],
+    "steps": [
+      {
+        "a": "Incidi il bordo esterno di ogni ossobuco in 4 punti con un coltello — impedisce che si arricci durante la cottura. Sala, pepa e infarina leggermente su entrambi i lati.",
+        "w": "💡 L'incisione del bordo è fondamentale: il tendine esterno si contrae con il calore e arriccerebbe la carne. 4 tagli di 1cm sono sufficienti.",
+        "t": null
+      },
+      {
+        "a": "In una casseruola larga scalda burro e olio a fuoco ALTO. Rosola gli ossibuchi 4 minuti per lato fino a doratura intensa — devono fare crosticina. Togli e tieni da parte.",
+        "w": "💡 La rosolatura intensa è tutto il sapore dell'ossobuco. Il burro dà colore e sapore, l'olio impedisce che bruci. Non muovere la carne finché non si stacca da sola.",
+        "t": {
+          "s": 480,
+          "l": "8 min rosolatura"
+        }
+      },
+      {
+        "a": "Abbassa a fuoco MEDIO. Soffriggi cipolla, carota e sedano tritati nel fondo di cottura per 8 minuti. Aggiungi l'aglio e cuoci 1 minuto.",
+        "w": "💡 Il fondo di cottura rimasto dagli ossibuchi è carico di sapore — il soffritto lo raccoglie tutto.",
+        "t": {
+          "s": 540,
+          "l": "9 min soffritto"
+        }
+      },
+      {
+        "a": "Sfuma col vino bianco secco a fuoco VIVO. Raschia il fondo finché il vino è evaporato. Aggiungi i pomodori pelati schiacciati e il brodo di carne caldo a coprire a metà gli ossibuchi.",
+        "w": "💡 Il brodo deve coprire solo metà altezza: l'ossobuco cuoce per metà immerso e per metà a vapore. Questo crea la consistenza perfetta.",
+        "t": {
+          "s": 180,
+          "l": "3 min evaporazione vino"
+        }
+      },
+      {
+        "a": "Rimetti gli ossibuchi. Aggiungi timo e alloro. Porta a bollore poi abbassa al MINIMO con coperchio. Cuoci 1-1.5 ore girando ogni 30 minuti.",
+        "w": "💡 La cottura deve essere un fremito appena percettibile. A bollore vigoroso la carne si indurisce. L'ossobuco è pronto quando la carne si stacca quasi dall'osso.",
+        "t": {
+          "s": 5400,
+          "l": "1.5 ore cottura lenta"
+        }
+      },
+      {
+        "a": "Prepara la gremolata: trita insieme prezzemolo fresco, scorza di limone grattugiata e aglio fresco finissimo. Aggiungi sopra gli ossibuchi a 5 minuti dalla fine.",
+        "w": "💡 La gremolata è la firma dell'ossobuco milanese — senza non è lo stesso piatto. Va aggiunta solo alla fine: il calore la ammorbidisce senza distruggerla. La scorza di limone bilancia la ricchezza del sugo.",
+        "t": {
+          "s": 300,
+          "l": "5 min con gremolata"
+        }
+      },
+      {
+        "a": "Servi con risotto alla milanese (la combinazione classica) o polenta. Il midollo nell'osso si mangia con un cucchiaino — è la parte più pregiata.",
+        "w": "💡 Il midollo è il premio finale: cremoso, ricco, con un sapore intenso di carne. Non sprecarlo. In tavola si serve con un cucchiaino apposito.",
+        "t": null
+      }
+    ],
+    "fin": "Ossobuco alla milanese perfetto! Con il risotto giallo è uno dei grandi piatti della cucina italiana. Il sugo avanzato è ottimo sulla polenta il giorno dopo.",
+    "id": 80
+  },
+  {
+    "cat": "🍗 Secondi",
+    "name": "Brasato al Barolo",
+    "icon": "🍗",
+    "photo": "https://images.unsplash.com/photo-1544025162-d76538b796a2?w=600&q=80",
+    "time": "240 min",
+    "diff": "Media",
+    "level": "trattoria",
+    "subtitle": "Carne che si scioglie, sugo che profuma di vino",
+    "tags": [
+      "carne",
+      "vino",
+      "cipolla",
+      "carota",
+      "sedano",
+      "rosmarino",
+      "aglio"
+    ],
+    "steps": [
+      {
+        "a": "Metti la carne (cappello del prete o mandrino da 1-1.5kg) in una ciotola con tutte le verdure tagliate grossolanamente, le erbe aromatiche e il Barolo. Copri e lascia marinare in frigo 12-24 ore girando ogni tanto.",
+        "w": "💡 La marinatura nel Barolo è fondamentale: il vino penetra nella carne ammorbidendo le fibre e trasferendo i tannini che daranno profondità al sugo. 12 ore minimo, 24 ore meglio.",
+        "t": null
+      },
+      {
+        "a": "Togli la carne dalla marinatura, asciugala bene. Filtra le verdure tenendole da parte. Tieni il vino separato. Sala e pepa la carne su tutta la superficie.",
+        "w": "💡 Asciugare bene è cruciale per la rosolatura. La marinatura ha già insaporito la carne — il sale finale è solo per la superficie.",
+        "t": null
+      },
+      {
+        "a": "In una casseruola pesante scalda olio a fuoco VIVO. Rosola la carne su tutti i lati per 12-15 minuti totali fino a doratura intensa su ogni superficie.",
+        "w": "💡 La rosolatura completa su tutti i lati è fondamentale: ogni cm² deve avere quella crosticina marrone. Ci vuole pazienza e fuoco alto.",
+        "t": {
+          "s": 840,
+          "l": "12-15 min rosolatura totale"
+        }
+      },
+      {
+        "a": "Togli la carne. Nella stessa casseruola soffriggi le verdure della marinatura a fuoco MEDIO per 10 minuti. Sfuma con parte del vino raschiando il fondo.",
+        "w": "💡 Le verdure della marinatura hanno assorbito i profumi del vino — sono aromaticissime. Il deglassare raccoglie tutto il sapore caramellato dalla rosolatura.",
+        "t": {
+          "s": 600,
+          "l": "10 min soffritto verdure"
+        }
+      },
+      {
+        "a": "Rimetti la carne. Versa il resto del vino a coprire almeno 3/4 della carne. Aggiungi brodo se serve. Porta a bollore poi abbassa al MINIMO. Copri.",
+        "w": "💡 Il livello del vino è importante: deve coprire quasi tutta la carne. Durante la cottura evapora — controlla ogni 45 minuti e aggiungi brodo caldo se scende.",
+        "t": null
+      },
+      {
+        "a": "Cuoci a fuoco bassissimo per 3-3.5 ore girando ogni 45 minuti. La carne è pronta quando uno spiedino entra senza resistenza e si sfalda facilmente.",
+        "w": "💡 3 ore di cottura è il minimo. Il collagene del cappello del prete si scioglie completamente solo dopo ore — è quello che rende la carne morbidissima.",
+        "t": {
+          "s": 11700,
+          "l": "3 ore cottura lenta"
+        }
+      },
+      {
+        "a": "Togli la carne. Frulla il sugo con le verdure fino a ottenere una salsa liscia e vellutata. Rimetti sul fuoco e riduci se troppo liquida. Taglia la carne a fette spesse, copri con la salsa.",
+        "w": "💡 Frullare le verdure nel sugo crea la salsa: naturalmente addensata, vellutata, intensissima. Niente farine o amidi — la gelatina della carne e le verdure fanno tutto.",
+        "t": null
+      }
+    ],
+    "fin": "Brasato al Barolo perfetto! Non usare un Barolo costoso per cucinare — un Barolo giovane o un Nebbiolo va benissimo. Il risultato migliora enormemente il giorno dopo.",
+    "id": 81
+  },
+  {
+    "cat": "🍗 Secondi",
+    "name": "Pollo alla cacciatora toscana",
+    "icon": "🍗",
+    "photo": "https://images.unsplash.com/photo-1501200291289-c5a76c232e5f?w=600&q=80",
+    "time": "70 min",
+    "diff": "Facile",
+    "level": "trattoria",
+    "subtitle": "Con olive, capperi e vino rosso",
+    "tags": [
+      "pollo",
+      "pomodoro",
+      "olive",
+      "capperi",
+      "vino",
+      "aglio",
+      "rosmarino"
+    ],
+    "steps": [
+      {
+        "a": "Taglia il pollo a pezzi (o usa cosce e sovracosce). Asciuga bene, sala e pepa. In una casseruola larga scalda olio a fuoco VIVO. Rosola i pezzi di pollo dalla parte della pelle per 8 minuti fino a doratura intensa.",
+        "w": "💡 La pelle croccante e dorata è il sapore del piatto. Fuoco alto, non toccare per 8 minuti. La pelle si stacca da sola quando è pronta.",
+        "t": {
+          "s": 480,
+          "l": "8 min doratura pelle"
+        }
+      },
+      {
+        "a": "Gira i pezzi e rosola altri 4 minuti. Togli il pollo. Nella stessa casseruola soffriggi aglio, rosmarino e salvia nel grasso rimasto per 2 minuti.",
+        "w": "💡 Il grasso rimasto dalla rosolatura del pollo è aromaticissimo — non buttarlo, ci cuoce il soffritto.",
+        "t": {
+          "s": 360,
+          "l": "6 min doratura e soffritto"
+        }
+      },
+      {
+        "a": "Sfuma col vino rosso a fuoco VIVO. Raschia il fondo. Aggiungi i pomodori pelati schiacciati, le olive taggiasche e i capperi dissalati.",
+        "w": "💡 Il vino rosso (non bianco — questa è la versione toscana) dà un colore scuro e un sapore più profondo. Le olive e i capperi danno sapidità senza aggiungere sale.",
+        "t": {
+          "s": 120,
+          "l": "2 min evaporazione vino"
+        }
+      },
+      {
+        "a": "Rimetti il pollo. Porta a bollore poi abbassa a fuoco BASSO. Copri e cuoci 45 minuti girando i pezzi a metà cottura.",
+        "w": "💡 Il pollo deve fremere nel sugo, non bollire. I 45 minuti di cottura lenta rendono la carne che si stacca dall'osso. Controlla la cottura: il succo deve essere trasparente vicino all'osso.",
+        "t": {
+          "s": 2700,
+          "l": "45 min cottura lenta"
+        }
+      },
+      {
+        "a": "Togli il coperchio, alza a fuoco MEDIO e riduci il sugo per 5 minuti se troppo liquido. Servi con pane toscano o polenta.",
+        "w": "💡 Il sugo deve essere denso e lucido, non acquoso. 5 minuti a fuoco medio senza coperchio lo concentra. Con il pane toscano per fare la scarpetta è imprescindibile.",
+        "t": {
+          "s": 300,
+          "l": "5 min riduzione sugo"
+        }
+      }
+    ],
+    "fin": "Pollo alla cacciatora toscana perfetto! Con le olive taggiasche e i capperi ha una complessità di sapori straordinaria. Il giorno dopo è ancora più buono.",
+    "id": 82
+  },
+  {
+    "cat": "🍗 Secondi",
+    "name": "Trippa alla romana",
+    "icon": "🍗",
+    "photo": "https://images.unsplash.com/photo-1574484284002-952d92456975?w=600&q=80",
+    "time": "90 min",
+    "diff": "Media",
+    "level": "trattoria",
+    "subtitle": "Il quinto quarto romano, il sabato",
+    "tags": [
+      "carne",
+      "pomodoro",
+      "cipolla",
+      "menta",
+      "pecorino"
+    ],
+    "steps": [
+      {
+        "a": "Scotta la trippa già lessata in acqua bollente per 5 minuti. Scolala e tagliala a strisce da 1cm di larghezza.",
+        "w": "💡 La trippa si vende già lessata. L'ulteriore scottatura elimina i sapori residui di ammollo e la prepara alla cottura nel sugo.",
+        "t": {
+          "s": 300,
+          "l": "5 min scottatura trippa"
+        }
+      },
+      {
+        "a": "In una casseruola soffriggi cipolla, sedano e carota tritati in olio per 10 minuti. Aggiungi la trippa e rosola 5 minuti a fuoco VIVO mescolando.",
+        "w": "💡 Rosolare la trippa nel soffritto prima del sugo crea sapore. La trippa deve sfrigolare, non bollire.",
+        "t": {
+          "s": 900,
+          "l": "15 min soffritto e rosolatura"
+        }
+      },
+      {
+        "a": "Sfuma col vino bianco. Aggiungi i pomodori pelati schiacciati, sale, pepe e peperoncino. Porta a bollore poi abbassa a fuoco BASSO.",
+        "w": "💡 Il vino bianco nella trippa romana è classico — bilancia i sapori forti senza aggiungere tannini del rosso.",
+        "t": {
+          "s": 120,
+          "l": "2 min evaporazione vino"
+        }
+      },
+      {
+        "a": "Copri e cuoci a fuoco basso per 45-60 minuti mescolando ogni tanto. La trippa è pronta quando è morbida ma ancora con una leggera consistenza — non deve sfaldarsi completamente.",
+        "w": "💡 La trippa ha bisogno di tempo per ammorbidirsi. Troppo cotta diventa molle e perde carattere. Il punto giusto è morbida ma con 'mordente'.",
+        "t": {
+          "s": 3300,
+          "l": "55 min cottura lenta"
+        }
+      },
+      {
+        "a": "Fuori dal fuoco aggiungi menta fresca spezzettata, pecorino romano grattugiato abbondante. Mescola e lascia riposare 2 minuti.",
+        "w": "💡 La menta fresca è la firma della trippa alla romana — insolita ma indispensabile. Dà freschezza che bilancia la ricchezza del quinto quarto. Il pecorino invece del parmigiano: più salato e piccante, perfetto qui.",
+        "t": {
+          "s": 120,
+          "l": "2 min riposo con menta e pecorino"
+        }
+      }
+    ],
+    "fin": "Trippa alla romana perfetta! È il piatto del sabato romano per tradizione. Con il pane casereccio per fare la scarpetta nel sugo è un'esperienza che vale ogni caloria.",
+    "id": 83
+  },
+  {
+    "cat": "🍗 Secondi",
+    "name": "Agnello a scottadito",
+    "icon": "🍗",
+    "photo": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=600&q=80",
+    "time": "20 min",
+    "diff": "Facile",
+    "level": "trattoria",
+    "subtitle": "Le costolette romane sulla griglia",
+    "tags": [
+      "carne",
+      "aglio",
+      "rosmarino",
+      "limone",
+      "olio"
+    ],
+    "steps": [
+      {
+        "a": "Appiattisci leggermente ogni costoletta con il palmo della mano. Marinala con olio, aglio tritato, rosmarino fresco, sale e pepe per almeno 30 minuti (meglio 2 ore).",
+        "w": "💡 La marinatura breve con olio e erbe aromatizza la superficie senza 'cuocere' la carne. Più a lungo marini, più il sapore penetra.",
+        "t": {
+          "s": 1800,
+          "l": "30 min marinatura"
+        }
+      },
+      {
+        "a": "Scalda la griglia o bistecchiera a fuoco VIVO per 5 minuti — deve essere rovente. Togli le costolette dalla marinatura e asciugale leggermente.",
+        "w": "💡 La griglia deve essere rovente: le costolette sottili cuociono in 2-3 minuti per lato. Una griglia tiepida le lessa invece di grigliare.",
+        "t": {
+          "s": 300,
+          "l": "5 min preriscaldo griglia"
+        }
+      },
+      {
+        "a": "Griglia le costolette 2-3 minuti per lato a fuoco VIVO. Devono avere i segni della griglia e restare rosate al centro.",
+        "w": "💡 'Scottadito' significa 'brucia le dita' — si mangiano calde, appena tolte dalla griglia, tenendole per l'osso. La cottura rapida mantiene la carne tenera e succosa. Troppo cotte diventano dure.",
+        "t": {
+          "s": 300,
+          "l": "2-3 min per lato"
+        }
+      },
+      {
+        "a": "Servi immediatamente con sale grosso, spicchi di limone e niente altro. Si mangiano con le mani.",
+        "w": "💡 Il limone è l'unico condimento necessario — la sua acidità esalta il sapore dell'agnello. Il sale grosso in superficie aggiunge texture. Niente salse, niente contorni elaborati.",
+        "t": null
+      }
+    ],
+    "fin": "Agnello a scottadito perfetto! È il piatto pasquale romano per eccellenza. Con l'agnello di Pasqua, giovane e tenero, è irresistibile.",
+    "id": 84
+  },
+  {
+    "cat": "🐟 Pesce",
+    "name": "Baccalà in umido alla livornese",
+    "icon": "🐟",
+    "photo": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=600&q=80",
+    "time": "50 min",
+    "diff": "Facile",
+    "level": "trattoria",
+    "subtitle": "Con olive, capperi e pomodoro piccante",
+    "tags": [
+      "pesce",
+      "pomodoro",
+      "olive",
+      "capperi",
+      "aglio",
+      "peperoncino"
+    ],
+    "steps": [
+      {
+        "a": "Taglia il baccalà ammollato a pezzi da 6-7cm. Asciuga bene, infarina leggermente e friggi in olio abbondante a 175°C per 3-4 minuti per lato fino a doratura. Scola su carta.",
+        "w": "💡 La frittura preventiva crea una crosticina che protegge il baccalà durante la cottura nel sugo — non si sfascia. È il passaggio che distingue questa ricetta dalla versione 'bollita'.",
+        "t": {
+          "s": 420,
+          "l": "4 min frittura baccalà"
+        }
+      },
+      {
+        "a": "In una padella larga scalda olio con aglio e peperoncino abbondante a fuoco BASSO. Aggiungi le olive nere (taggiasche o di Gaeta) denocciolate e i capperi dissalati. Rosola 2 minuti.",
+        "w": "💡 Olive e capperi si aggiungono prima del pomodoro: rosolati nell'olio profumato cedono i loro sapori oleosi che altrimenti rimarrebbero in superficie.",
+        "t": {
+          "s": 120,
+          "l": "2 min olive e capperi"
+        }
+      },
+      {
+        "a": "Aggiungi i pomodori pelati schiacciati o i datterini tagliati. Cuoci 10 minuti a fuoco MEDIO finché il sugo si addensa.",
+        "w": "💡 Il sugo deve essere denso prima di aggiungere il baccalà: un sugo liquido lo farebbe disfare. 10 minuti a fuoco medio sono sufficienti.",
+        "t": {
+          "s": 600,
+          "l": "10 min sugo"
+        }
+      },
+      {
+        "a": "Adagia i pezzi di baccalà nel sugo senza sovrapporli. Copri e cuoci a fuoco BASSO per 15-20 minuti, muovendo la padella con movimenti circolari senza mescolare.",
+        "w": "💡 Non mescolare mai il baccalà nel sugo — si rompe. Muovi la padella invece. 15-20 minuti sono sufficienti: il baccalà era già cotto dalla frittura, si tratta di finire la cottura nel sugo.",
+        "t": {
+          "s": 1050,
+          "l": "15-20 min nel sugo"
+        }
+      },
+      {
+        "a": "Aggiungi prezzemolo fresco tritato abbondante a fine cottura. Servi con polenta bianca o pane toscano.",
+        "w": "💡 Il prezzemolo fresco alla fine è la nota che alleggerisce il piatto ricco. La polenta bianca veneta è l'abbinamento classico; la versione livornese vuole il pane.",
+        "t": null
+      }
+    ],
+    "fin": "Baccalà alla livornese perfetto! Con le olive e i capperi è uno dei piatti di pesce più saporiti della cucina italiana. Ottimo anche il giorno dopo riscaldato dolcemente.",
+    "id": 85
+  },
+  {
+    "cat": "🐟 Pesce",
+    "name": "Triglie alla livornese",
+    "icon": "🐟",
+    "photo": "https://images.unsplash.com/photo-1534482421-64566f976cfa?w=600&q=80",
+    "time": "30 min",
+    "diff": "Facile",
+    "level": "trattoria",
+    "subtitle": "Nel pomodoro piccante, imperdibili",
+    "tags": [
+      "pesce",
+      "pomodoro",
+      "aglio",
+      "prezzemolo",
+      "peperoncino",
+      "olio"
+    ],
+    "steps": [
+      {
+        "a": "Squama e pulisci le triglie. Asciuga bene dentro e fuori con carta da cucina. Sala e pepa. Infarina leggermente su entrambi i lati e scuoti l'eccesso.",
+        "w": "💡 Le triglie si squamano facilmente — bastano 30 secondi sotto acqua corrente con il dorso di un coltello. Asciugarle bene è fondamentale per la frittura: l'umidità residua le fa attaccare alla padella.",
+        "t": null
+      },
+      {
+        "a": "In una padella larga scalda olio abbondante a fuoco VIVO. Friggi le triglie 2-3 minuti per lato fino a doratura. Togli e tieni da parte.",
+        "w": "💡 Le triglie sono delicate: cuociono in 4-5 minuti totali. Girale una volta sola con delicatezza usando due spatole — la carne è fragile.",
+        "t": {
+          "s": 300,
+          "l": "5 min frittura triglie"
+        }
+      },
+      {
+        "a": "Svuota quasi tutto l'olio di frittura. Soffriggi aglio e peperoncino abbondante nell'olio rimasto a fuoco BASSO per 1 minuto. Aggiungi i pomodori pelati schiacciati.",
+        "w": "💡 Usare l'olio della frittura per il sugo trasferisce tutti i sapori del pesce nel pomodoro.",
+        "t": {
+          "s": 60,
+          "l": "1 min soffritto"
+        }
+      },
+      {
+        "a": "Cuoci il sugo 8-10 minuti a fuoco MEDIO finché si addensa. Rimetti le triglie nel sugo. Cuoci a fuoco BASSO per 3-4 minuti muovendo la padella senza mescolare.",
+        "w": "💡 Le triglie non devono ricuocere completamente nel sugo — solo scaldarsi e insaporirsi. 3-4 minuti bastano. Non mescolare o si rompono.",
+        "t": {
+          "s": 600,
+          "l": "3-4 min triglie nel sugo"
+        }
+      },
+      {
+        "a": "Aggiungi prezzemolo fresco abbondante. Servi subito con pane toscano.",
+        "w": "💡 La triglia alla livornese si mangia subito — non aspetta. Con il pane per il sugo è imprescindibile.",
+        "t": null
+      }
+    ],
+    "fin": "Triglie alla livornese perfette! È uno dei piatti di pesce più amati della tradizione toscana. Il sugo rimasto nella padella è da pane.",
+    "id": 86
+  },
+  {
+    "cat": "🐟 Pesce",
+    "name": "Sarde a beccafico",
+    "icon": "🐟",
+    "photo": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=600&q=80",
+    "time": "45 min",
+    "diff": "Media",
+    "level": "trattoria",
+    "subtitle": "Il capolavoro palermitano dolce-salato",
+    "tags": [
+      "pesce",
+      "pangrattato",
+      "pinoli",
+      "uvetta",
+      "limone",
+      "aglio",
+      "prezzemolo"
+    ],
+    "steps": [
+      {
+        "a": "Pulisci le sarde: stacca la testa, apri il ventre, togli la lisca centrale lasciando le due metà attaccate (a libro). Sciacqua e asciuga bene.",
+        "w": "💡 Aprire le sarde a libro senza dividerle è la tecnica fondamentale: il ripieno resta dentro durante la cottura. Se le sarde sono piccole puoi farne due aperte su ogni 'rotolo'.",
+        "t": null
+      },
+      {
+        "a": "Prepara il ripieno: tosta il pangrattato in olio fino a doratura. Mescola con pinoli tostati, uvetta ammollata strizzata, prezzemolo, aglio tritato, scorza di limone, sale e pepe.",
+        "w": "💡 La combinazione pinoli-uvetta è la firma palermitana — arabo-normanna. Il contrasto dolce-salato-acido è quello che rende questo piatto straordinario. Il pangrattato tostato dà croccantezza.",
+        "t": null
+      },
+      {
+        "a": "Metti un cucchiaio di ripieno su ogni sarda aperta, arrotola dalla testa verso la coda tenendo stretta. Ferma con uno stecchino. Disponi in teglia con foglie di alloro tra un rotolino e l'altro.",
+        "w": "💡 Le foglie di alloro tra le sarde non sono decorative — profumano la cottura. L'arrotolamento dalla testa verso la coda è il modo tradizionale.",
+        "t": null
+      },
+      {
+        "a": "Spremi succo di arancia e limone sopra le sarde. Aggiungi un filo di olio EVO. Cuoci in forno a 200°C per 15-20 minuti fino a doratura del pangrattato.",
+        "w": "💡 Il succo di agrumi caramellizza durante la cottura creando una glassa agrodolce sulla superficie. È quello che dà il carattere del piatto.",
+        "t": {
+          "s": 1050,
+          "l": "15-20 min in forno"
+        }
+      },
+      {
+        "a": "Servi tiepide o a temperatura ambiente con spicchi di limone. Sono buonissime anche fredde il giorno dopo.",
+        "w": "💡 Le sarde a beccafico sono uno dei rari piatti di pesce che migliorano freddi. Il giorno dopo i sapori si fondono e il ripieno si compatta.",
+        "t": null
+      }
+    ],
+    "fin": "Sarde a beccafico perfette! È uno dei piatti più rappresentativi della cucina siciliana. La versione catanese aggiunge pomodoro — quella palermitana è questa, senza.",
+    "id": 87
+  },
+  {
+    "cat": "🐟 Pesce",
+    "name": "Zuppa di pesce alla livornese (Cacciucco)",
+    "icon": "🐟",
+    "photo": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=600&q=80",
+    "time": "90 min",
+    "diff": "Impegnativa",
+    "level": "trattoria",
+    "subtitle": "5 tipi di pesce, il grande piatto del porto",
+    "tags": [
+      "pesce",
+      "pomodoro",
+      "vino",
+      "aglio",
+      "peperoncino",
+      "cipolla"
+    ],
+    "steps": [
+      {
+        "a": "Prepara il fumetto: in una casseruola metti le teste e lische del pesce (chiedi al pescivendolo) con cipolla, carota, sedano, gambi di prezzemolo, vino bianco e acqua fredda. Porta a bollore e cuoci 30 minuti. Filtra.",
+        "w": "💡 Il fumetto fatto in casa è la base che distingue un cacciucco mediocre da uno straordinario. Senza un buon fumetto il risultato è una zuppa di pomodoro con pesce sopra.",
+        "t": {
+          "s": 1800,
+          "l": "30 min fumetto"
+        }
+      },
+      {
+        "a": "In una casseruola larga scalda olio con aglio e peperoncino abbondante (il cacciucco è piccante). Aggiungi la cipolla tritata e cuoci 10 minuti. Aggiungi le seppie e i calamari a pezzi. Rosola 5 minuti.",
+        "w": "💡 L'ordine di aggiunta del pesce è fondamentale: i molluschi prima perché cuociono più a lungo, poi i pesci a carne soda, infine i crostacei e il pesce delicato.",
+        "t": {
+          "s": 900,
+          "l": "15 min seppie e calamari"
+        }
+      },
+      {
+        "a": "Sfuma col vino rosso (caratteristica del cacciucco livornese — non il bianco). Aggiungi i pomodori pelati. Cuoci 10 minuti.",
+        "w": "💡 Il vino rosso è la caratteristica che distingue il cacciucco livornese da tutte le altre zuppe di pesce italiane. Dà colore scuro e un sapore più profondo.",
+        "t": {
+          "s": 600,
+          "l": "10 min con pomodoro"
+        }
+      },
+      {
+        "a": "Aggiungi il fumetto caldo. Porta a bollore poi abbassa. Aggiungi i pesci a carne soda (scorfano, gallinella, rana pescatrice) a pezzi. Cuoci 10 minuti.",
+        "w": "💡 Lo scorfano è il pesce del cacciucco — senza non è cacciucco. La sua carne è soda e saporita, non si sfascia durante la cottura lunga.",
+        "t": {
+          "s": 600,
+          "l": "10 min pesci sodi"
+        }
+      },
+      {
+        "a": "Aggiungi gamberi e cozze negli ultimi 5 minuti. Aggiusta di sale e pepe. Servi su fette di pane toscano tostate sfregate con aglio.",
+        "w": "💡 Gamberi e cozze cuociono in 5 minuti — aggingerli prima li renderebbe gommosi. Il pane tostato con aglio sotto è obbligatorio: assorbe il sugo e diventa parte del piatto.",
+        "t": {
+          "s": 300,
+          "l": "5 min gamberi e cozze"
+        }
+      }
+    ],
+    "fin": "Cacciucco alla livornese perfetto! La tradizione vuole almeno 5 tipi di pesce diversi — la C di cacciucco sta per cinque. È uno dei grandi piatti della cucina italiana.",
+    "id": 88
+  },
+  {
+    "cat": "🍰 Dolci",
+    "name": "Cannoli siciliani",
+    "icon": "🍰",
+    "photo": "https://images.unsplash.com/photo-1516559828984-fb3b99548b21?w=600&q=80",
+    "time": "90 min",
+    "diff": "Impegnativa",
+    "level": "trattoria",
+    "subtitle": "La crema di ricotta, la scorza croccante",
+    "tags": [
+      "farina",
+      "ricotta",
+      "cioccolato",
+      "uova",
+      "vino",
+      "zucchero"
+    ],
+    "steps": [
+      {
+        "a": "Prepara la scorza: impasta farina, zucchero, cacao, burro, uovo e marsala secco fino a ottenere un impasto liscio. Avvolgi in pellicola e riposa 30 minuti in frigo.",
+        "w": "💡 Il marsala nella scorza è tradizionale — dà colore ambrato e un aroma sottile. Il cacao pochissimo: serve solo per il colore, non per il sapore.",
+        "t": {
+          "s": 1800,
+          "l": "30 min riposo impasto"
+        }
+      },
+      {
+        "a": "Stendi l'impasto sottilissimo (2mm). Taglia cerchi da 10-12cm. Avvolgi ogni cerchio intorno ai tubi di metallo (cannolicchi) sigillando il bordo con albume.",
+        "w": "💡 Il sigillo con albume deve essere premuto bene — se si apre durante la frittura perdi tutto. I tubi di metallo si trovano nei negozi di cucina, non c'è sostituto valido.",
+        "t": null
+      },
+      {
+        "a": "Friggi i cannoli (con il tubo) in olio profondo a 175°C per 2-3 minuti girando finché dorati. Scola, raffredda 1 minuto poi sfilala il tubo con delicatezza.",
+        "w": "💡 Sfilare il tubo quando è ancora caldo ma maneggiabile: freddo la scorza si rompe, troppo caldo brucia le mani. 1 minuto è il timing giusto.",
+        "t": {
+          "s": 180,
+          "l": "2-3 min frittura per cannolo"
+        }
+      },
+      {
+        "a": "Per la crema: setaccia la ricotta di pecora freschissima (non di vacca). Mescola con zucchero a velo, gocce di cioccolato fondente, scorza di arancia candita. Metti in frigo 1 ora.",
+        "w": "💡 La ricotta deve essere di pecora freschissima e ben scolata. Quella di vacca ha troppa acqua e troppo sapore neutro. Setacciarla è fondamentale: toglie i grumi e la rende setosa.",
+        "t": {
+          "s": 3600,
+          "l": "1 ora riposo crema"
+        }
+      },
+      {
+        "a": "Riempi i cannoli solo al momento di servire usando una sac-à-poche. Decora i bordi con granella di pistacchio o scorzette di arancia candita. Spolvera con zucchero a velo.",
+        "w": "💡 Riempire i cannoli al momento è non negoziabile: la ricotta ammorbidisce la scorza in 20-30 minuti. I cannoli ripieni in anticipo sono mollicci. È per questo che in Sicilia si riempiono davanti a te.",
+        "t": null
+      }
+    ],
+    "fin": "Cannoli siciliani perfetti! La scorza fritta si conserva vuota per 2-3 giorni in scatola ermetica. La crema si conserva in frigo 2 giorni. Si riempiono solo all'ultimo.",
+    "id": 89
+  },
+  {
+    "cat": "🍰 Dolci",
+    "name": "Pastiera napoletana",
+    "icon": "🍰",
+    "photo": "https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81?w=600&q=80",
+    "time": "120 min",
+    "diff": "Impegnativa",
+    "level": "trattoria",
+    "subtitle": "Il dolce di Pasqua, con il grano e il fior d'arancio",
+    "tags": [
+      "farina",
+      "burro",
+      "uova",
+      "ricotta",
+      "grano",
+      "arancia",
+      "cannella"
+    ],
+    "steps": [
+      {
+        "a": "Prepara il grano cotto: scola il grano in lattina, mettilo in un pentolino con latte, burro, scorza di limone e cannella. Cuoci a fuoco basso 20 minuti mescolando finché cremoso.",
+        "w": "💡 Il grano cotto (in lattina per comodità) è l'elemento caratteristico della pastiera — non sostituirlo. La cottura nel latte lo rende cremoso e profumato.",
+        "t": {
+          "s": 1200,
+          "l": "20 min grano nel latte"
+        }
+      },
+      {
+        "a": "Prepara la frolla: farina, burro freddo, zucchero, uova, strutto (o solo burro), sale. Impasta velocemente, forma un disco, frigo 30 minuti.",
+        "w": "💡 Lo strutto nella frolla napoletana è tradizionale: dà friabilità e un sapore leggermente diverso dal burro. Se non ce l'hai, usa solo burro.",
+        "t": {
+          "s": 1800,
+          "l": "30 min riposo frolla"
+        }
+      },
+      {
+        "a": "Prepara il ripieno: setaccia la ricotta. Mescola con zucchero, uova, tuorli extra, il grano raffreddato, cedro e arancia canditi, acqua di fior d'arancio abbondante, cannella.",
+        "w": "💡 L'acqua di fior d'arancio è l'aroma della pastiera — senza non è pastiera. Usane in abbondanza, il profumo deve essere percettibile ma non eccessivo. Assaggia e bilancia.",
+        "t": null
+      },
+      {
+        "a": "Stendi la frolla in una teglia da 26-28cm lasciando i bordi alti. Versa il ripieno. Con la frolla rimanente forma le strisce per la griglia (7 strisce incrociate = 14 rombi).",
+        "w": "💡 La griglia della pastiera ha 7 strisce in ogni direzione per tradizione. Il numero è simbolico — legato alla Settimana Santa. Non importa contarle, ma la griglia deve essere presente.",
+        "t": null
+      },
+      {
+        "a": "Cuoci in forno a 170°C per 50-60 minuti. La pastiera è pronta quando il ripieno è rappreso e la frolla è dorata. Raffredda completamente — si serve a temperatura ambiente.",
+        "w": "💡 La pastiera va preparata 2-3 giorni prima di servirla: i sapori si fondono e il ripieno si assesta. È uno dei rari dolci che migliora aspettando. Si conserva a temperatura ambiente (non in frigo) fino a 5 giorni.",
+        "t": {
+          "s": 3300,
+          "l": "55 min in forno"
+        }
+      }
+    ],
+    "fin": "Pastiera napoletana perfetta! Si fa il Giovedì o Venerdì Santo e si mangia a Pasqua — due giorni di attesa per l'intensità dei profumi. Nonna dice che se piange mentre la mangi, è riuscita.",
+    "id": 90
+  },
+  {
+    "cat": "🍰 Dolci",
+    "name": "Torta di mele della nonna",
+    "icon": "🍰",
+    "photo": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&q=80",
+    "time": "65 min",
+    "diff": "Facile",
+    "level": "trattoria",
+    "subtitle": "Umida, profumata di cannella, senza fronzoli",
+    "tags": [
+      "farina",
+      "burro",
+      "uova",
+      "mele",
+      "cannella",
+      "zucchero"
+    ],
+    "steps": [
+      {
+        "a": "Sbuccia 4 mele Golden o Renette. Taglia 3 mele a dadini piccoli e 1 a fette sottili per la decorazione. Bagna i dadini con succo di limone e tieni in una ciotola.",
+        "w": "💡 Le mele Golden sono più dolci e si ammorbidiscono durante la cottura fondendosi nell'impasto. Le Renette hanno più acidità e tengono meglio la forma — dipende se vuoi una torta più 'fondente' o 'a pezzi'.",
+        "t": null
+      },
+      {
+        "a": "Sbatti burro morbido e zucchero con le fruste per 4 minuti fino a composto bianco e spumoso. Aggiungi le uova una alla volta, poi vaniglia e scorza di limone.",
+        "w": "💡 4 minuti di montatura incorporano aria nel burro: è quella che dà la consistenza morbida della torta. Non saltare questo passaggio.",
+        "t": {
+          "s": 240,
+          "l": "4 min montatura burro-zucchero"
+        }
+      },
+      {
+        "a": "Setaccia farina, lievito, cannella e sale. Incorpora al composto in tre riprese alternando con il latte. Non lavorare troppo.",
+        "w": "💡 Alternare farina e latte evita i grumi e mantiene l'impasto liscio. Tre riprese è il numero giusto — più passaggi svilupperebbero il glutine rendendo la torta dura.",
+        "t": null
+      },
+      {
+        "a": "Incorpora i dadini di mela nell'impasto con una spatola. Versa in teglia da 24cm imburrata. Disponi le fette di mela in superficie. Spolvera con zucchero di canna e cannella.",
+        "w": "💡 Lo zucchero di canna in superficie caramellizza durante la cottura creando una crosticina dorata e croccante. Le fette di mela sopra si ammorbidiscono diventando quasi trasparenti e bellissime.",
+        "t": null
+      },
+      {
+        "a": "Cuoci a 175°C per 45-50 minuti. Controlla con lo stecchino — deve uscire asciutto. Raffredda 15 minuti nello stampo, poi sforma su griglia.",
+        "w": "💡 La torta di mele è una di quelle ricette dove il forno fa la differenza: ogni forno è diverso. Dopo 40 minuti inizia a controllare ogni 5 minuti. Se la superficie si scurisce troppo coprila con alluminio.",
+        "t": {
+          "s": 2850,
+          "l": "45-50 min in forno"
+        }
+      }
+    ],
+    "fin": "Torta di mele perfetta! Profumata di cannella e vaniglia, è la torta della domenica italiana. Con una pallina di gelato alla vaniglia o panna montata diventa qualcosa di memorabile.",
+    "id": 91
+  },
+  {
+    "cat": "🍰 Dolci",
+    "name": "Zeppole di San Giuseppe",
+    "icon": "🍰",
+    "photo": "https://images.unsplash.com/photo-1541599468348-e96984315921?w=600&q=80",
+    "time": "60 min",
+    "diff": "Media",
+    "level": "trattoria",
+    "subtitle": "La pasta choux fritta con crema e amarena",
+    "tags": [
+      "farina",
+      "burro",
+      "uova",
+      "latte",
+      "zucchero",
+      "panna"
+    ],
+    "steps": [
+      {
+        "a": "Prepara la pasta choux: in un pentolino porta a bollore acqua, burro e sale. Aggiungi tutta la farina in una volta e mescola energicamente fuori dal fuoco finché l'impasto si stacca dalle pareti (roux).",
+        "w": "💡 Il roux si forma quando la farina cuoce nell'acqua e nel burro: deve diventare una palla che non si attacca alle pareti. Questo processo (gelatinizzazione dell'amido) è fondamentale per la struttura della zeppola.",
+        "t": {
+          "s": 180,
+          "l": "3 min cottura roux"
+        }
+      },
+      {
+        "a": "Lascia intiepidire 5 minuti. Aggiungi le uova una alla volta mescolando energicamente — ogni uovo deve essere completamente assorbito prima del successivo. Il composto finale deve cadere dal cucchiaio lentamente 'a nastro'.",
+        "w": "💡 Aggiungere le uova tiepide (non calde): il calore le strapazzerebbe. La consistenza finale 'a nastro' è il test: se scivola troppo velocemente manca un uovo, se non scende è troppo duro.",
+        "t": null
+      },
+      {
+        "a": "Con una sac-à-poche con bocchetta a stella, forma cerchi di 8cm di diametro su carta forno (due giri sovrapposti per creare il bordo alto). Friggi in olio a 170°C per 4-5 minuti per lato.",
+        "w": "💡 170°C è la temperatura giusta per la choux fritta: più alta brucia fuori e resta cruda dentro, più bassa non gonfia. Le zeppole devono gonfiarsi e dorarsi lentamente.",
+        "t": {
+          "s": 450,
+          "l": "4-5 min per lato"
+        }
+      },
+      {
+        "a": "Prepara la crema pasticcera classica (tuorli, zucchero, farina, latte caldo, vaniglia). Copri con pellicola a contatto e raffredda completamente.",
+        "w": "💡 La crema deve essere completamente fredda per riempire le zeppole: calda ammorbidisce la pasta fritta immediatamente.",
+        "t": null
+      },
+      {
+        "a": "Riempi le zeppole con crema pasticcera usando la sac-à-poche. Decora con un'amarena sciroppata al centro e zucchero a velo abbondante.",
+        "w": "💡 L'amarena sciroppata (non fresca) è la firma delle zeppole napoletane. Il suo sciroppo scuro sul bianco dello zucchero è il colore del 19 marzo.",
+        "t": null
+      }
+    ],
+    "fin": "Zeppole di San Giuseppe perfette! Si festeggiano il 19 marzo, Festa del Papà. Si mangiano il giorno stesso: le zeppole fritte perdono croccantezza dopo poche ore.",
+    "id": 92
+  },
+  {
+    "cat": "🍰 Dolci",
+    "name": "Semifreddo al torroncino",
+    "icon": "🍰",
+    "photo": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600&q=80",
+    "time": "30 min + 6h freezer",
+    "diff": "Media",
+    "level": "trattoria",
+    "subtitle": "Cremoso, croccante, senza gelatina",
+    "tags": [
+      "panna",
+      "uova",
+      "zucchero",
+      "torrone"
+    ],
+    "steps": [
+      {
+        "a": "Prepara la meringa italiana: in un pentolino porta 120g zucchero con 40ml acqua a 121°C (termometro). Intanto monta 3 albumi a neve morbida. Versa lo sciroppo a filo sugli albumi montando continuamente fino a meringa lucida e fredda.",
+        "w": "💡 La meringa italiana è la base del semifreddo: dà struttura senza gelatina. Lo sciroppo a 121°C pastorizza gli albumi (sicuro) e crea una meringa stabile che non smonta in freezer.",
+        "t": {
+          "s": 600,
+          "l": "10 min meringa italiana"
+        }
+      },
+      {
+        "a": "Monta 400ml panna fresca fredda a neve semi-ferma (deve formare punte morbide che si ripiegano).",
+        "w": "💡 Panna semi-ferma: troppo montata diventa burro e dà una texture granulosa al semifreddo. Il punto giusto è quando forma punte che si ripiegano — non rigide.",
+        "t": null
+      },
+      {
+        "a": "Trita grossolanamente 150g di torrone (morbido o duro — il duro dà più croccantezza). Incorpora alla meringa con movimenti delicati.",
+        "w": "💡 Il torrone si tritua non si polverizza: i pezzi grossolani danno la croccantezza che contrasta con la cremosità della panna. Tieni qualche pezzo grosso per la decorazione finale.",
+        "t": null
+      },
+      {
+        "a": "Incorpora la panna alla meringa in tre riprese con movimenti dal basso verso l'alto. Ogni ripresa deve essere completamente incorporata prima della successiva.",
+        "w": "💡 I movimenti dal basso verso l'alto preservano l'aria incorporata nella panna e nella meringa — è quell'aria che rende il semifreddo 'semi' freddo (non duro come il gelato).",
+        "t": null
+      },
+      {
+        "a": "Versa in uno stampo da plumcake foderato di pellicola. Congela almeno 6 ore, meglio tutta la notte. Sforma 10 minuti prima di servire, decora con pezzi di torrone e cioccolato fondente grattugiato.",
+        "w": "💡 10 minuti fuori dal freezer prima di servire: il semifreddo deve essere morbido al taglio, non duro. Se è troppo duro aspetta altri 5 minuti. La pellicola facilita lo sformaggio.",
+        "t": {
+          "s": 21600,
+          "l": "6 ore in freezer"
+        }
+      }
+    ],
+    "fin": "Semifreddo al torroncino perfetto! Si conserva in freezer fino a 1 mese. È il dessert delle feste — fa sempre effetto e si prepara giorni prima.",
+    "id": 93
+  },
+  {
+    "cat": "🍰 Dolci",
+    "name": "Sbrisolona mantovana",
+    "icon": "🍰",
+    "photo": "https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81?w=600&q=80",
+    "time": "45 min",
+    "diff": "Facile",
+    "level": "trattoria",
+    "subtitle": "La torta che si rompe, con le mandorle",
+    "tags": [
+      "farina",
+      "burro",
+      "mandorle",
+      "zucchero",
+      "uova"
+    ],
+    "steps": [
+      {
+        "a": "Tosta le mandorle (pelate + con pelle, metà e metà) in forno a 160°C per 10 minuti fino a doratura leggera. Raffredda e trita grossolanamente — metà quasi a farina, metà a pezzi.",
+        "w": "💡 La sbrisolona tradizionale usa farina di mais gialla (fioretto) insieme alla 00 e le mandorle sia pelate che con la pelle. La tostatura delle mandorle è fondamentale: crude darebbero un sapore amaro.",
+        "t": {
+          "s": 600,
+          "l": "10 min tostatura mandorle"
+        }
+      },
+      {
+        "a": "Mescola farina 00, farina di mais fine (fioretto), zucchero, mandorle tritate, scorza di limone e vaniglia in una ciotola.",
+        "w": "💡 La farina di mais gialla dà la texture 'sbriciolosa' caratteristica e il colore dorato. Se non ce l'hai puoi usare solo farina 00 ma il risultato è meno autentico.",
+        "t": null
+      },
+      {
+        "a": "Aggiungi il burro freddo a cubetti e lo strutto (o altro burro). Lavora con le dita fino a ottenere un composto sabbioso e irregolare — NON deve diventare un impasto compatto.",
+        "w": "💡 'Sbrisolona' viene da 'sbrisolàr' (sbriciolare in dialetto mantovano): deve rimanere granulosa e sbriciolata. Se diventa un impasto compatto hai lavorato troppo e la torta non avrà la texture giusta.",
+        "t": null
+      },
+      {
+        "a": "Aggiungi il tuorlo (solo il tuorlo — l'albume darebbe troppa struttura). Mescola brevemente. La consistenza deve restare a briciole grosse.",
+        "w": "💡 Solo il tuorlo: l'albumina dell'albume formerebbe legami proteici che compatterebbero troppo l'impasto. Il tuorlo lega quel tanto che basta tenendo la struttura sbriciolosa.",
+        "t": null
+      },
+      {
+        "a": "Versa il composto sbricioloso in una teglia da 26cm imburrata senza compattarlo — lascia irregolarità e vuoti. Cuoci a 180°C per 30-35 minuti fino a doratura uniforme.",
+        "w": "💡 Non compattare mai la sbrisolona: deve avere quella superficie irregolare e grezzo che poi si rompe. Si serve spezzandola con le mani, non tagliandola con il coltello — è la tradizione.",
+        "t": {
+          "s": 1950,
+          "l": "30-35 min in forno"
+        }
+      }
+    ],
+    "fin": "Sbrisolona mantovana perfetta! Si serve spezzandola con le mani direttamente sul tavolo — è parte del rituale. Con un bicchiere di Moscato d'Asti o Passito è l'abbinamento perfetto.",
+    "id": 94
+  },
+  {
+    "cat": "🍰 Dolci",
+    "name": "Cassata siciliana",
+    "icon": "🍰",
+    "photo": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600&q=80",
+    "time": "90 min + 4h frigo",
+    "diff": "Impegnativa",
+    "level": "trattoria",
+    "subtitle": "Il capolavoro barocco siciliano",
+    "tags": [
+      "farina",
+      "burro",
+      "uova",
+      "ricotta",
+      "pasta di mandorle",
+      "cioccolato",
+      "canditi"
+    ],
+    "steps": [
+      {
+        "a": "Prepara il pan di Spagna: monta 4 uova intere con 120g zucchero per 8 minuti fino a composto triplicato, bianchissimo e 'a nastro'. Incorpora 120g farina setacciata con movimenti dal basso verso l'alto. Cuoci in teglia da 22cm a 170°C per 25 minuti. Raffredda completamente.",
+        "w": "💡 L'8 minuti di montatura è il segreto del pan di Spagna: le uova devono triplicare di volume. Non aggiungere lievito — l'aria incorporata è l'unica lievitazione. Raffreddare completamente prima di tagliare.",
+        "t": {
+          "s": 1500,
+          "l": "25 min pan di Spagna"
+        }
+      },
+      {
+        "a": "Prepara il ripieno: setaccia 500g ricotta di pecora. Mescola con 200g zucchero, gocce di cioccolato fondente e cedro candito a cubetti. Riposa in frigo 1 ora.",
+        "w": "💡 La ricotta deve essere di pecora freschissima e ben scolata. L'ora in frigo fa assorbire lo zucchero alla ricotta rendendola più densa e saporita.",
+        "t": {
+          "s": 3600,
+          "l": "1 ora riposo ricotta"
+        }
+      },
+      {
+        "a": "Fodera uno stampo da cassata (o una ciotola tonda) con pellicola. Taglia il pan di Spagna a fette da 1cm. Fodera le pareti e il fondo dello stampo con le fette bagnate in bagna al Maraschino.",
+        "w": "💡 La bagna al Maraschino (liquore + sciroppo di zucchero) è caratteristica siciliana. Le fette di pan di Spagna devono essere umide ma non inzuppate — 2-3 secondi di immersione sono sufficienti.",
+        "t": null
+      },
+      {
+        "a": "Riempi con la ricotta. Copri con altre fette di pan di Spagna bagnate. Copri con pellicola e premi leggermente. Frigo 4 ore (meglio tutta la notte).",
+        "w": "💡 La pressione leggera compatta la cassata rendendola più facile da sformare. Le 4 ore in frigo sono il minimo — il pan di Spagna assorbe la ricotta creando la consistenza caratteristica.",
+        "t": {
+          "s": 14400,
+          "l": "4+ ore in frigo"
+        }
+      },
+      {
+        "a": "Sforma su un piatto. Copri con pasta di mandorle verde stesa sottile. Glassa con glassa di zucchero bianca. Decora con frutta candita colorata secondo la tradizione barocca siciliana.",
+        "w": "💡 La pasta di mandorle verde e la glassa bianca sono la firma della cassata. La decorazione con frutta candita è elaborata e simbolica — più è barocca, più è autentica. Non semplificare la decorazione: fa parte dell'identità del dolce.",
+        "t": null
+      }
+    ],
+    "fin": "Cassata siciliana perfetta! È il dolce più laborioso della tradizione siciliana — si prepara per Pasqua e per le grandi occasioni. La versione con la glassa al pistacchio è altrettanto straordinaria.",
+    "id": 95
+  },
+  {
+    "cat": "🍰 Dolci",
+    "name": "Babà al rum napoletano",
+    "icon": "🍰",
+    "photo": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=600&q=80",
+    "time": "150 min",
+    "diff": "Impegnativa",
+    "level": "trattoria",
+    "subtitle": "Soffice come una spugna, inzuppato di rum",
+    "tags": [
+      "farina",
+      "burro",
+      "uova",
+      "rum",
+      "zucchero"
+    ],
+    "steps": [
+      {
+        "a": "Prepara il lievitino: sciogli 7g lievito in 50ml latte tiepido con 1 cucchiaino di zucchero. Aspetta 10 minuti fino alla schiuma.",
+        "w": "💡 Il lievitino è fondamentale: verifica che il lievito sia vivo. Senza schiuma dopo 10 minuti, il lievito è morto — ricomincia.",
+        "t": {
+          "s": 600,
+          "l": "10 min lievitino"
+        }
+      },
+      {
+        "a": "In una ciotola mescola 250g farina, 3 uova, 30g zucchero e il lievitino. Impasta energicamente per 10 minuti fino a impasto liscio ed elastico. Aggiungi 80g burro morbido a pezzi e impasta altri 10 minuti — l'impasto deve essere liscio e semi-appiccicoso.",
+        "w": "💡 L'impasto del babà è ricchissimo di burro — per questo è difficile. Va lavorato a lungo: il glutine deve svilupparsi completamente prima di aggiungere il burro. Con la planetaria è molto più facile.",
+        "t": {
+          "s": 1200,
+          "l": "20 min impasto totale"
+        }
+      },
+      {
+        "a": "Riempi gli stampini da babà imburrati per 1/3. Copri e lascia lievitare fino a quando l'impasto raggiunge il bordo (60-90 minuti in luogo caldo).",
+        "w": "💡 La lievitazione fino al bordo è il segnale giusto — non di più, non di meno. L'impasto del babà lievita molto per il burro e le uova: ci vuole tempo.",
+        "t": {
+          "s": 4500,
+          "l": "60-90 min lievitazione"
+        }
+      },
+      {
+        "a": "Cuoci a 180°C per 20-25 minuti fino a doratura. Sforma e raffredda completamente su griglia (almeno 1 ora).",
+        "w": "💡 Il babà deve essere completamente freddo prima di inzupparlo: caldo si spezzerebbe. La struttura del babà freddo è quella giusta per assorbire la bagna.",
+        "t": {
+          "s": 1350,
+          "l": "20-25 min in forno"
+        }
+      },
+      {
+        "a": "Prepara la bagna: scioglie 200g zucchero in 500ml acqua. Porta a bollore e raffredda a 50°C. Aggiungi 150ml rum scuro di qualità. Immergi i babà nella bagna per 1-2 minuti — devono assorbire e gonfiarsi.",
+        "w": "💡 La temperatura della bagna è critica: troppo calda ammorbidisce troppo il babà, fredda non viene assorbita. 50°C è il punto giusto. Il babà inzuppato bene deve risultare bagnato ma non sgocciolante.",
+        "t": {
+          "s": 120,
+          "l": "1-2 min inzuppamento"
+        }
+      },
+      {
+        "a": "Servi con panna montata non zuccherata e, se in stagione, fragole o frutti di bosco.",
+        "w": "💡 La panna non zuccherata bilancia la dolcezza del babà e l'intensità del rum. Le fragole aggiungono acidità fresca. È la combinazione classica napoletana.",
+        "t": null
+      }
+    ],
+    "fin": "Babà al rum perfetto! È uno dei dolci più tecnici della tradizione napoletana. I babà si conservano (non inzuppati) per 2-3 giorni. Inzuppali solo prima di servire.",
+    "id": 96
+  },
+  {
+    "cat": "🍗 Secondi",
+    "name": "Coda alla vaccinara",
+    "icon": "🍗",
+    "photo": "https://images.unsplash.com/photo-1544025162-d76538b796a2?w=600&q=80",
+    "time": "240 min",
+    "diff": "Media",
+    "level": "trattoria",
+    "subtitle": "Il quinto quarto romano in agrodolce",
+    "tags": [
+      "carne",
+      "pomodoro",
+      "sedano",
+      "cipolla",
+      "carota",
+      "uvetta",
+      "pinoli",
+      "cacao"
+    ],
+    "steps": [
+      {
+        "a": "Taglia la coda di bue a pezzi (tra le vertebre). Scotta in acqua bollente 5 minuti. Scola e asciuga bene.",
+        "w": "💡 La scottatura elimina le impurità e prepara la coda alla rosolatura. È un passaggio fondamentale con il quinto quarto.",
+        "t": {
+          "s": 300,
+          "l": "5 min scottatura coda"
+        }
+      },
+      {
+        "a": "Rosola i pezzi di coda in olio a fuoco VIVO per 10-12 minuti totali fino a doratura su tutti i lati. Fai in due riprese per non sovraffollare.",
+        "w": "💡 La doratura intensa della coda è il sapore del piatto. Il collagene abbondante della coda richiede una rosolatura potente prima della cottura lunga.",
+        "t": {
+          "s": 720,
+          "l": "12 min rosolatura"
+        }
+      },
+      {
+        "a": "Nella stessa pentola soffriggi cipolla, carota, sedano abbondante (il sedano è la firma di questo piatto) in olio per 10 minuti. Aggiungi i pinoli e l'uvetta.",
+        "w": "💡 Il sedano in abbondanza è la firma della vaccinara romana. Non è un errore — è caratteristico. L'uvetta e i pinoli sono il tocco agrodolce barocco romano.",
+        "t": {
+          "s": 600,
+          "l": "10 min soffritto con pinoli"
+        }
+      },
+      {
+        "a": "Rimetti la coda, sfuma col vino bianco. Aggiungi i pomodori pelati abbondanti, chiodi di garofano, cannella. Porta a bollore poi abbassa al MINIMO. Copri.",
+        "w": "💡 La cannella e i chiodi di garofano nella vaccinara sono spezie arabe ereditate dalla cucina medievale romana. Non ometterle — sono l'identità del piatto.",
+        "t": {
+          "s": 120,
+          "l": "2 min sfumare"
+        }
+      },
+      {
+        "a": "Cuoci a fuoco bassissimo per 3-4 ore girando ogni 30 minuti. La coda è pronta quando la carne si stacca dall'osso facilmente.",
+        "w": "💡 4 ore di cottura sciolgono il collagene della coda trasformandolo in gelatina che addensa il sugo naturalmente. La coda è pronta quando si muove liberamente sull'osso.",
+        "t": {
+          "s": 12600,
+          "l": "3-4 ore cottura lenta"
+        }
+      },
+      {
+        "a": "30 minuti prima della fine aggiungi 1 cucchiaino di cacao amaro e aggiusta l'equilibrio agrodolce con aceto e zucchero. Il sugo finale deve essere denso, scuro e complesso.",
+        "w": "💡 Il cacao amaro è il segreto della vaccinara moderna — aggiunto alla fine dà profondità senza sapore di cioccolato. L'aggiustamento finale di aceto e zucchero è il momento creativo del cuoco.",
+        "t": {
+          "s": 1800,
+          "l": "30 min con cacao"
+        }
+      }
+    ],
+    "fin": "Coda alla vaccinara perfetta! È il piatto più barocco della cucina romana — agrodolce, speziato, ricco. Si prepara il giorno prima e si riscalda: migliora enormemente.",
+    "id": 97
+  },
+  {
+    "cat": "🍝 Pasta",
+    "name": "Vincisgrassi marchigiani",
+    "icon": "🍝",
+    "photo": "https://images.unsplash.com/photo-1574894709920-11b28e7367e3?w=600&q=80",
+    "time": "150 min",
+    "diff": "Impegnativa",
+    "level": "trattoria",
+    "subtitle": "Le lasagne delle Marche con i fegatini",
+    "tags": [
+      "pasta",
+      "carne",
+      "frattaglie",
+      "panna",
+      "tartufo",
+      "burro",
+      "parmigiano"
+    ],
+    "steps": [
+      {
+        "a": "Prepara il ragù: soffriggi cipolla, carota, sedano in burro e olio. Aggiungi macinato di manzo e maiale, rosola bene. Sfuma col vino rosso. Aggiungi fegatini di pollo tagliati fini (questo è il segreto) e animelle. Cuoci 10 minuti.",
+        "w": "💡 I fegatini e le animelle sono la firma dei vincisgrassi — quello che li distingue dalle lasagne bolognesi. Danno un sapore intenso e quasi selvaggio. Se non ami le frattaglie, riducili a metà.",
+        "t": {
+          "s": 600,
+          "l": "10 min ragù con frattaglie"
+        }
+      },
+      {
+        "a": "Aggiungi pomodori pelati schiacciati e brodo. Cuoci a fuoco basso per 60-90 minuti. Il ragù deve essere denso e scuro.",
+        "w": "💡 Il ragù dei vincisgrassi è più denso di quello bolognese: deve essere quasi asciutto, non cremoso. La lunga cottura concentra i sapori delle frattaglie.",
+        "t": {
+          "s": 5400,
+          "l": "90 min ragù"
+        }
+      },
+      {
+        "a": "Prepara la besciamella ricca: roux con burro e farina, poi latte intero E panna fresca. Più grassa della normale, quasi una crema.",
+        "w": "💡 La besciamella con panna è più ricca e cremosa della normale. I vincisgrassi sono un piatto opulento — non è il momento di risparmiare sui grassi.",
+        "t": {
+          "s": 480,
+          "l": "8 min besciamella ricca"
+        }
+      },
+      {
+        "a": "Assembla: besciamella sul fondo, poi sfoglie di pasta all'uovo fresca (tirata sottile), ragù, besciamella, parmigiano. Almeno 6 strati. Se hai tartufo nero, qualche lamella tra gli strati.",
+        "w": "💡 Il tartufo nero è il tocco di lusso dei vincisgrassi delle grandi occasioni. Anche poco (10-15g) profuma tutto il piatto. In assenza usa qualche goccia di olio al tartufo.",
+        "t": null
+      },
+      {
+        "a": "Copri con alluminio, cuoci a 180°C per 30 minuti. Togli l'alluminio, cuoci altri 15 minuti fino a doratura. Riposa 20 minuti.",
+        "w": "💡 Il riposo di 20 minuti è obbligatorio: i vincisgrassi appena sfornati si sfaldano. Freddi si tagliano perfettamente. Si servono tiepidi.",
+        "t": {
+          "s": 2700,
+          "l": "45 min + 20 min riposo"
+        }
+      }
+    ],
+    "fin": "Vincisgrassi perfetti! Sono le lasagne più complesse e ricche d'Italia. Si preparano il giorno prima — il giorno dopo sono ancora migliori.",
+    "id": 98
+  },
+  {
+    "cat": "🍗 Secondi",
+    "name": "Porchetta di Ariccia",
+    "icon": "🍗",
+    "photo": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=600&q=80",
+    "time": "240 min",
+    "diff": "Impegnativa",
+    "level": "trattoria",
+    "subtitle": "Il maialetto arrotolato con erbe e aglio",
+    "tags": [
+      "maiale",
+      "aglio",
+      "rosmarino",
+      "finocchietto",
+      "pepe",
+      "sale"
+    ],
+    "steps": [
+      {
+        "a": "Apri la pancia di maiale (1.5-2kg) completamente piatta. Incidi la carne (non la cotenna) a griglia con tagli da 1cm di profondità su tutta la superficie interna.",
+        "w": "💡 Le incisioni permettono alle erbe e ai sapori di penetrare in profondità durante la lunga cottura. Senza incisioni il condimento rimane in superficie.",
+        "t": null
+      },
+      {
+        "a": "Prepara il condimento: trita finissimo aglio abbondante, rosmarino fresco, finocchietto selvatico (o semi di finocchio), pepe nero abbondante, sale grosso. Mescola con olio fino a pasta.",
+        "w": "💡 Il finocchietto selvatico è la firma della porchetta laziale — senza non è la stessa cosa. I semi di finocchio sono il sostituto più vicino. Il pepe nero deve essere generoso.",
+        "t": null
+      },
+      {
+        "a": "Massaggia il condimento su tutta la superficie interna della pancia. Arrotola stretta su se stessa dalla parte lunga. Lega con spago da cucina ogni 3cm. Massaggia cotenna esterna con sale e olio.",
+        "w": "💡 Arrotolare stretto è fondamentale: se è lasco si deforma durante la cottura. Lo spago ogni 3cm mantiene la forma perfetta. La cotenna salata croccante è il premio finale.",
+        "t": null
+      },
+      {
+        "a": "Lascia riposare in frigo tutta la notte senza coprire — la cotenna si asciuga diventando più croccante.",
+        "w": "💡 La cotenna asciutta in frigo è il segreto della cotenna croccante. L'umidità è il nemico della croccantezza: la notte in frigo scoperta la elimina completamente.",
+        "t": null
+      },
+      {
+        "a": "Cuoci in forno a 220°C per 30 minuti (per croccantare la cotenna), poi abbassa a 170°C e cuoci altre 2.5-3 ore. La temperatura interna deve raggiungere 75°C.",
+        "w": "💡 I due step di temperatura sono fondamentali: 220°C iniziale croccanta la cotenna velocemente. 170°C poi cuoce lentamente la carne senza bruciare. Se la cotenna si scurisce troppo, copri con alluminio.",
+        "t": {
+          "s": 12600,
+          "l": "3 ore cottura totale"
+        }
+      },
+      {
+        "a": "Lascia riposare 20 minuti prima di tagliare. Taglia a fette spesse con un coltello affilato — la cotenna deve fare crac.",
+        "w": "💡 Il riposo di 20 minuti redistribuisce i succhi. La cotenna che fa crac sotto il coltello è il segnale di riuscita. Si serve nei panini o come secondo con contorni semplici.",
+        "t": {
+          "s": 1200,
+          "l": "20 min riposo"
+        }
+      }
+    ],
+    "fin": "Porchetta di Ariccia perfetta! È uno dei simboli del cibo di strada laziale. Avanzata è buonissima fredda in panino il giorno dopo. La cotenna rimasta croccante il giorno dopo è il vero lusso.",
+    "id": 99
   }
 ]
