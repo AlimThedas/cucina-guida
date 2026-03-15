@@ -5167,7 +5167,21 @@
       }
     ],
     "fin": "Tagliatelle al ragù bolognese perfette! La ricetta depositata alla Camera di Commercio di Bologna nel 1982 è il riferimento assoluto. Tre ore di cottura non si negoziano.",
-    "id": 75
+    "id": 75,
+    "ing": [
+      "500g tagliatelle fresche all'uovo",
+      "300g macinato di manzo",
+      "200g macinato di maiale",
+      "100g pancetta tesa",
+      "1 cipolla, 2 carote, 2 gambi sedano",
+      "1 bicchiere vino rosso corposo",
+      "200ml latte intero",
+      "200g pomodori pelati",
+      "50g burro",
+      "Olio EVO",
+      "Sale, pepe",
+      "Parmigiano reggiano"
+    ]
   },
   {
     "cat": "🍝 Pasta",
@@ -5236,7 +5250,16 @@
       }
     ],
     "fin": "Orecchiette alle cime di rapa perfette! È il piatto più pugliese che esista. Le orecchiette fresche fatte a mano (pasta di semola e acqua) sono incomparabili rispetto a quelle secche.",
-    "id": 76
+    "id": 76,
+    "ing": [
+      "400g orecchiette (fresche o secche)",
+      "800g cime di rapa",
+      "6 filetti acciughe sott'olio",
+      "3 spicchi aglio",
+      "Peperoncino abbondante",
+      "Olio EVO abbondante",
+      "Sale"
+    ]
   },
   {
     "cat": "🍝 Pasta",
@@ -5288,7 +5311,18 @@
       }
     ],
     "fin": "Trofie al pesto perfette! Il pesto avanzato si conserva in frigo coperto di olio per 5 giorni. Non congelarlo — perde tutto il profumo.",
-    "id": 77
+    "id": 77,
+    "ing": [
+      "400g trofie fresche (o secche)",
+      "Per il pesto: 50g basilico genovese DOP",
+      "30g pinoli",
+      "2 spicchi aglio",
+      "50g parmigiano reggiano",
+      "20g pecorino sardo",
+      "80ml olio EVO ligure",
+      "Sale grosso",
+      "Patate lessate e fagiolini (versione tradizionale)"
+    ]
   },
   {
     "cat": "🍝 Pasta",
@@ -5346,7 +5380,19 @@
       }
     ],
     "fin": "Spaghetti alla chitarra con pallottine perfetti! È il piatto della domenica abruzzese per eccellenza. Le pallottine avanzate sono buonissime nel giorno dopo.",
-    "id": 78
+    "id": 78,
+    "ing": [
+      "400g spaghetti alla chitarra",
+      "Per le pallottine: 300g macinato misto",
+      "1 uovo",
+      "50g parmigiano",
+      "Aglio, prezzemolo",
+      "Per il sugo: 400g pomodori pelati",
+      "1 cipolla",
+      "Basilico",
+      "Olio EVO",
+      "Sale, pepe"
+    ]
   },
   {
     "cat": "🍝 Pasta",
@@ -5406,7 +5452,19 @@
       }
     ],
     "fin": "Pasta e fagioli alla veneta perfetta! Il giorno dopo è ancora più densa e buona. Se si rapprende troppo aggiungi un mestolo di brodo caldo.",
-    "id": 79
+    "id": 79,
+    "ing": [
+      "300g pasta mista o ditaloni",
+      "400g fagioli borlotti (anche in scatola)",
+      "100g cotenna di maiale (o pancetta)",
+      "1 cipolla, 2 carote, 2 gambi sedano",
+      "1 spicchio aglio",
+      "Rosmarino fresco",
+      "Brodo di carne",
+      "Burro, olio EVO",
+      "Sale, pepe nero",
+      "Olio EVO crudo per finire"
+    ]
   },
   {
     "cat": "🍗 Secondi",
@@ -5480,7 +5538,19 @@
       }
     ],
     "fin": "Ossobuco alla milanese perfetto! Con il risotto giallo è uno dei grandi piatti della cucina italiana. Il sugo avanzato è ottimo sulla polenta il giorno dopo.",
-    "id": 80
+    "id": 80,
+    "ing": [
+      "4 ossibuchi di vitello (alti 3-4cm)",
+      "1 cipolla, 2 carote, 2 gambi sedano",
+      "1 bicchiere vino bianco secco",
+      "200ml brodo di carne caldo",
+      "200g pomodori pelati",
+      "Farina 00",
+      "Burro, olio EVO",
+      "Timo, alloro",
+      "Per la gremolata: prezzemolo, 1 limone, 1 spicchio aglio",
+      "Sale, pepe"
+    ]
   },
   {
     "cat": "🍗 Secondi",
@@ -5547,7 +5617,17 @@
       }
     ],
     "fin": "Brasato al Barolo perfetto! Non usare un Barolo costoso per cucinare — un Barolo giovane o un Nebbiolo va benissimo. Il risultato migliora enormemente il giorno dopo.",
-    "id": 81
+    "id": 81,
+    "ing": [
+      "1.2kg cappello del prete di manzo",
+      "1 bottiglia Barolo (o Nebbiolo)",
+      "2 cipolle, 3 carote, 3 gambi sedano",
+      "3 spicchi aglio",
+      "Rosmarino, timo, alloro, bacche di ginepro",
+      "Olio EVO",
+      "Brodo di carne",
+      "Sale, pepe"
+    ]
   },
   {
     "cat": "🍗 Secondi",
@@ -5610,7 +5690,18 @@
       }
     ],
     "fin": "Pollo alla cacciatora toscana perfetto! Con le olive taggiasche e i capperi ha una complessità di sapori straordinaria. Il giorno dopo è ancora più buono.",
-    "id": 82
+    "id": 82,
+    "ing": [
+      "1 pollo a pezzi (o 8 cosce e sovracosce)",
+      "150g olive taggiasche denocciolate",
+      "30g capperi sotto sale (dissalati)",
+      "400g pomodori pelati",
+      "1 bicchiere vino rosso",
+      "3 spicchi aglio",
+      "Rosmarino, salvia",
+      "Olio EVO",
+      "Sale, pepe"
+    ]
   },
   {
     "cat": "🍗 Secondi",
@@ -5671,7 +5762,18 @@
       }
     ],
     "fin": "Trippa alla romana perfetta! È il piatto del sabato romano per tradizione. Con il pane casereccio per fare la scarpetta nel sugo è un'esperienza che vale ogni caloria.",
-    "id": 83
+    "id": 83,
+    "ing": [
+      "800g trippa già lessata",
+      "400g pomodori pelati",
+      "1 cipolla, 1 carota, 1 gambo sedano",
+      "1 bicchiere vino bianco",
+      "Menta fresca abbondante",
+      "80g pecorino romano grattugiato",
+      "Peperoncino",
+      "Olio EVO",
+      "Sale, pepe"
+    ]
   },
   {
     "cat": "🍗 Secondi",
@@ -5721,7 +5823,16 @@
       }
     ],
     "fin": "Agnello a scottadito perfetto! È il piatto pasquale romano per eccellenza. Con l'agnello di Pasqua, giovane e tenero, è irresistibile.",
-    "id": 84
+    "id": 84,
+    "ing": [
+      "12 costolette di agnello",
+      "3 spicchi aglio",
+      "Rosmarino fresco abbondante",
+      "Olio EVO",
+      "Sale grosso",
+      "Pepe nero",
+      "Succo di limone"
+    ]
   },
   {
     "cat": "🐟 Pesce",
@@ -5780,7 +5891,19 @@
       }
     ],
     "fin": "Baccalà alla livornese perfetto! Con le olive e i capperi è uno dei piatti di pesce più saporiti della cucina italiana. Ottimo anche il giorno dopo riscaldato dolcemente.",
-    "id": 85
+    "id": 85,
+    "ing": [
+      "600g baccalà ammollato",
+      "100g olive nere di Gaeta o taggiasche",
+      "30g capperi sotto sale (dissalati)",
+      "400g pomodori pelati",
+      "3 spicchi aglio",
+      "Peperoncino abbondante",
+      "Prezzemolo fresco",
+      "Farina 00",
+      "Olio EVO",
+      "Sale"
+    ]
   },
   {
     "cat": "🐟 Pesce",
@@ -5836,7 +5959,17 @@
       }
     ],
     "fin": "Triglie alla livornese perfette! È uno dei piatti di pesce più amati della tradizione toscana. Il sugo rimasto nella padella è da pane.",
-    "id": 86
+    "id": 86,
+    "ing": [
+      "8 triglie medie (circa 800g)",
+      "400g pomodori pelati",
+      "3 spicchi aglio",
+      "Peperoncino",
+      "Prezzemolo fresco",
+      "Farina 00",
+      "Olio EVO",
+      "Sale, pepe"
+    ]
   },
   {
     "cat": "🐟 Pesce",
@@ -5887,7 +6020,19 @@
       }
     ],
     "fin": "Sarde a beccafico perfette! È uno dei piatti più rappresentativi della cucina siciliana. La versione catanese aggiunge pomodoro — quella palermitana è questa, senza.",
-    "id": 87
+    "id": 87,
+    "ing": [
+      "800g sarde fresche",
+      "100g pangrattato",
+      "40g pinoli",
+      "40g uvetta sultanina",
+      "Scorza di 1 arancia e 1 limone",
+      "Prezzemolo, aglio",
+      "Foglie di alloro",
+      "Succo di arancia e limone",
+      "Olio EVO",
+      "Sale, pepe"
+    ]
   },
   {
     "cat": "🐟 Pesce",
@@ -5949,7 +6094,21 @@
       }
     ],
     "fin": "Cacciucco alla livornese perfetto! La tradizione vuole almeno 5 tipi di pesce diversi — la C di cacciucco sta per cinque. È uno dei grandi piatti della cucina italiana.",
-    "id": 88
+    "id": 88,
+    "ing": [
+      "500g seppie e calamari",
+      "400g pesci da zuppa (scorfano, gallinella)",
+      "300g gamberi",
+      "400g cozze",
+      "1 bicchiere vino rosso",
+      "400g pomodori pelati",
+      "1 cipolla, 4 spicchi aglio",
+      "Peperoncino abbondante",
+      "Prezzemolo",
+      "Olio EVO",
+      "Pane toscano tostato",
+      "Sale"
+    ]
   },
   {
     "cat": "🍰 Dolci",
@@ -6005,7 +6164,21 @@
       }
     ],
     "fin": "Cannoli siciliani perfetti! La scorza fritta si conserva vuota per 2-3 giorni in scatola ermetica. La crema si conserva in frigo 2 giorni. Si riempiono solo all'ultimo.",
-    "id": 89
+    "id": 89,
+    "ing": [
+      "Per le scorze: 300g farina 00",
+      "30g zucchero",
+      "15g cacao amaro",
+      "50g burro",
+      "1 uovo",
+      "100ml marsala secco",
+      "Per la crema: 500g ricotta di pecora freschissima",
+      "200g zucchero a velo",
+      "100g gocce cioccolato fondente",
+      "Scorza d'arancia candita",
+      "Granella di pistacchio",
+      "Olio per friggere"
+    ]
   },
   {
     "cat": "🍰 Dolci",
@@ -6062,7 +6235,22 @@
       }
     ],
     "fin": "Pastiera napoletana perfetta! Si fa il Giovedì o Venerdì Santo e si mangia a Pasqua — due giorni di attesa per l'intensità dei profumi. Nonna dice che se piange mentre la mangi, è riuscita.",
-    "id": 90
+    "id": 90,
+    "ing": [
+      "Per la frolla: 400g farina 00",
+      "200g burro",
+      "150g zucchero",
+      "2 uova + 1 tuorlo",
+      "Scorza di limone",
+      "Per il ripieno: 400g grano cotto in lattina",
+      "500g ricotta di pecora",
+      "300g zucchero",
+      "4 uova",
+      "Acqua di fior d'arancio abbondante",
+      "Cedro e arancia canditi",
+      "Cannella",
+      "Latte, burro"
+    ]
   },
   {
     "cat": "🍰 Dolci",
@@ -6115,7 +6303,21 @@
       }
     ],
     "fin": "Torta di mele perfetta! Profumata di cannella e vaniglia, è la torta della domenica italiana. Con una pallina di gelato alla vaniglia o panna montata diventa qualcosa di memorabile.",
-    "id": 91
+    "id": 91,
+    "ing": [
+      "4 mele Golden o Renette",
+      "200g farina 00",
+      "150g burro morbido",
+      "150g zucchero",
+      "3 uova",
+      "100ml latte intero",
+      "1 bustina lievito per dolci",
+      "Scorza di limone",
+      "1 cucchiaino vaniglia",
+      "1 cucchiaino cannella",
+      "Zucchero di canna per la superficie",
+      "Sale"
+    ]
   },
   {
     "cat": "🍰 Dolci",
@@ -6168,7 +6370,22 @@
       }
     ],
     "fin": "Zeppole di San Giuseppe perfette! Si festeggiano il 19 marzo, Festa del Papà. Si mangiano il giorno stesso: le zeppole fritte perdono croccantezza dopo poche ore.",
-    "id": 92
+    "id": 92,
+    "ing": [
+      "Per la choux: 250ml acqua",
+      "100g burro",
+      "150g farina 00",
+      "4 uova",
+      "1 pizzico sale",
+      "Per la crema: 4 tuorli",
+      "100g zucchero",
+      "40g farina",
+      "500ml latte intero",
+      "Vaniglia",
+      "Amarene sciroppate",
+      "Zucchero a velo",
+      "Olio per friggere"
+    ]
   },
   {
     "cat": "🍰 Dolci",
@@ -6219,7 +6436,14 @@
       }
     ],
     "fin": "Semifreddo al torroncino perfetto! Si conserva in freezer fino a 1 mese. È il dessert delle feste — fa sempre effetto e si prepara giorni prima.",
-    "id": 93
+    "id": 93,
+    "ing": [
+      "3 albumi",
+      "120g + 40g zucchero",
+      "400ml panna fresca fredda",
+      "150g torrone (morbido o duro)",
+      "Cioccolato fondente grattugiato per decorare"
+    ]
   },
   {
     "cat": "🍰 Dolci",
@@ -6271,7 +6495,19 @@
       }
     ],
     "fin": "Sbrisolona mantovana perfetta! Si serve spezzandola con le mani direttamente sul tavolo — è parte del rituale. Con un bicchiere di Moscato d'Asti o Passito è l'abbinamento perfetto.",
-    "id": 94
+    "id": 94,
+    "ing": [
+      "200g farina 00",
+      "100g farina di mais fine (fioretto)",
+      "200g mandorle (metà pelate, metà con pelle)",
+      "150g zucchero",
+      "150g burro freddo",
+      "50g strutto (o altro burro)",
+      "1 tuorlo",
+      "Scorza di limone",
+      "1 cucchiaino vaniglia",
+      "Sale"
+    ]
   },
   {
     "cat": "🍰 Dolci",
@@ -6328,7 +6564,20 @@
       }
     ],
     "fin": "Cassata siciliana perfetta! È il dolce più laborioso della tradizione siciliana — si prepara per Pasqua e per le grandi occasioni. La versione con la glassa al pistacchio è altrettanto straordinaria.",
-    "id": 95
+    "id": 95,
+    "ing": [
+      "Per il pan di Spagna: 4 uova",
+      "120g farina 00",
+      "120g zucchero",
+      "Per il ripieno: 500g ricotta di pecora",
+      "200g zucchero",
+      "100g gocce cioccolato fondente",
+      "Cedro candito",
+      "Per la decorazione: 300g pasta di mandorle verde",
+      "Glassa di zucchero bianca",
+      "Frutta candita assortita",
+      "Bagna al Maraschino"
+    ]
   },
   {
     "cat": "🍰 Dolci",
@@ -6394,7 +6643,20 @@
       }
     ],
     "fin": "Babà al rum perfetto! È uno dei dolci più tecnici della tradizione napoletana. I babà si conservano (non inzuppati) per 2-3 giorni. Inzuppali solo prima di servire.",
-    "id": 96
+    "id": 96,
+    "ing": [
+      "250g farina 00 (Manitoba)",
+      "7g lievito di birra secco",
+      "3 uova",
+      "30g zucchero",
+      "80g burro morbido",
+      "50ml latte tiepido",
+      "Per la bagna: 200g zucchero",
+      "500ml acqua",
+      "150ml rum scuro di qualità",
+      "Panna montata non zuccherata",
+      "Fragole o frutti di bosco"
+    ]
   },
   {
     "cat": "🍗 Secondi",
@@ -6466,7 +6728,21 @@
       }
     ],
     "fin": "Coda alla vaccinara perfetta! È il piatto più barocco della cucina romana — agrodolce, speziato, ricco. Si prepara il giorno prima e si riscalda: migliora enormemente.",
-    "id": 97
+    "id": 97,
+    "ing": [
+      "1.2kg coda di bue a pezzi",
+      "400g pomodori pelati",
+      "3 gambi sedano (abbondante)",
+      "1 cipolla, 2 carote",
+      "50g pinoli",
+      "50g uvetta sultanina",
+      "1 bicchiere vino bianco",
+      "1 cucchiaino cacao amaro",
+      "Chiodi di garofano, cannella",
+      "Aceto di vino, zucchero",
+      "Olio EVO",
+      "Sale, pepe"
+    ]
   },
   {
     "cat": "🍝 Pasta",
@@ -6526,7 +6802,20 @@
       }
     ],
     "fin": "Vincisgrassi perfetti! Sono le lasagne più complesse e ricche d'Italia. Si preparano il giorno prima — il giorno dopo sono ancora migliori.",
-    "id": 98
+    "id": 98,
+    "ing": [
+      "500g sfoglia all'uovo fresca",
+      "300g macinato misto",
+      "150g fegatini di pollo",
+      "100g animelle (facoltativo)",
+      "1 bicchiere vino rosso",
+      "Soffritto: cipolla, carota, sedano",
+      "Per la besciamella ricca: 70g burro, 70g farina, 500ml latte, 200ml panna",
+      "150g parmigiano reggiano",
+      "Tartufo nero (facoltativo)",
+      "Burro, olio EVO",
+      "Sale, noce moscata"
+    ]
   },
   {
     "cat": "🍗 Secondi",
@@ -6584,6 +6873,15 @@
       }
     ],
     "fin": "Porchetta di Ariccia perfetta! È uno dei simboli del cibo di strada laziale. Avanzata è buonissima fredda in panino il giorno dopo. La cotenna rimasta croccante il giorno dopo è il vero lusso.",
-    "id": 99
+    "id": 99,
+    "ing": [
+      "1.5kg pancia di maiale con cotenna",
+      "8 spicchi aglio",
+      "Rosmarino fresco abbondante",
+      "Finocchietto selvatico (o 2 cucchiai semi di finocchio)",
+      "Pepe nero abbondante",
+      "Sale grosso",
+      "Olio EVO"
+    ]
   }
 ]
