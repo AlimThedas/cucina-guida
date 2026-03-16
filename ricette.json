@@ -3,7 +3,7 @@
     "cat": "🍝 Pasta",
     "name": "Cacio e pepe",
     "icon": "🍝",
-    "photo": "https://images.pexels.com/photos/5336537/pexels-photo-5336537.jpeg",
+    "photo": "https://images.unsplash.com/photo-1612874742237-6526221588e3?w=600&q=80",
     "time": "20 min",
     "diff": "Media",
     "subtitle": "Il grande classico romano, solo tre ingredienti",
@@ -72,7 +72,7 @@
     "cat": "🍝 Pasta",
     "name": "Carbonara",
     "icon": "🍝",
-    "photo": "https://images.unsplash.com/photo-1633337474564-1d9478ca4e2e?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "photo": "https://images.unsplash.com/photo-1636751663710-91c6a13f6d01?w=600&q=80",
     "time": "25 min",
     "diff": "Media",
     "subtitle": "La vera ricetta romana, senza panna",
@@ -148,7 +148,7 @@
     "cat": "🍝 Pasta",
     "name": "Aglio olio e peperoncino",
     "icon": "🍝",
-    "photo": "https://images.pexels.com/photos/4431588/pexels-photo-4431588.jpeg",
+    "photo": "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=600&q=80",
     "time": "15 min",
     "diff": "Facile",
     "subtitle": "Veloce, povera, straordinaria",
@@ -8616,5 +8616,3074 @@
     ],
     "fin": "Spaghetti all'astice con bisque perfetti. È il piatto di lusso del mare per eccellenza: richiede impegno ma il risultato è un'esperienza gastronomica indimenticabile. La bisque avanzata si congela e si usa come salsa per altri piatti di pesce.",
     "id": 123
+  },
+  {
+    "cat": "🍝 Pasta",
+    "name": "Pasta con asparagi e uova",
+    "icon": "🍝",
+    "photo": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=600&q=80",
+    "time": "25 min",
+    "diff": "Facile",
+    "level": "casa",
+    "subtitle": "Primaverile, cremosa, veloce",
+    "tags": [
+      "pasta",
+      "asparagi",
+      "uova",
+      "parmigiano",
+      "aglio",
+      "olio"
+    ],
+    "ing": [
+      "320g pasta corta (rigatoni o mezze maniche)",
+      "500g asparagi",
+      "3 uova",
+      "60g parmigiano reggiano grattugiato",
+      "2 spicchi aglio",
+      "Olio EVO",
+      "Sale, pepe nero abbondante"
+    ],
+    "steps": [
+      {
+        "a": "Elimina la parte dura degli asparagi piegandoli: si spezzano naturalmente nel punto giusto. Taglia a rondelle da 1cm tenendo le punte intere.",
+        "w": "💡 La tecnica della piega funziona sempre: il gambo si rompe esattamente dove finisce la parte legnosa. Non sprecare tempo con il coltello.",
+        "t": null
+      },
+      {
+        "a": "In padella larga scalda olio con l'aglio schiacciato a fuoco MEDIO. Aggiungi gli asparagi, sale e cuoci 8 minuti mescolando. Devono restare leggermente croccanti, non sfatti.",
+        "w": "💡 Le punte degli asparagi cuociono più velocemente dei gambi: aggiungile 2 minuti dopo. Colore verde brillante = cottura perfetta. Verde grigio = stracotti.",
+        "t": {
+          "s": 480,
+          "l": "8 min asparagi"
+        }
+      },
+      {
+        "a": "In una ciotola sbatti le uova con il parmigiano, pepe abbondante e un cucchiaio di acqua fredda.",
+        "w": "💡 L'acqua fredda nella crema di uova abbassa leggermente la temperatura: riduce il rischio che si rapprendano quando le versi sulla pasta calda.",
+        "t": null
+      },
+      {
+        "a": "Cuoci la pasta al dente. Scola conservando 2 mestoli di acqua di cottura. Versa la pasta nella padella con gli asparagi a fuoco SPENTO.",
+        "w": "💡 Fuoco spento è fondamentale: le uova devono cremificarsi con il calore residuo della pasta, non strapazzarsi. È la stessa logica della carbonara.",
+        "t": null
+      },
+      {
+        "a": "Versa la crema di uova sulla pasta, aggiungi un mestolo di acqua di cottura e mescola energicamente per 1 minuto. La crema deve avvolgere ogni rigatone senza grumi.",
+        "w": "💡 Se la crema si rappiglia troppo, aggiungi subito acqua di cottura calda e mescola. Se è troppo liquida, aspetta 30 secondi mescolando. L'equilibrio si trova in pochi secondi.",
+        "t": {
+          "s": 60,
+          "l": "1 min mantecatura"
+        }
+      },
+      {
+        "a": "Servi con parmigiano extra e pepe nero macinato fresco.",
+        "w": "💡 Il pepe nero abbondante è la firma di questo piatto. Non essere timido.",
+        "t": null
+      }
+    ],
+    "fin": "Pasta con asparagi e uova perfetta. È la pasta della primavera per eccellenza, pronta in 25 minuti. Con speck a listarelle aggiunte con gli asparagi diventa ancora più ricca.",
+    "id": 124
+  },
+  {
+    "cat": "🍝 Pasta",
+    "name": "Pasta con rucola e pomodorini",
+    "icon": "🍝",
+    "photo": "https://images.unsplash.com/photo-1598866594230-a7c12756260f?w=600&q=80",
+    "time": "15 min",
+    "diff": "Facile",
+    "level": "casa",
+    "subtitle": "Fresca, veloce, estiva",
+    "tags": [
+      "pasta",
+      "rucola",
+      "pomodorini",
+      "aglio",
+      "olio",
+      "parmigiano"
+    ],
+    "ing": [
+      "320g pasta corta (penne o fusilli)",
+      "200g pomodorini ciliegino",
+      "80g rucola fresca",
+      "2 spicchi aglio",
+      "Olio EVO abbondante",
+      "Parmigiano o pecorino grattugiato",
+      "Sale, pepe",
+      "Peperoncino (facoltativo)"
+    ],
+    "steps": [
+      {
+        "a": "Cuoci la pasta in acqua abbondante salata.",
+        "w": "💡 Questa pasta si condisce quasi a crudo: mentre la pasta cuoce prepari tutto il condimento in 3 minuti.",
+        "t": null
+      },
+      {
+        "a": "In padella larga scalda olio abbondante con aglio schiacciato a fuoco BASSO per 2 minuti. Aggiungi i pomodorini tagliati a metà, alza a fuoco VIVO e cuoci 3-4 minuti schiacciandoli leggermente.",
+        "w": "💡 Schiacciare i pomodorini con il dorso del cucchiaio mentre cuociono libera il succo che diventa la salsina. Non devono disfarsi completamente: la texture a pezzi è parte del piatto.",
+        "t": {
+          "s": 240,
+          "l": "4 min pomodorini"
+        }
+      },
+      {
+        "a": "Scola la pasta al dente conservando acqua di cottura. Versa nella padella con i pomodorini a fuoco SPENTO. Aggiungi la rucola tutta in una volta.",
+        "w": "💡 La rucola va aggiunta a fuoco spento sulla pasta caldissima: appassisce leggermente perdendo l'amaro eccessivo ma mantenendo il sapore pungente. Se la cuoci perde tutto.",
+        "t": null
+      },
+      {
+        "a": "Mescola velocemente con un mestolo di acqua di cottura. La rucola appassisce in 30 secondi. Aggiungi parmigiano o pecorino, olio a crudo, pepe. Servi immediatamente.",
+        "w": "💡 Questo piatto non aspetta: la rucola continua ad appassire e la pasta si asciuga. Dal momento in cui scoli la pasta al momento in cui mangi devono passare meno di 2 minuti.",
+        "t": {
+          "s": 30,
+          "l": "30 sec mantecatura"
+        }
+      }
+    ],
+    "fin": "Pasta con rucola e pomodorini perfetta. Con stracciatella di burrata sbriciolata sopra al momento del servizio è un piatto estivo straordinario.",
+    "id": 125
+  },
+  {
+    "cat": "🍝 Pasta",
+    "name": "Pasta con carote e zenzero",
+    "icon": "🍝",
+    "photo": "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=600&q=80",
+    "time": "30 min",
+    "diff": "Facile",
+    "level": "casa",
+    "subtitle": "Dolce, speziata, sorprendente",
+    "tags": [
+      "pasta",
+      "carote",
+      "zenzero",
+      "aglio",
+      "olio",
+      "parmigiano"
+    ],
+    "ing": [
+      "320g pasta corta (rigatoni o sedanini)",
+      "4 carote medie",
+      "2cm zenzero fresco",
+      "2 spicchi aglio",
+      "1 cipolla",
+      "Olio EVO",
+      "Parmigiano reggiano",
+      "Sale, pepe",
+      "Prezzemolo o basilico"
+    ],
+    "steps": [
+      {
+        "a": "Pela le carote e tagliale a rondelle sottili da 3mm. Trita finemente cipolla e aglio. Grattugia lo zenzero fresco.",
+        "w": "💡 Le rondelle sottili cuociono velocemente e si ammorbidiscono quasi creando una cremina naturale. Lo zenzero grattugiato si integra meglio di quello a pezzi.",
+        "t": null
+      },
+      {
+        "a": "In padella scalda olio a fuoco MEDIO, soffriggi cipolla e aglio 5 minuti. Aggiungi le carote, lo zenzero, sale e pepe. Cuoci 15 minuti a fuoco medio mescolando spesso.",
+        "w": "💡 Le carote con la cipolla si caramellizzano leggermente durante la cottura diventando dolci. Lo zenzero contrasta questa dolcezza con la sua nota piccante-aromatica.",
+        "t": {
+          "s": 1200,
+          "l": "15 min carote e zenzero"
+        }
+      },
+      {
+        "a": "Con una forchetta schiaccia un terzo delle carote direttamente in padella. Aggiungi un mestolo di acqua di cottura della pasta per creare la salsina.",
+        "w": "💡 Schiacciare parte delle carote crea una base cremosa che condisce la pasta senza usare panna o altri grassi. Il risultato è leggero ma saporito.",
+        "t": null
+      },
+      {
+        "a": "Scola la pasta al dente, versa nella padella con altro mestolo di acqua di cottura. Salta a fuoco vivo 1 minuto. Spegni, aggiungi parmigiano abbondante e prezzemolo.",
+        "w": "💡 Il parmigiano fuori dal fuoco si lega alla crema di carote creando un condimento vellutato. Con la scorza di limone grattugiata sopra al servizio diventa ancora più aromatico.",
+        "t": {
+          "s": 60,
+          "l": "1 min mantecatura"
+        }
+      }
+    ],
+    "fin": "Pasta carote e zenzero perfetta. È un piatto insolito che sorprende sempre. Con pancetta croccante aggiunta alla fine è ancora più golosa.",
+    "id": 126
+  },
+  {
+    "cat": "🍝 Pasta",
+    "name": "Pasta con peperoni arrosto",
+    "icon": "🍝",
+    "photo": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=600&q=80",
+    "time": "40 min",
+    "diff": "Facile",
+    "level": "casa",
+    "subtitle": "Dolce, affumicata, mediterranea",
+    "tags": [
+      "pasta",
+      "peperoni",
+      "aglio",
+      "olio",
+      "pomodoro",
+      "capperi"
+    ],
+    "ing": [
+      "320g pasta (spaghetti o penne)",
+      "3 peperoni (rosso e giallo)",
+      "2 spicchi aglio",
+      "200g pomodori pelati",
+      "Capperi sotto sale (1 cucchiaio)",
+      "Olio EVO",
+      "Basilico",
+      "Sale, pepe",
+      "Pecorino o parmigiano (facoltativo)"
+    ],
+    "steps": [
+      {
+        "a": "Arrostisci i peperoni interi direttamente sulla fiamma del gas o sotto il grill del forno a 220°C per 20-25 minuti girandoli, finché la pelle è nera su tutti i lati.",
+        "w": "💡 La pelle bruciata non è un errore, è il punto. L'annerimento crea il sapore affumicato caratteristico. I peperoni devono essere completamente neri fuori.",
+        "t": {
+          "s": 1350,
+          "l": "20-25 min arrosto peperoni"
+        }
+      },
+      {
+        "a": "Metti i peperoni in un sacchetto di plastica chiuso per 10 minuti. Il vapore stacca la pelle. Poi pelali sotto un filo d'acqua, togli semi e filamenti. Taglia a listarelle.",
+        "w": "💡 Il sacchetto crea vapore che separa la pelle dalla polpa. Non lavare i peperoni troppo: perdi il succo interno aromatico. Lavali velocemente solo per togliere i pezzi di pelle nera.",
+        "t": {
+          "s": 600,
+          "l": "10 min riposo in sacchetto"
+        }
+      },
+      {
+        "a": "In padella scalda olio con aglio a fuoco BASSO. Aggiungi i peperoni a listarelle, i pomodori pelati spezzettati e i capperi dissalati. Cuoci 10 minuti a fuoco medio.",
+        "w": "💡 I capperi con i peperoni è uno dei grandi abbinamenti della cucina mediterranea: il sale e l'acidità dei capperi bilanciando la dolcezza dei peperoni arrosto.",
+        "t": {
+          "s": 600,
+          "l": "10 min sugo peperoni"
+        }
+      },
+      {
+        "a": "Cuoci la pasta, scolala al dente con acqua di cottura. Versa nel sugo, salta 1 minuto a fuoco vivo. Aggiungi basilico fresco e un filo di olio EVO crudo.",
+        "w": "💡 Il basilico fresco sui peperoni arrosto è una combinazione classica siciliana. Mai cuocere il basilico: va aggiunto a fuoco spento.",
+        "t": {
+          "s": 60,
+          "l": "1 min mantecatura"
+        }
+      }
+    ],
+    "fin": "Pasta con peperoni arrosto perfetta. Il lavoro dei peperoni vale ogni minuto. Si conserva il sugo 3 giorni in frigo e migliora ogni giorno.",
+    "id": 127
+  },
+  {
+    "cat": "🍝 Pasta",
+    "name": "Pasta con melanzane alla Norma veloce",
+    "icon": "🍝",
+    "photo": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=600&q=80",
+    "time": "35 min",
+    "diff": "Facile",
+    "level": "casa",
+    "subtitle": "La versione quotidiana del classico siciliano",
+    "tags": [
+      "pasta",
+      "melanzane",
+      "pomodoro",
+      "ricotta",
+      "aglio",
+      "basilico"
+    ],
+    "ing": [
+      "320g rigatoni o penne",
+      "2 melanzane medie",
+      "400g pomodori pelati",
+      "100g ricotta salata (o feta)",
+      "2 spicchi aglio",
+      "Basilico abbondante",
+      "Olio per friggere",
+      "Olio EVO",
+      "Sale, pepe"
+    ],
+    "steps": [
+      {
+        "a": "Taglia le melanzane a cubetti da 2cm. Sala e lascia riposare 20 minuti in un colino. Asciuga bene con carta da cucina.",
+        "w": "💡 La salatura rapida di 20 minuti è sufficiente per le melanzane moderne, meno amare di quelle di una volta. L'asciugatura è fondamentale: le melanzane umide assorbono il doppio di olio.",
+        "t": {
+          "s": 1200,
+          "l": "20 min salatura melanzane"
+        }
+      },
+      {
+        "a": "Friggi le melanzane in olio abbondante a 175°C a piccole riprese finché dorate. Scola su carta assorbente.",
+        "w": "💡 Poche per volta: la temperatura dell'olio non deve scendere. Melanzane dorate e croccanti invece di mollicce fanno tutta la differenza nel piatto finale.",
+        "t": {
+          "s": 480,
+          "l": "8 min frittura melanzane"
+        }
+      },
+      {
+        "a": "In padella scalda olio con aglio a fuoco MEDIO. Aggiungi i pomodori pelati schiacciati, sale e basilico. Cuoci 15 minuti finché il sugo si addensa.",
+        "w": "💡 Il sugo della Norma deve essere denso: le melanzane fritte rilasciano un po' di olio nel sugo durante la mantecatura, se è già troppo liquido diventa grasso.",
+        "t": {
+          "s": 900,
+          "l": "15 min sugo"
+        }
+      },
+      {
+        "a": "Scola la pasta al dente, versa nel sugo con acqua di cottura. Aggiungi le melanzane. Salta 1 minuto. Spegni, aggiungi ricotta salata sbriciolata e basilico fresco abbondante.",
+        "w": "💡 La ricotta salata si sbriciolata sopra all'ultimo momento: il calore della pasta la ammorbidisce leggermente senza scioglierla. È la firma della Norma, non sostituirla con parmigiano.",
+        "t": {
+          "s": 60,
+          "l": "1 min mantecatura"
+        }
+      }
+    ],
+    "fin": "Pasta alla Norma veloce perfetta. La versione con le melanzane grigliate invece di fritte è più leggera ma meno autentica. Almeno una volta friggile: vale la differenza.",
+    "id": 128
+  },
+  {
+    "cat": "🍝 Pasta",
+    "name": "Pasta con fagiolini e patate al pesto",
+    "icon": "🍝",
+    "photo": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=600&q=80",
+    "time": "30 min",
+    "diff": "Facile",
+    "level": "casa",
+    "subtitle": "Ligure, sostanziosa, profumata",
+    "tags": [
+      "pasta",
+      "fagiolini",
+      "patate",
+      "pesto",
+      "basilico",
+      "pinoli",
+      "parmigiano"
+    ],
+    "ing": [
+      "320g trofie o linguine",
+      "200g fagiolini",
+      "2 patate medie",
+      "Per il pesto: 50g basilico fresco",
+      "2 spicchi aglio",
+      "30g pinoli",
+      "50g parmigiano reggiano",
+      "Olio EVO ligure",
+      "Sale grosso"
+    ],
+    "steps": [
+      {
+        "a": "Prepara il pesto: nel mortaio (o mixer) frulla basilico, aglio, pinoli, parmigiano e olio fino a crema. Aggiusta di sale. Metti in una ciotola grande.",
+        "w": "💡 Il pesto per questa pasta si fa più morbido del normale: deve condire la pasta ma anche le patate e i fagiolini. Aggiungi più olio del solito.",
+        "t": null
+      },
+      {
+        "a": "Pela le patate e tagliale a cubetti da 1.5cm. Pulisci i fagiolini e tagliali a metà.",
+        "w": "💡 I cubetti di patate da 1.5cm cuociono in 10-12 minuti nella stessa acqua della pasta. Più grandi restano al centro, più piccoli si sfaldano.",
+        "t": null
+      },
+      {
+        "a": "Porta a bollore abbondante acqua salata. Butta prima le patate, dopo 5 minuti i fagiolini, dopo altri 3 minuti la pasta. Tutto deve essere pronto insieme.",
+        "w": "💡 La sequenza di cottura nella stessa acqua è la tecnica ligure: patate 15 min totali, fagiolini 10 min, pasta secondo i tempi indicati. Tutto nello stesso bollitore.",
+        "t": {
+          "s": 480,
+          "l": "8 min patate prima di pasta"
+        }
+      },
+      {
+        "a": "Prima di scolare, preleva 3-4 mestoli di acqua di cottura. Aggiungi 2 mestoli di acqua calda al pesto nella ciotola e mescola: si ammorbidisce e si prepara ad accogliere la pasta.",
+        "w": "💡 L'acqua di cottura tiepida nel pesto è il trucco che impedisce al basilico di ossidarsi al contatto con la pasta calda. Il pesto resta verde brillante invece di annerire.",
+        "t": null
+      },
+      {
+        "a": "Scola tutto insieme, versa nella ciotola col pesto. Mescola aggiungendo acqua di cottura fino alla giusta consistenza cremosa.",
+        "w": "💡 Non mescolare il pesto sulla fiamma: il calore sopra i 65°C distrugge il profumo del basilico. Il calore della pasta è sufficiente per amalgamare tutto.",
+        "t": null
+      }
+    ],
+    "fin": "Pasta con fagiolini e patate al pesto perfetta. È il piatto simbolo della cucina ligure. Con pesto fatto al momento e trofie fresche è un piatto di livello assoluto.",
+    "id": 129
+  },
+  {
+    "cat": "🍝 Pasta",
+    "name": "Pasta con zucchine alla scapece",
+    "icon": "🍝",
+    "photo": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=600&q=80",
+    "time": "30 min",
+    "diff": "Facile",
+    "level": "casa",
+    "subtitle": "Napoletana, agrodolce, con la menta",
+    "tags": [
+      "pasta",
+      "zucchine",
+      "menta",
+      "aceto",
+      "aglio",
+      "olio"
+    ],
+    "ing": [
+      "320g spaghetti o linguine",
+      "4 zucchine medie",
+      "Menta fresca abbondante",
+      "3 spicchi aglio",
+      "3 cucchiai aceto di vino bianco",
+      "Olio per friggere",
+      "Olio EVO crudo",
+      "Sale"
+    ],
+    "steps": [
+      {
+        "a": "Taglia le zucchine a rondelle da 4-5mm. Friggi in olio abbondante a 175°C fino a doratura. Scola su carta, sala immediatamente.",
+        "w": "💡 Le zucchine fritte dorate assorbono la marinatura molto meglio di quelle pallide. La frittura crea i canali nelle cellule della zucchina che poi si riempiono di aceto e menta.",
+        "t": {
+          "s": 480,
+          "l": "8 min frittura zucchine"
+        }
+      },
+      {
+        "a": "Disponi le zucchine fritte calde in una ciotola a strati con aglio a fette, foglie di menta abbondanti tra ogni strato. Versa aceto e olio EVO sopra. Lascia marinare 15 minuti.",
+        "w": "💡 La marinatura è il cuore della scapece: le zucchine calde assorbono aceto e menta in profondità. Fredde la respingerebbero. 15 minuti sono il minimo.",
+        "t": {
+          "s": 900,
+          "l": "15 min marinatura"
+        }
+      },
+      {
+        "a": "Cuoci la pasta al dente. Scola conservando acqua di cottura. Versa in una ciotola grande con le zucchine marinate e tutto il loro condimento.",
+        "w": "💡 Le zucchine alla scapece condiscono la pasta a crudo: il calore della pasta le scalda leggermente senza distruggere la freschezza della menta.",
+        "t": null
+      },
+      {
+        "a": "Mescola velocemente aggiungendo acqua di cottura se serve. Aggiungi menta fresca extra e un filo di olio EVO crudo. Servi subito o a temperatura ambiente.",
+        "w": "💡 Questa pasta è ottima anche a temperatura ambiente o tiepida: è perfetta per il pranzo al sacco o per i pranzi estivi all'aperto.",
+        "t": null
+      }
+    ],
+    "fin": "Pasta con zucchine alla scapece perfetta. La menta è imprescindibile, non sostituirla con basilico. È il piatto che stupisce sempre chi non la conosce.",
+    "id": 130
+  },
+  {
+    "cat": "🍝 Pasta",
+    "name": "Pasta al forno con besciamella e verdure",
+    "icon": "🍝",
+    "photo": "https://images.unsplash.com/photo-1574894709920-11b28e7367e3?w=600&q=80",
+    "time": "60 min",
+    "diff": "Facile",
+    "level": "casa",
+    "subtitle": "Cremosa, dorata, comfort food totale",
+    "tags": [
+      "pasta",
+      "besciamella",
+      "verdure",
+      "parmigiano",
+      "mozzarella",
+      "burro",
+      "latte"
+    ],
+    "ing": [
+      "320g rigatoni o penne",
+      "Per la besciamella: 50g burro, 50g farina, 500ml latte, noce moscata, sale",
+      "1 zucchina, 1 peperone, 1 cipolla (o verdure che hai)",
+      "150g mozzarella",
+      "80g parmigiano reggiano grattugiato",
+      "Olio EVO",
+      "Sale, pepe"
+    ],
+    "steps": [
+      {
+        "a": "Taglia le verdure a cubetti da 1cm. In padella scalda olio a fuoco VIVO e saltale 8 minuti mescolando: devono dorare, non stufare. Sale e pepe. Tieni da parte.",
+        "w": "💡 Le verdure per la pasta al forno devono essere saltate a fuoco alto: perderanno ulteriore acqua durante la cottura in forno. Se le metti crude o troppo umide la pasta al forno diventa acquosa.",
+        "t": {
+          "s": 480,
+          "l": "8 min verdure saltate"
+        }
+      },
+      {
+        "a": "Prepara la besciamella: sciogli burro a fuoco BASSO, aggiungi la farina e cuoci mescolando 2 minuti (roux). Togli dal fuoco, aggiungi latte caldo a filo mescolando con frusta. Rimetti sul fuoco MEDIO mescolando fino all'addensamento. Sala e noce moscata.",
+        "w": "💡 La besciamella per la pasta al forno deve essere più liquida del solito: la pasta la assorbe durante la cottura. Se è già densa prima di infornare, diventa stucchevole.",
+        "t": {
+          "s": 420,
+          "l": "7 min besciamella"
+        }
+      },
+      {
+        "a": "Cuoci la pasta 3 minuti meno del tempo indicato (molto al dente). Scola, condisci con metà besciamella e le verdure.",
+        "w": "💡 La pasta molto al dente è fondamentale: finisce di cuocere in forno assorbendo la besciamella. Se la scuoci prima, in forno diventa pappa.",
+        "t": null
+      },
+      {
+        "a": "Versa in teglia imburrata. Copri con la besciamella rimasta, mozzarella a cubetti e parmigiano abbondante. Cuoci a 200°C per 20-25 minuti fino a doratura.",
+        "w": "💡 La gratinatura finale (ultimi 5 minuti con il grill) crea la crosticina dorata che è il momento migliore della pasta al forno. Controlla: da dorata a bruciata è questione di 2 minuti.",
+        "t": {
+          "s": 1350,
+          "l": "20-25 min in forno"
+        }
+      }
+    ],
+    "fin": "Pasta al forno con verdure perfetta. Si prepara in anticipo e si inforna all'ultimo. Il giorno dopo riscaldata è ancora più buona.",
+    "id": 131
+  },
+  {
+    "cat": "🍝 Pasta",
+    "name": "Pasta con crema di zucchine e menta",
+    "icon": "🍝",
+    "photo": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=600&q=80",
+    "time": "20 min",
+    "diff": "Facile",
+    "level": "casa",
+    "subtitle": "Vellutata, fresca, senza panna",
+    "tags": [
+      "pasta",
+      "zucchine",
+      "menta",
+      "aglio",
+      "olio",
+      "parmigiano"
+    ],
+    "ing": [
+      "320g pasta corta",
+      "4 zucchine medie",
+      "Menta fresca",
+      "2 spicchi aglio",
+      "Olio EVO abbondante",
+      "Parmigiano reggiano",
+      "Sale, pepe",
+      "Scorza di limone (facoltativo)"
+    ],
+    "steps": [
+      {
+        "a": "Taglia le zucchine a rondelle. In padella scalda olio con aglio a fuoco MEDIO. Aggiungi le zucchine, sale e cuoci 12 minuti finché sono completamente morbide.",
+        "w": "💡 Per questa ricetta le zucchine devono essere ben cotte, quasi sfatte: diventeranno la crema. Non preoccuparti se perdono colore.",
+        "t": {
+          "s": 720,
+          "l": "12 min zucchine morbide"
+        }
+      },
+      {
+        "a": "Frulla le zucchine con il loro olio di cottura, menta fresca abbondante, un mestolo di acqua di cottura della pasta e olio EVO crudo. Deve essere una crema liscia e verde.",
+        "w": "💡 Il frullatore ad immersione nella padella stessa (fuori dal fuoco) è il metodo più semplice. L'olio EVO crudo aggiunto in frullatura emulsiona creando una crema lucida e vellutata senza panna.",
+        "t": null
+      },
+      {
+        "a": "Cuoci la pasta al dente, scola conservando acqua di cottura. Versa nella padella con la crema di zucchine a fuoco BASSO. Mescola aggiungendo acqua di cottura per la giusta consistenza.",
+        "w": "💡 La crema di zucchine si addensa molto quando assorbe la pasta: tieni sempre pronta l'acqua di cottura per regolare. La consistenza finale deve essere cremosa, non asciutta.",
+        "t": {
+          "s": 60,
+          "l": "1 min mantecatura"
+        }
+      },
+      {
+        "a": "Spegni, aggiungi parmigiano, pepe, scorza di limone grattugiata. Mescola e servi subito.",
+        "w": "💡 La scorza di limone sulla crema di zucchine e menta è un abbinamento sorprendente che alleggerisce il tutto. Provalo almeno una volta.",
+        "t": null
+      }
+    ],
+    "fin": "Pasta con crema di zucchine e menta perfetta. È leggera, veloce e saporita. Con stracciatella di burrata sopra al servizio diventa un primo di grande effetto.",
+    "id": 132
+  },
+  {
+    "cat": "🍝 Pasta",
+    "name": "Spaghetti con bottarga e limone",
+    "icon": "🍝",
+    "photo": "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=600&q=80",
+    "time": "15 min",
+    "diff": "Facile",
+    "level": "casa",
+    "subtitle": "Sardo, intenso, pronto in 15 minuti",
+    "tags": [
+      "pasta",
+      "bottarga",
+      "limone",
+      "aglio",
+      "olio",
+      "prezzemolo"
+    ],
+    "ing": [
+      "320g spaghetti",
+      "50g bottarga di muggine in polvere o blocco",
+      "Scorza e succo di 1 limone non trattato",
+      "2 spicchi aglio",
+      "Olio EVO abbondante",
+      "Prezzemolo fresco",
+      "Peperoncino (facoltativo)"
+    ],
+    "steps": [
+      {
+        "a": "Cuoci gli spaghetti in acqua poco salata: la bottarga è già molto sapida.",
+        "w": "💡 Con la bottarga il sale nell'acqua va ridotto della metà. È facile salare eccessivamente senza accorgersene.",
+        "t": null
+      },
+      {
+        "a": "In padella scalda olio abbondante con aglio schiacciato a fuoco BASSISSIMO per 3 minuti. L'aglio deve profumare l'olio senza colorirsi. Togli l'aglio.",
+        "w": "💡 L'olio profumato all'aglio è la base della pasta alla bottarga. Fuoco bassissimo: l'aglio bruciato rovinerebbe il sapore delicato della bottarga.",
+        "t": {
+          "s": 180,
+          "l": "3 min infusione aglio"
+        }
+      },
+      {
+        "a": "Scola la pasta molto al dente con abbondante acqua di cottura. Versa nell'olio aromatizzato a fuoco SPENTO. Aggiungi metà della bottarga grattugiata, scorza di limone e succo, prezzemolo tritato.",
+        "w": "💡 Fuoco spento per la bottarga: il calore diretto ossida e amarisce la bottarga rendendola sabbiosa. L'acqua di cottura crea l'emulsione con l'olio.",
+        "t": null
+      },
+      {
+        "a": "Mescola energicamente aggiungendo acqua di cottura. Gli spaghetti devono essere lucidi e cremosi. Impiatta e aggiungi la bottarga rimasta grattugiata direttamente nel piatto.",
+        "w": "💡 La bottarga in due momenti: metà nella mantecatura per insaporire, metà nel piatto per il profumo intenso. La differenza è notevole.",
+        "t": null
+      }
+    ],
+    "fin": "Spaghetti con bottarga e limone perfetti. Con bottarga di qualità è un piatto di livello altissimo in 15 minuti. La scorza di limone è imprescindibile: bilancia la sapidità intensa della bottarga.",
+    "id": 133
+  },
+  {
+    "cat": "🍝 Pasta",
+    "name": "Pasta al forno con salsiccia e provola",
+    "icon": "🍝",
+    "photo": "https://images.unsplash.com/photo-1574894709920-11b28e7367e3?w=600&q=80",
+    "time": "55 min",
+    "diff": "Facile",
+    "level": "casa",
+    "subtitle": "Filante, saporita, da domenica",
+    "tags": [
+      "pasta",
+      "salsiccia",
+      "provola",
+      "pomodoro",
+      "parmigiano"
+    ],
+    "ing": [
+      "320g rigatoni o ziti spezzati",
+      "300g salsiccia fresca sbriciolata",
+      "200g provola affumicata a cubetti",
+      "400g passata di pomodoro",
+      "1 cipolla",
+      "Olio EVO",
+      "80g parmigiano reggiano",
+      "Sale, pepe",
+      "Basilico"
+    ],
+    "steps": [
+      {
+        "a": "Soffriggi la cipolla in olio a fuoco BASSO per 8 minuti. Aggiungi la salsiccia sbriciolata e rosola a fuoco VIVO 5 minuti fino a doratura. Sfuma con mezzo bicchiere di vino bianco.",
+        "w": "💡 La salsiccia deve rosolare, non stufare: fuoco vivo e movimenti decisi. Il vino bianco deglassa il fondo raccogliendo i sapori caramellati.",
+        "t": {
+          "s": 780,
+          "l": "13 min salsiccia"
+        }
+      },
+      {
+        "a": "Aggiungi la passata, sale, basilico e cuoci 20 minuti a fuoco MEDIO. Il sugo deve essere denso e saporito.",
+        "w": "💡 Il sugo deve essere più denso del normale: la pasta al forno lo assorbe durante la cottura. Se è liquido all'inizio, sarà acquoso alla fine.",
+        "t": {
+          "s": 1200,
+          "l": "20 min sugo salsiccia"
+        }
+      },
+      {
+        "a": "Cuoci la pasta 3 minuti meno del tempo indicato. Scola, condisci con il sugo e metà della provola. Versa in teglia, copri con sugo rimasto, provola e parmigiano abbondante.",
+        "w": "💡 La provola va divisa: metà dentro per la cremosità interna, metà sopra per la crosticina filante. Tutta sopra = crosta ma interno asciutto. Tutta dentro = niente crosticina.",
+        "t": null
+      },
+      {
+        "a": "Cuoci a 200°C per 20-25 minuti finché la superficie è dorata e la provola fa bolle. Lascia riposare 10 minuti prima di servire.",
+        "w": "💡 Il riposo di 10 minuti è fondamentale: la pasta al forno appena sfornata è liquida all'interno. Dopo 10 minuti si compatta e si taglia perfettamente.",
+        "t": {
+          "s": 1350,
+          "l": "20-25 min in forno"
+        }
+      }
+    ],
+    "fin": "Pasta al forno con salsiccia e provola perfetta. È il piatto della domenica meridionale. Il giorno dopo riscaldata in forno coperta con alluminio è ancora più buona.",
+    "id": 134
+  },
+  {
+    "cat": "🍝 Pasta",
+    "name": "Pasta con lenticchie rosse",
+    "icon": "🍝",
+    "photo": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600&q=80",
+    "time": "30 min",
+    "diff": "Facile",
+    "level": "casa",
+    "subtitle": "Vellutata, veloce, senza ammollo",
+    "tags": [
+      "pasta",
+      "lenticchie",
+      "pomodoro",
+      "aglio",
+      "cipolla",
+      "carota",
+      "sedano"
+    ],
+    "ing": [
+      "320g pasta corta (ditaloni o tubetti)",
+      "250g lenticchie rosse (non richiedono ammollo)",
+      "1 cipolla, 1 carota, 1 gambo sedano",
+      "2 spicchi aglio",
+      "200g passata di pomodoro",
+      "Olio EVO abbondante",
+      "Rosmarino o alloro",
+      "Sale, pepe",
+      "Pecorino o parmigiano"
+    ],
+    "steps": [
+      {
+        "a": "Soffriggi cipolla, carota, sedano e aglio tritati in olio abbondante a fuoco BASSO per 8 minuti fino a morbidezza completa.",
+        "w": "💡 Le lenticchie rosse si cuociono velocissimamente: il soffritto ben cotto è la base aromatica di tutto il piatto. Non affrettarlo.",
+        "t": {
+          "s": 480,
+          "l": "8 min soffritto"
+        }
+      },
+      {
+        "a": "Aggiungi le lenticchie rosse sciacquate (non richiedono ammollo), la passata, il rosmarino e acqua abbondante (1.2L). Porta a bollore poi abbassa a fuoco MEDIO.",
+        "w": "💡 Le lenticchie rosse sono le uniche che non richiedono ammollo: sono già decorticate. Si cuociono in 15-20 minuti e si sfaldano naturalmente creando la cremina del piatto.",
+        "t": null
+      },
+      {
+        "a": "Cuoci 15 minuti a fuoco medio finché le lenticchie si sfaldano creando una crema. Aggiusta la consistenza con acqua calda se necessario. Aggiusta di sale.",
+        "w": "💡 Le lenticchie rosse si sfaldano completamente: è quello che vogliamo. Se restano intere non sono ancora cotte. La consistenza finale deve essere simile a una zuppa densa.",
+        "t": {
+          "s": 900,
+          "l": "15 min cottura lenticchie"
+        }
+      },
+      {
+        "a": "Butta la pasta direttamente nella zuppa di lenticchie. Cuoci secondo i tempi della pasta mescolando spesso e aggiungendo acqua calda se si asciuga troppo.",
+        "w": "💡 La pasta assorbe molta acqua cuocendo nella zuppa: tieni sempre pronta acqua calda. La pasta si insaporisce completamente assorbendo il brodo di lenticchie.",
+        "t": {
+          "s": 600,
+          "l": "10-12 min pasta nella zuppa"
+        }
+      },
+      {
+        "a": "Spegni, lascia riposare 3 minuti. Aggiusta la consistenza. Servi con olio EVO crudo abbondante, pepe nero e pecorino grattugiato.",
+        "w": "💡 L'olio crudo finale è obbligatorio: trasforma completamente il piatto. La pasta con le lenticchie si addensa velocemente nel piatto: servila subito o aggiungi un goccio d'acqua calda.",
+        "t": {
+          "s": 180,
+          "l": "3 min riposo"
+        }
+      }
+    ],
+    "fin": "Pasta con lenticchie rosse perfetta. Pronta in 30 minuti senza ammollo, è uno dei piatti di legumi più veloci che esistano. Con un cucchiaino di harissa o peperoncino è ancora più interessante.",
+    "id": 135
+  },
+  {
+    "cat": "🍝 Pasta",
+    "name": "Pasta e ceci cremosa",
+    "icon": "🍝",
+    "photo": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600&q=80",
+    "time": "35 min",
+    "diff": "Facile",
+    "level": "casa",
+    "subtitle": "Il classico invernale romano",
+    "tags": [
+      "pasta",
+      "ceci",
+      "rosmarino",
+      "aglio",
+      "pomodoro",
+      "olio",
+      "cipolla"
+    ],
+    "ing": [
+      "320g pasta mista o ditaloni",
+      "400g ceci in scatola",
+      "2 spicchi aglio",
+      "Rosmarino fresco abbondante",
+      "200g pomodori pelati",
+      "1 cipolla piccola",
+      "Acciughe (2 filetti, facoltativo)",
+      "Olio EVO abbondante",
+      "Sale, pepe",
+      "Pecorino romano"
+    ],
+    "steps": [
+      {
+        "a": "In una casseruola scalda olio abbondante con aglio schiacciato e rosmarino a fuoco BASSO per 3 minuti. Aggiungi le acciughe se le usi e scioglile nell'olio.",
+        "w": "💡 Le acciughe si sciolgono completamente nell'olio caldo dando profondità umami invisibile ma percepibile. Chi non le ama non le sente nel piatto finale: danno sapore senza sapore di pesce.",
+        "t": {
+          "s": 180,
+          "l": "3 min base aromatica"
+        }
+      },
+      {
+        "a": "Aggiungi la cipolla tritata e soffriggi 5 minuti. Poi aggiungi i pomodori pelati schiacciati e cuoci 10 minuti a fuoco MEDIO.",
+        "w": "💡 I pomodori pelati nel sugo di ceci danno acidità e colore. La quantità è piccola: il piatto non deve essere un sugo di pomodoro con i ceci, ma una zuppa di ceci con pomodoro.",
+        "t": {
+          "s": 900,
+          "l": "15 min soffritto e sugo"
+        }
+      },
+      {
+        "a": "Aggiungi i ceci scolati (tieni qualche cucchiaio del liquido di governo) e il brodo o acqua calda a coprire abbondantemente. Schiaccia 1/3 dei ceci con una forchetta direttamente in pentola.",
+        "w": "💡 Schiacciare parte dei ceci è il trucco: crea la consistenza cremosa naturale senza frullare tutto. Il liquido di governo dei ceci in scatola è ricco di amido: aggiungetene un po' per addensare.",
+        "t": null
+      },
+      {
+        "a": "Porta a bollore, butta la pasta. Cuoci mescolando spesso aggiungendo acqua calda se si asciuga. Aggiusta di sale.",
+        "w": "💡 La pasta assorbe il brodo di ceci diventando molto saporita. Mescolate spesso: la crema di ceci tende ad attaccarsi al fondo.",
+        "t": {
+          "s": 600,
+          "l": "10-12 min pasta nei ceci"
+        }
+      },
+      {
+        "a": "Togli il rosmarino. Servi con olio EVO crudo abbondante, pepe nero macinato fresco e pecorino romano grattugiato.",
+        "w": "💡 L'olio EVO a crudo finale è la firma romana di questo piatto. Deve essere abbondante, quasi eccessivo. Il pecorino romano (non parmigiano) dà il carattere giusto.",
+        "t": null
+      }
+    ],
+    "fin": "Pasta e ceci cremosa perfetta. È il piatto di magro romano del venerdì, mangiato da secoli. Con gamberi saltati sopra al servizio diventa un piatto di festa.",
+    "id": 136
+  },
+  {
+    "cat": "🍝 Pasta",
+    "name": "Pasta con fagioli borlotti freschi",
+    "icon": "🍝",
+    "photo": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600&q=80",
+    "time": "50 min",
+    "diff": "Facile",
+    "level": "casa",
+    "subtitle": "Con i borlotti freschi è un altro piatto",
+    "tags": [
+      "pasta",
+      "fagioli",
+      "aglio",
+      "rosmarino",
+      "pomodoro",
+      "olio",
+      "cipolla"
+    ],
+    "ing": [
+      "320g pasta corta (maltagliati o ditaloni)",
+      "400g fagioli borlotti freschi (o in scatola)",
+      "2 spicchi aglio",
+      "Rosmarino abbondante",
+      "1 gambo sedano, 1 carota, 1 cipolla",
+      "200g pomodori pelati",
+      "Olio EVO abbondante",
+      "Sale, pepe",
+      "Parmigiano o pecorino"
+    ],
+    "steps": [
+      {
+        "a": "Se usi borlotti freschi: sgranali e cuocili in acqua abbondante NON salata con aglio, rosmarino e un filo d'olio per 30-40 minuti finché teneri. Tieni l'acqua di cottura.",
+        "w": "💡 I fagioli si cuociono in acqua non salata: il sale indurisce la buccia impedendo una cottura uniforme. Si sala solo alla fine. L'acqua di cottura dei borlotti freschi è preziosa: è il brodo del piatto.",
+        "t": {
+          "s": 2100,
+          "l": "35 min cottura borlotti freschi"
+        }
+      },
+      {
+        "a": "In una casseruola soffriggi cipolla, carota, sedano e aglio in olio abbondante per 8 minuti. Aggiungi i pomodori pelati e cuoci 10 minuti.",
+        "w": "💡 Il soffritto di verdure è la base aromatica che distingue una pasta e fagioli piatta da una profonda. Non affrettarlo.",
+        "t": {
+          "s": 1080,
+          "l": "18 min soffritto e sugo"
+        }
+      },
+      {
+        "a": "Aggiungi i fagioli cotti con la loro acqua (o i fagioli in scatola con brodo vegetale). Schiaccia 1/3 dei fagioli con una forchetta. Aggiusta di acqua e sale.",
+        "w": "💡 La consistenza giusta è quella di una minestra densa: semi-solida, non brodosa. Se è troppo liquida cuoci 5 minuti a fuoco alto scoperta. Se troppo densa aggiungi acqua calda.",
+        "t": null
+      },
+      {
+        "a": "Porta a bollore, butta la pasta. Cuoci mescolando spesso finché la pasta è cotta. Lascia riposare 3 minuti con il fuoco spento.",
+        "w": "💡 Il riposo di 3 minuti è fondamentale: la pasta continua ad assorbire il brodo e la consistenza si stabilizza. Servi subito dopo il riposo.",
+        "t": {
+          "s": 780,
+          "l": "3 min riposo dopo cottura pasta"
+        }
+      },
+      {
+        "a": "Servi con olio EVO crudo generoso, pepe nero abbondante e parmigiano.",
+        "w": "💡 Il piatto deve essere fumante e servito in fondine calde. L'olio crudo finale è obbligatorio. Tradizionalmente si aggiunge anche un po' di peperoncino.",
+        "t": null
+      }
+    ],
+    "fin": "Pasta con fagioli borlotti perfetta. Con i borlotti freschi di settembre è un piatto di livello completamente diverso rispetto alla versione in scatola. Vale aspettare la stagione.",
+    "id": 137
+  },
+  {
+    "cat": "🍚 Risotti",
+    "name": "Risotto agli asparagi",
+    "icon": "🍚",
+    "photo": "https://images.unsplash.com/photo-1476124369491-e7addf5db371?w=600&q=80",
+    "time": "35 min",
+    "diff": "Media",
+    "level": "casa",
+    "subtitle": "Primaverile, verde, profumato",
+    "tags": [
+      "riso",
+      "asparagi",
+      "vino",
+      "burro",
+      "scalogno",
+      "parmigiano"
+    ],
+    "ing": [
+      "320g riso Carnaroli",
+      "500g asparagi",
+      "2 scalogni",
+      "1 bicchiere vino bianco secco",
+      "1.2L brodo vegetale caldo",
+      "60g burro freddo",
+      "50g parmigiano reggiano",
+      "Olio EVO",
+      "Sale, pepe"
+    ],
+    "steps": [
+      {
+        "a": "Elimina la parte dura degli asparagi. Taglia le punte (5cm) e tieni da parte. Taglia i gambi a rondelle da 1cm. Sbollenta le punte in acqua salata 2 minuti, scola e raffredda in acqua ghiacciata per mantenere il colore.",
+        "w": "💡 Le punte degli asparagi sbollentate e raffreddate in acqua ghiacciata mantengono il verde brillante e la croccantezza. Aggiunte crude al risotto diventerebbero grigie e molli.",
+        "t": {
+          "s": 120,
+          "l": "2 min sbollentatura punte"
+        }
+      },
+      {
+        "a": "Frulla metà dei gambi con un mestolo di brodo caldo fino a crema verde liscia. Tieni da parte. Soffriggi lo scalogno in olio e metà burro a fuoco BASSO per 5 minuti.",
+        "w": "💡 La crema di gambi di asparagi è il condimento base del risotto: darà colore verde e sapore intenso. Frullarla separatamente permette di aggiungerla al momento giusto.",
+        "t": null
+      },
+      {
+        "a": "Tosta il riso 2 minuti a fuoco MEDIO nel soffritto. Sfuma col vino bianco, mescola fino a evaporazione completa. Aggiungi i gambi di asparagi a rondelle.",
+        "w": "💡 I gambi a rondelle si cuociono con il riso: cedono il loro sapore al brodo e diventano parte del condimento. Le punte si aggiungono solo alla fine.",
+        "t": {
+          "s": 120,
+          "l": "2 min tostatura e sfumatura"
+        }
+      },
+      {
+        "a": "Cuoci il risotto aggiungendo brodo caldo mestolo per mestolo per 16 minuti mescolando. A 2 minuti dalla fine aggiungi la crema di asparagi.",
+        "w": "💡 La crema di asparagi alla fine mantiene il colore verde brillante. Aggiunta prima si ossiderebbe diventando grigia.",
+        "t": {
+          "s": 960,
+          "l": "16 min cottura risotto"
+        }
+      },
+      {
+        "a": "Fuori dal fuoco manteca con burro freddo e parmigiano. Aggiungi le punte di asparagi sbollentate. Aggiusta di sale e pepe. Servi all'onda.",
+        "w": "💡 Le punte di asparagi vanno aggiunte solo alla mantecatura finale: devono rimanere verdi e croccanti nel piatto, non cuocere ulteriormente.",
+        "t": {
+          "s": 60,
+          "l": "1 min mantecatura"
+        }
+      }
+    ],
+    "fin": "Risotto agli asparagi perfetto. Con asparagi bianchi di Bassano è una variante veneta straordinaria. Con un uovo in camicia sopra al servizio diventa un piatto completo.",
+    "id": 138
+  },
+  {
+    "cat": "🍚 Risotti",
+    "name": "Risotto alla zucca e salvia",
+    "icon": "🍚",
+    "photo": "https://images.unsplash.com/photo-1476124369491-e7addf5db371?w=600&q=80",
+    "time": "40 min",
+    "diff": "Facile",
+    "level": "casa",
+    "subtitle": "Dolce, cremoso, autunnale",
+    "tags": [
+      "riso",
+      "zucca",
+      "salvia",
+      "burro",
+      "vino",
+      "cipolla",
+      "parmigiano"
+    ],
+    "ing": [
+      "320g riso Carnaroli",
+      "600g zucca Hokkaido o Butternut",
+      "1 cipolla",
+      "8 foglie salvia",
+      "1 bicchiere vino bianco",
+      "1.2L brodo vegetale caldo",
+      "80g burro",
+      "50g parmigiano reggiano",
+      "Olio EVO",
+      "Sale, noce moscata"
+    ],
+    "steps": [
+      {
+        "a": "Taglia la zucca a cubetti da 1.5cm (la buccia Hokkaido si mangia, quella Butternut no). Soffriggi la cipolla tritata in olio e 20g di burro a fuoco BASSO per 5 minuti.",
+        "w": "💡 La zucca Hokkaido è la più saporita e non richiede sbucciatura: meno spreco, più sapore. I cubetti piccoli si sciolgono parzialmente nel risotto creando la crema naturale.",
+        "t": {
+          "s": 300,
+          "l": "5 min soffritto cipolla"
+        }
+      },
+      {
+        "a": "Aggiungi la zucca e 4 foglie di salvia spezzettate. Cuoci a fuoco MEDIO 5 minuti mescolando. La zucca inizia ad ammorbidirsi. Tosta il riso 2 minuti. Sfuma col vino.",
+        "w": "💡 La salvia nella fase di cottura della zucca cede i suoi oli nell'olio caldo profumando tutto il risotto. Le foglie rimanenti si aggiungono croccanti alla fine.",
+        "t": {
+          "s": 420,
+          "l": "7 min zucca e tostatura riso"
+        }
+      },
+      {
+        "a": "Cuoci il risotto aggiungendo brodo caldo mestolo per mestolo per 16-18 minuti. Schiaccia man mano i cubetti di zucca con il cucchiaio per creare la cremina.",
+        "w": "💡 Non schiacciare tutta la zucca: lascia alcuni pezzi interi per la texture. Il risultato deve avere sia pezzi che crema, non una purea uniforme.",
+        "t": {
+          "s": 1020,
+          "l": "17 min cottura risotto"
+        }
+      },
+      {
+        "a": "Nel frattempo prepara la salvia fritta: sciogli 20g di burro in un pentolino a fuoco MEDIO finché fa la schiuma, aggiungi le 4 foglie di salvia rimanenti e friggi 30 secondi fino a croccantezza. Scola su carta.",
+        "w": "💡 La salvia fritta nel burro nocciola è la decorazione e il tocco di sapore finale: croccante, burrosa, intensa. Si prepara mentre il risotto finisce la cottura.",
+        "t": {
+          "s": 30,
+          "l": "30 sec salvia fritta"
+        }
+      },
+      {
+        "a": "Fuori dal fuoco manteca con il burro rimasto e il parmigiano. Noce moscata. Impiatta, decora con le foglie di salvia fritte e qualche goccia del burro nocciola.",
+        "w": "💡 Il burro nocciola della salvia fritta versato sul risotto aggiunge un sapore di frutta secca che completa perfettamente la dolcezza della zucca.",
+        "t": {
+          "s": 60,
+          "l": "1 min mantecatura"
+        }
+      }
+    ],
+    "fin": "Risotto alla zucca e salvia perfetto. Con l'aggiunta di gorgonzola dolce nella mantecatura diventa il classico risotto zucca e gorgonzola. Con pancetta croccante sopra è ancora più goloso.",
+    "id": 139
+  },
+  {
+    "cat": "🍚 Risotti",
+    "name": "Risotto al pomodoro fresco e basilico",
+    "icon": "🍚",
+    "photo": "https://images.unsplash.com/photo-1476124369491-e7addf5db371?w=600&q=80",
+    "time": "35 min",
+    "diff": "Facile",
+    "level": "casa",
+    "subtitle": "Estivo, fresco, tutto il profumo del basilico",
+    "tags": [
+      "riso",
+      "pomodoro",
+      "basilico",
+      "burro",
+      "cipolla",
+      "vino",
+      "parmigiano"
+    ],
+    "ing": [
+      "320g riso Carnaroli",
+      "500g pomodori ramati maturi (o San Marzano)",
+      "1 cipolla bianca",
+      "Basilico fresco abbondante",
+      "1 bicchiere vino bianco",
+      "1L brodo vegetale leggero caldo",
+      "60g burro freddo",
+      "50g parmigiano reggiano",
+      "Olio EVO",
+      "Sale, pepe"
+    ],
+    "steps": [
+      {
+        "a": "Pela i pomodori (croce sul fondo, 30 secondi in acqua bollente, acqua ghiacciata). Togli i semi, taglia la polpa a cubetti. Tieni succo e semi da parte per aggiungerli al brodo.",
+        "w": "💡 Pelare i pomodori è necessario per un risotto elegante: la pelle in cottura si stacca creando filamenti sgradevoli. I semi e il succo vanno nel brodo: non sprecare il sapore.",
+        "t": null
+      },
+      {
+        "a": "Soffriggi la cipolla in olio e metà burro a fuoco BASSO per 5 minuti. Tosta il riso 2 minuti a fuoco MEDIO. Sfuma col vino bianco.",
+        "w": "💡 Per il risotto al pomodoro il soffritto deve essere delicato: la cipolla senza colore, il vino bianco (non rosso che coprirebbe il sapore fresco del pomodoro).",
+        "t": {
+          "s": 420,
+          "l": "7 min soffritto e tostatura"
+        }
+      },
+      {
+        "a": "Aggiungi metà dei cubetti di pomodoro al riso sfumato. Cuoci il risotto aggiungendo brodo caldo (con il succo dei pomodori) mestolo per mestolo per 16 minuti.",
+        "w": "💡 Metà pomodoro in cottura per il sapore di base, metà aggiunto alla fine per la freschezza. Questa tecnica dà sia profondità che freschezza al risotto.",
+        "t": {
+          "s": 960,
+          "l": "16 min cottura risotto"
+        }
+      },
+      {
+        "a": "Fuori dal fuoco manteca con burro freddo e parmigiano. Aggiungi i pomodori rimanenti crudi, basilico fresco abbondante spezzettato a mano e pepe. Aggiusta di sale.",
+        "w": "💡 Il basilico spezzettato a mano (mai tritato con il coltello) rilascia meno ossidazione: resta verde e profumato. Aggiungerlo fuori dal fuoco preserva tutto il profumo.",
+        "t": {
+          "s": 60,
+          "l": "1 min mantecatura"
+        }
+      }
+    ],
+    "fin": "Risotto al pomodoro e basilico perfetto. Con pomodori di qualità eccezionale (San Marzano DOP o pomodori dell'orto) è un piatto straordinario nella sua semplicità. L'estate in un piatto.",
+    "id": 140
+  },
+  {
+    "cat": "🍚 Risotti",
+    "name": "Risotto con salsiccia e friarielli",
+    "icon": "🍚",
+    "photo": "https://images.unsplash.com/photo-1476124369491-e7addf5db371?w=600&q=80",
+    "time": "40 min",
+    "diff": "Media",
+    "level": "casa",
+    "subtitle": "Napoletano, saporito, invernale",
+    "tags": [
+      "riso",
+      "salsiccia",
+      "friarielli",
+      "vino",
+      "cipolla",
+      "parmigiano"
+    ],
+    "ing": [
+      "320g riso Carnaroli",
+      "250g salsiccia fresca sbriciolata",
+      "300g friarielli (o cime di rapa)",
+      "1 scalogno",
+      "1 bicchiere vino bianco",
+      "1.2L brodo di carne o vegetale caldo",
+      "50g burro freddo",
+      "40g parmigiano reggiano",
+      "Olio EVO",
+      "Peperoncino",
+      "Sale"
+    ],
+    "steps": [
+      {
+        "a": "Pulisci i friarielli eliminando i gambi duri. In padella scalda olio con aglio e peperoncino abbondante. Aggiungi i friarielli con l'acqua del lavaggio, copri e cuoci 8 minuti. Togli il coperchio, asciuga a fuoco vivo 2 minuti. Tieni da parte.",
+        "w": "💡 I friarielli devono perdere tutta l'acqua di vegetazione: se rimangono umidi rendono il risotto brodoso. I 2 minuti finali a fuoco vivo e scoperto sono fondamentali.",
+        "t": {
+          "s": 600,
+          "l": "10 min friarielli"
+        }
+      },
+      {
+        "a": "Nella stessa padella (o casseruola) soffriggi lo scalogno in olio 3 minuti. Aggiungi la salsiccia sbriciolata e rosola a fuoco VIVO 5 minuti finché dorata. Tosta il riso 2 minuti.",
+        "w": "💡 La salsiccia deve rosolare ben bene: la doratura crea il sapore. Se la aggiungi troppo presto al risotto resta pallida e gommosa.",
+        "t": {
+          "s": 600,
+          "l": "10 min scalogno e salsiccia"
+        }
+      },
+      {
+        "a": "Sfuma col vino bianco. Cuoci il risotto aggiungendo brodo caldo mestolo per mestolo per 15 minuti mescolando.",
+        "w": "💡 Il brodo di carne con la salsiccia è l'abbinamento più intenso. Il brodo vegetale dà un risultato più leggero dove si sentono meglio i friarielli.",
+        "t": {
+          "s": 900,
+          "l": "15 min cottura risotto"
+        }
+      },
+      {
+        "a": "A 1 minuto dalla fine aggiungi i friarielli nel risotto e mescola. Fuori dal fuoco manteca con burro freddo e parmigiano. Aggiusta di sale e peperoncino.",
+        "w": "💡 I friarielli aggiunti all'ultimo mantengono il loro colore verde e il sapore amarognolo che contrasta con la dolcezza della salsiccia. Inserirli prima li cuocerebbe troppo.",
+        "t": {
+          "s": 60,
+          "l": "1 min con friarielli e mantecatura"
+        }
+      }
+    ],
+    "fin": "Risotto salsiccia e friarielli perfetto. È un piatto invernale saporito e confortante. Con la provola affumicata sciolta nella mantecatura al posto del parmigiano diventa ancora più napoletano.",
+    "id": 141
+  },
+  {
+    "cat": "🍚 Risotti",
+    "name": "Risotto nero di seppia",
+    "icon": "🍚",
+    "photo": "https://images.unsplash.com/photo-1476124369491-e7addf5db371?w=600&q=80",
+    "time": "45 min",
+    "diff": "Media",
+    "level": "casa",
+    "subtitle": "Scenografico, intenso, sapore di mare",
+    "tags": [
+      "riso",
+      "seppie",
+      "nero di seppia",
+      "vino",
+      "aglio",
+      "prezzemolo"
+    ],
+    "ing": [
+      "320g riso Carnaroli",
+      "500g seppie pulite con il nero",
+      "2 bustine nero di seppia extra (se le seppie non ne hanno abbastanza)",
+      "2 spicchi aglio",
+      "1 cipolla piccola",
+      "1 bicchiere vino bianco",
+      "1L fumetto di pesce o brodo vegetale caldo",
+      "Prezzemolo fresco",
+      "Olio EVO",
+      "Sale, peperoncino"
+    ],
+    "steps": [
+      {
+        "a": "Pulisci le seppie: rimuovi l'osso interno, occhi e becco. Estrai la sacca del nero con delicatezza e mettila in una ciotola con un cucchiaio di vino bianco. Taglia le seppie a listarelle.",
+        "w": "💡 La sacca del nero è piccola e argentata: si trova vicino agli occhi. Estraila intera senza romperla o il nero si sparge ovunque. Diluirla nel vino bianco la rende più facile da usare.",
+        "t": null
+      },
+      {
+        "a": "Soffriggi cipolla e aglio in olio a fuoco BASSO per 5 minuti. Aggiungi le seppie e rosola a fuoco VIVO 3-4 minuti finché cambiano colore.",
+        "w": "💡 Le seppie si rosoleranno e poi rilasceranno liquido: è normale. Aspetta che il liquido evapori completamente prima di aggiungere il riso.",
+        "t": {
+          "s": 480,
+          "l": "8 min cipolla e seppie"
+        }
+      },
+      {
+        "a": "Tosta il riso 2 minuti nel fondo di cottura. Sfuma col vino bianco. Aggiungi il nero di seppia (sacche + bustine extra) e mescola: il risotto diventa nero istantaneamente.",
+        "w": "💡 Il nero di seppia si aggiunge prima del brodo: cuocendo con il riso perde l'odore di inchiostro crudo sviluppando un sapore marino profondo. Il colore nero non scolorisce durante la cottura.",
+        "t": {
+          "s": 120,
+          "l": "2 min tostatura e nero"
+        }
+      },
+      {
+        "a": "Cuoci il risotto con il fumetto caldo mestolo per mestolo per 16 minuti. Il colore deve essere nero profondo e uniforme.",
+        "w": "💡 Il fumetto di pesce intensifica il sapore marino. In assenza usa brodo vegetale leggero. Brodo di carne coprirebbe il sapore delicato del nero.",
+        "t": {
+          "s": 960,
+          "l": "16 min cottura risotto"
+        }
+      },
+      {
+        "a": "Fuori dal fuoco manteca con olio EVO crudo abbondante (NON burro e NON parmigiano su pesce). Aggiungi prezzemolo fresco tritato. Aggiusta di sale e peperoncino.",
+        "w": "💡 Il risotto nero non vuole parmigiano: formaggio e pesce non si abbinano nella tradizione italiana. L'olio EVO a crudo crea la mantecatura e dà la lucentezza al nero.",
+        "t": {
+          "s": 60,
+          "l": "1 min mantecatura con olio"
+        }
+      }
+    ],
+    "fin": "Risotto nero di seppia perfetto. Uno dei piatti più scenografici della cucina italiana. Avvisa i commensali: il nero colora le labbra e i denti, fa parte del divertimento.",
+    "id": 142
+  },
+  {
+    "cat": "🍚 Risotti",
+    "name": "Risotto con taleggio e noci",
+    "icon": "🍚",
+    "photo": "https://images.unsplash.com/photo-1476124369491-e7addf5db371?w=600&q=80",
+    "time": "35 min",
+    "diff": "Facile",
+    "level": "casa",
+    "subtitle": "Cremoso, intenso, autunnale",
+    "tags": [
+      "riso",
+      "taleggio",
+      "noci",
+      "vino",
+      "burro",
+      "scalogno",
+      "parmigiano"
+    ],
+    "ing": [
+      "320g riso Carnaroli",
+      "150g taleggio a cubetti",
+      "80g gherigli di noce",
+      "2 scalogni",
+      "1 bicchiere vino bianco",
+      "1.2L brodo vegetale caldo",
+      "40g burro freddo",
+      "30g parmigiano reggiano",
+      "Olio EVO",
+      "Sale, pepe nero"
+    ],
+    "steps": [
+      {
+        "a": "Tosta le noci in padella asciutta a fuoco MEDIO per 3 minuti finché profumano. Raffredda e spezzetta grossolanamente. Tieni da parte.",
+        "w": "💡 La tostatura delle noci è fondamentale: cambia completamente il sapore da gessoso e amaro a rotondo e burroso. Non saltare questo passaggio.",
+        "t": {
+          "s": 180,
+          "l": "3 min tostatura noci"
+        }
+      },
+      {
+        "a": "Soffriggi gli scalogni tritati in olio e metà burro a fuoco BASSO per 5 minuti. Tosta il riso 2 minuti. Sfuma col vino bianco.",
+        "w": "💡 Lo scalogno (non la cipolla) per questo risotto delicato: ha un sapore più fine che non copre il taleggio.",
+        "t": {
+          "s": 420,
+          "l": "7 min soffritto e tostatura"
+        }
+      },
+      {
+        "a": "Cuoci il risotto aggiungendo brodo caldo mestolo per mestolo per 16 minuti mescolando.",
+        "w": "💡 Il brodo vegetale leggero è la scelta giusta: il taleggio ha già un sapore molto intenso. Un brodo di carne coprirebbe la delicatezza del formaggio.",
+        "t": {
+          "s": 960,
+          "l": "16 min cottura risotto"
+        }
+      },
+      {
+        "a": "Fuori dal fuoco aggiungi il taleggio a cubetti, il burro rimasto e il parmigiano. Manteca energicamente per 2 minuti finché il taleggio è completamente sciolto e il risotto è cremoso.",
+        "w": "💡 Il taleggio si scioglie molto velocemente: 2 minuti di mantecatura energica lo integrano completamente. Se rimangono pezzi interi, il risotto sarà grumoso.",
+        "t": {
+          "s": 120,
+          "l": "2 min mantecatura con taleggio"
+        }
+      },
+      {
+        "a": "Aggiungi le noci tostate, pepe nero abbondante. Impiatta e aggiungi qualche gheriglio intero per decorazione.",
+        "w": "💡 Le noci danno la croccantezza che contrasta con la cremosità del taleggio. Il pepe nero abbondante è la firma di questo risotto.",
+        "t": null
+      }
+    ],
+    "fin": "Risotto taleggio e noci perfetto. Con pera a cubetti aggiunta insieme alle noci è il classico abbinamento erborinato-frutto. Con radicchio rosso al posto delle noci è altrettanto straordinario.",
+    "id": 143
+  },
+  {
+    "cat": "🍚 Risotti",
+    "name": "Risotto primavera con piselli e menta",
+    "icon": "🍚",
+    "photo": "https://images.unsplash.com/photo-1476124369491-e7addf5db371?w=600&q=80",
+    "time": "35 min",
+    "diff": "Facile",
+    "level": "casa",
+    "subtitle": "Verde, fresco, delicato",
+    "tags": [
+      "riso",
+      "piselli",
+      "menta",
+      "burro",
+      "scalogno",
+      "vino",
+      "parmigiano"
+    ],
+    "ing": [
+      "320g riso Carnaroli",
+      "300g piselli freschi o surgelati",
+      "Menta fresca abbondante",
+      "2 scalogni",
+      "1 bicchiere vino bianco",
+      "1.2L brodo vegetale caldo",
+      "60g burro freddo",
+      "50g parmigiano reggiano",
+      "Olio EVO",
+      "Sale, pepe"
+    ],
+    "steps": [
+      {
+        "a": "Frulla 2/3 dei piselli con 2 mestoli di brodo caldo e qualche foglia di menta fino a crema verde liscia. Tieni il restante 1/3 intero. Sbollenta i piselli interi 2 minuti e raffredda in acqua ghiacciata.",
+        "w": "💡 La crema di piselli dà il colore verde brillante e il sapore dolce al risotto. I piselli interi aggiungono la texture. La doppia tecnica è quella dei ristoranti.",
+        "t": null
+      },
+      {
+        "a": "Soffriggi gli scalogni in olio e metà burro a fuoco BASSO per 5 minuti. Tosta il riso 2 minuti. Sfuma col vino bianco.",
+        "w": "💡 Il riso non deve assorbire il sapore dei piselli durante la tostatura: si aggiungono alla fine per mantenere il loro colore verde.",
+        "t": {
+          "s": 420,
+          "l": "7 min soffritto e tostatura"
+        }
+      },
+      {
+        "a": "Cuoci il risotto aggiungendo brodo caldo mestolo per mestolo per 15 minuti. A 1 minuto dalla fine aggiungi la crema di piselli e mescola.",
+        "w": "💡 La crema di piselli alla fine mantiene il colore verde brillante. Aggiunta prima si ossida diventando grigia. Il colore verde vivido è metà del fascino del piatto.",
+        "t": {
+          "s": 960,
+          "l": "16 min cottura risotto"
+        }
+      },
+      {
+        "a": "Fuori dal fuoco manteca con burro freddo e parmigiano. Aggiungi i piselli interi e menta fresca spezzettata a mano. Aggiusta di sale. Servi subito.",
+        "w": "💡 La menta fresca a mano alla fine è la firma del piatto: dà freschezza e profumo che il calore distruggerebbe. Questo risotto non aspetta: la menta perde profumo in pochi minuti.",
+        "t": {
+          "s": 60,
+          "l": "1 min mantecatura"
+        }
+      }
+    ],
+    "fin": "Risotto primavera con piselli e menta perfetto. Con piselli freschi di aprile e maggio è uno dei piatti più deliziosi della stagione. Con qualche fiore di zucca aggiunto alla fine è ancora più primaverile.",
+    "id": 144
+  },
+  {
+    "cat": "🍚 Risotti",
+    "name": "Risotto alla barbabietola e caprino",
+    "icon": "🍚",
+    "photo": "https://images.unsplash.com/photo-1476124369491-e7addf5db371?w=600&q=80",
+    "time": "35 min",
+    "diff": "Facile",
+    "level": "casa",
+    "subtitle": "Viola, dolce, con il contrasto del caprino",
+    "tags": [
+      "riso",
+      "barbabietola",
+      "caprino",
+      "vino",
+      "burro",
+      "scalogno",
+      "parmigiano"
+    ],
+    "ing": [
+      "320g riso Carnaroli",
+      "300g barbabietole cotte (in vaschetta al supermercato)",
+      "100g formaggio caprino fresco",
+      "2 scalogni",
+      "1 bicchiere vino rosso",
+      "1.2L brodo vegetale caldo",
+      "40g burro freddo",
+      "30g parmigiano reggiano",
+      "Olio EVO",
+      "Sale, pepe",
+      "Timo fresco (facoltativo)"
+    ],
+    "steps": [
+      {
+        "a": "Frulla metà delle barbabietole con un mestolo di brodo caldo fino a crema liscia viola brillante. Taglia le barbabietole rimanenti a cubetti piccoli da 1cm.",
+        "w": "💡 La crema di barbabietola dà il colore viola intenso e il sapore dolce. I cubetti danno la texture. Usa guanti per lavorare la barbabietola: colora tutto permanentemente.",
+        "t": null
+      },
+      {
+        "a": "Soffriggi gli scalogni in olio e metà burro a fuoco BASSO 5 minuti. Tosta il riso 2 minuti. Sfuma col vino rosso e lascia evaporare completamente.",
+        "w": "💡 Il vino rosso si abbina perfettamente alla barbabietola: rinforza il colore e aggiunge tannini che bilanciano la dolcezza della barbabietola.",
+        "t": {
+          "s": 420,
+          "l": "7 min soffritto e tostatura"
+        }
+      },
+      {
+        "a": "Cuoci il risotto con il brodo caldo mestolo per mestolo per 15 minuti. A 2 minuti dalla fine aggiungi la crema di barbabietola e i cubetti.",
+        "w": "💡 La crema di barbabietola alla fine mantiene il colore viola acceso. Il risotto deve diventare uniformemente viola.",
+        "t": {
+          "s": 900,
+          "l": "15 min cottura risotto"
+        }
+      },
+      {
+        "a": "Fuori dal fuoco manteca con burro freddo e parmigiano. Impiatta e aggiungi il caprino sbriciolato sopra, qualche cubetto di barbabietola cruda e timo fresco.",
+        "w": "💡 Il caprino freddo sopra al risotto caldo crea il contrasto temperature e sapori che è il cuore del piatto: dolce vs acido, caldo vs freddo. Non scioglierlo nel risotto: deve essere a pezzi visibili.",
+        "t": {
+          "s": 60,
+          "l": "1 min mantecatura"
+        }
+      }
+    ],
+    "fin": "Risotto alla barbabietola e caprino perfetto. È uno dei risotti più fotografabili che esistano: il viola intenso con il bianco del caprino è scenografico. Con noci tostate sopra è ancora più completo.",
+    "id": 145
+  },
+  {
+    "cat": "🥗 Zuppe",
+    "name": "Minestra di farro e verdure",
+    "icon": "🥣",
+    "photo": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600&q=80",
+    "time": "60 min",
+    "diff": "Facile",
+    "level": "casa",
+    "subtitle": "Umbra, sostanziosa, profumata",
+    "tags": [
+      "farro",
+      "verdure",
+      "fagioli",
+      "rosmarino",
+      "aglio",
+      "cipolla",
+      "carota",
+      "sedano"
+    ],
+    "ing": [
+      "250g farro perlato",
+      "400g fagioli borlotti in scatola",
+      "2 carote, 2 gambi sedano, 1 cipolla",
+      "2 spicchi aglio",
+      "200g pomodori pelati",
+      "Rosmarino fresco",
+      "Olio EVO abbondante",
+      "Sale, pepe",
+      "Parmigiano per servire"
+    ],
+    "steps": [
+      {
+        "a": "Sciacqua il farro perlato. Soffriggi cipolla, carote, sedano e aglio in olio abbondante a fuoco BASSO per 10 minuti fino a morbidezza completa.",
+        "w": "💡 Il farro perlato non richiede ammollo. Il farro semiperlato richiede 30 minuti di ammollo. Il farro integrale richiede 12 ore. Controlla sempre sulla confezione.",
+        "t": {
+          "s": 600,
+          "l": "10 min soffritto"
+        }
+      },
+      {
+        "a": "Aggiungi il farro e tosta 2 minuti mescolando. Aggiungi i pomodori pelati schiacciati, il rosmarino e acqua o brodo abbondante (1.5L). Porta a bollore.",
+        "w": "💡 La tostatura del farro nel soffritto crea una nota nocciolata che si sviluppa durante la cottura. Non saltarla.",
+        "t": null
+      },
+      {
+        "a": "Abbassa a fuoco BASSO con coperchio e cuoci 35-40 minuti finché il farro è tenero ma ancora al dente. Mescola ogni 10 minuti.",
+        "w": "💡 Il farro è pronto quando è morbido con ancora una leggera resistenza al morso. Se si asciuga troppo aggiungi acqua calda. La minestra di farro deve essere densa ma non collosa.",
+        "t": {
+          "s": 2400,
+          "l": "35-40 min cottura farro"
+        }
+      },
+      {
+        "a": "Aggiungi i fagioli borlotti (schiaccia 1/3 con una forchetta). Cuoci altri 10 minuti. Togli il rosmarino. Aggiusta di sale.",
+        "w": "💡 I fagioli si aggiungono già cotti negli ultimi 10 minuti: devono solo insaporirsi nel farro, non cuocere. Schiacciarli parzialmente addensa naturalmente la minestra.",
+        "t": {
+          "s": 600,
+          "l": "10 min con fagioli"
+        }
+      },
+      {
+        "a": "Lascia riposare 5 minuti. Servi con olio EVO crudo abbondante, pepe nero e parmigiano grattugiato.",
+        "w": "💡 La minestra di farro si addensa notevolmente raffreddandosi. Il giorno dopo aggiungi acqua calda e riscalda: migliora sempre.",
+        "t": {
+          "s": 300,
+          "l": "5 min riposo"
+        }
+      }
+    ],
+    "fin": "Minestra di farro e verdure perfetta. È uno dei piatti più nutrienti e saporiti della cucina umbra. Con pancetta rosolata aggiunta al soffritto diventa ancora più saporita.",
+    "id": 146
+  },
+  {
+    "cat": "🥗 Zuppe",
+    "name": "Zuppa di carote e zenzero",
+    "icon": "🥣",
+    "photo": "https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?w=600&q=80",
+    "time": "40 min",
+    "diff": "Facile",
+    "level": "casa",
+    "subtitle": "Dolce, speziata, vellutata",
+    "tags": [
+      "carote",
+      "zenzero",
+      "cipolla",
+      "aglio",
+      "panna",
+      "olio"
+    ],
+    "ing": [
+      "800g carote",
+      "3cm zenzero fresco",
+      "1 cipolla grande",
+      "2 spicchi aglio",
+      "1L brodo vegetale",
+      "100ml panna fresca o latte di cocco",
+      "Olio EVO",
+      "Sale, pepe",
+      "Succo di limone",
+      "Coriandolo o prezzemolo per servire"
+    ],
+    "steps": [
+      {
+        "a": "Pela e taglia le carote a rondelle, cipolla e aglio grossolanamente. Grattugia lo zenzero.",
+        "w": "💡 Le carote a rondelle cuociono in 20 minuti. Tagliarle più sottili accelera la cottura senza migliorare il sapore.",
+        "t": null
+      },
+      {
+        "a": "In una pentola capiente soffriggi cipolla e aglio in olio a fuoco BASSO per 5 minuti. Aggiungi le carote e lo zenzero, cuoci altri 5 minuti mescolando.",
+        "w": "💡 Cuocere le carote nel soffritto prima di aggiungere il brodo crea una profondità di sapore che la cottura diretta nel brodo non dà. Le carote iniziano a caramellizzarsi leggermente.",
+        "t": {
+          "s": 600,
+          "l": "10 min soffritto e carote"
+        }
+      },
+      {
+        "a": "Aggiungi il brodo caldo a coprire. Porta a bollore, abbassa a fuoco MEDIO e cuoci 20-25 minuti finché le carote sono completamente morbide.",
+        "w": "💡 Le carote sono pronte quando uno stecchino entra senza resistenza. Se resistono ancora, cuoci altri 5 minuti: una vellutata con carote dure è irrecuperabile.",
+        "t": {
+          "s": 1350,
+          "l": "20-25 min cottura carote"
+        }
+      },
+      {
+        "a": "Frulla tutto con un frullatore a immersione fino a crema liscia. Aggiungi la panna o latte di cocco. Riscalda a fuoco basso. Aggiusta di sale, pepe e succo di limone.",
+        "w": "💡 Il succo di limone finale è fondamentale: bilancia la dolcezza delle carote e lo zenzero. Senza di esso la zuppa risulta pesante e monocorde.",
+        "t": null
+      },
+      {
+        "a": "Servi con un filo di olio EVO crudo, qualche goccia di panna extra disegnando un cerchio, coriandolo o prezzemolo fresco e pane tostato.",
+        "w": "💡 La goccia di panna a spirale in superficie è la decorazione classica delle vellutate: esteticamente bella e aggiunge cremosità al primo cucchiaio.",
+        "t": null
+      }
+    ],
+    "fin": "Zuppa di carote e zenzero perfetta. Con latte di cocco invece della panna diventa una versione asiatica straordinaria. Si congela perfettamente per 3 mesi.",
+    "id": 147
+  },
+  {
+    "cat": "🥗 Zuppe",
+    "name": "Acquacotta maremmana",
+    "icon": "🥣",
+    "photo": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=600&q=80",
+    "time": "45 min",
+    "diff": "Facile",
+    "level": "casa",
+    "subtitle": "La zuppa povera toscana con l'uovo",
+    "tags": [
+      "verdure",
+      "uova",
+      "pomodoro",
+      "cipolla",
+      "sedano",
+      "pane",
+      "olio"
+    ],
+    "ing": [
+      "4 uova fresche",
+      "2 cipolle grandi",
+      "3 gambi sedano con le foglie",
+      "400g pomodori pelati",
+      "Fette di pane toscano raffermo",
+      "Olio EVO abbondante",
+      "Sale, pepe",
+      "Pecorino stagionato"
+    ],
+    "steps": [
+      {
+        "a": "Affetta sottilmente le cipolle a mezzaluna. In una casseruola scalda olio EVO abbondante a fuoco BASSO. Soffriggi le cipolle con le foglie di sedano per 20 minuti finché sono completamente caramellate e dorate.",
+        "w": "💡 La caramellizzazione delle cipolle è l'anima dell'acquacotta: 20 minuti a fuoco basso le trasforma da pungenti a dolcissime. Non affrettare. Il colore deve essere oro ambrato.",
+        "t": {
+          "s": 1200,
+          "l": "20 min cipolle caramellate"
+        }
+      },
+      {
+        "a": "Aggiungi il sedano a pezzi e i pomodori pelati schiacciati. Cuoci 5 minuti. Poi aggiungi acqua abbondante (1L), sale e porta a bollore. Cuoci 15 minuti a fuoco medio.",
+        "w": "💡 L'acquacotta significa letteralmente 'acqua cotta': è una zuppa di acqua aromatizzata dalle verdure. La semplicità degli ingredienti è compensata dal tempo di cottura delle cipolle.",
+        "t": {
+          "s": 1200,
+          "l": "20 min con pomodori e acqua"
+        }
+      },
+      {
+        "a": "Toasta le fette di pane toscano in forno o sulla griglia. Disponile nei piatti fondi (2 fette per porzione).",
+        "w": "💡 Il pane raffermo toscano (sciocco, senza sale) è tradizionale. Il pane deve essere leggermente tostato: troppo morbido si disfa, troppo duro non assorbe la zuppa.",
+        "t": null
+      },
+      {
+        "a": "Abbassa il fuoco al minimo. Rompi un uovo direttamente nella zuppa per ogni porzione. Copri e cuoci 4-5 minuti: l'albume deve essere bianco, il tuorlo ancora morbido.",
+        "w": "💡 Le uova in camicia nella zuppa è la firma dell'acquacotta. Il tuorlo morbido che si rompe nel piatto e si mescola alla zuppa crea la cremosità finale del piatto.",
+        "t": {
+          "s": 300,
+          "l": "4-5 min uova nella zuppa"
+        }
+      },
+      {
+        "a": "Versa la zuppa con l'uovo sopra il pane tostato. Pepe nero abbondante, olio EVO crudo a filo e pecorino stagionato grattugiato.",
+        "w": "💡 Versa la zuppa delicatamente per non rompere l'uovo. Il tuorlo si rompe nel piatto mentre si mangia: questo è il momento del piatto.",
+        "t": null
+      }
+    ],
+    "fin": "Acquacotta maremmana perfetta. È la dimostrazione che la cucina povera è spesso la più saporita. Con funghi porcini secchi aggiunti all'acqua di cottura diventa una variante autunnale straordinaria.",
+    "id": 148
+  },
+  {
+    "cat": "🥗 Zuppe",
+    "name": "Pasta e patate napoletana",
+    "icon": "🥣",
+    "photo": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600&q=80",
+    "time": "45 min",
+    "diff": "Facile",
+    "level": "casa",
+    "subtitle": "Cremosa, saporita, comfort food napoletano",
+    "tags": [
+      "pasta",
+      "patate",
+      "pomodoro",
+      "cipolla",
+      "sedano",
+      "carota",
+      "provola"
+    ],
+    "ing": [
+      "250g pasta mista o ditaloni",
+      "4 patate medie",
+      "1 cipolla, 1 carota, 1 gambo sedano",
+      "2 spicchi aglio",
+      "200g pomodori pelati",
+      "100g provola affumicata a cubetti (facoltativo)",
+      "Olio EVO abbondante",
+      "Sale, pepe",
+      "Parmigiano o pecorino"
+    ],
+    "steps": [
+      {
+        "a": "Pela le patate e tagliale a cubetti da 2cm. Trita finemente cipolla, carota, sedano e aglio.",
+        "w": "💡 I cubetti di patate da 2cm si sfaldano parzialmente durante la cottura creando la crema naturale del piatto. Più piccoli si disfano completamente, più grandi restano interi. 2cm è il punto giusto.",
+        "t": null
+      },
+      {
+        "a": "In una casseruola larga scalda olio abbondante a fuoco BASSO. Soffriggi cipolla, carota, sedano e aglio per 10 minuti fino a morbidezza completa.",
+        "w": "💡 Il soffritto ben cotto è il fondamento di questo piatto. 10 minuti a fuoco basso: le verdure devono ammorbidirsi completamente senza colorirsi.",
+        "t": {
+          "s": 600,
+          "l": "10 min soffritto"
+        }
+      },
+      {
+        "a": "Aggiungi le patate e i pomodori pelati schiacciati. Mescola bene e cuoci 5 minuti a fuoco MEDIO. Poi aggiungi acqua calda abbondante (1.2L), sale e porta a bollore.",
+        "w": "💡 Far insaporire le patate nel soffritto e nel pomodoro prima di aggiungere l'acqua crea uno strato di sapore che l'acqua diretta non darebbe.",
+        "t": {
+          "s": 600,
+          "l": "10 min patate nel soffritto"
+        }
+      },
+      {
+        "a": "Cuoci a fuoco medio per 15 minuti finché le patate iniziano ad ammorbidirsi. Con la forchetta schiaccia 1/3 delle patate nella pentola.",
+        "w": "💡 Schiacciare parte delle patate addensa naturalmente il brodo: la pasta e patate napoletana deve essere densa, quasi cremosa. Se è troppo brodosa, schiaccia più patate.",
+        "t": {
+          "s": 900,
+          "l": "15 min patate"
+        }
+      },
+      {
+        "a": "Butta la pasta direttamente nella pentola. Cuoci mescolando spesso aggiungendo acqua calda se si asciuga. Spegni 2 minuti prima che la pasta sia cotta: finisce con il calore residuo.",
+        "w": "💡 La pasta assorbe molto brodo: tieni sempre acqua calda pronta. La pasta e patate ideale è 'azzeccata': semi-solida, quasi appiccicosa. È la consistenza napoletana tradizionale.",
+        "t": {
+          "s": 600,
+          "l": "10-12 min pasta"
+        }
+      },
+      {
+        "a": "Aggiungi la provola a cubetti se la usi, mescola e lascia riposare 3 minuti con il fuoco spento. Servi con olio EVO crudo, pepe nero e parmigiano.",
+        "w": "💡 La provola si scioglie nel calore residuo creando dei filamenti nel piatto. È il tocco napoletano che trasforma una minestra in qualcosa di speciale.",
+        "t": {
+          "s": 180,
+          "l": "3 min riposo"
+        }
+      }
+    ],
+    "fin": "Pasta e patate napoletana perfetta. È uno dei grandi piatti della tradizione napoletana. 'Azzeccata' è il termine per la consistenza giusta: densa, quasi appiccicosa, avvolgente.",
+    "id": 149
+  },
+  {
+    "cat": "🥗 Zuppe",
+    "name": "Zuppa di asparagi e uova",
+    "icon": "🥣",
+    "photo": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600&q=80",
+    "time": "35 min",
+    "diff": "Facile",
+    "level": "casa",
+    "subtitle": "Leggera, primaverile, completa",
+    "tags": [
+      "asparagi",
+      "uova",
+      "cipolla",
+      "burro",
+      "parmigiano",
+      "pane"
+    ],
+    "ing": [
+      "500g asparagi",
+      "4 uova fresche",
+      "1 cipolla",
+      "30g burro",
+      "1L brodo vegetale leggero",
+      "50g parmigiano reggiano",
+      "Fette di pane tostato",
+      "Olio EVO",
+      "Sale, pepe"
+    ],
+    "steps": [
+      {
+        "a": "Elimina la parte dura degli asparagi. Taglia le punte (5cm) e tieni da parte. Taglia i gambi a pezzi da 2cm.",
+        "w": "💡 I gambi diventano la base della zuppa, le punte la decorazione finale. Questa divisione crea il contrasto tra la crema liscia e le punte intere nel piatto.",
+        "t": null
+      },
+      {
+        "a": "Soffriggi la cipolla in burro e olio a fuoco BASSO per 5 minuti. Aggiungi i gambi di asparagi, cuoci 3 minuti. Aggiungi il brodo caldo e cuoci 15 minuti finché i gambi sono morbidissimi.",
+        "w": "💡 I gambi devono essere completamente morbidi per frullare bene. Se rimangono duri la zuppa avrà una texture filamentosa sgradevole.",
+        "t": {
+          "s": 1080,
+          "l": "18 min cottura gambi"
+        }
+      },
+      {
+        "a": "Frulla tutto fino a crema liscia. Rimetti sul fuoco basso. Aggiusta di sale e consistenza con brodo. Sbollenta le punte in acqua salata 3 minuti, raffredda in acqua ghiacciata.",
+        "w": "💡 Le punte sbollentate e raffreddate mantengono il verde brillante e la croccantezza. Aggiungile crude alla crema calda si cuocerebbero eccessivamente perdendo colore e texture.",
+        "t": {
+          "s": 180,
+          "l": "3 min sbollentatura punte"
+        }
+      },
+      {
+        "a": "Porta la crema a fuoco bassissimo. Rompi delicatamente un uovo in una ciotolina e versalo nella crema. Fai lo stesso con gli altri. Copri e cuoci 4 minuti: albume cotto, tuorlo morbido.",
+        "w": "💡 Le uova in camicia nella crema di asparagi è un abbinamento classico: il tuorlo morbido che si rompe crea una salsa naturale. Temperatura bassa: il bollore rompe le uova.",
+        "t": {
+          "s": 240,
+          "l": "4 min uova"
+        }
+      },
+      {
+        "a": "Impiatta la crema con l'uovo, disponi le punte di asparagi, parmigiano grattugiato, pepe nero e crostini di pane tostato.",
+        "w": "💡 Il parmigiano nella zuppa di asparagi è fondamentale: la sua sapidità e il suo umami completano la dolcezza vegetale degli asparagi.",
+        "t": null
+      }
+    ],
+    "fin": "Zuppa di asparagi e uova perfetta. Con un cucchiaio di mascarpone incorporato nella crema prima del servizio diventa vellutata e ricca. È una cena completa e leggera in 35 minuti.",
+    "id": 150
+  },
+  {
+    "cat": "🍝 Pasta",
+    "name": "Pasta fredda con tonno e capperi",
+    "icon": "🍝",
+    "photo": "https://images.unsplash.com/photo-1600803907087-f56d462fd26b?w=600&q=80",
+    "time": "20 min",
+    "diff": "Facile",
+    "level": "casa",
+    "subtitle": "Estiva, veloce, da preparare in anticipo",
+    "tags": [
+      "pasta",
+      "tonno",
+      "capperi",
+      "olive",
+      "pomodorini",
+      "cipolla",
+      "olio"
+    ],
+    "ing": [
+      "320g pasta corta (fusilli o farfalle)",
+      "2 scatolette tonno sott'olio (160g)",
+      "200g pomodorini",
+      "50g olive nere",
+      "20g capperi sotto sale (dissalati)",
+      "1/2 cipolla rossa",
+      "Olio EVO abbondante",
+      "Limone",
+      "Basilico",
+      "Sale, pepe"
+    ],
+    "steps": [
+      {
+        "a": "Cuoci la pasta in acqua abbondante salata. Scola e raffredda immediatamente sotto acqua fredda corrente. Condisci subito con olio EVO per non farla incollare.",
+        "w": "💡 Raffreddare sotto acqua fredda blocca la cottura e abbassa la temperatura rapidamente. L'olio immediatamente dopo impedisce che i fusilli si incollino tra loro mentre riposano.",
+        "t": null
+      },
+      {
+        "a": "Taglia i pomodorini a metà, affetta sottile la cipolla rossa, denoccola le olive, dissala i capperi. Sgocciola il tonno dall'olio di conserva.",
+        "w": "💡 La cipolla rossa cruda nella pasta fredda è classica: va immersa in acqua fredda per 10 minuti per ridurre la pungenza eccessiva se dà fastidio.",
+        "t": null
+      },
+      {
+        "a": "In una ciotola grande mescola la pasta fredda con tutti gli ingredienti: tonno sgocciolato (sbriciolato), pomodorini, olive, capperi, cipolla.",
+        "w": "💡 Non mescolare troppo: il tonno deve restare a pezzi visibili nel piatto finale, non polverizzarsi. Movimenti delicati con due cucchiai.",
+        "t": null
+      },
+      {
+        "a": "Condisci con olio EVO abbondante, succo di limone, pepe nero e basilico fresco. Assaggia e aggiusta. Metti in frigo 30 minuti se hai tempo.",
+        "w": "💡 Il riposo in frigo amalgama i sapori. Se la mangi subito è buona, dopo 30 minuti è ottima. Il limone è fondamentale: alleggerisce e ravviva tutti gli ingredienti.",
+        "t": {
+          "s": 1800,
+          "l": "30 min riposo in frigo (facoltativo)"
+        }
+      }
+    ],
+    "fin": "Pasta fredda con tonno e capperi perfetta. È il pranzo estivo per eccellenza. Con stracciatella di burrata sopra al momento del servizio diventa un piatto di grande effetto.",
+    "id": 151
+  },
+  {
+    "cat": "🍝 Pasta",
+    "name": "Pasta con crema di piselli e pancetta",
+    "icon": "🍝",
+    "photo": "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=600&q=80",
+    "time": "20 min",
+    "diff": "Facile",
+    "level": "casa",
+    "subtitle": "Veloce, cremosa, saporita",
+    "tags": [
+      "pasta",
+      "piselli",
+      "pancetta",
+      "cipolla",
+      "panna",
+      "parmigiano"
+    ],
+    "ing": [
+      "320g pasta corta (rigatoni o penne)",
+      "300g piselli surgelati",
+      "150g pancetta a cubetti",
+      "1 cipolla piccola",
+      "100ml panna fresca",
+      "50g parmigiano reggiano",
+      "Olio EVO",
+      "Sale, pepe",
+      "Menta (facoltativo)"
+    ],
+    "steps": [
+      {
+        "a": "Rosola la pancetta in padella a fuoco VIVO senza olio finché croccante e dorata. Togli e tieni da parte. Nel grasso rimasto soffriggi la cipolla tritata a fuoco BASSO per 5 minuti.",
+        "w": "💡 La pancetta rilascia il suo grasso durante la cottura: non aggiungere olio. Quel grasso saporito è la base del condimento. Toglila croccante per mantenerla tale.",
+        "t": {
+          "s": 480,
+          "l": "8 min pancetta e cipolla"
+        }
+      },
+      {
+        "a": "Aggiungi i piselli surgelati direttamente (non scongelarli), mezza tazza d'acqua, sale e cuoci 5 minuti coperti. I piselli devono essere morbidi.",
+        "w": "💡 I piselli surgelati di qualità hanno più sapore di quelli freschi di bassa qualità. Aggiungerli ancora surgelati nella padella calda li cuoce velocemente senza ammollarli.",
+        "t": {
+          "s": 300,
+          "l": "5 min piselli"
+        }
+      },
+      {
+        "a": "Frulla 2/3 dei piselli con la cipolla e il fondo di cottura fino a crema verde. Rimetti in padella con i piselli interi. Aggiungi la panna e scalda 2 minuti.",
+        "w": "💡 La divisione crema + piselli interi crea la texture perfetta: cremosa ma con momenti di consistenza. Identico principio delle zuppe stellate ma in 2 minuti.",
+        "t": {
+          "s": 120,
+          "l": "2 min crema e panna"
+        }
+      },
+      {
+        "a": "Scola la pasta al dente, versa nella crema con acqua di cottura. Salta 1 minuto. Aggiungi pancetta croccante e parmigiano. Pepe nero abbondante.",
+        "w": "💡 La pancetta croccante sopra alla fine mantiene la sua texture contrastando con la crema di piselli. Se la aggiungi durante la mantecatura si ammorbidisce.",
+        "t": {
+          "s": 60,
+          "l": "1 min mantecatura"
+        }
+      }
+    ],
+    "fin": "Pasta con crema di piselli e pancetta perfetta. Pronta in 20 minuti è uno dei piatti più veloci e saporiti dell'intero repertorio. Con menta fresca finale è ancora più primaverile.",
+    "id": 152
+  },
+  {
+    "cat": "🍝 Pasta",
+    "name": "Pasta con vongole in bianco",
+    "icon": "🍝",
+    "photo": "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=600&q=80",
+    "time": "30 min",
+    "diff": "Media",
+    "level": "casa",
+    "subtitle": "Il classico di mare più amato d'Italia",
+    "tags": [
+      "pasta",
+      "vongole",
+      "aglio",
+      "vino",
+      "prezzemolo",
+      "olio",
+      "peperoncino"
+    ],
+    "ing": [
+      "320g spaghetti o vermicelli",
+      "1kg vongole veraci",
+      "4 spicchi aglio",
+      "1 bicchiere vino bianco secco",
+      "Prezzemolo fresco abbondante",
+      "Olio EVO abbondante",
+      "Peperoncino",
+      "Sale"
+    ],
+    "steps": [
+      {
+        "a": "Spurga le vongole in acqua fredda salata (30g sale per litro) per 1-2 ore cambiando l'acqua almeno 2 volte. Scarta le vongole rotte o già aperte che non si chiudono al tocco.",
+        "w": "💡 La spurgatura elimina la sabbia: vongole con sabbia rovinano completamente il piatto. 2 ore in acqua salata alla concentrazione del mare è il tempo minimo. Le vongole già aperte e morte vanno buttate.",
+        "t": {
+          "s": 7200,
+          "l": "1-2 ore spurgatura vongole"
+        }
+      },
+      {
+        "a": "In una padella larga scalda olio abbondante con l'aglio schiacciato a fuoco BASSO per 2 minuti. Aggiungi il peperoncino. Alza a fuoco VIVO, aggiungi le vongole e il vino bianco. Copri.",
+        "w": "💡 Le vongole si aprono con il vapore del vino a fuoco alto. Non aprire il coperchio per i primi 2 minuti: il vapore accumulato è quello che apre i molluschi.",
+        "t": {
+          "s": 120,
+          "l": "2 min vongole coperte"
+        }
+      },
+      {
+        "a": "Apri il coperchio dopo 2-3 minuti: le vongole devono essere tutte aperte. Scarta quelle rimaste chiuse. Togli le vongole con un mestolo forato e tieni il liquido in padella.",
+        "w": "💡 Le vongole chiuse dopo la cottura sono morte prima della cottura: non forzarle ad aprirsi, buttale. Il liquido in padella è un fumetto naturale concentratissimo: non buttarne una goccia.",
+        "t": null
+      },
+      {
+        "a": "Cuoci gli spaghetti molto al dente (3 min prima). Versali nel liquido delle vongole a fuoco VIVO con abbondante acqua di cottura. Salta 2 minuti emulsionando: il sugo deve diventare cremoso e lucido.",
+        "w": "💡 La mantecatura della pasta nel liquido delle vongole è la tecnica fondamentale: l'amido della pasta emulsiona con l'olio e il liquido creando una crema che avvolge ogni spaghetto. Se è acquoso manca mantecatura.",
+        "t": {
+          "s": 120,
+          "l": "2 min mantecatura nel liquido"
+        }
+      },
+      {
+        "a": "Aggiungi le vongole, prezzemolo tritato abbondante e un filo di olio EVO crudo. Mescola e servi immediatamente.",
+        "w": "💡 Le vongole si aggiungono all'ultimo: sono già cotte, devono solo scaldarsi. Il prezzemolo fresco abbondante è la firma del piatto: non essere avaro.",
+        "t": null
+      }
+    ],
+    "fin": "Spaghetti alle vongole in bianco perfetti. È uno dei piatti più tecnici della cucina italiana nonostante gli ingredienti semplici. La mantecatura finale è il momento che fa la differenza tra un piatto memorabile e uno mediocre.",
+    "id": 153
+  },
+  {
+    "cat": "🍝 Pasta",
+    "name": "Pasta con gamberi e pomodorini",
+    "icon": "🍝",
+    "photo": "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=600&q=80",
+    "time": "20 min",
+    "diff": "Facile",
+    "level": "casa",
+    "subtitle": "Veloce, fresca, sempre di effetto",
+    "tags": [
+      "pasta",
+      "gamberi",
+      "pomodorini",
+      "aglio",
+      "vino",
+      "prezzemolo",
+      "olio"
+    ],
+    "ing": [
+      "320g pasta lunga (linguine o spaghetti)",
+      "400g gamberi sgusciati (surgelati vanno bene)",
+      "300g pomodorini ciliegino",
+      "3 spicchi aglio",
+      "100ml vino bianco secco",
+      "Prezzemolo fresco",
+      "Olio EVO abbondante",
+      "Peperoncino",
+      "Sale"
+    ],
+    "steps": [
+      {
+        "a": "Se usi gamberi surgelati: scongelali in acqua fredda 15 minuti, asciuga bene. Taglia i pomodorini a metà.",
+        "w": "💡 I gamberi surgelati di buona qualità sono perfetti per questa ricetta: pratici e sempre disponibili. L'asciugatura è fondamentale: i gamberi umidi bollono invece di rosolare.",
+        "t": null
+      },
+      {
+        "a": "In padella larga scalda olio abbondante con aglio schiacciato e peperoncino a fuoco VIVO. Aggiungi i gamberi in un solo strato e cuoci 1 minuto per lato senza toccarli. Togli e tieni da parte.",
+        "w": "💡 I gamberi cuociono in 2 minuti totali: 1 minuto per lato. Stracotti diventano gommosi e stopposi. Toglili ancora leggermente trasparenti al centro: finiranno la cottura nel sugo.",
+        "t": {
+          "s": 120,
+          "l": "2 min gamberi (togli subito)"
+        }
+      },
+      {
+        "a": "Nella stessa padella aggiungi i pomodorini tagliati, alza a fuoco VIVO e cuoci 3-4 minuti schiacciandoli leggermente. Sfuma col vino bianco.",
+        "w": "💡 I pomodorini si cuociono nel grasso aromatizzato dai gamberi: è questo che dà il sapore speciale al sugo. Il vino deglassa raccogliendo tutti i sapori.",
+        "t": {
+          "s": 240,
+          "l": "4 min pomodorini e vino"
+        }
+      },
+      {
+        "a": "Scola la pasta molto al dente con acqua di cottura. Versa nel sugo a fuoco VIVO. Salta 1 minuto emulsionando. Aggiungi i gamberi negli ultimi 30 secondi. Prezzemolo abbondante e olio crudo.",
+        "w": "💡 I gamberi rientrano solo alla fine: il calore residuo della pasta li scalda senza stracuocerli. Questo dettaglio è la differenza tra gamberi morbidi e gamberi gommosi.",
+        "t": {
+          "s": 90,
+          "l": "1.5 min mantecatura con gamberi"
+        }
+      }
+    ],
+    "fin": "Pasta con gamberi e pomodorini perfetta. Con la bisque di gamberi (fatta con i gusci) invece del vino bianco diventa un piatto di livello completamente superiore. Vale la pena provarla.",
+    "id": 154
+  },
+  {
+    "cat": "🍝 Pasta",
+    "name": "Pasta con funghi e salsiccia",
+    "icon": "🍝",
+    "photo": "https://images.unsplash.com/photo-1598866594230-a7c12756260f?w=600&q=80",
+    "time": "30 min",
+    "diff": "Facile",
+    "level": "casa",
+    "subtitle": "Autunnale, saporita, profumata",
+    "tags": [
+      "pasta",
+      "funghi",
+      "salsiccia",
+      "vino",
+      "aglio",
+      "rosmarino",
+      "parmigiano"
+    ],
+    "ing": [
+      "320g pasta corta (rigatoni o penne)",
+      "300g funghi champignon o misti",
+      "200g salsiccia fresca sbriciolata",
+      "2 spicchi aglio",
+      "100ml vino bianco",
+      "Rosmarino fresco",
+      "Olio EVO",
+      "Parmigiano reggiano",
+      "Sale, pepe"
+    ],
+    "steps": [
+      {
+        "a": "Pulisci i funghi con un panno umido (mai sotto acqua), affetta a 5mm. In padella larga scalda olio con aglio e rosmarino a fuoco VIVO. Aggiungi i funghi in un solo strato, NON mescolare per 3 minuti.",
+        "w": "💡 La regola dei funghi: padella rovente, un solo strato, non toccare per 3 minuti. Il contatto diretto con la padella calda crea la crosticina dorata che è tutto il sapore.",
+        "t": {
+          "s": 180,
+          "l": "3 min funghi senza toccare"
+        }
+      },
+      {
+        "a": "Mescola i funghi, aggiungi la salsiccia sbriciolata. Cuoci a fuoco VIVO altri 5 minuti fino a doratura della salsiccia. Sfuma col vino bianco.",
+        "w": "💡 La salsiccia aggiunta dopo i funghi assorbe i loro aromi. Il grasso della salsiccia si mescola con l'olio profumato dei funghi creando un condimento ricchissimo.",
+        "t": {
+          "s": 300,
+          "l": "5 min salsiccia e vino"
+        }
+      },
+      {
+        "a": "Cuoci la pasta al dente conservando acqua di cottura. Versa nel sugo, salta 1 minuto a fuoco VIVO con acqua di cottura. Spegni, aggiungi parmigiano abbondante e pepe nero.",
+        "w": "💡 Il parmigiano fuori dal fuoco si lega al fondo di funghi e salsiccia creando un condimento cremoso. Il pepe nero sui funghi è uno dei grandi abbinamenti della cucina italiana.",
+        "t": {
+          "s": 60,
+          "l": "1 min mantecatura"
+        }
+      }
+    ],
+    "fin": "Pasta con funghi e salsiccia perfetta. Con funghi porcini freschi in autunno è un piatto di livello assoluto. Con un cucchiaio di mascarpone nella mantecatura finale diventa ancora più cremosa.",
+    "id": 155
+  },
+  {
+    "cat": "🍝 Pasta",
+    "name": "Pasta al tonno fresco con olive e capperi",
+    "icon": "🍝",
+    "photo": "https://images.unsplash.com/photo-1598866594230-a7c12756260f?w=600&q=80",
+    "time": "20 min",
+    "diff": "Facile",
+    "level": "casa",
+    "subtitle": "Siciliana, ricca di sapori mediterranei",
+    "tags": [
+      "pasta",
+      "tonno",
+      "olive",
+      "capperi",
+      "pomodorini",
+      "aglio",
+      "olio"
+    ],
+    "ing": [
+      "320g spaghetti o bucatini",
+      "300g tonno fresco a trancio",
+      "200g pomodorini",
+      "60g olive nere di Gaeta",
+      "20g capperi sotto sale (dissalati)",
+      "3 spicchi aglio",
+      "Olio EVO abbondante",
+      "Prezzemolo",
+      "Peperoncino",
+      "Sale"
+    ],
+    "steps": [
+      {
+        "a": "Taglia il tonno fresco a cubetti da 2cm. Sala, pepa e lascia a temperatura ambiente 10 minuti.",
+        "w": "💡 Il tonno fresco cuoce in pochissimi minuti: deve essere a temperatura ambiente per cuocere uniformemente. Freddo di frigo cuoce fuori ma resta crudo al centro.",
+        "t": {
+          "s": 600,
+          "l": "10 min temperatura ambiente"
+        }
+      },
+      {
+        "a": "In padella scalda olio abbondante con aglio a fuoco MEDIO. Aggiungi i pomodorini tagliati a metà e le olive e cuoci 5 minuti schiacciando i pomodorini.",
+        "w": "💡 Le olive taggiasche o di Gaeta (non olive greche o spagnole) hanno il sapore giusto per questo sugo mediterraneo: salate, carnose, con un retrogusto amaro equilibrato.",
+        "t": {
+          "s": 300,
+          "l": "5 min pomodorini e olive"
+        }
+      },
+      {
+        "a": "Aggiungi i capperi e il peperoncino. Poi aggiungi il tonno a cubetti e cuoci SOLO 2 minuti a fuoco VIVO mescolando delicatamente. Il tonno deve restare rosato al centro.",
+        "w": "💡 Il tonno fresco si cuoce pochissimo: 2 minuti al massimo. Stracotto diventa secco e stopposo come cartone. Rosato al centro è la cottura corretta.",
+        "t": {
+          "s": 120,
+          "l": "2 min tonno (rosa al centro)"
+        }
+      },
+      {
+        "a": "Scola la pasta al dente, versa nel sugo con acqua di cottura. Mescola delicatamente per non sfaldar il tonno. Prezzemolo fresco e olio EVO crudo a filo.",
+        "w": "💡 Mescolare delicatamente preserva i cubetti di tonno visibili nel piatto. Il prezzemolo fresco e l'olio crudo finale completano questo piatto mediterraneo.",
+        "t": null
+      }
+    ],
+    "fin": "Pasta al tonno fresco perfetta. La differenza con il tonno in scatola è abissale: il tonno fresco ha una texture carnosa e un sapore delicato incomparabile. Vale assolutamente i pochi euro in più.",
+    "id": 156
+  },
+  {
+    "cat": "🍝 Pasta",
+    "name": "Pasta con speck e radicchio",
+    "icon": "🍝",
+    "photo": "https://images.unsplash.com/photo-1598866594230-a7c12756260f?w=600&q=80",
+    "time": "20 min",
+    "diff": "Facile",
+    "level": "casa",
+    "subtitle": "Alto-atesina, amara e affumicata",
+    "tags": [
+      "pasta",
+      "speck",
+      "radicchio",
+      "cipolla",
+      "vino",
+      "parmigiano",
+      "burro"
+    ],
+    "ing": [
+      "320g pasta corta (rigatoni o penne)",
+      "150g speck a listarelle",
+      "2 cespi radicchio rosso di Treviso",
+      "1 cipolla rossa",
+      "100ml vino rosso",
+      "50g burro",
+      "50g parmigiano reggiano",
+      "Olio EVO",
+      "Sale, pepe"
+    ],
+    "steps": [
+      {
+        "a": "Taglia il radicchio a striscioline. Affetta la cipolla rossa a mezzaluna. In padella scalda un filo d'olio a fuoco MEDIO, aggiungi lo speck a listarelle e rosola 3 minuti finché croccante. Togli e tieni da parte.",
+        "w": "💡 Lo speck deve diventare croccante: il grasso che rilascia è il condimento base del piatto. Toglierlo croccante e aggiungerlo alla fine mantiene la sua texture.",
+        "t": {
+          "s": 180,
+          "l": "3 min speck croccante"
+        }
+      },
+      {
+        "a": "Nel grasso dello speck soffriggi la cipolla rossa 5 minuti. Aggiungi il radicchio a striscioline, sale e cuoci 5 minuti a fuoco VIVO finché appassisce e si ammorbidisce.",
+        "w": "💡 Il radicchio perde molto volume in cottura: sembra tanto ma si riduce a poco. L'amaro del radicchio viene bilanciato dal grasso dello speck e dal vino rosso.",
+        "t": {
+          "s": 480,
+          "l": "8 min cipolla e radicchio"
+        }
+      },
+      {
+        "a": "Sfuma col vino rosso a fuoco VIVO. Lascia evaporare 2 minuti. Il vino con il radicchio è l'abbinamento classico veneto.",
+        "w": "💡 Il vino rosso intensifica il colore bordeaux del radicchio e aggiunge una nota tannica che contrasta l'amaro. Evaporazione completa prima di aggiungere la pasta.",
+        "t": {
+          "s": 120,
+          "l": "2 min evaporazione vino"
+        }
+      },
+      {
+        "a": "Scola la pasta al dente, versa nel sugo con acqua di cottura. Manteca fuori dal fuoco con burro freddo e parmigiano. Aggiungi lo speck croccante. Pepe nero abbondante.",
+        "w": "💡 Il burro freddo nella mantecatura finale crea la crema che lega tutto. Lo speck croccante aggiunto alla fine crea il contrasto di texture perfetto.",
+        "t": {
+          "s": 60,
+          "l": "1 min mantecatura"
+        }
+      }
+    ],
+    "fin": "Pasta con speck e radicchio perfetta. È un piatto invernale con i contrasti classici dell'Alto Adige: affumicato, amaro, tannico. Con taleggio sciolto nella mantecatura invece del parmigiano è ancora più nordico.",
+    "id": 157
+  },
+  {
+    "cat": "🍝 Pasta",
+    "name": "Pasta alla gricia",
+    "icon": "🍝",
+    "photo": "https://images.unsplash.com/photo-1612874742237-6526221588e3?w=600&q=80",
+    "time": "20 min",
+    "diff": "Media",
+    "level": "casa",
+    "subtitle": "L'antenata della carbonara, senza uova",
+    "tags": [
+      "pasta",
+      "guanciale",
+      "pecorino",
+      "pepe"
+    ],
+    "ing": [
+      "320g rigatoni",
+      "200g guanciale stagionato",
+      "100g pecorino romano DOP grattugiato finissimo",
+      "Pepe nero abbondante",
+      "Sale (pochissimo)"
+    ],
+    "steps": [
+      {
+        "a": "Taglia il guanciale a listarelle spesse 1cm. Metti in padella FREDDA a fuoco BASSO senza olio. Scalda lentamente 8-10 minuti fino a che il grasso è sciolto e le listarelle sono dorate fuori e morbide dentro.",
+        "w": "💡 Padella fredda per il guanciale: il grasso si scioglie gradualmente senza bruciare. La listarella perfetta è croccante fuori e morbida dentro. Con padella calda brucia fuori restando cruda dentro.",
+        "t": {
+          "s": 540,
+          "l": "8-10 min guanciale da freddo"
+        }
+      },
+      {
+        "a": "Cuoci i rigatoni in acqua con pochissimo sale (il pecorino e guanciale salano già tanto). Conserva 2 mestoli di acqua di cottura bollente.",
+        "w": "💡 L'acqua di cottura della gricia è fondamentale quanto quella della carbonara: è l'elemento che crea la crema con il pecorino. Tienila caldissima.",
+        "t": null
+      },
+      {
+        "a": "Scola i rigatoni 2 minuti prima della cottura. Versali nella padella col guanciale e il suo grasso a fuoco MEDIO. Aggiungi un mestolo di acqua di cottura e salta 1 minuto.",
+        "w": "💡 I rigatoni finiscono di cuocere nella padella col grasso del guanciale: assorbono il sapore completamente. Fuoco medio, non vivo: il grasso non deve bruciare.",
+        "t": {
+          "s": 60,
+          "l": "1 min pasta nel guanciale"
+        }
+      },
+      {
+        "a": "Togli dal fuoco. Aggiungi il pecorino a pioggia mescolando energicamente mentre aggiungi acqua di cottura a cucchiai. La crema deve essere liscia, avvolgente, senza grumi.",
+        "w": "💡 Il segreto della gricia è fuori dal fuoco: il pecorino si scioglie con il calore residuo della pasta e il grasso del guanciale senza rapprendere. Aggiungi acqua a cucchiai regolandoti con la consistenza.",
+        "t": {
+          "s": 60,
+          "l": "1 min crema di pecorino"
+        }
+      },
+      {
+        "a": "Pepe nero macinato fresco abbondante. Impiatta con qualche listarella di guanciale croccante sopra.",
+        "w": "💡 Il pepe nero abbondante è imprescindibile nella gricia come nella carbonara e nella cacio e pepe: è il sapore che lega tutto. Non essere timido.",
+        "t": null
+      }
+    ],
+    "fin": "Pasta alla gricia perfetta. È la ricetta amatriciana senza pomodoro: più antica, più essenziale, più tecnica. Masticarla bene: il guanciale e il pecorino insieme sono un'esperienza.",
+    "id": 158
+  },
+  {
+    "cat": "🍝 Pasta",
+    "name": "Pasta con sugo di pomodoro al forno",
+    "icon": "🍝",
+    "photo": "https://images.unsplash.com/photo-1598866594230-a7c12756260f?w=600&q=80",
+    "time": "50 min",
+    "diff": "Facile",
+    "level": "casa",
+    "subtitle": "Il sugo più semplice e più buono",
+    "tags": [
+      "pasta",
+      "pomodoro",
+      "aglio",
+      "basilico",
+      "olio"
+    ],
+    "ing": [
+      "320g pasta lunga o corta",
+      "1kg pomodori ramati o ciliegino maturi",
+      "4 spicchi aglio",
+      "Basilico fresco abbondante",
+      "Olio EVO abbondante",
+      "Sale, pepe",
+      "Parmigiano o pecorino"
+    ],
+    "steps": [
+      {
+        "a": "Preriscalda il forno a 200°C. Taglia i pomodori a metà. Disponi su una teglia con la parte tagliata verso l'alto. Distribuisci l'aglio schiacciato, olio abbondante, sale e pepe. Inforna 35-40 minuti.",
+        "w": "💡 Il forno concentra i pomodori caramellizzando i loro zuccheri naturali: il sapore del pomodoro arrosto è completamente diverso da quello bollito. È il sugo più semplice e più buono che esista.",
+        "t": {
+          "s": 2250,
+          "l": "35-40 min pomodori in forno"
+        }
+      },
+      {
+        "a": "Togli dal forno. I pomodori devono essere morbidissimi con i bordi leggermente bruciacchiati. Schiaccia tutto con una forchetta nella teglia o passa al passaverdure.",
+        "w": "💡 I bordi bruciacchiati sono preziosi: contengono i sapori caramellati concentrati. Non eliminarli, incorporali nel sugo.",
+        "t": null
+      },
+      {
+        "a": "Rimetti la teglia sul fuoco basso se vuoi asciugare ulteriormente il sugo. Aggiusta di sale. Aggiungi basilico fresco abbondante.",
+        "w": "💡 Il sugo di pomodoro arrosto è già concentrato: quasi certamente non ha bisogno di ulteriore cottura. Assaggia e decidi. Il basilico a fine cottura preserva il profumo.",
+        "t": null
+      },
+      {
+        "a": "Cuoci la pasta, scola al dente conservando acqua di cottura. Condisci col sugo arrosto aggiungendo acqua di cottura per la giusta consistenza. Olio EVO crudo abbondante.",
+        "w": "💡 L'olio EVO crudo finale su questo sugo è particolarmente importante: contrasta con la dolcezza concentrata del pomodoro arrosto con la sua nota amara e fruttata.",
+        "t": null
+      }
+    ],
+    "fin": "Pasta con sugo di pomodoro al forno perfetta. Con i pomodori dell'orto di agosto è forse il piatto più buono dell'anno. Il sugo avanzato si conserva 5 giorni in frigo o si congela.",
+    "id": 159
+  },
+  {
+    "cat": "🍝 Pasta",
+    "name": "Pasta e piselli",
+    "icon": "🍝",
+    "photo": "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=600&q=80",
+    "time": "30 min",
+    "diff": "Facile",
+    "level": "casa",
+    "subtitle": "Il piatto della primavera italiana",
+    "tags": [
+      "pasta",
+      "piselli",
+      "pancetta",
+      "cipolla",
+      "brodo",
+      "parmigiano"
+    ],
+    "ing": [
+      "320g pasta corta (ditaloni o tubetti)",
+      "400g piselli freschi o surgelati",
+      "100g pancetta a cubetti (o guanciale)",
+      "1 cipolla piccola",
+      "500ml brodo vegetale caldo",
+      "Olio EVO",
+      "Parmigiano reggiano abbondante",
+      "Sale, pepe",
+      "Menta fresca (facoltativo)"
+    ],
+    "steps": [
+      {
+        "a": "Soffriggi la pancetta in olio a fuoco MEDIO finché dorata. Aggiungi la cipolla tritata e cuoci 5 minuti a fuoco BASSO.",
+        "w": "💡 La pancetta rilascia il suo grasso profumato: è la base aromatica del piatto. La cipolla si ammorbidisce nel grasso della pancetta diventando dolcissima.",
+        "t": {
+          "s": 480,
+          "l": "8 min pancetta e cipolla"
+        }
+      },
+      {
+        "a": "Aggiungi i piselli, il brodo caldo e un pizzico di sale. Porta a bollore e cuoci 5-7 minuti finché i piselli sono teneri.",
+        "w": "💡 Il brodo invece dell'acqua dà una profondità di sapore che l'acqua non può dare. I piselli surgelati cuociono in 5 minuti, quelli freschi in 7.",
+        "t": {
+          "s": 360,
+          "l": "6 min piselli nel brodo"
+        }
+      },
+      {
+        "a": "Con una forchetta schiaccia 1/4 dei piselli direttamente nella pentola per creare una base cremosa. Aggiusta la consistenza con brodo o acqua calda.",
+        "w": "💡 Schiacciare parte dei piselli addensa il brodo naturalmente creando la cremina che condisce la pasta. La pasta e piselli ideale ha una consistenza simile a una minestra densa.",
+        "t": null
+      },
+      {
+        "a": "Butta la pasta direttamente nel brodo con i piselli. Cuoci mescolando spesso. Se si asciuga aggiungi brodo o acqua calda. Aggiusta di sale.",
+        "w": "💡 La pasta cuoce nel brodo di piselli assorbendo tutto il sapore. È lo stesso principio della pasta e fagioli: il brodo diventa parte della pasta.",
+        "t": {
+          "s": 600,
+          "l": "10-12 min pasta"
+        }
+      },
+      {
+        "a": "Spegni, lascia riposare 3 minuti. Aggiungi parmigiano abbondante, pepe nero e olio EVO crudo. Menta fresca se la usi.",
+        "w": "💡 La pasta e piselli deve riposare: la consistenza si stabilizza. Il parmigiano abbondante e l'olio crudo sono obbligatori.",
+        "t": {
+          "s": 180,
+          "l": "3 min riposo"
+        }
+      }
+    ],
+    "fin": "Pasta e piselli perfetta. Con i piselli freschi di aprile è uno dei piatti più delicati e primaverili della cucina italiana. Il giorno dopo riscaldata con un goccio di brodo è ancora più buona.",
+    "id": 160
+  },
+  {
+    "cat": "🍝 Pasta",
+    "name": "Spaghetti all'amatriciana bianca",
+    "icon": "🍝",
+    "photo": "https://images.unsplash.com/photo-1612874742237-6526221588e3?w=600&q=80",
+    "time": "20 min",
+    "diff": "Media",
+    "level": "casa",
+    "subtitle": "L'amatriciana prima del pomodoro",
+    "tags": [
+      "pasta",
+      "guanciale",
+      "pecorino",
+      "vino",
+      "pepe"
+    ],
+    "ing": [
+      "320g spaghetti o rigatoni",
+      "200g guanciale stagionato",
+      "100g pecorino romano DOP grattugiato",
+      "100ml vino bianco secco",
+      "Pepe nero abbondante",
+      "Sale"
+    ],
+    "steps": [
+      {
+        "a": "Taglia il guanciale a listarelle da 1cm. In padella fredda a fuoco BASSO scalda lentamente 8 minuti: il grasso si scioglie e le listarelle diventano dorate e croccanti.",
+        "w": "💡 Il guanciale a padella fredda è la tecnica corretta per tutti i salumi romani. Il grasso si scioglie gradualmente: 8 minuti a fuoco basso produce croccantezza senza bruciatura.",
+        "t": {
+          "s": 480,
+          "l": "8 min guanciale da freddo"
+        }
+      },
+      {
+        "a": "Alza a fuoco VIVO e sfuma col vino bianco secco. Fai evaporare completamente: 2-3 minuti. Il guanciale deve 'sfrigolare' nel vino.",
+        "w": "💡 Il vino bianco deglassa il fondo raccogliendo i sapori del guanciale. Deve evaporare completamente: il vino residuo renderebbe il sugo acido.",
+        "t": {
+          "s": 180,
+          "l": "3 min evaporazione vino"
+        }
+      },
+      {
+        "a": "Cuoci gli spaghetti in acqua poco salata. Prima di scolare, preleva 2 mestoli di acqua di cottura bollente.",
+        "w": "💡 Acqua poco salata: il guanciale e il pecorino salano già molto. Assaggia e regola solo alla fine.",
+        "t": null
+      },
+      {
+        "a": "Scola la pasta 2 minuti prima. Versala nella padella col guanciale a fuoco MEDIO con un mestolo di acqua di cottura. Salta 1 minuto.",
+        "w": "💡 La pasta finisce di cuocere nel grasso del guanciale: assorbe tutto il sapore in questi 60 secondi.",
+        "t": {
+          "s": 60,
+          "l": "1 min pasta nel guanciale"
+        }
+      },
+      {
+        "a": "Fuori dal fuoco aggiungi il pecorino a pioggia mescolando con acqua di cottura a cucchiai fino a crema liscia. Pepe nero abbondante.",
+        "w": "💡 Fuori dal fuoco per il pecorino: come nella gricia e nella cacio e pepe, il formaggio si lega solo a temperature moderate. Sul fuoco si rapprenderebbe in grumi.",
+        "t": {
+          "s": 60,
+          "l": "1 min crema di pecorino"
+        }
+      }
+    ],
+    "fin": "Amatriciana bianca perfetta. È la ricetta originale di Amatrice prima che arrivassero i pomodori in Italia. Essenziale, potente, memorabile.",
+    "id": 161
+  },
+  {
+    "cat": "🍝 Pasta",
+    "name": "Pasta fredda con pesto e verdure",
+    "icon": "🍝",
+    "photo": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=600&q=80",
+    "time": "20 min",
+    "diff": "Facile",
+    "level": "casa",
+    "subtitle": "Estiva, colorata, da portare ovunque",
+    "tags": [
+      "pasta",
+      "pesto",
+      "zucchine",
+      "pomodorini",
+      "olive",
+      "mozzarella"
+    ],
+    "ing": [
+      "320g pasta corta (fusilli o farfalle)",
+      "150g pesto genovese (anche in vasetto)",
+      "200g pomodorini",
+      "2 zucchine piccole",
+      "100g mozzarella a cubetti",
+      "50g olive nere",
+      "Olio EVO",
+      "Sale, pepe",
+      "Basilico"
+    ],
+    "steps": [
+      {
+        "a": "Cuoci la pasta al dente. Scola e raffredda sotto acqua fredda. Condisci subito con olio EVO per non incollarla.",
+        "w": "💡 Il raffreddamento rapido sotto acqua fredda è fondamentale per la pasta fredda: blocca la cottura e porta la temperatura giù velocemente.",
+        "t": null
+      },
+      {
+        "a": "Taglia le zucchine a rondelle da 3mm e saltale in padella con olio a fuoco VIVO per 4 minuti: devono dorare, non stufare. Sala. Raffredda.",
+        "w": "💡 Le zucchine saltate a fuoco vivo invece di crude: danno un sapore completamente diverso. Crude nella pasta fredda risultano acquose e insipide.",
+        "t": {
+          "s": 240,
+          "l": "4 min zucchine saltate"
+        }
+      },
+      {
+        "a": "In una ciotola grande mescola la pasta fredda con il pesto. Aggiungi pomodorini tagliati, zucchine saltate raffreddate, olive e mozzarella a cubetti.",
+        "w": "💡 Il pesto nella pasta fredda deve essere più morbido del normale: aggiungi un goccio di acqua di cottura tiepida per ammorbidirlo prima di mescolare.",
+        "t": null
+      },
+      {
+        "a": "Aggiusta di sale, pepe e olio. Aggiungi basilico fresco. Metti in frigo 20-30 minuti se hai tempo.",
+        "w": "💡 Il riposo in frigo amalgama i sapori: dopo 30 minuti la pasta assorbe il pesto diventando più saporita. Ottima anche il giorno dopo.",
+        "t": {
+          "s": 1800,
+          "l": "30 min riposo in frigo"
+        }
+      }
+    ],
+    "fin": "Pasta fredda con pesto e verdure perfetta. È il pranzo estivo più versatile: aggiungi quello che hai in frigo. Con stracciatella invece della mozzarella è ancora più cremosa.",
+    "id": 162
+  },
+  {
+    "cat": "🍝 Pasta",
+    "name": "Bucatini all'amatriciana classica",
+    "icon": "🍝",
+    "photo": "https://images.unsplash.com/photo-1608219992759-8d74ed8d76eb?w=600&q=80",
+    "time": "30 min",
+    "diff": "Media",
+    "level": "casa",
+    "subtitle": "La versione più fedele alla tradizione",
+    "tags": [
+      "pasta",
+      "guanciale",
+      "pomodoro",
+      "pecorino",
+      "vino",
+      "pepe"
+    ],
+    "ing": [
+      "320g bucatini",
+      "150g guanciale stagionato",
+      "400g pomodori pelati San Marzano",
+      "100g pecorino romano DOP grattugiato",
+      "100ml vino bianco secco",
+      "Peperoncino",
+      "Sale"
+    ],
+    "steps": [
+      {
+        "a": "Taglia il guanciale a listarelle da 1cm. Metti in padella fredda a fuoco BASSO. Cuoci 8-10 minuti: il grasso si scioglie e le listarelle diventano croccanti fuori e morbide dentro.",
+        "w": "💡 Il guanciale stagionato (non la pancetta) è imprescindibile nell'amatriciana originale. Il sapore è completamente diverso: più intenso, più aromatico, con note speziate proprie della speziatura del guanciale.",
+        "t": {
+          "s": 540,
+          "l": "8-10 min guanciale da freddo"
+        }
+      },
+      {
+        "a": "Togli quasi tutto il guanciale e tienilo da parte (lascia il grasso in padella). Alza a fuoco VIVO e sfuma col vino bianco. Evaporato, aggiungi il peperoncino.",
+        "w": "💡 Togliere il guanciale durante la cottura del sugo e rimetterlo alla fine mantiene la croccantezza. Se lo lasci nel sugo diventa molle.",
+        "t": {
+          "s": 120,
+          "l": "2 min vino e peperoncino"
+        }
+      },
+      {
+        "a": "Aggiungi i pomodori pelati schiacciati con le mani. Cuoci a fuoco MEDIO 15-20 minuti finché il sugo si addensa e l'olio affiora in superficie.",
+        "w": "💡 L'olio che affiora in superficie dopo 15-20 minuti è il segnale che il sugo è pronto: si è separato dall'acqua dei pomodori che è evaporata. Il sugo deve essere denso e lucido.",
+        "t": {
+          "s": 1050,
+          "l": "15-20 min sugo"
+        }
+      },
+      {
+        "a": "Cuoci i bucatini in acqua salata. Scola al dente conservando acqua di cottura. Versa nel sugo con il guanciale. Salta 1 minuto a fuoco vivo. Fuori dal fuoco aggiungi il pecorino mescolando.",
+        "w": "💡 I bucatini (non gli spaghetti) sono la pasta tradizionale dell'amatriciana di Roma. Il loro foro centrale trattiene il sugo. Il pecorino si aggiunge sempre fuori dal fuoco.",
+        "t": {
+          "s": 60,
+          "l": "1 min mantecatura"
+        }
+      }
+    ],
+    "fin": "Amatriciana classica perfetta. Con guanciale di Amatrice, pomodori San Marzano DOP e pecorino romano DOP è uno dei piatti più buoni della cucina italiana. Niente cipolla nella versione originale.",
+    "id": 163
+  },
+  {
+    "cat": "🍝 Pasta",
+    "name": "Pasta con crema di melanzane e ricotta",
+    "icon": "🍝",
+    "photo": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=600&q=80",
+    "time": "35 min",
+    "diff": "Facile",
+    "level": "casa",
+    "subtitle": "Vellutata, leggera, profumata di basilico",
+    "tags": [
+      "pasta",
+      "melanzane",
+      "ricotta",
+      "aglio",
+      "basilico",
+      "olio"
+    ],
+    "ing": [
+      "320g pasta corta (rigatoni o penne)",
+      "2 melanzane medie",
+      "150g ricotta fresca",
+      "2 spicchi aglio",
+      "Basilico fresco abbondante",
+      "Olio EVO abbondante",
+      "Sale, pepe",
+      "Parmigiano reggiano"
+    ],
+    "steps": [
+      {
+        "a": "Taglia le melanzane a metà nel senso della lunghezza. Incidi la polpa a griglia con un coltello. Condisci con olio e sale. Cuoci in forno a 200°C per 25 minuti finché morbide e dorate.",
+        "w": "💡 Cuocere le melanzane in forno invece di friggerle: meno olio, più facile, risultato ottimo per la crema. L'incisione a griglia permette all'olio e al calore di penetrare in profondità.",
+        "t": {
+          "s": 1500,
+          "l": "25 min melanzane in forno"
+        }
+      },
+      {
+        "a": "Scava la polpa con un cucchiaio quando sono ancora calde. Frulla la polpa con l'aglio, il basilico fresco abbondante, olio EVO crudo e la ricotta. Aggiusta di sale e pepe.",
+        "w": "💡 La ricotta nella crema di melanzane la rende più delicata e leggera della versione solo melanzane. Il basilico fresco nella frullatura dà un colore verde chiaro e un profumo intenso.",
+        "t": null
+      },
+      {
+        "a": "Cuoci la pasta, scola al dente conservando abbondante acqua di cottura. Versa la pasta nella crema di melanzane aggiungendo acqua di cottura per la giusta consistenza. Mescola.",
+        "w": "💡 La crema di melanzane si addensa velocemente: tieni sempre pronta acqua di cottura calda. La consistenza finale deve essere cremosa, che avvolge la pasta senza essere pesante.",
+        "t": {
+          "s": 60,
+          "l": "1 min mantecatura"
+        }
+      },
+      {
+        "a": "Impiatta e aggiungi una cucchiaiata di ricotta fresca sopra, basilico fresco, pepe nero e olio EVO crudo.",
+        "w": "💡 La ricotta fresca sopra crea un contrasto di temperature e texture con la crema calda. Visivamente bello, gustativamente ottimo.",
+        "t": null
+      }
+    ],
+    "fin": "Pasta con crema di melanzane e ricotta perfetta. È un primo estivo leggero e profumato. Con qualche pomodorino fresco tagliato sopra al servizio è ancora più estivo.",
+    "id": 164
+  },
+  {
+    "cat": "🍝 Pasta",
+    "name": "Pasta con pomodoro fresco e stracciatella",
+    "icon": "🍝",
+    "photo": "https://images.unsplash.com/photo-1598866594230-a7c12756260f?w=600&q=80",
+    "time": "15 min",
+    "diff": "Facile",
+    "level": "casa",
+    "subtitle": "Il contrasto caldo-freddo più elegante",
+    "tags": [
+      "pasta",
+      "pomodoro",
+      "stracciatella",
+      "basilico",
+      "aglio",
+      "olio"
+    ],
+    "ing": [
+      "320g pasta lunga (spaghetti o linguine)",
+      "500g pomodori freschi maturi",
+      "150g stracciatella di burrata",
+      "3 spicchi aglio",
+      "Basilico fresco abbondante",
+      "Olio EVO di alta qualità",
+      "Sale, pepe"
+    ],
+    "steps": [
+      {
+        "a": "Pela i pomodori (croce sul fondo, 30 secondi in acqua bollente, acqua ghiacciata). Frullali grossolanamente con l'aglio, olio EVO abbondante, basilico, sale: deve restare a pezzi, non una crema liscia.",
+        "w": "💡 Il pomodoro frullato a crudo senza cottura mantiene tutto il profumo del pomodoro fresco estivo. È il sugo più veloce e più buono che esista con pomodori di qualità. In inverno usa i pelati.",
+        "t": null
+      },
+      {
+        "a": "Cuoci la pasta in acqua molto salata. Scola al dente conservando poca acqua di cottura. Versa subito nel pomodoro frullato crudo. Mescola: il calore della pasta 'cuoce' leggermente il pomodoro.",
+        "w": "💡 Il calore della pasta appena scolata scalda il pomodoro crudo portandolo a circa 50-60°C: abbastanza per amalgamare i sapori senza perdere la freschezza del pomodoro crudo. È la tecnica della pasta al crudo.",
+        "t": null
+      },
+      {
+        "a": "Impiatta la pasta. Aggiungi una cucchiaiata generosa di stracciatella fredda al centro, basilico fresco, pepe nero e un filo di olio EVO crudo di qualità.",
+        "w": "💡 La stracciatella fredda sul piatto caldo crea il contrasto caldo-freddo che è l'esperienza del piatto. Non mescolarla nella pasta: deve fondere lentamente mentre si mangia.",
+        "t": null
+      }
+    ],
+    "fin": "Pasta con pomodoro fresco e stracciatella perfetta. Con pomodori dell'orto di agosto e stracciatella fresca del giorno è uno dei piatti più buoni dell'estate. Semplicità assoluta, ingredienti eccellenti.",
+    "id": 165
+  },
+  {
+    "cat": "🍝 Pasta",
+    "name": "Maltagliati con ragù di verdure",
+    "icon": "🍝",
+    "photo": "https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?w=600&q=80",
+    "time": "45 min",
+    "diff": "Facile",
+    "level": "casa",
+    "subtitle": "Il ragù vegetariano che soddisfa come quello di carne",
+    "tags": [
+      "pasta",
+      "verdure",
+      "pomodoro",
+      "carote",
+      "sedano",
+      "cipolla",
+      "funghi"
+    ],
+    "ing": [
+      "320g maltagliati o pasta fresca",
+      "2 carote, 2 gambi sedano, 1 cipolla",
+      "150g funghi champignon",
+      "2 spicchi aglio",
+      "400g pomodori pelati",
+      "100ml vino rosso",
+      "Olio EVO",
+      "Rosmarino, alloro",
+      "Parmigiano reggiano",
+      "Sale, pepe"
+    ],
+    "steps": [
+      {
+        "a": "Trita finemente carote, sedano, cipolla e aglio (brunoise). I funghi a cubetti da 5mm. La dimensione piccola e uniforme è fondamentale: simula la texture della carne macinata.",
+        "w": "💡 La brunoise (cubetti da 3-5mm) è il taglio che trasforma il ragù di verdure in qualcosa di simile al ragù di carne nella texture. Pezzi grandi danno una minestra di verdure, non un ragù.",
+        "t": null
+      },
+      {
+        "a": "In una casseruola pesante scalda olio abbondante a fuoco BASSO. Soffriggi cipolla, carota, sedano e aglio per 10 minuti finché morbidi e quasi caramellati. Aggiungi i funghi e rosola a fuoco VIVO 5 minuti.",
+        "w": "💡 Il soffritto lungo a fuoco basso sviluppa gli zuccheri delle verdure: la dolcezza che viene fuori dopo 10 minuti è la stessa dolcezza del ragù di carne. Non affrettare questo passaggio.",
+        "t": {
+          "s": 900,
+          "l": "15 min soffritto e funghi"
+        }
+      },
+      {
+        "a": "Sfuma col vino rosso a fuoco VIVO. Lascia evaporare completamente. Aggiungi i pomodori pelati schiacciati, rosmarino e alloro. Porta a bollore poi abbassa al MINIMO.",
+        "w": "💡 Il vino rosso nel ragù di verdure è fondamentale: i tannini del vino simulano la profondità del collagene della carne. Evaporazione completa: l'alcol residuo rende il sugo acido.",
+        "t": {
+          "s": 180,
+          "l": "3 min evaporazione vino"
+        }
+      },
+      {
+        "a": "Cuoci a fuoco BASSISSIMO per 25-30 minuti mescolando ogni 10 minuti. Il ragù deve addensarsi e scurirsi. Togli le erbe. Aggiusta di sale.",
+        "w": "💡 Più cuoce il ragù di verdure, più si concentra e si scurisce avvicinandosi alla profondità del ragù di carne. 30 minuti è il minimo, 45 minuti è meglio.",
+        "t": {
+          "s": 1800,
+          "l": "25-30 min ragù lento"
+        }
+      },
+      {
+        "a": "Cuoci i maltagliati in acqua salata. Scola al dente conservando acqua di cottura. Versa nel ragù, salta 1 minuto. Parmigiano abbondante.",
+        "w": "💡 I maltagliati (pasta fresca irregolare) si abbinano perfettamente al ragù di verdure: la superficie ruvida e irregolare trattiene il condimento denso.",
+        "t": {
+          "s": 60,
+          "l": "1 min mantecatura"
+        }
+      }
+    ],
+    "fin": "Maltagliati con ragù di verdure perfetti. È il ragù vegetariano che convince anche i carnivori. Con una crosta di parmigiano aggiunta alla cottura finale diventa ancora più saporito.",
+    "id": 166
+  },
+  {
+    "cat": "🍝 Pasta",
+    "name": "Pasta con gorgonzola e noci",
+    "icon": "🍝",
+    "photo": "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=600&q=80",
+    "time": "15 min",
+    "diff": "Facile",
+    "level": "casa",
+    "subtitle": "Cremosa, intensa, pronta in 15 minuti",
+    "tags": [
+      "pasta",
+      "gorgonzola",
+      "noci",
+      "panna",
+      "parmigiano"
+    ],
+    "ing": [
+      "320g pasta corta (rigatoni o penne)",
+      "150g gorgonzola dolce",
+      "60g gherigli di noci",
+      "100ml panna fresca",
+      "30g parmigiano reggiano",
+      "Burro",
+      "Sale, pepe nero"
+    ],
+    "steps": [
+      {
+        "a": "Tosta le noci in padella asciutta a fuoco MEDIO per 2-3 minuti fino a che profumano. Raffredda e spezzetta grossolanamente.",
+        "w": "💡 La tostatura cambia le noci: da gessose a burroso-tostate. Non saltare questo passaggio che richiede 3 minuti ma fa una differenza enorme.",
+        "t": {
+          "s": 180,
+          "l": "3 min tostatura noci"
+        }
+      },
+      {
+        "a": "In padella scalda la panna con il gorgonzola a cubetti a fuoco BASSO, mescolando finché il gorgonzola si scioglie completamente. Non deve bollire.",
+        "w": "💡 Il gorgonzola dolce si scioglie meglio del piccante e dà una crema più delicata. Non fare bollire la panna con il gorgonzola: a ebollizione la crema si separa.",
+        "t": {
+          "s": 180,
+          "l": "3 min crema gorgonzola"
+        }
+      },
+      {
+        "a": "Cuoci la pasta al dente. Scola conservando acqua di cottura. Versa nella crema di gorgonzola. Manteca aggiungendo acqua di cottura fino alla consistenza cremosa.",
+        "w": "💡 L'acqua di cottura con la crema di gorgonzola crea una salsa più leggera e lucida. Senza acqua di cottura la crema si appiccica e diventa pesante.",
+        "t": {
+          "s": 60,
+          "l": "1 min mantecatura"
+        }
+      },
+      {
+        "a": "Aggiungi le noci tostate, parmigiano e pepe nero abbondante. Mescola e servi immediatamente.",
+        "w": "💡 Le noci si aggiungono all'ultimo per mantenere la croccantezza. Il pepe nero abbondante è imprescindibile: equilibra la dolcezza del gorgonzola.",
+        "t": null
+      }
+    ],
+    "fin": "Pasta gorgonzola e noci perfetta. Con la pera a cubetti aggiunta insieme alle noci è il classico abbinamento delle insalate nordiche applicato alla pasta. Pronta in 15 minuti, sempre di grande effetto.",
+    "id": 167
+  },
+  {
+    "cat": "🍝 Pasta",
+    "name": "Pasta con pomodoro e ricotta",
+    "icon": "🍝",
+    "photo": "https://images.unsplash.com/photo-1598866594230-a7c12756260f?w=600&q=80",
+    "time": "20 min",
+    "diff": "Facile",
+    "level": "casa",
+    "subtitle": "Fresca, leggera, meridionale",
+    "tags": [
+      "pasta",
+      "pomodoro",
+      "ricotta",
+      "basilico",
+      "aglio",
+      "olio"
+    ],
+    "ing": [
+      "320g pasta corta (rigatoni o mezze maniche)",
+      "400g passata di pomodoro densa",
+      "200g ricotta fresca",
+      "2 spicchi aglio",
+      "Basilico fresco abbondante",
+      "Olio EVO",
+      "Sale, pepe"
+    ],
+    "steps": [
+      {
+        "a": "In padella scalda olio con aglio schiacciato a fuoco BASSO per 2 minuti. Aggiungi la passata a fuoco MEDIO e cuoci 10-12 minuti finché il sugo si addensa e l'olio affiora.",
+        "w": "💡 Il sugo deve essere denso prima di aggiungere la ricotta: un sugo liquido diluirebbe la ricotta invece di amalgamarsi. L'olio che affiora indica che l'acqua è evaporata.",
+        "t": {
+          "s": 720,
+          "l": "12 min sugo"
+        }
+      },
+      {
+        "a": "Togli dal fuoco. Aggiungi la ricotta a cucchiaiate nel sugo caldo e mescola: la ricotta si ammorbidisce parzialmente senza sciogliersi completamente.",
+        "w": "💡 La ricotta non deve sciogliersi completamente nel sugo: deve restare in piccoli pezzi visibili. Questo è il carattere del piatto. Aggiungerla fuori dal fuoco evita che si cuocia troppo.",
+        "t": null
+      },
+      {
+        "a": "Cuoci la pasta al dente. Scola conservando acqua di cottura. Versa nel sugo con ricotta, aggiungi acqua di cottura se serve e manteca delicatamente.",
+        "w": "💡 La mantecatura delicata è fondamentale: movimenti decisi rompono i pezzi di ricotta trasformando il piatto in una crema uniforme invece di avere i caratteristici pezzi bianchi nel rosso.",
+        "t": {
+          "s": 60,
+          "l": "1 min mantecatura delicata"
+        }
+      },
+      {
+        "a": "Aggiungi basilico fresco abbondante spezzettato a mano, pepe nero e un filo di olio EVO crudo. Servi immediatamente.",
+        "w": "💡 Il basilico a mano conserva la freschezza: il coltello ossida le foglie facendole annerire. La ricotta e il basilico fresco insieme creano una combinazione campana classica.",
+        "t": null
+      }
+    ],
+    "fin": "Pasta con pomodoro e ricotta perfetta. È uno dei piatti più semplici e più saporiti della cucina meridionale. Con ricotta di pecora il sapore diventa più intenso e caratteristico.",
+    "id": 168
+  },
+  {
+    "cat": "🫘 Legumi",
+    "name": "Zuppa di lenticchie verdi e cotechino",
+    "icon": "🫘",
+    "photo": "https://images.unsplash.com/photo-1590779033100-9f17a7aebd41?w=600&q=80",
+    "time": "60 min",
+    "diff": "Facile",
+    "level": "casa",
+    "subtitle": "Il piatto di Capodanno, ogni giorno dell'anno",
+    "tags": [
+      "lenticchie",
+      "cotechino",
+      "cipolla",
+      "carota",
+      "sedano",
+      "rosmarino",
+      "pomodoro"
+    ],
+    "ing": [
+      "400g lenticchie verdi di Castelluccio o Umbria",
+      "200g cotechino precotto (in busta)",
+      "1 cipolla, 2 carote, 2 gambi sedano",
+      "2 spicchi aglio",
+      "200g pomodori pelati",
+      "Rosmarino, alloro",
+      "Olio EVO",
+      "Sale, pepe"
+    ],
+    "steps": [
+      {
+        "a": "Sciacqua le lenticchie. Soffriggi cipolla, carote, sedano e aglio in olio abbondante a fuoco BASSO per 10 minuti.",
+        "w": "💡 Le lenticchie verdi di Castelluccio non richiedono ammollo ma ci vuole 1 ora di cottura. Sono le più saporite d'Italia. Il soffritto lungo a fuoco basso è la base aromatica.",
+        "t": {
+          "s": 600,
+          "l": "10 min soffritto"
+        }
+      },
+      {
+        "a": "Aggiungi le lenticchie, i pomodori pelati schiacciati, rosmarino, alloro e acqua abbondante (1.5L). Porta a bollore, abbassa a fuoco BASSO.",
+        "w": "💡 Non salare le lenticchie all'inizio: il sale indurisce la buccia. Si sala solo quando sono quasi cotte.",
+        "t": null
+      },
+      {
+        "a": "Cuoci a fuoco BASSO per 40-45 minuti finché le lenticchie sono tenere. Aggiusta di sale. Togli le erbe.",
+        "w": "💡 Le lenticchie verdi mantengono la forma anche se cotte completamente: non si sfaldano come le rosse. Assaggia ogni 10 minuti dopo i 35 minuti di cottura.",
+        "t": {
+          "s": 2700,
+          "l": "40-45 min cottura lenticchie"
+        }
+      },
+      {
+        "a": "Scalda il cotechino precotto secondo le istruzioni (solitamente 20 minuti in acqua bollente). Affettalo a rondelle da 1cm.",
+        "w": "💡 Il cotechino precotto è già cotto: va solo riscaldato. Le rondelle di 1cm sono la dimensione giusta per servire sulla zuppa senza sovrastare le lenticchie.",
+        "t": {
+          "s": 1200,
+          "l": "20 min riscaldo cotechino"
+        }
+      },
+      {
+        "a": "Servi le lenticchie in fondine con 2-3 rondelle di cotechino sopra, olio EVO crudo abbondante e pepe nero.",
+        "w": "💡 L'olio EVO crudo sulle lenticchie è fondamentale: trasforma completamente il piatto. Il cotechino sopra (non mescolato) mantiene la sua integrità e si mangia insieme alle lenticchie.",
+        "t": null
+      }
+    ],
+    "fin": "Zuppa di lenticchie e cotechino perfetta. Tradizionalmente si mangia a Capodanno per la fortuna, ma è troppo buona per aspettare. Con salsiccia al posto del cotechino è altrettanto saporita.",
+    "id": 169
+  },
+  {
+    "cat": "🫘 Legumi",
+    "name": "Fagioli all'uccelletto",
+    "icon": "🫘",
+    "photo": "https://images.unsplash.com/photo-1590779033100-9f17a7aebd41?w=600&q=80",
+    "time": "30 min",
+    "diff": "Facile",
+    "level": "casa",
+    "subtitle": "Toscani, con la salvia, irresistibili",
+    "tags": [
+      "fagioli",
+      "salvia",
+      "aglio",
+      "pomodoro",
+      "olio"
+    ],
+    "ing": [
+      "400g fagioli cannellini in scatola (o borlotti)",
+      "4 spicchi aglio",
+      "8 foglie salvia fresca",
+      "200g pomodori pelati",
+      "Olio EVO abbondante",
+      "Sale, pepe nero",
+      "Pane toscano per servire"
+    ],
+    "steps": [
+      {
+        "a": "In una casseruola scalda olio abbondante con l'aglio schiacciato e la salvia a fuoco BASSO per 3 minuti. L'olio deve profumarsi completamente.",
+        "w": "💡 L'infusione di aglio e salvia nell'olio a fuoco basso è l'anima dei fagioli all'uccelletto: quell'olio profumato è il condimento principale. Non fretta, non fuoco alto.",
+        "t": {
+          "s": 180,
+          "l": "3 min infusione aglio e salvia"
+        }
+      },
+      {
+        "a": "Aggiungi i fagioli scolati (tieni un po' del liquido di governo). Mescola bene nell'olio profumato. Aggiungi i pomodori pelati schiacciati, sale e pepe.",
+        "w": "💡 Il liquido di governo dei fagioli è ricco di amido: qualche cucchiaio aggiunto alla fine addensa il sugo naturalmente. I fagioli nell'olio profumato prima del pomodoro assorbono tutti gli aromi.",
+        "t": null
+      },
+      {
+        "a": "Cuoci a fuoco MEDIO per 15-20 minuti schiacciando qualche fagiolo con il cucchiaio. Devono risultare cremosi ma non una purea.",
+        "w": "💡 Schiacciare 1/4 dei fagioli crea la consistenza cremosa che lega tutto. Il sugo finale deve essere denso: i fagioli all'uccelletto non devono essere brodosi.",
+        "t": {
+          "s": 1050,
+          "l": "15-20 min cottura"
+        }
+      },
+      {
+        "a": "Aggiusta di sale. Servi caldi con olio EVO crudo abbondante, pepe nero e pane toscano tostato.",
+        "w": "💡 I fagioli all'uccelletto si servono come piatto unico con il pane, come contorno alla carne (classica la bistecca fiorentina con i fagioli), o come condimento per pasta.",
+        "t": null
+      }
+    ],
+    "fin": "Fagioli all'uccelletto perfetti. Sono il contorno toscano per eccellenza. Il nome viene dal fatto che si usano le stesse erbe aromatiche degli uccelletti in umido. Con salsiccia a rondelle cotta insieme è un piatto completo.",
+    "id": 170
+  },
+  {
+    "cat": "🫘 Legumi",
+    "name": "Zuppa di borlotti e scarola",
+    "icon": "🫘",
+    "photo": "https://images.unsplash.com/photo-1590779033100-9f17a7aebd41?w=600&q=80",
+    "time": "40 min",
+    "diff": "Facile",
+    "level": "casa",
+    "subtitle": "Napoletana, amara e saporita",
+    "tags": [
+      "fagioli",
+      "scarola",
+      "aglio",
+      "peperoncino",
+      "olio",
+      "cipolla"
+    ],
+    "ing": [
+      "400g fagioli borlotti in scatola",
+      "1 cespo scarola (o indivia)",
+      "4 spicchi aglio",
+      "Peperoncino abbondante",
+      "1 cipolla",
+      "Acciughe (2 filetti, facoltativo)",
+      "Olio EVO abbondante",
+      "Sale",
+      "Pane casereccio per servire"
+    ],
+    "steps": [
+      {
+        "a": "Lava bene la scarola. Separa le foglie. Le foglie esterne più dure si possono usare, sono più amare ma saporite.",
+        "w": "💡 La scarola è più amara dell'insalata comune: è questa amarezza che crea il contrasto con i fagioli dolci. Non usare lattuga o altri insalati: non hanno lo stesso carattere.",
+        "t": null
+      },
+      {
+        "a": "In una casseruola capiente scalda olio abbondante con aglio schiacciato, peperoncino e acciughe a fuoco BASSO. Le acciughe si sciolgono nell'olio (2-3 minuti).",
+        "w": "💡 Le acciughe nell'olio caldo si sciolgono completamente dando profondità umami senza sapore di pesce. Danno la quarta dimensione di sapore alla zuppa.",
+        "t": {
+          "s": 180,
+          "l": "3 min base aromatica"
+        }
+      },
+      {
+        "a": "Aggiungi la cipolla tritata e soffriggi 5 minuti. Poi aggiungi la scarola tutta in una volta: si ridurrà moltissimo. Cuoci 5 minuti coperta finché appassisce.",
+        "w": "💡 La scarola intera sembra tantissima: si riduce a 1/4 del volume in 5 minuti. Aggiungila tutta, si compatterà da sola.",
+        "t": {
+          "s": 600,
+          "l": "10 min soffritto e scarola"
+        }
+      },
+      {
+        "a": "Aggiungi i fagioli borlotti scolati con il loro liquido di governo e acqua calda quanto basta. Cuoci 15 minuti a fuoco MEDIO schiacciando qualche fagiolo.",
+        "w": "💡 Il liquido di governo dei fagioli aggiunto nella zuppa la addensa naturalmente. Schiacciare parte dei fagioli crea la cremina che lega verdure e legumi.",
+        "t": {
+          "s": 900,
+          "l": "15 min cottura con fagioli"
+        }
+      },
+      {
+        "a": "Aggiusta di sale (con le acciughe serve poco). Servi con olio EVO crudo abbondante, peperoncino extra e pane casereccio.",
+        "w": "💡 L'olio EVO crudo abbondante è obbligatorio: trasforma completamente la zuppa. Con pane casereccio tostato strofinato con aglio è un pasto completo e soddisfacente.",
+        "t": null
+      }
+    ],
+    "fin": "Zuppa di borlotti e scarola perfetta. È la minestra di verdure e legumi napoletana per eccellenza. Il peperoncino abbondante è caratteristico: deve essere piccante.",
+    "id": 171
   }
 ]
