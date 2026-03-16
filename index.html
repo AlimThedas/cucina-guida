@@ -1104,6 +1104,32 @@
   }
   .chat-overlay.show { display: block; }
 
+
+  /* ── CHAT VOCALE ── */
+  .chat-mic {
+    width: 44px; height: 44px; border-radius: 50%;
+    background: var(--cream); color: var(--text-md);
+    border: 1.5px solid var(--border);
+    font-size: 1.1rem; cursor: pointer; flex-shrink: 0;
+    display: flex; align-items: center; justify-content: center;
+    transition: all 0.2s;
+  }
+  .chat-mic:active { transform: scale(0.93); }
+  .chat-mic.listening {
+    background: #ff4444; color: white;
+    border-color: #ff4444;
+    animation: micPulse 1s infinite;
+  }
+  .chat-mic.unsupported { opacity: 0.3; cursor: not-allowed; }
+  @keyframes micPulse {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(255,68,68,0.4); }
+    50% { box-shadow: 0 0 0 8px rgba(255,68,68,0); }
+  }
+  .chat-input.listening {
+    border-color: #ff4444;
+    background: #fff5f5;
+  }
+
 </style>
 </head>
 <body>
@@ -2414,6 +2440,11 @@ Regole:
       const reply = data.content[0].text;
       chatHistory.push({ role: 'assistant', content: reply });
       addChatMsg(reply, 'bot');
+      // Leggi la risposta ad alta voce se la voce è attiva o se l'utente ha usato il microfono
+      if (document.getElementById('chat-voice-toggle') &&
+          document.getElementById('chat-voice-toggle').dataset.active === '1') {
+        speakReply(reply);
+      }
     } else if (data.error && data.error.type === 'authentication_error') {
       localStorage.removeItem('cg_apikey');
       addChatMsg('API key non valida. Tocca il bottone 🔑 per inserirne una nuova.', 'bot');
@@ -2453,6 +2484,140 @@ function showApiKeyDialog() {
 function resetApiKey() {
   localStorage.removeItem('cg_apikey');
   addChatMsg('API key rimossa. Tocca 🔑 per inserirne una nuova.', 'bot');
+}
+
+
+// ─────────────────────────────────────────────────────────────────────────────
+// CHAT VOCALE — Web Speech API
+// ─────────────────────────────────────────────────────────────────────────────
+let recognition = null;
+let isListening = false;
+
+function initVoice() {
+  const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+  if (!SpeechRecognition) {
+    const btn = document.getElementById('chat-mic-btn');
+    if (btn) btn.classList.add('unsupported');
+    return false;
+  }
+
+  recognition = new SpeechRecognition();
+  recognition.lang = 'it-IT';
+  recognition.continuous = false;
+  recognition.interimResults = true;
+  recognition.maxAlternatives = 1;
+
+  recognition.onstart = () => {
+    isListening = true;
+    const btn = document.getElementById('chat-mic-btn');
+    const input = document.getElementById('chat-input');
+    if (btn) { btn.classList.add('listening'); btn.textContent = '⏹'; }
+    if (input) { input.classList.add('listening'); input.placeholder = 'Sto ascoltando...'; }
+  };
+
+  recognition.onresult = (event) => {
+    const input = document.getElementById('chat-input');
+    if (!input) return;
+    let transcript = '';
+    for (let i = event.resultIndex; i < event.results.length; i++) {
+      transcript += event.results[i][0].transcript;
+    }
+    input.value = transcript;
+    // Se il risultato è finale, invia automaticamente
+    if (event.results[event.results.length - 1].isFinal) {
+      setTimeout(() => {
+        stopVoice();
+        if (input.value.trim()) sendChat();
+      }, 400);
+    }
+  };
+
+  recognition.onerror = (event) => {
+    stopVoice();
+    const msgs = {
+      'not-allowed': 'Permesso microfono negato. Abilitalo nelle impostazioni del browser.',
+      'no-speech': 'Nessuna voce rilevata. Riprova.',
+      'network': 'Errore di rete per il riconoscimento vocale.',
+    };
+    addChatMsg(msgs[event.error] || 'Errore microfono: ' + event.error, 'bot');
+  };
+
+  recognition.onend = () => {
+    stopVoice();
+  };
+
+  return true;
+}
+
+function toggleVoice() {
+  const btn = document.getElementById('chat-mic-btn');
+  if (btn && btn.classList.contains('unsupported')) {
+    addChatMsg('Il riconoscimento vocale non è supportato su questo browser. Usa Chrome su Android.', 'bot');
+    return;
+  }
+  if (isListening) {
+    stopVoice();
+  } else {
+    startVoice();
+  }
+}
+
+function startVoice() {
+  if (!recognition && !initVoice()) {
+    addChatMsg('Riconoscimento vocale non disponibile su questo browser.', 'bot');
+    return;
+  }
+  try {
+    recognition.start();
+  } catch(e) {
+    // recognition già attivo, fermalo prima
+    recognition.stop();
+    setTimeout(() => recognition.start(), 300);
+  }
+}
+
+function stopVoice() {
+  isListening = false;
+  if (recognition) {
+    try { recognition.stop(); } catch(e) {}
+  }
+  const btn = document.getElementById('chat-mic-btn');
+  const input = document.getElementById('chat-input');
+  if (btn) { btn.classList.remove('listening'); btn.textContent = '🎤'; }
+  if (input) { input.classList.remove('listening'); input.placeholder = 'Scrivi o parla...'; }
+}
+
+// Risposta vocale del sous-chef
+function speakReply(text) {
+  if (!window.speechSynthesis) return;
+  // Cancella eventuali sintesi in corso
+  window.speechSynthesis.cancel();
+  const utter = new SpeechSynthesisUtterance(text);
+  utter.lang = 'it-IT';
+  utter.rate = 1.05;
+  utter.pitch = 1;
+  // Cerca una voce italiana
+  const voices = window.speechSynthesis.getVoices();
+  const itVoice = voices.find(v => v.lang.startsWith('it'));
+  if (itVoice) utter.voice = itVoice;
+  window.speechSynthesis.speak(utter);
+}
+
+
+function toggleVoiceReply() {
+  const btn = document.getElementById('chat-voice-toggle');
+  if (!btn) return;
+  const active = btn.dataset.active === '1';
+  btn.dataset.active = active ? '0' : '1';
+  btn.textContent = active ? '🔇' : '🔊';
+  btn.title = active ? 'Risposta vocale disattivata' : 'Risposta vocale attivata';
+  if (!active) {
+    addChatMsg('Risposta vocale attivata. Il sous-chef ti risponderà a voce. 🔊', 'bot');
+    // Pre-carica le voci
+    window.speechSynthesis && window.speechSynthesis.getVoices();
+  } else {
+    window.speechSynthesis && window.speechSynthesis.cancel();
+  }
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -2495,6 +2660,9 @@ if ('serviceWorker' in navigator) {
         <div class="chat-header-name">Sous-chef AI</div>
         <div class="chat-header-sub" id="chat-context-label">Pronto ad aiutarti in cucina</div>
       </div>
+      <button class="chat-close" id="chat-voice-toggle" data-active="0"
+        onclick="toggleVoiceReply()" title="Risposta vocale on/off"
+        style="margin-right:4px;font-size:1rem">🔇</button>
       <button class="chat-close" onclick="showApiKeyDialog()" title="Imposta API key" style="margin-right:4px;font-size:1rem">🔑</button>
       <button class="chat-close" onclick="closeChat()">✕</button>
     </div>
@@ -2511,8 +2679,9 @@ if ('serviceWorker' in navigator) {
       <div class="chat-sugg" onclick="sendSugg(this)">Posso sostituire un ingrediente?</div>
     </div>
     <div class="chat-input-row">
+      <button class="chat-mic" id="chat-mic-btn" onclick="toggleVoice()" title="Parla">🎤</button>
       <input type="text" class="chat-input" id="chat-input"
-        placeholder="Scrivi qui il tuo problema..."
+        placeholder="Scrivi o parla..."
         onkeydown="if(event.key==='Enter')sendChat()">
       <button class="chat-send" id="chat-send-btn" onclick="sendChat()">↑</button>
     </div>
