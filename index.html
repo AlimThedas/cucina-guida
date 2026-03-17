@@ -1182,6 +1182,71 @@
   }
   @keyframes spin { to { transform: rotate(360deg); } }
 
+
+  /* ── SEZIONE FOTO FRIGO (Ho in frigo) ── */
+  .fridge-photo-section {
+    background: linear-gradient(135deg, #fff8f0, #fde8d0);
+    border: 2px dashed var(--orange);
+    border-radius: 16px;
+    padding: 20px 16px;
+    margin-bottom: 16px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .fridge-photo-section:active { transform: scale(0.98); }
+  .fridge-photo-section.analyzing {
+    border-style: solid;
+    background: linear-gradient(135deg, #fff3e8, #fde8d0);
+  }
+  .fridge-photo-icon {
+    font-size: 2.5rem; margin-bottom: 8px;
+  }
+  .fridge-photo-title {
+    font-size: 1rem; font-weight: 700;
+    color: var(--orange); margin-bottom: 4px;
+  }
+  .fridge-photo-sub {
+    font-size: 0.78rem; color: var(--text-md); line-height: 1.4;
+  }
+
+  /* Risultato analisi frigo */
+  .fridge-result {
+    background: white; border-radius: 16px;
+    border: 1.5px solid var(--border);
+    padding: 16px; margin-bottom: 16px;
+    display: none;
+  }
+  .fridge-result.show { display: block; }
+  .fridge-result-img {
+    width: 100%; max-height: 160px; object-fit: cover;
+    border-radius: 10px; margin-bottom: 12px;
+  }
+  .fridge-result-text {
+    font-size: 0.88rem; line-height: 1.6;
+    color: var(--text); white-space: pre-wrap;
+  }
+  .fridge-result-header {
+    display: flex; align-items: center;
+    justify-content: space-between; margin-bottom: 10px;
+  }
+  .fridge-result-title {
+    font-size: 0.85rem; font-weight: 700;
+    color: var(--text-md); text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  .fridge-result-clear {
+    font-size: 0.75rem; color: var(--text-lt);
+    background: none; border: none; cursor: pointer;
+    padding: 4px 8px;
+  }
+  .fridge-analyzing-msg {
+    display: none; text-align: center;
+    padding: 12px; color: var(--orange);
+    font-size: 0.88rem; font-weight: 600;
+  }
+  .fridge-analyzing-msg.show { display: block; }
+
 </style>
 </head>
 <body>
@@ -1224,8 +1289,33 @@
       <div class="stat-chip"><strong id="catCount">0</strong><span>categorie</span></div>
     </div>
     <div id="filter-panel" class="hidden">
+
+      <!-- FOTO FRIGO -->
+      <input type="file" id="fridge-photo-input" accept="image/*" capture="environment"
+        style="display:none" onchange="onFridgePhotoSelected(event)">
+
+      <div class="fridge-photo-section" id="fridge-photo-btn"
+        onclick="document.getElementById('fridge-photo-input').click()">
+        <div class="fridge-photo-icon">📸</div>
+        <div class="fridge-photo-title">Fotografa il tuo frigo</div>
+        <div class="fridge-photo-sub">L'AI analizza gli ingredienti e ti suggerisce le ricette migliori, dicendoti cosa ti manca</div>
+      </div>
+
+      <div class="fridge-analyzing-msg" id="fridge-analyzing-msg">
+        🔍 Sto analizzando il tuo frigo...
+      </div>
+
+      <div class="fridge-result" id="fridge-result">
+        <div class="fridge-result-header">
+          <span class="fridge-result-title">🤖 Analisi frigo</span>
+          <button class="fridge-result-clear" onclick="clearFridgeResult()">✕ Chiudi</button>
+        </div>
+        <img id="fridge-result-img" src="" alt="Foto frigo" class="fridge-result-img">
+        <div class="fridge-result-text" id="fridge-result-text"></div>
+      </div>
+
       <div class="filter-box">
-        <h3>Seleziona gli ingredienti che hai:</h3>
+        <h3>Oppure seleziona gli ingredienti manualmente:</h3>
         <div class="filter-tags" id="filter-tags"></div>
       </div>
     </div>
@@ -2598,28 +2688,64 @@ function onPhotoSelected(event) {
   const file = event.target.files[0];
   if (!file) return;
 
-  const reader = new FileReader();
-  reader.onload = (e) => {
-    const dataUrl = e.target.result;
-    // Extract base64 and media type
+  // Comprimi l'immagine con Canvas prima di inviarla
+  const img = new Image();
+  const objectUrl = URL.createObjectURL(file);
+
+  img.onload = () => {
+    URL.revokeObjectURL(objectUrl);
+
+    // Calcola dimensioni ridotte mantenendo proporzioni
+    const MAX_SIZE = 800; // px lato più lungo - conservativo
+    let w = img.width, h = img.height;
+    if (w > MAX_SIZE || h > MAX_SIZE) {
+      if (w > h) { h = Math.round(h * MAX_SIZE / w); w = MAX_SIZE; }
+      else        { w = Math.round(w * MAX_SIZE / h); h = MAX_SIZE; }
+    }
+
+    // Disegna su canvas compresso
+    const canvas = document.createElement('canvas');
+    canvas.width = w;
+    canvas.height = h;
+    const ctx = canvas.getContext('2d');
+    ctx.drawImage(img, 0, 0, w, h);
+
+    // Comprimi progressivamente finché sotto 3MB (base64)
+    let quality = 0.7;
+    let dataUrl = canvas.toDataURL('image/jpeg', quality);
+    while (dataUrl.length > 3 * 1024 * 1024 && quality > 0.2) {
+      quality -= 0.1;
+      dataUrl = canvas.toDataURL('image/jpeg', quality);
+    }
+    // Se ancora troppo grande, riduci anche le dimensioni
+    if (dataUrl.length > 3 * 1024 * 1024) {
+      canvas.width = Math.round(w * 0.7);
+      canvas.height = Math.round(h * 0.7);
+      ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+      dataUrl = canvas.toDataURL('image/jpeg', 0.5);
+    }
     const match = dataUrl.match(/^data:(image\/[^;]+);base64,(.+)$/);
     if (!match) return;
-    currentPhotoType = match[1];
+
+    currentPhotoType = 'image/jpeg';
     currentPhotoBase64 = match[2];
 
-    // Show preview
+    // Mostra preview
     const preview = document.getElementById('chat-img-preview');
     const previewImg = document.getElementById('chat-img-preview-img');
     previewImg.src = dataUrl;
     preview.classList.add('show');
 
-    // Update button
+    // Aggiorna bottone
     document.getElementById('chat-photo-btn').classList.add('has-photo');
     document.getElementById('chat-photo-btn').textContent = '✓';
     document.getElementById('chat-input').placeholder = 'Aggiungi un messaggio o invia subito...';
+
+    const kb = Math.round(currentPhotoBase64.length * 0.75 / 1024);
+    console.log('Foto compressa:', w + 'x' + h + 'px,', kb + 'KB');
   };
-  reader.readAsDataURL(file);
-  // Reset input so same file can be selected again
+
+  img.src = objectUrl;
   event.target.value = '';
 }
 
@@ -2785,6 +2911,163 @@ REGOLE GENERALI:
 
   isChatLoading = false;
   document.getElementById('chat-send-btn').disabled = false;
+}
+
+
+// ─────────────────────────────────────────────────────────────────────────────
+// ANALISI FRIGO — nella sezione "Ho in frigo"
+// ─────────────────────────────────────────────────────────────────────────────
+
+// Ridimensiona e comprimi immagine prima di inviarla all'API (max 4MB)
+function compressImage(dataUrl, maxSizeMB = 4) {
+  return new Promise((resolve) => {
+    const img = new Image();
+    img.onload = () => {
+      const canvas = document.createElement('canvas');
+      let { width, height } = img;
+
+      // Ridimensiona se troppo grande
+      const MAX_PX = 1600;
+      if (width > MAX_PX || height > MAX_PX) {
+        if (width > height) {
+          height = Math.round(height * MAX_PX / width);
+          width = MAX_PX;
+        } else {
+          width = Math.round(width * MAX_PX / height);
+          height = MAX_PX;
+        }
+      }
+
+      canvas.width = width;
+      canvas.height = height;
+      const ctx = canvas.getContext('2d');
+      ctx.drawImage(img, 0, 0, width, height);
+
+      // Comprimi progressivamente finché sotto il limite
+      let quality = 0.85;
+      let result = canvas.toDataURL('image/jpeg', quality);
+
+      while (result.length > maxSizeMB * 1024 * 1024 * 1.37 && quality > 0.3) {
+        quality -= 0.1;
+        result = canvas.toDataURL('image/jpeg', quality);
+      }
+
+      resolve(result);
+    };
+    img.src = dataUrl;
+  });
+}
+
+async function onFridgePhotoSelected(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+  event.target.value = '';
+
+  const reader = new FileReader();
+  reader.onload = async (e) => {
+    // Comprimi l'immagine prima di inviarla (max 4MB per l'API)
+    const compressed = await compressImage(e.target.result, 4);
+    const dataUrl = compressed;
+    const match = dataUrl.match(/^data:(image\/[^;]+);base64,(.+)$/);
+    if (!match) return;
+    const mediaType = match[1]; // sarà sempre image/jpeg dopo la compressione
+    const base64 = match[2];
+
+    // Show analyzing state
+    document.getElementById('fridge-photo-btn').classList.add('analyzing');
+    document.getElementById('fridge-analyzing-msg').classList.add('show');
+    document.getElementById('fridge-result').classList.remove('show');
+
+    // Show photo preview
+    document.getElementById('fridge-result-img').src = dataUrl;
+
+    const apiKey = localStorage.getItem('cg_apikey');
+    if (!apiKey) {
+      document.getElementById('fridge-analyzing-msg').classList.remove('show');
+      document.getElementById('fridge-photo-btn').classList.remove('analyzing');
+      // Open chat to prompt for key
+      openChat();
+      showApiKeyDialog();
+      return;
+    }
+
+    // Build recipe list
+    const recipeNames = (recipes || []).map(r => r.name).join(', ');
+
+    const systemPrompt = `Sei un sous-chef italiano esperto. Analizza la foto del frigo e aiuta l'utente a capire cosa può cucinare.
+
+HAI ACCESSO A QUESTE RICETTE: ${recipeNames}
+
+ISTRUZIONI:
+1. Elenca brevemente gli ingredienti principali che vedi (max 8-10)
+2. Suggerisci 3-4 ricette dal database che si possono fare con quegli ingredienti
+3. Per ogni ricetta indica con "✓ Hai tutto" oppure "Manca: X, Y" gli ingredienti mancanti
+4. Se hai ingredienti che non coprono nessuna ricetta, suggerisci una ricetta semplice con sostituzioni
+
+Formato risposta:
+🥦 Ingredienti che vedo: [lista]
+
+📋 Ricette possibili:
+[nome ricetta] — ✓ Hai tutto / Manca: [ingrediente]
+...
+
+💡 [consiglio finale breve]
+
+Rispondi in italiano, tono amichevole e pratico.`;
+
+    try {
+      const response = await fetch('https://api.anthropic.com/v1/messages', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'x-api-key': apiKey,
+          'anthropic-version': '2023-06-01',
+          'anthropic-dangerous-direct-browser-access': 'true'
+        },
+        body: JSON.stringify({
+          model: 'claude-sonnet-4-20250514',
+          max_tokens: 1000,
+          system: systemPrompt,
+          messages: [{
+            role: 'user',
+            content: [
+              { type: 'image', source: { type: 'base64', media_type: mediaType, data: base64 } },
+              { type: 'text', text: 'Analizza il mio frigo e dimmi cosa posso cucinare.' }
+            ]
+          }]
+        })
+      });
+
+      const data = await response.json();
+
+      if (data.content && data.content[0]) {
+        document.getElementById('fridge-result-text').textContent = data.content[0].text;
+        document.getElementById('fridge-result').classList.add('show');
+      } else if (data.error && data.error.type === 'authentication_error') {
+        localStorage.removeItem('cg_apikey');
+        alert('API key non valida. Aprila chat e tocca 🔑 per inserirne una nuova.');
+      } else {
+        document.getElementById('fridge-result-text').textContent =
+          'Non sono riuscito ad analizzare la foto. Riprova con una foto più nitida e ben illuminata.';
+        document.getElementById('fridge-result').classList.add('show');
+      }
+    } catch(e) {
+      document.getElementById('fridge-result-text').textContent =
+        'Errore di connessione. Controlla la rete e riprova.';
+      document.getElementById('fridge-result').classList.add('show');
+    }
+
+    document.getElementById('fridge-analyzing-msg').classList.remove('show');
+    document.getElementById('fridge-photo-btn').classList.remove('analyzing');
+  };
+
+  reader.readAsDataURL(file);
+}
+
+function clearFridgeResult() {
+  document.getElementById('fridge-result').classList.remove('show');
+  document.getElementById('fridge-result-img').src = '';
+  document.getElementById('fridge-result-text').textContent = '';
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
