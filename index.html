@@ -1247,6 +1247,47 @@
   }
   .fridge-analyzing-msg.show { display: block; }
 
+
+  /* ── RICETTE CLICCABILI nel risultato frigo ── */
+  .fridge-recipe-link {
+    display: inline-block;
+    background: var(--orange-lt);
+    color: var(--orange);
+    border: 1.5px solid var(--orange);
+    border-radius: 20px;
+    padding: 5px 14px;
+    font-size: 0.82rem;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 3px 2px;
+    transition: all 0.15s;
+    text-decoration: none;
+  }
+  .fridge-recipe-link:active {
+    background: var(--orange);
+    color: white;
+    transform: scale(0.96);
+  }
+  .fridge-result-text {
+    font-size: 0.88rem;
+    line-height: 1.7;
+    color: var(--text);
+    white-space: pre-wrap;
+  }
+  .fridge-recipe-buttons {
+    margin-top: 14px;
+    padding-top: 12px;
+    border-top: 1px solid var(--border);
+  }
+  .fridge-recipe-buttons-title {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--text-lt);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 8px;
+  }
+
 </style>
 </head>
 <body>
@@ -2996,24 +3037,29 @@ async function onFridgePhotoSelected(event) {
 
     const systemPrompt = `Sei un sous-chef italiano esperto. Analizza la foto del frigo e aiuta l'utente a capire cosa può cucinare.
 
-HAI ACCESSO A QUESTE RICETTE: ${recipeNames}
+HAI ACCESSO A QUESTE RICETTE NEL DATABASE: ${recipeNames}
 
 ISTRUZIONI:
 1. Elenca brevemente gli ingredienti principali che vedi (max 8-10)
-2. Suggerisci 3-4 ricette dal database che si possono fare con quegli ingredienti
-3. Per ogni ricetta indica con "✓ Hai tutto" oppure "Manca: X, Y" gli ingredienti mancanti
-4. Se hai ingredienti che non coprono nessuna ricetta, suggerisci una ricetta semplice con sostituzioni
+2. Suggerisci 3-5 ricette dal database che si possono fare con quegli ingredienti
+3. Per ogni ricetta indica con "Hai tutto" oppure "Manca solo: X, Y" gli ingredienti mancanti
+4. Usa i nomi ESATTI delle ricette come appaiono nel database
+5. Alla fine aggiungi una riga RICETTE_JSON con un array JSON
 
-Formato risposta:
-🥦 Ingredienti che vedo: [lista]
+Formato risposta ESATTO:
+Ingredienti che vedo: [lista]
 
-📋 Ricette possibili:
-[nome ricetta] — ✓ Hai tutto / Manca: [ingrediente]
-...
+Ricette possibili:
+[nome esatto ricetta] - Hai tutto
+[nome esatto ricetta] - Manca solo: [ingrediente]
+[nome esatto ricetta] - Manca solo: [ingrediente 1], [ingrediente 2]
 
-💡 [consiglio finale breve]
+Consiglio: [consiglio breve]
 
-Rispondi in italiano, tono amichevole e pratico.`;
+RICETTE_JSON:[{"name":"nome esatto 1","manca":""},{"name":"nome esatto 2","manca":"ingrediente"}]
+
+La riga RICETTE_JSON deve contenere un array JSON valido con i nomi esatti e gli ingredienti mancanti (stringa vuota se ha tutto).
+Rispondi in italiano, tono amichevole.`
 
     try {
       const response = await fetch('https://api.anthropic.com/v1/messages', {
@@ -3041,7 +3087,66 @@ Rispondi in italiano, tono amichevole e pratico.`;
       const data = await response.json();
 
       if (data.content && data.content[0]) {
-        document.getElementById('fridge-result-text').textContent = data.content[0].text;
+        const fullText = data.content[0].text;
+
+        // Estrai il JSON delle ricette dalla risposta
+        const jsonMatch = fullText.match(/RICETTE_JSON:(\[.*?\])/s);
+        let suggestedRecipes = [];
+        let displayText = fullText;
+
+        if (jsonMatch) {
+          try {
+            suggestedRecipes = JSON.parse(jsonMatch[1]);
+          } catch(e) {}
+          // Rimuovi la riga RICETTE_JSON dal testo visualizzato
+          displayText = fullText.replace(/\nRICETTE_JSON:.*$/s, '').trim();
+        }
+
+        document.getElementById('fridge-result-text').textContent = displayText;
+
+        // Aggiungi bottoni cliccabili per le ricette trovate nel database
+        const existingBtns = document.getElementById('fridge-recipe-buttons');
+        if (existingBtns) existingBtns.remove();
+
+        if (suggestedRecipes.length > 0) {
+          const matchedRecipes = suggestedRecipes
+            .map(s => ({
+              suggested: s,
+              recipe: recipes.find(r =>
+                r.name.toLowerCase() === s.name.toLowerCase() ||
+                r.name.toLowerCase().includes(s.name.toLowerCase()) ||
+                s.name.toLowerCase().includes(r.name.toLowerCase())
+              )
+            }))
+            .filter(x => x.recipe);
+
+          if (matchedRecipes.length > 0) {
+            const btnContainer = document.createElement('div');
+            btnContainer.id = 'fridge-recipe-buttons';
+            btnContainer.className = 'fridge-recipe-buttons';
+            btnContainer.innerHTML = '<div class="fridge-recipe-buttons-title">👆 Tocca per aprire la ricetta</div>';
+
+            matchedRecipes.forEach(({recipe, suggested}) => {
+              const btn = document.createElement('button');
+              btn.className = 'fridge-recipe-link';
+              const mancaText = suggested.manca ? ' — Manca: ' + suggested.manca : ' — ✓ Hai tutto';
+              btn.innerHTML = '🍽 ' + recipe.name + '<br><small style="font-weight:400;font-size:0.72rem">' + mancaText + '</small>';
+              btn.onclick = () => {
+                // Vai alla ricetta
+                const idx = recipes.indexOf(recipe);
+                if (idx >= 0) {
+                  selectRecipe(idx);
+                  // Chiudi il pannello filtro e vai alla lista
+                  setTab('all');
+                }
+              };
+              btnContainer.appendChild(btn);
+            });
+
+            document.getElementById('fridge-result').appendChild(btnContainer);
+          }
+        }
+
         document.getElementById('fridge-result').classList.add('show');
       } else if (data.error && data.error.type === 'authentication_error') {
         localStorage.removeItem('cg_apikey');
