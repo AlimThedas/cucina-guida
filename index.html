@@ -1183,7 +1183,95 @@
   @keyframes spin { to { transform: rotate(360deg); } }
 
 
-  /* ── SEZIONE FOTO FRIGO (Ho in frigo) ── */
+
+  /* ── LISTA DELLA SPESA ── */
+  .shop-modal {
+    position: fixed; inset: 0; z-index: 400;
+    display: flex; align-items: flex-end;
+    background: rgba(0,0,0,0.45);
+    transition: opacity 0.2s;
+  }
+  .shop-modal.hidden { display: none; }
+  .shop-panel {
+    background: var(--white);
+    border-radius: 24px 24px 0 0;
+    width: 100%; max-width: 480px; margin: 0 auto;
+    padding: 20px 20px 40px;
+    max-height: 85vh; overflow-y: auto;
+    box-shadow: var(--shadow-lg);
+  }
+  .shop-header {
+    display: flex; align-items: center; justify-content: space-between;
+    margin-bottom: 16px;
+  }
+  .shop-title { font-family: var(--font-disp); font-size: 1.2rem; font-weight: 800; }
+  .shop-close {
+    background: var(--cream); border: none; border-radius: 50%;
+    width: 36px; height: 36px; font-size: 1rem; cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .shop-recipe-name {
+    font-size: 0.78rem; color: var(--text-lt); font-weight: 600;
+    margin-bottom: 14px; text-transform: uppercase; letter-spacing: 0.8px;
+  }
+  .shop-ing-list { list-style: none; margin-bottom: 16px; }
+  .shop-ing-list li {
+    display: flex; align-items: center; gap: 12px;
+    padding: 10px 0; border-bottom: 1px solid var(--border);
+    font-size: 0.92rem; cursor: pointer;
+  }
+  .shop-ing-list li:last-child { border-bottom: none; }
+  .shop-check {
+    width: 22px; height: 22px; border-radius: 6px;
+    border: 2px solid var(--border); flex-shrink: 0;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 0.8rem; transition: all 0.15s;
+  }
+  .shop-check.checked { background: var(--green); border-color: var(--green); color: white; }
+  .shop-ing-text { flex: 1; }
+  .shop-ing-text.done { text-decoration: line-through; color: var(--text-lt); }
+  .shop-actions { display: flex; gap: 10px; }
+  .shop-btn {
+    flex: 1; padding: 13px; border-radius: var(--radius-md);
+    border: none; font-size: 0.9rem; font-weight: 700;
+    cursor: pointer; font-family: var(--font-body);
+  }
+  .shop-btn-add { background: var(--green); color: white; }
+  .shop-btn-clear { background: var(--cream); color: var(--text-md); }
+  .shop-saved-list {
+    background: var(--orange-lt); border-radius: var(--radius-md);
+    padding: 14px; margin-bottom: 16px; display: none;
+  }
+  .shop-saved-list.show { display: block; }
+  .shop-saved-title {
+    font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.8px;
+    font-weight: 700; color: var(--orange); margin-bottom: 10px;
+  }
+  .shop-saved-item {
+    display: flex; align-items: center; gap: 10px;
+    padding: 6px 0; font-size: 0.88rem;
+    border-bottom: 1px solid rgba(232,93,4,0.15);
+  }
+  .shop-saved-item:last-child { border-bottom: none; }
+  .shop-saved-check {
+    width: 20px; height: 20px; border-radius: 5px;
+    border: 2px solid var(--orange); flex-shrink: 0;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 0.75rem; cursor: pointer; transition: all 0.15s;
+  }
+  .shop-saved-check.checked { background: var(--orange); color: white; }
+  .shop-saved-text { flex: 1; }
+  .shop-saved-text.done { text-decoration: line-through; color: var(--text-lt); }
+  .shop-badge {
+    position: absolute; top: -4px; right: -4px;
+    background: var(--green); color: white; border-radius: 50%;
+    width: 18px; height: 18px; font-size: 0.65rem; font-weight: 800;
+    display: flex; align-items: center; justify-content: center;
+    display: none;
+  }
+  .shop-badge.show { display: flex; }
+
+
   .fridge-photo-section {
     background: linear-gradient(135deg, #fff8f0, #fde8d0);
     border: 2px dashed var(--orange);
@@ -1362,7 +1450,16 @@
     </div>
     <div id="sort-panel" class="hidden">
       <div class="filter-box">
-        <h3>Difficoltà</h3>
+        <h3>Portata</h3>
+        <div class="filter-tags">
+          <div class="filter-tag" id="portata-all" onclick="setPortata('all')">🍽 Tutte</div>
+          <div class="filter-tag" id="portata-Colazione" onclick="setPortata('Colazione')">☀️ Colazione</div>
+          <div class="filter-tag" id="portata-Primo" onclick="setPortata('Primo')">🍝 Primo</div>
+          <div class="filter-tag" id="portata-Secondo" onclick="setPortata('Secondo')">🍗 Secondo</div>
+          <div class="filter-tag" id="portata-Contorno" onclick="setPortata('Contorno')">🥦 Contorno</div>
+          <div class="filter-tag" id="portata-Dolce" onclick="setPortata('Dolce')">🍰 Dolce</div>
+        </div>
+        <h3 style="margin-top:14px">Difficoltà</h3>
         <div class="filter-tags">
           <div class="filter-tag" id="diff-facile" onclick="toggleDiff('Facile')">⭐ Facile</div>
           <div class="filter-tag" id="diff-media" onclick="toggleDiff('Media')">⭐⭐ Media</div>
@@ -1418,6 +1515,7 @@
       <div class="notes-hint">Salvato automaticamente sul dispositivo</div>
     </div>
     <button class="start-btn" onclick="startCooking()">Inizia a cucinare →</button>
+    <button class="start-btn" id="shop-open-btn" style="background:var(--green);margin-top:8px;position:relative" onclick="openShoppingList()">🛒 Aggiungi alla lista della spesa <span class="shop-badge" id="shop-fab-badge">0</span></button>
   </div>
 
   <div id="screen-step" class="hidden">
@@ -1654,6 +1752,7 @@ let selDiff      = new Set();
 let selTimeMax   = null;
 let sortMode     = 'time';
 let selLevel     = 'all';   // 'all' | 'casa' | 'trattoria' | 'stellato'
+let selPortata   = 'all';   // 'all' | 'Primo' | 'Secondo' | 'Contorno' | 'Colazione' | 'Dolce'
 const selTags    = new Set();
 let allTags      = [];
 let cats         = [];
@@ -1708,6 +1807,7 @@ function initApp() {
   renderFilterTags();
   renderList();
   show('screen-list');
+  updateShopBadge();
 }
 
 
@@ -1773,6 +1873,18 @@ function setSort(mode) {
   renderList();
 }
 
+// ─────────────────────────────────────────────────────────────────────────────
+// FILTRO PORTATA
+// ─────────────────────────────────────────────────────────────────────────────
+function setPortata(p) {
+  selPortata = p;
+  ['all','Colazione','Primo','Secondo','Contorno','Dolce'].forEach(v => {
+    const el = document.getElementById('portata-' + v);
+    if (el) el.classList.toggle('selected', selPortata === v);
+  });
+  renderList();
+}
+
 // Converte la stringa tempo in minuti per il confronto
 function parseMinutes(timeStr) {
   if (!timeStr) return 999;
@@ -1806,6 +1918,11 @@ function renderList() {
   // Filtro livello
   if (selLevel !== 'all') {
     rws = rws.filter(({r}) => r.level === selLevel);
+  }
+
+  // Filtro portata
+  if (selPortata !== 'all') {
+    rws = rws.filter(({r}) => r.portata === selPortata);
   }
 
   // Filtro testo (funziona sempre)
@@ -3178,6 +3295,238 @@ function clearFridgeResult() {
 // ─────────────────────────────────────────────────────────────────────────────
 // INIT
 // ─────────────────────────────────────────────────────────────────────────────
+// ─────────────────────────────────────────────────────────────────────────────
+// LISTA DELLA SPESA
+// ─────────────────────────────────────────────────────────────────────────────
+const SHOP_KEY = 'cg_shopping_list_v1';
+let shopChecked = new Set(); // ingredienti spuntati nella selezione corrente
+
+function getShoppingList() {
+  try { return JSON.parse(localStorage.getItem(SHOP_KEY) || '[]'); }
+  catch(e) { return []; }
+}
+
+function saveShoppingList(list) {
+  localStorage.setItem(SHOP_KEY, JSON.stringify(list));
+  updateShopBadge();
+}
+
+function updateShopBadge() {
+  const list = getShoppingList();
+  const undone = list.filter(i => !i.done).length;
+
+  // Badge sul pulsante schermata ingredienti
+  const badge = document.getElementById('shop-fab-badge');
+  if (badge) {
+    badge.textContent = undone;
+    badge.classList.toggle('show', undone > 0);
+  }
+  // FAB globale spesa
+  const spesaFab = document.getElementById('spesa-fab');
+  const spesaBadge = document.getElementById('spesa-fab-badge');
+  if (spesaFab) {
+    spesaFab.style.display = undone > 0 ? 'flex' : 'none';
+    if (spesaBadge) spesaBadge.textContent = undone;
+  }
+}
+
+function openShoppingListGlobal() {
+  // Apre la lista senza la sezione ingredienti ricetta
+  const section = document.getElementById('shop-current-section');
+  if (section) section.style.display = 'none';
+  renderSavedList();
+  document.getElementById('shop-modal').classList.remove('hidden');
+  document.body.style.overflow = 'hidden';
+}
+
+function openShoppingList() {
+  if (!cur) return;
+  // Ripristina la sezione ingredienti se nascosta
+  const section = document.getElementById('shop-current-section');
+  if (section) section.style.display = '';
+
+  shopChecked = new Set();
+
+  // Header con nome ricetta
+  document.getElementById('shop-recipe-name').textContent =
+    cur.icon + ' ' + cur.name + ' — seleziona gli ingredienti da aggiungere';
+
+  // Render ingredienti ricetta corrente con scaling
+  const ratio = currentPortions / BASE_PORTIONS;
+  const scaled = cur.ing.map(line => {
+    if (ratio === 1) return line;
+    return line.replace(/(\d+([.,]\d+)?)\s*(\/\s*\d+)?/g, (match, num1, dec, frac) => {
+      let value;
+      if (frac) {
+        const parts = match.trim().split('/');
+        value = parseFloat(parts[0]) / parseFloat(parts[1]);
+      } else {
+        value = parseFloat(num1.replace(',','.'));
+      }
+      const s = value * ratio;
+      const res = s % 1 === 0 ? s.toString() :
+        Math.abs(s - Math.round(s*2)/2) < 0.01 ? (Math.round(s*2)/2).toString().replace('.',',') :
+        s.toFixed(1).replace('.',',');
+      return res;
+    });
+  });
+
+  // Seleziona tutti di default
+  cur.ing.forEach((_, i) => shopChecked.add(i));
+
+  document.getElementById('shop-ing-list').innerHTML = scaled.map((ing, i) =>
+    `<li onclick="toggleShopCheck(${i})">
+      <div class="shop-check checked" id="shopck-${i}">✓</div>
+      <span class="shop-ing-text" id="shoptext-${i}">${ing}</span>
+    </li>`
+  ).join('');
+
+  // Mostra lista salvata esistente
+  renderSavedList();
+
+  document.getElementById('shop-modal').classList.remove('hidden');
+  document.body.style.overflow = 'hidden';
+}
+
+function toggleShopCheck(i) {
+  shopChecked.has(i) ? shopChecked.delete(i) : shopChecked.add(i);
+  const ck = document.getElementById('shopck-' + i);
+  const tx = document.getElementById('shoptext-' + i);
+  if (ck) ck.classList.toggle('checked', shopChecked.has(i));
+  if (tx) tx.classList.toggle('done', !shopChecked.has(i));
+}
+
+function addAllToList() {
+  // Seleziona tutti prima di aggiungere
+  cur.ing.forEach((_, i) => shopChecked.add(i));
+  addSelectedToList();
+}
+
+function addSelectedToList() {
+  if (!cur || shopChecked.size === 0) return;
+  const ratio = currentPortions / BASE_PORTIONS;
+  const list = getShoppingList();
+
+  shopChecked.forEach(i => {
+    let ing = cur.ing[i];
+    if (ratio !== 1) {
+      ing = ing.replace(/(\d+([.,]\d+)?)\s*(\/\s*\d+)?/g, (match, num1, dec, frac) => {
+        let value;
+        if (frac) {
+          const parts = match.trim().split('/');
+          value = parseFloat(parts[0]) / parseFloat(parts[1]);
+        } else {
+          value = parseFloat(num1.replace(',','.'));
+        }
+        const s = value * ratio;
+        return s % 1 === 0 ? s.toString() :
+          Math.abs(s - Math.round(s*2)/2) < 0.01 ? (Math.round(s*2)/2).toString().replace('.',',') :
+          s.toFixed(1).replace('.',',');
+      });
+    }
+    // Evita duplicati esatti
+    const exists = list.some(item => item.text.toLowerCase() === ing.toLowerCase() && item.recipe === cur.name);
+    if (!exists) {
+      list.push({ text: ing, recipe: cur.name, done: false, id: Date.now() + i });
+    }
+  });
+
+  saveShoppingList(list);
+  renderSavedList();
+
+  // Feedback visivo
+  const btn = document.querySelector('.shop-btn-add');
+  if (btn) {
+    btn.textContent = '✓ Aggiunto!';
+    btn.style.background = '#2d6a4f';
+    setTimeout(() => { btn.textContent = '➕ Aggiungi tutti'; btn.style.background = ''; }, 1500);
+  }
+}
+
+function renderSavedList() {
+  const list = getShoppingList();
+  const container = document.getElementById('shop-saved-list');
+  const itemsEl = document.getElementById('shop-saved-items');
+  const countEl = document.getElementById('shop-count');
+
+  if (list.length === 0) {
+    container.classList.remove('show');
+    return;
+  }
+
+  container.classList.add('show');
+  countEl.textContent = list.filter(i => !i.done).length + '/' + list.length;
+
+  // Raggruppa per ricetta
+  const byRecipe = {};
+  list.forEach(item => {
+    if (!byRecipe[item.recipe]) byRecipe[item.recipe] = [];
+    byRecipe[item.recipe].push(item);
+  });
+
+  itemsEl.innerHTML = Object.entries(byRecipe).map(([recipe, items]) =>
+    `<div style="margin-bottom:10px">
+      <div style="font-size:0.72rem;font-weight:700;color:var(--orange);margin-bottom:4px;text-transform:uppercase;letter-spacing:0.5px">${recipe}</div>
+      ${items.map(item =>
+        `<div class="shop-saved-item" onclick="toggleSavedItem(${item.id})">
+          <div class="shop-saved-check${item.done?' checked':''}" id="savedck-${item.id}">${item.done?'✓':''}</div>
+          <span class="shop-saved-text${item.done?' done':''}" id="savedtx-${item.id}">${item.text}</span>
+          <button onclick="event.stopPropagation();removeSavedItem(${item.id})"
+            style="background:none;border:none;color:var(--text-lt);cursor:pointer;font-size:1rem;padding:0 4px">×</button>
+        </div>`
+      ).join('')}
+    </div>`
+  ).join('');
+}
+
+function toggleSavedItem(id) {
+  const list = getShoppingList();
+  const item = list.find(i => i.id === id);
+  if (item) { item.done = !item.done; saveShoppingList(list); renderSavedList(); }
+}
+
+function removeSavedItem(id) {
+  const list = getShoppingList().filter(i => i.id !== id);
+  saveShoppingList(list);
+  renderSavedList();
+}
+
+function clearSavedList() {
+  if (!confirm('Svuotare tutta la lista della spesa?')) return;
+  saveShoppingList([]);
+  renderSavedList();
+}
+
+function shareList() {
+  const list = getShoppingList().filter(i => !i.done);
+  if (list.length === 0) { alert('La lista è vuota o tutti gli ingredienti sono già spuntati!'); return; }
+
+  // Raggruppa per ricetta
+  const byRecipe = {};
+  list.forEach(item => {
+    if (!byRecipe[item.recipe]) byRecipe[item.recipe] = [];
+    byRecipe[item.recipe].push(item.text);
+  });
+
+  const text = '🛒 Lista della spesa — CucinaGuida\n\n' +
+    Object.entries(byRecipe).map(([recipe, items]) =>
+      `📌 ${recipe}\n${items.map(i => '  • ' + i).join('\n')}`
+    ).join('\n\n');
+
+  if (navigator.share) {
+    navigator.share({ title: 'Lista della spesa', text }).catch(() => {});
+  } else {
+    navigator.clipboard.writeText(text).then(() => alert('Lista copiata negli appunti! 📋'));
+  }
+}
+
+function closeShoppingList(e) {
+  if (e && e.target !== document.getElementById('shop-modal')) return;
+  document.getElementById('shop-modal').classList.add('hidden');
+  document.body.style.overflow = '';
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
 loadRecipes();
 // Pre-popola lista ricette per il sous-chef
 setTimeout(() => {
@@ -3204,6 +3553,36 @@ if ('serviceWorker' in navigator) {
 }
 </script>
 
+  <!-- LISTA DELLA SPESA MODAL -->
+  <div class="shop-modal hidden" id="shop-modal" onclick="closeShoppingList(event)">
+    <div class="shop-panel" onclick="event.stopPropagation()">
+      <div class="shop-header">
+        <div class="shop-title">🛒 Lista della spesa</div>
+        <button class="shop-close" onclick="closeShoppingList()">✕</button>
+      </div>
+
+      <!-- Ingredienti ricetta corrente -->
+      <div id="shop-current-section">
+        <div class="shop-recipe-name" id="shop-recipe-name"></div>
+        <ul class="shop-ing-list" id="shop-ing-list"></ul>
+        <div class="shop-actions">
+          <button class="shop-btn shop-btn-add" onclick="addAllToList()">➕ Aggiungi tutti</button>
+          <button class="shop-btn shop-btn-clear" onclick="addSelectedToList()">✓ Aggiungi selezionati</button>
+        </div>
+      </div>
+
+      <!-- Lista salvata -->
+      <div class="shop-saved-list" id="shop-saved-list">
+        <div class="shop-saved-title">📋 La tua lista (<span id="shop-count">0</span> ingredienti)</div>
+        <div id="shop-saved-items"></div>
+        <div style="display:flex;gap:8px;margin-top:12px">
+          <button class="shop-btn shop-btn-add" style="font-size:0.82rem" onclick="shareList()">📤 Condividi</button>
+          <button class="shop-btn shop-btn-clear" style="font-size:0.82rem;background:#ffe0e0;color:#c00" onclick="clearSavedList()">🗑 Svuota</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- CHATBOT OVERLAY -->
   <div class="chat-overlay" id="chat-overlay" onclick="closeChat()"></div>
 
@@ -3211,6 +3590,13 @@ if ('serviceWorker' in navigator) {
   <button class="chat-fab" id="chat-fab" onclick="openChat()">
     👨‍🍳
     <span class="chat-fab-badge"></span>
+  </button>
+
+  <!-- SPESA FAB -->
+  <button class="chat-fab" id="spesa-fab" onclick="openShoppingListGlobal()"
+    style="right:auto;left:16px;background:var(--green);display:none">
+    🛒
+    <span class="shop-badge show" id="spesa-fab-badge" style="position:absolute;top:-4px;right:-4px;background:var(--orange)">0</span>
   </button>
 
   <!-- CHATBOT PANEL -->

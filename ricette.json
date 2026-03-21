@@ -3,7 +3,7 @@
     "cat": "🍝 Pasta",
     "name": "Cacio e pepe",
     "icon": "🍝",
-    "photo": "https://images.pexels.com/photos/5336537/pexels-photo-5336537.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "photo": "https://images.unsplash.com/photo-1612874742237-6526221588e3?w=600&auto=format&fit=crop",
     "time": "20 min",
     "diff": "Media",
     "subtitle": "Il grande classico romano, solo tre ingredienti",
@@ -66,13 +66,14 @@
     ],
     "fin": "Hai fatto la cacio e pepe! Il segreto è tutto nella temperatura: mai fuoco diretto con il pecorino. I romani dicono che ci vogliono cento tentativi per farla perfetta, ma dal secondo tentativo è già buonissima.",
     "id": 1,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Primo"
   },
   {
     "cat": "🍝 Pasta",
     "name": "Carbonara",
     "icon": "🍝",
-    "photo": "https://images.unsplash.com/photo-1633337474564-1d9478ca4e2e?q=80&w=871&auto=format&fit=crop",
+    "photo": "https://images.unsplash.com/photo-1612874742237-6526221588e3?w=600&auto=format&fit=crop",
     "time": "25 min",
     "diff": "Media",
     "subtitle": "La vera ricetta romana, senza panna",
@@ -142,13 +143,14 @@
     ],
     "fin": "Carbonara riuscita! Le due regole d'oro: uova a temperatura ambiente e fuoco spento durante la mantecatura. Il guanciale si aggiunge sempre all'ultimo per mantenerlo croccante. Niente panna, niente cipolla, niente aglio.",
     "id": 2,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Primo"
   },
   {
     "cat": "🍝 Pasta",
     "name": "Aglio olio e peperoncino",
     "icon": "🍝",
-    "photo": "https://images.pexels.com/photos/4431588/pexels-photo-4431588.jpeg",
+    "photo": "https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?w=600&auto=format&fit=crop",
     "time": "15 min",
     "diff": "Facile",
     "subtitle": "Veloce, povera, straordinaria",
@@ -206,13 +208,14 @@
     ],
     "fin": "Aglio olio perfetta! Tre ingredienti ma infinita eleganza. La semplicità richiede tecnica.",
     "id": 3,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Primo"
   },
   {
     "cat": "🍝 Pasta",
     "name": "Amatriciana",
     "icon": "🍝",
-    "photo": "https://images.unsplash.com/photo-1608219992759-8d74ed8d76eb?w=600&q=80",
+    "photo": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&auto=format&fit=crop",
     "time": "30 min",
     "diff": "Facile",
     "subtitle": "Il sugo romano per eccellenza",
@@ -272,7 +275,8 @@
     ],
     "fin": "Amatriciana perfetta! La vera ricetta non prevede cipolla, è un piatto essenziale dove ogni ingrediente conta.",
     "id": 4,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Primo"
   },
   {
     "cat": "🍝 Pasta",
@@ -340,7 +344,8 @@
     ],
     "fin": "Ottima pasta con zucchine! Nella versione estiva prova ad aggiungere qualche fiore di zucca a fuoco spento.",
     "id": 5,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Primo"
   },
   {
     "cat": "🍝 Pasta",
@@ -408,13 +413,14 @@
     ],
     "fin": "Pasta con broccoli perfetta! Se ti è piaciuto il trucco delle acciughe, prova ad usarle anche nell'aglio olio, cambia tutto.",
     "id": 6,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Primo"
   },
   {
     "cat": "🍝 Pasta",
     "name": "Pasta alla Norma",
     "icon": "🍝",
-    "photo": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=600&q=80",
+    "photo": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=600&auto=format&fit=crop",
     "time": "35 min",
     "diff": "Facile",
     "subtitle": "Il capolavoro siciliano con melanzane",
@@ -477,7 +483,8 @@
     ],
     "fin": "Pasta alla Norma perfetta! Questo è uno dei grandi piatti della cucina siciliana. Il nome deriva dall'opera di Bellini, era così buono che paragonarlo alla Norma era il massimo del complimento.",
     "id": 7,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Primo"
   },
   {
     "cat": "🍝 Pasta",
@@ -555,7 +562,8 @@
     ],
     "fin": "Arrabbiata perfetta! Il nome significa proprio 'arrabbiata' perché il piccante fa diventare rossi in faccia. La prossima volta prova a tostare il peperoncino secco in padella a secco prima di aggiungerlo all'olio: il profumo cambia completamente.",
     "id": 8,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Primo"
   },
   {
     "cat": "🍝 Pasta",
@@ -615,13 +623,14 @@
     ],
     "fin": "Pesto genovese fatto! La DOP genovese usa basilico delle serre di Prà, molto più delicato. Se trovi un basilico profumato, il pesto è già a metà strada.",
     "id": 9,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Primo"
   },
   {
     "cat": "🍝 Pasta",
     "name": "Pasta e fagioli",
     "icon": "🍝",
-    "photo": "https://images.unsplash.com/photo-1602767603792-1537f25b6c24?w=600&q=80",
+    "photo": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600&auto=format&fit=crop",
     "time": "50 min",
     "diff": "Facile",
     "subtitle": "Povera, sostanziosa, infinita",
@@ -689,7 +698,8 @@
     ],
     "fin": "Pasta e fagioli riuscita! Questo è uno dei piatti più antichi e nutrienti della tradizione italiana. Ogni regione ha la sua versione, quella veneziana aggiunge le cotiche, quella napoletana il prosciutto.",
     "id": 10,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Primo"
   },
   {
     "cat": "🍝 Pasta",
@@ -775,13 +785,14 @@
     ],
     "fin": "Lasagne riuscite! Il segreto è il ragù: non affrettarlo mai, almeno 90 minuti. La lasagna è sempre migliore il giorno dopo, riscaldala coperta a 160°C per 20-25 minuti.",
     "id": 11,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Primo"
   },
   {
     "cat": "🍚 Risotti",
     "name": "Risotto alla milanese",
     "icon": "🍚",
-    "photo": "https://images.unsplash.com/photo-1476124369491-e7addf5db371?w=600&q=80",
+    "photo": "https://images.unsplash.com/photo-1476124369491-e7addf5db371?w=600&auto=format&fit=crop",
     "time": "35 min",
     "diff": "Media",
     "subtitle": "Il giallo dello zafferano, eterno classico",
@@ -866,13 +877,14 @@
     ],
     "fin": "Risotto alla milanese perfetto! Il segreto è nel Carnaroli (mai Arborio per i puristi), nel brodo di qualità e nella manteca finale con burro freddo.",
     "id": 12,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Primo"
   },
   {
     "cat": "🍚 Risotti",
     "name": "Risotto ai funghi porcini",
     "icon": "🍚",
-    "photo": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600&q=80",
+    "photo": "https://images.unsplash.com/photo-1476124369491-e7addf5db371?w=600&auto=format&fit=crop",
     "time": "40 min",
     "diff": "Media",
     "subtitle": "Profumo di bosco nel piatto",
@@ -950,7 +962,8 @@
     ],
     "fin": "Risotto ai funghi porcini splendido! Se hai i porcini freschi, sostituisci i secchi, il risultato sarà ancora più intenso e profumato.",
     "id": 13,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Primo"
   },
   {
     "cat": "🍚 Risotti",
@@ -1022,7 +1035,8 @@
     ],
     "fin": "Risotto ai frutti di mare perfetto! In Liguria ci aggiungono un cucchiaino di pesto a fine cottura, prova questa variante strepitosa.",
     "id": 14,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Primo"
   },
   {
     "cat": "🍚 Risotti",
@@ -1088,7 +1102,8 @@
     ],
     "fin": "Risotto al limone e gamberi riuscito! Leggero e profumato, è perfetto per la primavera e l'estate.",
     "id": 15,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Primo"
   },
   {
     "cat": "🍚 Risotti",
@@ -1162,7 +1177,8 @@
     ],
     "fin": "Risotto al radicchio e gorgonzola eccellente! È un piatto tipico del Veneto invernale, con contrasti di amaro, dolce e piccante che lo rendono indimenticabile.",
     "id": 16,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Primo"
   },
   {
     "cat": "🍗 Secondi",
@@ -1233,13 +1249,14 @@
     ],
     "fin": "Cosce di pollo perfette! Il segreto è sempre la pazienza nella prima rosolatura, non toccare la pelle.",
     "id": 17,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Secondo"
   },
   {
     "cat": "🍗 Secondi",
     "name": "Scaloppine al limone",
     "icon": "🍗",
-    "photo": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=600&q=80",
+    "photo": "https://images.unsplash.com/photo-1544025162-d76694265947?w=600&auto=format&fit=crop",
     "time": "20 min",
     "diff": "Facile",
     "subtitle": "Classico milanese veloce ed elegante",
@@ -1297,7 +1314,8 @@
     ],
     "fin": "Scaloppine al limone perfette! Prova la variante ai capperi e olive per un sapore più mediterraneo.",
     "id": 18,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Secondo"
   },
   {
     "cat": "🍗 Secondi",
@@ -1366,7 +1384,8 @@
     ],
     "fin": "Polpette al pomodoro riuscite! Prova ad aggiungere una spolverata di cannella nell'impasto, un trucco antico che dà un sapore speciale.",
     "id": 19,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Secondo"
   },
   {
     "cat": "🍗 Secondi",
@@ -1421,7 +1440,8 @@
     ],
     "fin": "Cotoletta alla milanese perfetta! La vera cotoletta milanese è 'con l'orecchio': la carne è attaccata all'osso e il pangrattato deve essere leggermente aderente, non compatto.",
     "id": 20,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Secondo"
   },
   {
     "cat": "🍗 Secondi",
@@ -1481,7 +1501,8 @@
     ],
     "fin": "Purè vellutato riuscito! Ricorda: più burro = più gusto. I francesi ci mettono quantità inimmaginabili, e non a caso è buonissimo.",
     "id": 21,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Secondo"
   },
   {
     "cat": "🍗 Secondi",
@@ -1556,7 +1577,8 @@
     ],
     "fin": "Stufato di manzo straordinario! Meglio il giorno dopo, il riposo in frigo fa amalgamare tutti i sapori. Riscaldalo lentamente col coperchio.",
     "id": 22,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Secondo"
   },
   {
     "cat": "🍗 Secondi",
@@ -1620,13 +1642,14 @@
     ],
     "fin": "Salmone perfetto! La pelle croccante è una delle cose più soddisfacenti in cucina. Abbinalo a un insalata di finocchio e arancia per un contrasto fresco.",
     "id": 23,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Secondo"
   },
   {
     "cat": "🍗 Secondi",
     "name": "Uova in purgatorio",
     "icon": "🍗",
-    "photo": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=600&q=80",
+    "photo": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=600&auto=format&fit=crop",
     "time": "20 min",
     "diff": "Facile",
     "subtitle": "Napoletane, veloci, saporite",
@@ -1682,13 +1705,14 @@
     ],
     "fin": "Uova in purgatorio perfette! Un piatto velocissimo ma pieno di sapore. Prova ad aggiungere olive e capperi al sugo per una versione alla puttanesca.",
     "id": 24,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Secondo"
   },
   {
     "cat": "🥗 Zuppe",
     "name": "Ribollita",
     "icon": "🥣",
-    "photo": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600&q=80",
+    "photo": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600&auto=format&fit=crop",
     "time": "90 min",
     "diff": "Media",
     "subtitle": "Il capolavoro contadino toscano",
@@ -1755,7 +1779,8 @@
     ],
     "fin": "Ribollita toscana perfetta! Falla in abbondanza, il giorno dopo scaldata in padella con olio è ancora più straordinaria.",
     "id": 25,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Primo"
   },
   {
     "cat": "🥗 Zuppe",
@@ -1832,13 +1857,14 @@
     ],
     "fin": "Minestrone perfetto! Usa le verdure di stagione, in estate zucchine e pomodori freschi, in inverno cavolo e porri. Ogni stagione porta il suo minestrone migliore.",
     "id": 26,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Primo"
   },
   {
     "cat": "🥗 Zuppe",
     "name": "Zuppa di lenticchie",
     "icon": "🥣",
-    "photo": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=600&q=80",
+    "photo": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600&auto=format&fit=crop",
     "time": "45 min",
     "diff": "Facile",
     "subtitle": "Calda, confortante, nutrientissima",
@@ -1902,7 +1928,8 @@
     ],
     "fin": "Zuppa di lenticchie perfetta! Con le spezie e il limone ha un sapore mediorientale meraviglioso. Aggiungendo latte di cocco diventa una ricetta ispirata alla cucina indiana.",
     "id": 27,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Primo"
   },
   {
     "cat": "🥗 Zuppe",
@@ -1976,7 +2003,8 @@
     ],
     "fin": "Vellutata di zucca perfetta! Aggiungendo un cucchiaino di curry crea una versione asiatica straordinaria. Congelata si conserva 3 mesi.",
     "id": 28,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Primo"
   },
   {
     "cat": "🥚 Uova & Verdure",
@@ -2030,7 +2058,8 @@
     ],
     "fin": "Frittata perfetta! Il ripieno può essere qualsiasi cosa: zucchine, cipolle, erbette, formaggio, patate. La frittata fredda il giorno dopo è ottima in un panino.",
     "id": 29,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Secondo"
   },
   {
     "cat": "🥚 Uova & Verdure",
@@ -2104,13 +2133,14 @@
     ],
     "fin": "Parmigiana di melanzane perfetta! I tre segreti: mozzarella ben scolata, sugo denso, riposare prima di servire. Il giorno dopo è ancora più buona, gli strati si compattano e i sapori si fondono completamente.",
     "id": 30,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Secondo"
   },
   {
     "cat": "🍞 Pane & Lievitati",
     "name": "Focaccia genovese",
     "icon": "🫓",
-    "photo": "https://images.unsplash.com/photo-1571047117894-9a0f6ec5abc7?w=600&q=80",
+    "photo": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=600&auto=format&fit=crop",
     "time": "180 min",
     "diff": "Media",
     "subtitle": "Alta, morbida, con le fossette di olio",
@@ -2175,7 +2205,8 @@
     ],
     "fin": "Focaccia genovese perfetta! Mangiala calda appena sfornata. Con le olive schiacciate sopra prima di infornare è ancora più buona.",
     "id": 31,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Colazione"
   },
   {
     "cat": "🍞 Pane & Lievitati",
@@ -2247,7 +2278,8 @@
     ],
     "fin": "Pizza in teglia riuscita! Con la lievitazione di 24 ore e il forno al massimo si ottiene un risultato sorprendente anche a casa.",
     "id": 32,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Colazione"
   },
   {
     "cat": "🍰 Dolci",
@@ -2330,13 +2362,14 @@
     ],
     "fin": "Torta di mele perfetta! Si conserva per 3 giorni sotto una campana di vetro. Il giorno dopo è ancora più buona.",
     "id": 33,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Dolce"
   },
   {
     "cat": "🍰 Dolci",
     "name": "Tiramisù",
     "icon": "☕",
-    "photo": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=600&q=80",
+    "photo": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=600&auto=format&fit=crop",
     "time": "30 min + 4h riposo",
     "diff": "Facile",
     "subtitle": "Il dolce italiano più amato al mondo",
@@ -2398,7 +2431,8 @@
     ],
     "fin": "Tiramisù perfetto! La pastorizzazione dei tuorli è il metodo sicuro e dà anche una crema più stabile e gonfia. Freddo di frigo dura 2 giorni.",
     "id": 34,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Dolce"
   },
   {
     "cat": "🍰 Dolci",
@@ -2475,13 +2509,14 @@
     ],
     "fin": "Tortino riuscito! Una volta trovato il timing perfetto per il tuo forno, segnatelo, sarà il tuo dolce da fare agli ospiti.",
     "id": 35,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Dolce"
   },
   {
     "cat": "🍰 Dolci",
     "name": "Panna cotta",
     "icon": "🍮",
-    "photo": "https://images.unsplash.com/photo-1488477304112-4944851de03d?w=600&q=80",
+    "photo": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600&auto=format&fit=crop",
     "time": "20 min + 4h frigo",
     "diff": "Facile",
     "subtitle": "Tremante, cremosa, semplicissima",
@@ -2536,7 +2571,8 @@
     ],
     "fin": "Panna cotta perfetta! La consistenza giusta è tremante: si muove come budino quando la tocchi. Se è troppo dura, la prossima volta riduci la gelatina a 3 fogli.",
     "id": 36,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Dolce"
   },
   {
     "cat": "🍰 Dolci",
@@ -2603,7 +2639,8 @@
     ],
     "fin": "Crostata perfetta! La frolla avanzata si congela benissimo. La crostata si conserva a temperatura ambiente per 3-4 giorni coperta.",
     "id": 37,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Dolce"
   },
   {
     "cat": "🍰 Dolci",
@@ -2670,7 +2707,8 @@
     ],
     "fin": "Budino al cioccolato perfetto! Servi con panna montata non zuccherata o con granella di nocciole per contrasto.",
     "id": 38,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Dolce"
   },
   {
     "cat": "🐟 Pesce",
@@ -2739,7 +2777,8 @@
     ],
     "fin": "Baccalà alla vicentina perfetto! È uno dei piatti più pazienti della cucina italiana: 4-5 ore di cottura lentissima, mai mescolato, solo 'pipato'. Il disciplinare della Confraternita del Bacalà di Sandrigo ne custodisce la ricetta originale da secoli. Migliora dopo 12-24 ore di riposo.",
     "id": 39,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Secondo"
   },
   {
     "cat": "🐟 Pesce",
@@ -2811,7 +2850,8 @@
     ],
     "fin": "Moscardini in umido perfetti! Il sugo è straordinario, tieni del pane o condici la pasta.",
     "id": 40,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Secondo"
   },
   {
     "cat": "🐟 Pesce",
@@ -2882,7 +2922,8 @@
     ],
     "fin": "Calamari in umido perfetti! Prova la versione in nero di seppia: aggiungi le sacche del nero di seppia con i pomodori, un piatto di grande effetto scenografico e sapore intenso.",
     "id": 41,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Secondo"
   },
   {
     "cat": "🫘 Legumi",
@@ -2948,7 +2989,8 @@
     ],
     "fin": "Ceci alla romana perfetti! Semplici ma incredibilmente saporiti. Aggiungendo spinaci a fine cottura diventa un piatto completo e nutriente.",
     "id": 42,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Primo"
   },
   {
     "cat": "🥗 Zuppe",
@@ -3022,13 +3064,14 @@
     ],
     "fin": "Zuppa di cipolla gratinata perfetta! È il comfort food francese per eccellenza. In inverno scalda e nutre come pochi altri piatti.",
     "id": 43,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Primo"
   },
   {
     "cat": "🍝 Pasta",
     "name": "Pasta al tonno",
     "icon": "🍝",
-    "photo": "https://images.unsplash.com/photo-1600803907087-f56d462fd26b?w=600&q=80",
+    "photo": "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=600&auto=format&fit=crop",
     "time": "15 min",
     "diff": "Facile",
     "subtitle": "La pasta veloce di tutti i giorni",
@@ -3087,13 +3130,14 @@
     ],
     "fin": "Pasta al tonno in 15 minuti! Con i capperi e le olive diventa quasi una pasta alla puttanesca. La versatilità italiana al massimo.",
     "id": 44,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Primo"
   },
   {
     "cat": "🍗 Secondi",
     "name": "Arrosto di maiale",
     "icon": "🍗",
-    "photo": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=600&q=80",
+    "photo": "https://images.unsplash.com/photo-1544025162-d76694265947?w=600&auto=format&fit=crop",
     "time": "90 min",
     "diff": "Media",
     "subtitle": "Succoso dentro, croccante fuori",
@@ -3157,7 +3201,8 @@
     ],
     "fin": "Arrosto di maiale perfetto! Il fondo di cottura filtrato è un sugo naturale straordinario. Aggiungi un cucchiaino di senape per un sapore più complesso.",
     "id": 45,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Secondo"
   },
   {
     "cat": "🍰 Dolci",
@@ -3221,13 +3266,14 @@
     ],
     "fin": "Ciambella allo yogurt perfetta! Con i mirtilli o le gocce di cioccolato nell'impasto è ancora più golosa. Si conserva 4-5 giorni morbidissima.",
     "id": 46,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Dolce"
   },
   {
     "cat": "🍞 Pane & Lievitati",
     "name": "Grissini torinesi",
     "icon": "🥖",
-    "photo": "https://images.unsplash.com/photo-1549931319-a545dcf3bc7f?w=600&q=80",
+    "photo": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&auto=format&fit=crop",
     "time": "90 min",
     "diff": "Facile",
     "subtitle": "Croccanti, friabili, tipici piemontesi",
@@ -3282,13 +3328,14 @@
     ],
     "fin": "Grissini torinesi perfetti! Durano 1 settimana in una scatola di latta. Ottimi con i salumi e i formaggi stagionati.",
     "id": 47,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Colazione"
   },
   {
     "cat": "🥚 Uova & Verdure",
     "name": "Caponata siciliana",
     "icon": "🍆",
-    "photo": "https://images.unsplash.com/photo-1608897013039-887f21d8c804?w=600&q=80",
+    "photo": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=600&auto=format&fit=crop",
     "time": "60 min",
     "diff": "Media",
     "subtitle": "Agrodolce, ricca, meravigliosa",
@@ -3363,7 +3410,8 @@
     ],
     "fin": "Caponata siciliana perfetta! È uno dei piatti più complessi e soddisfacenti della cucina siciliana, ogni famiglia ha la sua versione. Prova ad aggiungere pinoli tostati e uva sultanina per una versione ancora più ricca.",
     "id": 48,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Secondo"
   },
   {
     "cat": "🍝 Pasta",
@@ -3434,7 +3482,8 @@
     ],
     "fin": "Pasta con zucchine e scamorza perfetta! La variante con provola affumicata è altrettanto deliziosa. In estate con zucchine appena raccolte dall'orto è un piatto straordinario.",
     "id": 49,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Primo"
   },
   {
     "cat": "🍝 Pasta",
@@ -3513,7 +3562,8 @@
     ],
     "fin": "Puttanesca perfetta! Leggenda vuole che il nome venga dal fatto che si preparava velocemente tra un cliente e l'altro. Vera o no, è una delle salse più saporite d'Italia.",
     "id": 50,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Primo"
   },
   {
     "cat": "🍝 Pasta",
@@ -3589,7 +3639,8 @@
     ],
     "fin": "Pasta alla boscaiola perfetta! Con funghi porcini freschi di stagione diventa un piatto da ristorante stellato. La versione con pomodoro (senza panna) è altrettanto buona e più leggera.",
     "id": 51,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Primo"
   },
   {
     "cat": "🍝 Pasta",
@@ -3658,7 +3709,8 @@
     ],
     "fin": "Gnocchi perfetti! Il test della bontà: un gnocco deve sciogliersi in bocca senza che tu senta la farina. Se sono gommosi c'è troppa farina. Condiscili anche con ragù, pesto o gorgonzola sciolto.",
     "id": 52,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Primo"
   },
   {
     "cat": "🍝 Pasta",
@@ -3733,7 +3785,8 @@
     ],
     "fin": "Spaghetti al nero di seppia perfetti! È uno dei piatti più scenografici della cucina italiana. Avvisa i commensali: il nero colora denti e labbra — fa parte del divertimento.",
     "id": 53,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Primo"
   },
   {
     "cat": "🍗 Secondi",
@@ -3798,7 +3851,8 @@
     ],
     "fin": "Salsiccia e friarielli perfetti! È il piatto napoletano per eccellenza, presente in ogni friggitoria della città. Ottimo anche come condimento per la pizza o messo nel panino con provola.",
     "id": 54,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Secondo"
   },
   {
     "cat": "🍗 Secondi",
@@ -3871,7 +3925,8 @@
     ],
     "fin": "Involtini perfetti! Si conservano 3 giorni in frigo migliorando ogni giorno. Il sugo avanzato sul giorno dopo è ancora più buono.",
     "id": 55,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Secondo"
   },
   {
     "cat": "🍗 Secondi",
@@ -3948,7 +4003,8 @@
     ],
     "fin": "Coniglio alla cacciatora perfetto! È uno dei piatti di campagna più profumati d'Italia. Il giorno dopo, riscaldato lentamente, è ancora più buono perché la carne assorbe ulteriormente il sugo.",
     "id": 56,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Secondo"
   },
   {
     "cat": "🍗 Secondi",
@@ -4016,10 +4072,11 @@
     ],
     "fin": "Scaloppine ai funghi perfette! La versione con porcini freschi in autunno è straordinaria. Senza panna (solo vino e brodo) è più leggera ma ugualmente buona.",
     "id": 57,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Secondo"
   },
   {
-    "cat": "🥗 Verdure & Contorni",
+    "cat": "🥦 Verdure & Contorni",
     "name": "Patate al forno croccanti",
     "icon": "🥔",
     "photo": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=600&q=80",
@@ -4078,10 +4135,11 @@
     ],
     "fin": "Patate al forno croccanti perfette! Con rosmarino fresco e un filo di olio crudo alla fine sono già straordinarie. Prova anche con paprika affumicata o origano.",
     "id": 58,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Altro"
   },
   {
-    "cat": "🥗 Verdure & Contorni",
+    "cat": "🥦 Verdure & Contorni",
     "name": "Purè di patate con rosmarino",
     "icon": "🥔",
     "photo": "https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?w=600&q=80",
@@ -4138,13 +4196,14 @@
     ],
     "fin": "Purè con rosmarino perfetto! L'infusione del latte con rosmarino e aglio trasforma un contorno semplice in qualcosa di memorabile. Ottimo con arrosti, salsicce o da solo con un uovo in camicia sopra.",
     "id": 59,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Altro"
   },
   {
-    "cat": "🥗 Verdure & Contorni",
+    "cat": "🥦 Verdure & Contorni",
     "name": "Funghi trifolati",
     "icon": "🍄",
-    "photo": "https://images.unsplash.com/photo-1506976785307-8732e854ad03?w=600&q=80",
+    "photo": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&auto=format&fit=crop",
     "time": "20 min",
     "diff": "Facile",
     "subtitle": "Aglio, prezzemolo e burro — il classico",
@@ -4197,10 +4256,11 @@
     ],
     "fin": "Funghi trifolati perfetti! Con porcini freschi in autunno è un piatto da ristorante. Usali su bruschette, come condimento per pasta, accanto alla carne o sulle uova strapazzate.",
     "id": 60,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Altro"
   },
   {
-    "cat": "🥗 Verdure & Contorni",
+    "cat": "🥦 Verdure & Contorni",
     "name": "Spinaci saltati all'aglio",
     "icon": "🌿",
     "photo": "https://images.unsplash.com/photo-1576045057995-568f588f82fb?w=600&q=80",
@@ -4254,10 +4314,11 @@
     ],
     "fin": "Spinaci saltati perfetti! Con pinoli tostati e uvetta è la versione siciliana alla catalanese. Con uova fritte sopra è un piatto completo. Con ricotta è un ripieno straordinario per pasta o torte salate.",
     "id": 61,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Altro"
   },
   {
-    "cat": "🥗 Verdure & Contorni",
+    "cat": "🥦 Verdure & Contorni",
     "name": "Finocchi gratinati",
     "icon": "🫚",
     "photo": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&q=80",
@@ -4317,10 +4378,11 @@
     ],
     "fin": "Finocchi gratinati perfetti! La stessa tecnica funziona con cavolfiore, broccoli, asparagi, zucchine. Con un po' di prosciutto cotto tra i finocchi e la besciamella diventa un piatto unico.",
     "id": 62,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Altro"
   },
   {
-    "cat": "🥗 Verdure & Contorni",
+    "cat": "🥦 Verdure & Contorni",
     "name": "Verdure grigliate marinate",
     "icon": "🥗",
     "photo": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=600&q=80",
@@ -4381,13 +4443,14 @@
     ],
     "fin": "Verdure grigliate perfette! Sono migliori il giorno dopo. Si conservano in frigo 4-5 giorni coperte di olio. Usale su bruschette, come condimento pasta, in insalate o accanto a formaggi.",
     "id": 63,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Altro"
   },
   {
-    "cat": "🥗 Verdure & Contorni",
+    "cat": "🥦 Verdure & Contorni",
     "name": "Carciofi alla romana",
     "icon": "🌿",
-    "photo": "https://images.unsplash.com/photo-1558160074-4d7d8bdf4256?w=600&q=80",
+    "photo": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=600&auto=format&fit=crop",
     "time": "50 min",
     "diff": "Media",
     "subtitle": "Teneri, ripieni di menta e aglio",
@@ -4438,10 +4501,11 @@
     ],
     "fin": "Carciofi alla romana perfetti! Sono uno dei simboli della cucina romana. Mangiali tiepidi con il sughetto di cottura come intingolo. Il gambo è la parte più saporita.",
     "id": 64,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Altro"
   },
   {
-    "cat": "🥗 Verdure & Contorni",
+    "cat": "🥦 Verdure & Contorni",
     "name": "Zucchine alla scapece",
     "icon": "🥗",
     "photo": "https://images.unsplash.com/photo-1466637574441-749b8f19452f?w=600&q=80",
@@ -4498,7 +4562,8 @@
     ],
     "fin": "Zucchine alla scapece perfette! È un antipasto estivo napoletano meraviglioso. Si conservano in frigo 4-5 giorni coperte di olio. La menta è imprescindibile, non sostituirla.",
     "id": 65,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Altro"
   },
   {
     "cat": "🍞 Pane & Lievitati",
@@ -4573,7 +4638,8 @@
     ],
     "fin": "Pane di semola perfetto! È il pane tipico della Sicilia e della Puglia. La semola rimacinata dà quel colore giallo caratteristico e un profumo di grano incomparabile con la farina bianca.",
     "id": 66,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Colazione"
   },
   {
     "cat": "🍞 Pane & Lievitati",
@@ -4636,7 +4702,8 @@
     ],
     "fin": "Ciabatta perfetta! È il pane più difficile da fare in casa proprio perché l'impasto è ingestibile — ma il risultato è incomparabile. Con prosciutto crudo e mozzarella è un'esperienza gastronomica.",
     "id": 67,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Colazione"
   },
   {
     "cat": "🍞 Pane & Lievitati",
@@ -4699,7 +4766,8 @@
     ],
     "fin": "Taralli pugliesi perfetti! Si conservano 2-3 settimane in una scatola di latta. Sono lo snack di strada pugliese per eccellenza. Sono meravigliosi con i formaggi stagionati e il vino.",
     "id": 68,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Colazione"
   },
   {
     "cat": "🍞 Pane & Lievitati",
@@ -4774,7 +4842,8 @@
     ],
     "fin": "Pane in cassetta perfetto! Dura 3-4 giorni morbidissimo avvolto in pellicola. Per i toast: taglia a fette di 1.5cm. Per i panini: falle da 2cm. È incomparabile rispetto a quello industriale.",
     "id": 69,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Colazione"
   },
   {
     "cat": "🍞 Pane & Lievitati",
@@ -4838,7 +4907,8 @@
     ],
     "fin": "Schiacciata all'olio perfetta! È la merenda fiorentina per eccellenza. Tagliata a quadrotti con mortadella e mozzarella è uno dei sandwich più buoni d'Italia. Si mangia il giorno stesso.",
     "id": 70,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Colazione"
   },
   {
     "cat": "🍞 Pane & Lievitati",
@@ -4893,13 +4963,14 @@
     ],
     "fin": "Calzone al forno perfetto! Prova il ripieno classico napoletano: ricotta, salame, cicoli (strutto) e pepe nero. Oppure spinaci, ricotta e parmigiano per la versione vegetariana.",
     "id": 71,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Colazione"
   },
   {
     "cat": "🍰 Dolci",
     "name": "Torta caprese",
     "icon": "🍰",
-    "photo": "https://images.unsplash.com/photo-1611329857570-f02f340e7378?w=600&q=80",
+    "photo": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600&auto=format&fit=crop",
     "time": "55 min",
     "diff": "Facile",
     "subtitle": "Senza farina, umida, intensamente al cioccolato",
@@ -4958,7 +5029,8 @@
     ],
     "fin": "Torta caprese perfetta! È nata a Capri per un malinteso (il cuoco dimenticò la farina) e da errore è diventata leggenda. Servila con panna fresca o gelato alla vaniglia.",
     "id": 72,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Dolce"
   },
   {
     "cat": "🍰 Dolci",
@@ -5019,7 +5091,8 @@
     ],
     "fin": "Torta della nonna perfetta! È uno dei dolci più amati delle pasticcerie italiane. Con pistacchi al posto dei pinoli è la variante siciliana altrettanto deliziosa.",
     "id": 73,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Dolce"
   },
   {
     "cat": "🍰 Dolci",
@@ -5078,13 +5151,14 @@
     ],
     "fin": "Mousse al cioccolato perfetta! Tre ingredienti, risultato straordinario. Con lamponi freschi e panna montata è un dessert da grande ristorante. Si conserva 2 giorni in frigo coperta.",
     "id": 74,
-    "level": "casa"
+    "level": "casa",
+    "portata": "Dolce"
   },
   {
     "cat": "🍝 Pasta",
     "name": "Tagliatelle al ragù bolognese",
     "icon": "🍝",
-    "photo": "https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?w=600&q=80",
+    "photo": "https://images.unsplash.com/photo-1551183053-bf91798d047e?w=600&auto=format&fit=crop",
     "time": "180 min",
     "diff": "Media",
     "level": "trattoria",
@@ -5181,13 +5255,14 @@
       "Olio EVO",
       "Sale, pepe",
       "Parmigiano reggiano"
-    ]
+    ],
+    "portata": "Primo"
   },
   {
     "cat": "🍝 Pasta",
     "name": "Orecchiette alle cime di rapa",
     "icon": "🍝",
-    "photo": "https://images.unsplash.com/photo-1598866594230-a7c12756260f?w=600&q=80",
+    "photo": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=600&auto=format&fit=crop",
     "time": "30 min",
     "diff": "Facile",
     "level": "trattoria",
@@ -5259,7 +5334,8 @@
       "Peperoncino abbondante",
       "Olio EVO abbondante",
       "Sale"
-    ]
+    ],
+    "portata": "Primo"
   },
   {
     "cat": "🍝 Pasta",
@@ -5322,7 +5398,8 @@
       "80ml olio EVO ligure",
       "Sale grosso",
       "Patate lessate e fagiolini (versione tradizionale)"
-    ]
+    ],
+    "portata": "Primo"
   },
   {
     "cat": "🍝 Pasta",
@@ -5392,13 +5469,14 @@
       "Basilico",
       "Olio EVO",
       "Sale, pepe"
-    ]
+    ],
+    "portata": "Primo"
   },
   {
     "cat": "🍝 Pasta",
     "name": "Pasta e fagioli alla veneta",
     "icon": "🍝",
-    "photo": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600&q=80",
+    "photo": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600&auto=format&fit=crop",
     "time": "60 min",
     "diff": "Facile",
     "level": "trattoria",
@@ -5464,13 +5542,14 @@
       "Burro, olio EVO",
       "Sale, pepe nero",
       "Olio EVO crudo per finire"
-    ]
+    ],
+    "portata": "Primo"
   },
   {
     "cat": "🍗 Secondi",
     "name": "Ossobuco alla milanese",
     "icon": "🍗",
-    "photo": "https://images.unsplash.com/photo-1574484284002-952d92456975?w=600&q=80",
+    "photo": "https://images.unsplash.com/photo-1544025162-d76694265947?w=600&auto=format&fit=crop",
     "time": "120 min",
     "diff": "Media",
     "level": "trattoria",
@@ -5550,7 +5629,8 @@
       "Timo, alloro",
       "Per la gremolata: prezzemolo, 1 limone, 1 spicchio aglio",
       "Sale, pepe"
-    ]
+    ],
+    "portata": "Secondo"
   },
   {
     "cat": "🍗 Secondi",
@@ -5627,7 +5707,8 @@
       "Olio EVO",
       "Brodo di carne",
       "Sale, pepe"
-    ]
+    ],
+    "portata": "Secondo"
   },
   {
     "cat": "🍗 Secondi",
@@ -5701,7 +5782,8 @@
       "Rosmarino, salvia",
       "Olio EVO",
       "Sale, pepe"
-    ]
+    ],
+    "portata": "Secondo"
   },
   {
     "cat": "🍗 Secondi",
@@ -5773,7 +5855,8 @@
       "Peperoncino",
       "Olio EVO",
       "Sale, pepe"
-    ]
+    ],
+    "portata": "Secondo"
   },
   {
     "cat": "🍗 Secondi",
@@ -5832,7 +5915,8 @@
       "Sale grosso",
       "Pepe nero",
       "Succo di limone"
-    ]
+    ],
+    "portata": "Secondo"
   },
   {
     "cat": "🐟 Pesce",
@@ -5903,7 +5987,8 @@
       "Farina 00",
       "Olio EVO",
       "Sale"
-    ]
+    ],
+    "portata": "Secondo"
   },
   {
     "cat": "🐟 Pesce",
@@ -5969,7 +6054,8 @@
       "Farina 00",
       "Olio EVO",
       "Sale, pepe"
-    ]
+    ],
+    "portata": "Secondo"
   },
   {
     "cat": "🐟 Pesce",
@@ -6032,7 +6118,8 @@
       "Succo di arancia e limone",
       "Olio EVO",
       "Sale, pepe"
-    ]
+    ],
+    "portata": "Secondo"
   },
   {
     "cat": "🐟 Pesce",
@@ -6108,13 +6195,14 @@
       "Olio EVO",
       "Pane toscano tostato",
       "Sale"
-    ]
+    ],
+    "portata": "Secondo"
   },
   {
     "cat": "🍰 Dolci",
     "name": "Cannoli siciliani",
     "icon": "🍰",
-    "photo": "https://images.unsplash.com/photo-1516559828984-fb3b99548b21?w=600&q=80",
+    "photo": "https://images.unsplash.com/photo-1509365465985-25d11c17e812?w=600&auto=format&fit=crop",
     "time": "90 min",
     "diff": "Impegnativa",
     "level": "trattoria",
@@ -6178,7 +6266,8 @@
       "Scorza d'arancia candita",
       "Granella di pistacchio",
       "Olio per friggere"
-    ]
+    ],
+    "portata": "Dolce"
   },
   {
     "cat": "🍰 Dolci",
@@ -6250,13 +6339,14 @@
       "Cedro e arancia canditi",
       "Cannella",
       "Latte, burro"
-    ]
+    ],
+    "portata": "Dolce"
   },
   {
     "cat": "🍰 Dolci",
     "name": "Torta di mele della nonna",
     "icon": "🍰",
-    "photo": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&q=80",
+    "photo": "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=600&auto=format&fit=crop",
     "time": "65 min",
     "diff": "Facile",
     "level": "trattoria",
@@ -6317,7 +6407,8 @@
       "1 cucchiaino cannella",
       "Zucchero di canna per la superficie",
       "Sale"
-    ]
+    ],
+    "portata": "Dolce"
   },
   {
     "cat": "🍰 Dolci",
@@ -6385,7 +6476,8 @@
       "Amarene sciroppate",
       "Zucchero a velo",
       "Olio per friggere"
-    ]
+    ],
+    "portata": "Dolce"
   },
   {
     "cat": "🍰 Dolci",
@@ -6443,7 +6535,8 @@
       "400ml panna fresca fredda",
       "150g torrone (morbido o duro)",
       "Cioccolato fondente grattugiato per decorare"
-    ]
+    ],
+    "portata": "Dolce"
   },
   {
     "cat": "🍰 Dolci",
@@ -6507,7 +6600,8 @@
       "Scorza di limone",
       "1 cucchiaino vaniglia",
       "Sale"
-    ]
+    ],
+    "portata": "Dolce"
   },
   {
     "cat": "🍰 Dolci",
@@ -6577,7 +6671,8 @@
       "Glassa di zucchero bianca",
       "Frutta candita assortita",
       "Bagna al Maraschino"
-    ]
+    ],
+    "portata": "Dolce"
   },
   {
     "cat": "🍰 Dolci",
@@ -6656,7 +6751,8 @@
       "150ml rum scuro di qualità",
       "Panna montata non zuccherata",
       "Fragole o frutti di bosco"
-    ]
+    ],
+    "portata": "Dolce"
   },
   {
     "cat": "🍗 Secondi",
@@ -6742,7 +6838,8 @@
       "Aceto di vino, zucchero",
       "Olio EVO",
       "Sale, pepe"
-    ]
+    ],
+    "portata": "Secondo"
   },
   {
     "cat": "🍝 Pasta",
@@ -6815,7 +6912,8 @@
       "Tartufo nero (facoltativo)",
       "Burro, olio EVO",
       "Sale, noce moscata"
-    ]
+    ],
+    "portata": "Primo"
   },
   {
     "cat": "🍗 Secondi",
@@ -6882,7 +6980,8 @@
       "Pepe nero abbondante",
       "Sale grosso",
       "Olio EVO"
-    ]
+    ],
+    "portata": "Secondo"
   },
   {
     "cat": "🍝 Pasta",
@@ -6955,7 +7054,8 @@
       }
     ],
     "fin": "Spaghetti al pomodoro perfetti. La semplicità assoluta richiede la massima tecnica. Con ingredienti di qualità eccezionale questo piatto supera qualsiasi preparazione complessa.",
-    "id": 100
+    "id": 100,
+    "portata": "Primo"
   },
   {
     "cat": "🍝 Pasta",
@@ -7035,7 +7135,8 @@
       }
     ],
     "fin": "Carbonara tecnica perfetta. Il segreto è la temperatura: mai sopra i 65°C. Con guanciale stagionato di qualità e pecorino DOP genuino questo piatto non ha eguali al mondo.",
-    "id": 101
+    "id": 101,
+    "portata": "Primo"
   },
   {
     "cat": "🍚 Risotti",
@@ -7130,7 +7231,8 @@
       }
     ],
     "fin": "Risotto alla milanese perfetto. Con il midollo di bue e gli stigmi di zafferano veri è un piatto di livello assoluto. Il brodo fatto in casa è l'investimento che fa la differenza.",
-    "id": 102
+    "id": 102,
+    "portata": "Primo"
   },
   {
     "cat": "🍗 Secondi",
@@ -7196,7 +7298,8 @@
       }
     ],
     "fin": "Piccione alla creta straordinario. La tecnica della creta è una delle più antiche al mondo e una delle più efficaci. Sostituisci con pollo ruspante o faraona se non trovi i piccioni.",
-    "id": 103
+    "id": 103,
+    "portata": "Secondo"
   },
   {
     "cat": "🍗 Secondi",
@@ -7267,7 +7370,8 @@
       }
     ],
     "fin": "Maialino da latte in due cotture perfetto. La tecnica della doppia cottura richiede organizzazione e un termometro da cucina. Il risultato giustifica ogni minuto.",
-    "id": 104
+    "id": 104,
+    "portata": "Secondo"
   },
   {
     "cat": "🐟 Pesce",
@@ -7342,7 +7446,8 @@
       }
     ],
     "fin": "Rombo al vapore di vongole e bottarga perfetto. È un piatto che dimostra che la grande cucina di pesce non ha bisogno di complessità: ha bisogno di ingredienti eccellenti e tecnica precisa.",
-    "id": 105
+    "id": 105,
+    "portata": "Secondo"
   },
   {
     "cat": "🐟 Pesce",
@@ -7399,7 +7504,8 @@
       }
     ],
     "fin": "Branzino in crosta di sale perfetto. La tecnica più antica della cucina italiana produce il pesce più succoso e delicato possibile. La crosta non rende il pesce salato: agisce solo come forno dentro al forno.",
-    "id": 106
+    "id": 106,
+    "portata": "Secondo"
   },
   {
     "cat": "🍰 Dolci",
@@ -7472,7 +7578,8 @@
       }
     ],
     "fin": "Soufflé al cioccolato perfetto. È il dolce più tecnico che esista: richiede precisione, tempismo e coraggio. Una volta che lo padroneggi, niente ti sembrerà difficile in pasticceria.",
-    "id": 107
+    "id": 107,
+    "portata": "Dolce"
   },
   {
     "cat": "🍰 Dolci",
@@ -7550,7 +7657,8 @@
       }
     ],
     "fin": "Millefoglie di pasta sfoglia caramellata perfetta. È il dessert da ristorante per eccellenza. Con lamponi freschi tra gli strati è ancora più straordinaria.",
-    "id": 108
+    "id": 108,
+    "portata": "Dolce"
   },
   {
     "cat": "🍰 Dolci",
@@ -7616,7 +7724,8 @@
       }
     ],
     "fin": "Crème brûlée perfetta. Il colpo di cucchiaio che rompe la crosta caramellata è uno dei suoni più soddisfacenti della gastronomia. Con vaniglia Bourbon vera è un'esperienza sensoriale completa.",
-    "id": 109
+    "id": 109,
+    "portata": "Dolce"
   },
   {
     "cat": "🍝 Pasta",
@@ -7690,7 +7799,8 @@
       }
     ],
     "fin": "Tortellini in brodo perfetti. È il piatto più rappresentativo della cucina italiana nel mondo, uno dei più tecnici, e uno dei più emozionanti. Richiede una giornata intera ma ne vale ogni minuto.",
-    "id": 110
+    "id": 110,
+    "portata": "Primo"
   },
   {
     "cat": "🍗 Secondi",
@@ -7767,7 +7877,8 @@
       }
     ],
     "fin": "Filetto in crosta di erbe con salsa Périgueux perfetto. È il secondo di carne più elegante della cucina classica italiana-francese. Con patate fondenti o gratin dauphinois è un abbinamento sublime.",
-    "id": 111
+    "id": 111,
+    "portata": "Secondo"
   },
   {
     "cat": "🍗 Secondi",
@@ -7836,7 +7947,8 @@
       }
     ],
     "fin": "Agnello in crosta di pistacchi perfetto. Il contrasto tra la crosta verde croccante e la carne rosa è uno dei più belli della cucina italiana. Con purè di patate al tartufo è un abbinamento indimenticabile.",
-    "id": 112
+    "id": 112,
+    "portata": "Secondo"
   },
   {
     "cat": "🍝 Pasta",
@@ -7904,7 +8016,8 @@
       }
     ],
     "fin": "Raviolo aperto con ricotta e tartufo perfetto. È un piatto che richiede ingredienti eccellenti: con tartufo nero fresco di stagione e ricotta di bufala del giorno è un'esperienza indimenticabile.",
-    "id": 113
+    "id": 113,
+    "portata": "Primo"
   },
   {
     "cat": "🐟 Pesce",
@@ -7968,7 +8081,8 @@
       }
     ],
     "fin": "Capesante scottate con purè di sedano rapa e tartufo perfette. È un antipasto o secondo di altissimo livello che richiede esecuzione rapida e precisa. La crosticina delle capesante è il momento tecnico che determina tutto.",
-    "id": 114
+    "id": 114,
+    "portata": "Secondo"
   },
   {
     "cat": "🍰 Dolci",
@@ -8041,7 +8155,8 @@
       }
     ],
     "fin": "Tortino fondente al cardamomo perfetto. Il gelato al sesamo nero è un elemento di alta pasticceria che può essere preparato 1 settimana prima e conservato in freezer. Insieme creano un dolce memorabile.",
-    "id": 115
+    "id": 115,
+    "portata": "Dolce"
   },
   {
     "cat": "🍚 Risotti",
@@ -8120,7 +8235,8 @@
       }
     ],
     "fin": "Risotto carciofi e bottarga perfetto. È un piatto che richiede ingredienti eccellenti: bottarga di muggine sarda di prima qualità e carciofi romaneschi freschi. Con ingredienti mediocri perde tutto il senso.",
-    "id": 116
+    "id": 116,
+    "portata": "Primo"
   },
   {
     "cat": "🍗 Secondi",
@@ -8197,7 +8313,8 @@
       }
     ],
     "fin": "Anatra al miele e aceto balsamico perfetta. L'aceto balsamico Tradizionale di Modena è uno degli ingredienti più preziosi della cucina italiana: poche gocce trasformano un piatto. Investilo dove vale.",
-    "id": 117
+    "id": 117,
+    "portata": "Secondo"
   },
   {
     "cat": "🍰 Dolci",
@@ -8258,7 +8375,8 @@
       }
     ],
     "fin": "Panna cotta al matcha con coulis di lamponi perfetta. È un dolce che unisce la semplicità tecnica della panna cotta classica con l'estetica della cucina contemporanea. Con matcha di qualità è un dessert di altissimo livello.",
-    "id": 118
+    "id": 118,
+    "portata": "Dolce"
   },
   {
     "cat": "🍝 Pasta",
@@ -8324,7 +8442,8 @@
       }
     ],
     "fin": "Cacio e pepe stellata perfetta. La versione con sifone richiede attrezzatura professionale ma il risultato è un'esperienza completamente nuova rispetto alla versione classica. Con pepe di qualità è già un piatto di altissimo livello anche senza sifone.",
-    "id": 119
+    "id": 119,
+    "portata": "Primo"
   },
   {
     "cat": "🍗 Secondi",
@@ -8393,7 +8512,8 @@
       }
     ],
     "fin": "Trota marinata a freddo perfetta. È uno dei piatti più semplici da preparare nella cucina stellata: nessuna cottura, solo tecnica e ingredienti. Si prepara il giorno prima ed è perfetta per ricevere ospiti.",
-    "id": 120
+    "id": 120,
+    "portata": "Secondo"
   },
   {
     "cat": "🍰 Dolci",
@@ -8457,7 +8577,8 @@
       }
     ],
     "fin": "Gelato al pistacchio di Bronte perfetto. La pasta di pistacchio pura è l'investimento che fa la differenza: con quella di qualità il gelato è straordinario. Si conserva in freezer 1 mese.",
-    "id": 121
+    "id": 121,
+    "portata": "Dolce"
   },
   {
     "cat": "🍚 Risotti",
@@ -8534,7 +8655,8 @@
       }
     ],
     "fin": "Risotto al parmigiano e balsamico perfetto. È un piatto di 3 ingredienti che richiede che tutti e tre siano eccellenti. Con parmigiano 30 mesi, riso Acquerello e balsamico Tradizionale 25 anni è uno dei piatti più eleganti della cucina italiana.",
-    "id": 122
+    "id": 122,
+    "portata": "Primo"
   },
   {
     "cat": "🐟 Pesce",
@@ -8615,7 +8737,8 @@
       }
     ],
     "fin": "Spaghetti all'astice con bisque perfetti. È il piatto di lusso del mare per eccellenza: richiede impegno ma il risultato è un'esperienza gastronomica indimenticabile. La bisque avanzata si congela e si usa come salsa per altri piatti di pesce.",
-    "id": 123
+    "id": 123,
+    "portata": "Secondo"
   },
   {
     "cat": "🍝 Pasta",
@@ -8682,7 +8805,8 @@
       }
     ],
     "fin": "Pasta con asparagi e uova perfetta. È la pasta della primavera per eccellenza, pronta in 25 minuti. Con speck a listarelle aggiunte con gli asparagi diventa ancora più ricca.",
-    "id": 124
+    "id": 124,
+    "portata": "Primo"
   },
   {
     "cat": "🍝 Pasta",
@@ -8740,7 +8864,8 @@
       }
     ],
     "fin": "Pasta con rucola e pomodorini perfetta. Con stracciatella di burrata sbriciolata sopra al momento del servizio è un piatto estivo straordinario.",
-    "id": 125
+    "id": 125,
+    "portata": "Primo"
   },
   {
     "cat": "🍝 Pasta",
@@ -8799,7 +8924,8 @@
       }
     ],
     "fin": "Pasta carote e zenzero perfetta. È un piatto insolito che sorprende sempre. Con pancetta croccante aggiunta alla fine è ancora più golosa.",
-    "id": 126
+    "id": 126,
+    "portata": "Primo"
   },
   {
     "cat": "🍝 Pasta",
@@ -8864,7 +8990,8 @@
       }
     ],
     "fin": "Pasta con peperoni arrosto perfetta. Il lavoro dei peperoni vale ogni minuto. Si conserva il sugo 3 giorni in frigo e migliora ogni giorno.",
-    "id": 127
+    "id": 127,
+    "portata": "Primo"
   },
   {
     "cat": "🍝 Pasta",
@@ -8929,7 +9056,8 @@
       }
     ],
     "fin": "Pasta alla Norma veloce perfetta. La versione con le melanzane grigliate invece di fritte è più leggera ma meno autentica. Almeno una volta friggile: vale la differenza.",
-    "id": 128
+    "id": 128,
+    "portata": "Primo"
   },
   {
     "cat": "🍝 Pasta",
@@ -8991,7 +9119,8 @@
       }
     ],
     "fin": "Pasta con fagiolini e patate al pesto perfetta. È il piatto simbolo della cucina ligure. Con pesto fatto al momento e trofie fresche è un piatto di livello assoluto.",
-    "id": 129
+    "id": 129,
+    "portata": "Primo"
   },
   {
     "cat": "🍝 Pasta",
@@ -9049,7 +9178,8 @@
       }
     ],
     "fin": "Pasta con zucchine alla scapece perfetta. La menta è imprescindibile, non sostituirla con basilico. È il piatto che stupisce sempre chi non la conosce.",
-    "id": 130
+    "id": 130,
+    "portata": "Primo"
   },
   {
     "cat": "🍝 Pasta",
@@ -9110,7 +9240,8 @@
       }
     ],
     "fin": "Pasta al forno con verdure perfetta. Si prepara in anticipo e si inforna all'ultimo. Il giorno dopo riscaldata è ancora più buona.",
-    "id": 131
+    "id": 131,
+    "portata": "Primo"
   },
   {
     "cat": "🍝 Pasta",
@@ -9168,7 +9299,8 @@
       }
     ],
     "fin": "Pasta con crema di zucchine e menta perfetta. È leggera, veloce e saporita. Con stracciatella di burrata sopra al servizio diventa un primo di grande effetto.",
-    "id": 132
+    "id": 132,
+    "portata": "Primo"
   },
   {
     "cat": "🍝 Pasta",
@@ -9222,7 +9354,8 @@
       }
     ],
     "fin": "Spaghetti con bottarga e limone perfetti. Con bottarga di qualità è un piatto di livello altissimo in 15 minuti. La scorza di limone è imprescindibile: bilancia la sapidità intensa della bottarga.",
-    "id": 133
+    "id": 133,
+    "portata": "Primo"
   },
   {
     "cat": "🍝 Pasta",
@@ -9283,7 +9416,8 @@
       }
     ],
     "fin": "Pasta al forno con salsiccia e provola perfetta. È il piatto della domenica meridionale. Il giorno dopo riscaldata in forno coperta con alluminio è ancora più buona.",
-    "id": 134
+    "id": 134,
+    "portata": "Primo"
   },
   {
     "cat": "🍝 Pasta",
@@ -9354,7 +9488,8 @@
       }
     ],
     "fin": "Pasta con lenticchie rosse perfetta. Pronta in 30 minuti senza ammollo, è uno dei piatti di legumi più veloci che esistano. Con un cucchiaino di harissa o peperoncino è ancora più interessante.",
-    "id": 135
+    "id": 135,
+    "portata": "Primo"
   },
   {
     "cat": "🍝 Pasta",
@@ -9423,7 +9558,8 @@
       }
     ],
     "fin": "Pasta e ceci cremosa perfetta. È il piatto di magro romano del venerdì, mangiato da secoli. Con gamberi saltati sopra al servizio diventa un piatto di festa.",
-    "id": 136
+    "id": 136,
+    "portata": "Primo"
   },
   {
     "cat": "🍝 Pasta",
@@ -9491,13 +9627,14 @@
       }
     ],
     "fin": "Pasta con fagioli borlotti perfetta. Con i borlotti freschi di settembre è un piatto di livello completamente diverso rispetto alla versione in scatola. Vale aspettare la stagione.",
-    "id": 137
+    "id": 137,
+    "portata": "Primo"
   },
   {
     "cat": "🍚 Risotti",
     "name": "Risotto agli asparagi",
     "icon": "🍚",
-    "photo": "https://images.unsplash.com/photo-1476124369491-e7addf5db371?w=600&q=80",
+    "photo": "https://images.unsplash.com/photo-1476124369491-e7addf5db371?w=600&auto=format&fit=crop",
     "time": "35 min",
     "diff": "Media",
     "level": "casa",
@@ -9561,7 +9698,8 @@
       }
     ],
     "fin": "Risotto agli asparagi perfetto. Con asparagi bianchi di Bassano è una variante veneta straordinaria. Con un uovo in camicia sopra al servizio diventa un piatto completo.",
-    "id": 138
+    "id": 138,
+    "portata": "Primo"
   },
   {
     "cat": "🍚 Risotti",
@@ -9636,7 +9774,8 @@
       }
     ],
     "fin": "Risotto alla zucca e salvia perfetto. Con l'aggiunta di gorgonzola dolce nella mantecatura diventa il classico risotto zucca e gorgonzola. Con pancetta croccante sopra è ancora più goloso.",
-    "id": 139
+    "id": 139,
+    "portata": "Primo"
   },
   {
     "cat": "🍚 Risotti",
@@ -9700,7 +9839,8 @@
       }
     ],
     "fin": "Risotto al pomodoro e basilico perfetto. Con pomodori di qualità eccezionale (San Marzano DOP o pomodori dell'orto) è un piatto straordinario nella sua semplicità. L'estate in un piatto.",
-    "id": 140
+    "id": 140,
+    "portata": "Primo"
   },
   {
     "cat": "🍚 Risotti",
@@ -9767,7 +9907,8 @@
       }
     ],
     "fin": "Risotto salsiccia e friarielli perfetto. È un piatto invernale saporito e confortante. Con la provola affumicata sciolta nella mantecatura al posto del parmigiano diventa ancora più napoletano.",
-    "id": 141
+    "id": 141,
+    "portata": "Primo"
   },
   {
     "cat": "🍚 Risotti",
@@ -9838,7 +9979,8 @@
       }
     ],
     "fin": "Risotto nero di seppia perfetto. Uno dei piatti più scenografici della cucina italiana. Avvisa i commensali: il nero colora le labbra e i denti, fa parte del divertimento.",
-    "id": 142
+    "id": 142,
+    "portata": "Primo"
   },
   {
     "cat": "🍚 Risotti",
@@ -9910,7 +10052,8 @@
       }
     ],
     "fin": "Risotto taleggio e noci perfetto. Con pera a cubetti aggiunta insieme alle noci è il classico abbinamento erborinato-frutto. Con radicchio rosso al posto delle noci è altrettanto straordinario.",
-    "id": 143
+    "id": 143,
+    "portata": "Primo"
   },
   {
     "cat": "🍚 Risotti",
@@ -9974,7 +10117,8 @@
       }
     ],
     "fin": "Risotto primavera con piselli e menta perfetto. Con piselli freschi di aprile e maggio è uno dei piatti più deliziosi della stagione. Con qualche fiore di zucca aggiunto alla fine è ancora più primaverile.",
-    "id": 144
+    "id": 144,
+    "portata": "Primo"
   },
   {
     "cat": "🍚 Risotti",
@@ -10039,7 +10183,8 @@
       }
     ],
     "fin": "Risotto alla barbabietola e caprino perfetto. È uno dei risotti più fotografabili che esistano: il viola intenso con il bianco del caprino è scenografico. Con noci tostate sopra è ancora più completo.",
-    "id": 145
+    "id": 145,
+    "portata": "Primo"
   },
   {
     "cat": "🥗 Zuppe",
@@ -10111,7 +10256,8 @@
       }
     ],
     "fin": "Minestra di farro e verdure perfetta. È uno dei piatti più nutrienti e saporiti della cucina umbra. Con pancetta rosolata aggiunta al soffritto diventa ancora più saporita.",
-    "id": 146
+    "id": 146,
+    "portata": "Primo"
   },
   {
     "cat": "🥗 Zuppe",
@@ -10176,7 +10322,8 @@
       }
     ],
     "fin": "Zuppa di carote e zenzero perfetta. Con latte di cocco invece della panna diventa una versione asiatica straordinaria. Si congela perfettamente per 3 mesi.",
-    "id": 147
+    "id": 147,
+    "portata": "Primo"
   },
   {
     "cat": "🥗 Zuppe",
@@ -10243,7 +10390,8 @@
       }
     ],
     "fin": "Acquacotta maremmana perfetta. È la dimostrazione che la cucina povera è spesso la più saporita. Con funghi porcini secchi aggiunti all'acqua di cottura diventa una variante autunnale straordinaria.",
-    "id": 148
+    "id": 148,
+    "portata": "Primo"
   },
   {
     "cat": "🥗 Zuppe",
@@ -10322,7 +10470,8 @@
       }
     ],
     "fin": "Pasta e patate napoletana perfetta. È uno dei grandi piatti della tradizione napoletana. 'Azzeccata' è il termine per la consistenza giusta: densa, quasi appiccicosa, avvolgente.",
-    "id": 149
+    "id": 149,
+    "portata": "Primo"
   },
   {
     "cat": "🥗 Zuppe",
@@ -10389,7 +10538,8 @@
       }
     ],
     "fin": "Zuppa di asparagi e uova perfetta. Con un cucchiaio di mascarpone incorporato nella crema prima del servizio diventa vellutata e ricca. È una cena completa e leggera in 35 minuti.",
-    "id": 150
+    "id": 150,
+    "portata": "Primo"
   },
   {
     "cat": "🍝 Pasta",
@@ -10447,7 +10597,8 @@
       }
     ],
     "fin": "Pasta fredda con tonno e capperi perfetta. È il pranzo estivo per eccellenza. Con stracciatella di burrata sopra al momento del servizio diventa un piatto di grande effetto.",
-    "id": 151
+    "id": 151,
+    "portata": "Primo"
   },
   {
     "cat": "🍝 Pasta",
@@ -10512,7 +10663,8 @@
       }
     ],
     "fin": "Pasta con crema di piselli e pancetta perfetta. Pronta in 20 minuti è uno dei piatti più veloci e saporiti dell'intero repertorio. Con menta fresca finale è ancora più primaverile.",
-    "id": 152
+    "id": 152,
+    "portata": "Primo"
   },
   {
     "cat": "🍝 Pasta",
@@ -10579,7 +10731,8 @@
       }
     ],
     "fin": "Spaghetti alle vongole in bianco perfetti. È uno dei piatti più tecnici della cucina italiana nonostante gli ingredienti semplici. La mantecatura finale è il momento che fa la differenza tra un piatto memorabile e uno mediocre.",
-    "id": 153
+    "id": 153,
+    "portata": "Primo"
   },
   {
     "cat": "🍝 Pasta",
@@ -10642,7 +10795,8 @@
       }
     ],
     "fin": "Pasta con gamberi e pomodorini perfetta. Con la bisque di gamberi (fatta con i gusci) invece del vino bianco diventa un piatto di livello completamente superiore. Vale la pena provarla.",
-    "id": 154
+    "id": 154,
+    "portata": "Primo"
   },
   {
     "cat": "🍝 Pasta",
@@ -10700,7 +10854,8 @@
       }
     ],
     "fin": "Pasta con funghi e salsiccia perfetta. Con funghi porcini freschi in autunno è un piatto di livello assoluto. Con un cucchiaio di mascarpone nella mantecatura finale diventa ancora più cremosa.",
-    "id": 155
+    "id": 155,
+    "portata": "Primo"
   },
   {
     "cat": "🍝 Pasta",
@@ -10764,7 +10919,8 @@
       }
     ],
     "fin": "Pasta al tonno fresco perfetta. La differenza con il tonno in scatola è abissale: il tonno fresco ha una texture carnosa e un sapore delicato incomparabile. Vale assolutamente i pochi euro in più.",
-    "id": 156
+    "id": 156,
+    "portata": "Primo"
   },
   {
     "cat": "🍝 Pasta",
@@ -10830,13 +10986,14 @@
       }
     ],
     "fin": "Pasta con speck e radicchio perfetta. È un piatto invernale con i contrasti classici dell'Alto Adige: affumicato, amaro, tannico. Con taleggio sciolto nella mantecatura invece del parmigiano è ancora più nordico.",
-    "id": 157
+    "id": 157,
+    "portata": "Primo"
   },
   {
     "cat": "🍝 Pasta",
     "name": "Pasta alla gricia",
     "icon": "🍝",
-    "photo": "https://images.unsplash.com/photo-1612874742237-6526221588e3?w=600&q=80",
+    "photo": "https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?w=600&auto=format&fit=crop",
     "time": "20 min",
     "diff": "Media",
     "level": "casa",
@@ -10891,7 +11048,8 @@
       }
     ],
     "fin": "Pasta alla gricia perfetta. È la ricetta amatriciana senza pomodoro: più antica, più essenziale, più tecnica. Masticarla bene: il guanciale e il pecorino insieme sono un'esperienza.",
-    "id": 158
+    "id": 158,
+    "portata": "Primo"
   },
   {
     "cat": "🍝 Pasta",
@@ -10944,7 +11102,8 @@
       }
     ],
     "fin": "Pasta con sugo di pomodoro al forno perfetta. Con i pomodori dell'orto di agosto è forse il piatto più buono dell'anno. Il sugo avanzato si conserva 5 giorni in frigo o si congela.",
-    "id": 159
+    "id": 159,
+    "portata": "Primo"
   },
   {
     "cat": "🍝 Pasta",
@@ -11014,7 +11173,8 @@
       }
     ],
     "fin": "Pasta e piselli perfetta. Con i piselli freschi di aprile è uno dei piatti più delicati e primaverili della cucina italiana. Il giorno dopo riscaldata con un goccio di brodo è ancora più buona.",
-    "id": 160
+    "id": 160,
+    "portata": "Primo"
   },
   {
     "cat": "🍝 Pasta",
@@ -11080,7 +11240,8 @@
       }
     ],
     "fin": "Amatriciana bianca perfetta. È la ricetta originale di Amatrice prima che arrivassero i pomodori in Italia. Essenziale, potente, memorabile.",
-    "id": 161
+    "id": 161,
+    "portata": "Primo"
   },
   {
     "cat": "🍝 Pasta",
@@ -11139,7 +11300,8 @@
       }
     ],
     "fin": "Pasta fredda con pesto e verdure perfetta. È il pranzo estivo più versatile: aggiungi quello che hai in frigo. Con stracciatella invece della mozzarella è ancora più cremosa.",
-    "id": 162
+    "id": 162,
+    "portata": "Primo"
   },
   {
     "cat": "🍝 Pasta",
@@ -11202,7 +11364,8 @@
       }
     ],
     "fin": "Amatriciana classica perfetta. Con guanciale di Amatrice, pomodori San Marzano DOP e pecorino romano DOP è uno dei piatti più buoni della cucina italiana. Niente cipolla nella versione originale.",
-    "id": 163
+    "id": 163,
+    "portata": "Primo"
   },
   {
     "cat": "🍝 Pasta",
@@ -11260,7 +11423,8 @@
       }
     ],
     "fin": "Pasta con crema di melanzane e ricotta perfetta. È un primo estivo leggero e profumato. Con qualche pomodorino fresco tagliato sopra al servizio è ancora più estivo.",
-    "id": 164
+    "id": 164,
+    "portata": "Primo"
   },
   {
     "cat": "🍝 Pasta",
@@ -11306,7 +11470,8 @@
       }
     ],
     "fin": "Pasta con pomodoro fresco e stracciatella perfetta. Con pomodori dell'orto di agosto e stracciatella fresca del giorno è uno dei piatti più buoni dell'estate. Semplicità assoluta, ingredienti eccellenti.",
-    "id": 165
+    "id": 165,
+    "portata": "Primo"
   },
   {
     "cat": "🍝 Pasta",
@@ -11378,7 +11543,8 @@
       }
     ],
     "fin": "Maltagliati con ragù di verdure perfetti. È il ragù vegetariano che convince anche i carnivori. Con una crosta di parmigiano aggiunta alla cottura finale diventa ancora più saporito.",
-    "id": 166
+    "id": 166,
+    "portata": "Primo"
   },
   {
     "cat": "🍝 Pasta",
@@ -11437,7 +11603,8 @@
       }
     ],
     "fin": "Pasta gorgonzola e noci perfetta. Con la pera a cubetti aggiunta insieme alle noci è il classico abbinamento delle insalate nordiche applicato alla pasta. Pronta in 15 minuti, sempre di grande effetto.",
-    "id": 167
+    "id": 167,
+    "portata": "Primo"
   },
   {
     "cat": "🍝 Pasta",
@@ -11494,7 +11661,8 @@
       }
     ],
     "fin": "Pasta con pomodoro e ricotta perfetta. È uno dei piatti più semplici e più saporiti della cucina meridionale. Con ricotta di pecora il sapore diventa più intenso e caratteristico.",
-    "id": 168
+    "id": 168,
+    "portata": "Primo"
   },
   {
     "cat": "🫘 Legumi",
@@ -11561,13 +11729,14 @@
       }
     ],
     "fin": "Zuppa di lenticchie e cotechino perfetta. Tradizionalmente si mangia a Capodanno per la fortuna, ma è troppo buona per aspettare. Con salsiccia al posto del cotechino è altrettanto saporita.",
-    "id": 169
+    "id": 169,
+    "portata": "Primo"
   },
   {
     "cat": "🫘 Legumi",
     "name": "Fagioli all'uccelletto",
     "icon": "🫘",
-    "photo": "https://images.unsplash.com/photo-1590779033100-9f17a7aebd41?w=600&q=80",
+    "photo": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600&auto=format&fit=crop",
     "time": "30 min",
     "diff": "Facile",
     "level": "casa",
@@ -11617,7 +11786,8 @@
       }
     ],
     "fin": "Fagioli all'uccelletto perfetti. Sono il contorno toscano per eccellenza. Il nome viene dal fatto che si usano le stesse erbe aromatiche degli uccelletti in umido. Con salsiccia a rondelle cotta insieme è un piatto completo.",
-    "id": 170
+    "id": 170,
+    "portata": "Primo"
   },
   {
     "cat": "🫘 Legumi",
@@ -11684,6 +11854,2361 @@
       }
     ],
     "fin": "Zuppa di borlotti e scarola perfetta. È la minestra di verdure e legumi napoletana per eccellenza. Il peperoncino abbondante è caratteristico: deve essere piccante.",
-    "id": 171
+    "id": 171,
+    "portata": "Primo"
+  },
+  {
+    "cat": "☀️ Colazione",
+    "name": "Cornetti all'italiana",
+    "icon": "🥐",
+    "photo": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=600&auto=format&fit=crop",
+    "time": "3 ore",
+    "diff": "Difficile",
+    "subtitle": "Soffici e burrosi come in bar",
+    "portata": "Colazione",
+    "tags": [
+      "colazione",
+      "cornetti",
+      "lievitato",
+      "burro"
+    ],
+    "ing": [
+      "500g farina 00",
+      "100g zucchero",
+      "200ml latte intero tiepido",
+      "25g lievito fresco",
+      "3 uova",
+      "100g burro morbido",
+      "1 cucchiaino di sale",
+      "scorza di 1 limone",
+      "1 bustina di vanillina",
+      "Per sfogliare: 150g burro freddo",
+      "Per spennellare: 1 uovo + 1 cucchiaio di latte"
+    ],
+    "steps": [
+      {
+        "a": "Scioglie il lievito nel latte tiepido con un cucchiaino di zucchero. Attendi 10 minuti finché fa la schiuma.",
+        "w": "💡 Il latte deve essere tiepido, non caldo: a oltre 40°C il lievito muore. La schiuma conferma che il lievito è vivo e attivo.",
+        "t": {
+          "s": 600,
+          "l": "10 min attivazione lievito"
+        }
+      },
+      {
+        "a": "Metti farina, zucchero, sale, vanillina e scorza di limone nella ciotola. Aggiungi le uova, il latte con il lievito e impasta 10 minuti fino a ottenere un impasto liscio. Incorpora il burro morbido a pezzetti lavorando altri 5 minuti.",
+        "w": "💡 Il burro va aggiunto per ultimo e a temperatura ambiente: se troppo freddo non si incorpora, se fuso appesantisce l'impasto. L'impasto finale deve essere morbido ma non appiccicoso.",
+        "t": null
+      },
+      {
+        "a": "Forma una palla, copri con pellicola e fai lievitare in luogo caldo 1 ora, fino al raddoppio.",
+        "w": "💡 Il forno spento con la luce accesa è ideale: temperatura costante di circa 28°C. Il volume deve proprio raddoppiare, non fare fretta.",
+        "t": {
+          "s": 3600,
+          "l": "1 ora prima lievitazione"
+        }
+      },
+      {
+        "a": "Stendi il burro freddo tra due fogli di carta forno formando un rettangolo di 15x20cm. Stendi l'impasto in un rettangolo il doppio grande e posiziona il burro al centro. Ripiega i lati dell'impasto sul burro come una busta.",
+        "w": "💡 Il burro deve essere freddo ma malleabile, non rigido. Se si spezza mentre lo stendi, aspetta 2 minuti. La sfogliatura è il segreto della leggerezza del cornetto.",
+        "t": null
+      },
+      {
+        "a": "Stendi il pacchetto in un rettangolo lungo, fai una piega a 3 (come una lettera), avvolgi in pellicola e riponi in frigo 20 minuti. Ripeti stendi-piega-frigo per altre 2 volte.",
+        "w": "💡 Il riposo in frigo è fondamentale: il burro si indurisce e le sfoglie rimangono separate. Senza questo passaggio il burro si scioglie nell'impasto e perdi la sfogliatura.",
+        "t": {
+          "s": 1200,
+          "l": "20 min riposo in frigo (x3)"
+        }
+      },
+      {
+        "a": "Stendi l'impasto a 4mm di spessore e taglia triangoli con base di 8cm. Arrotola ogni triangolo dalla base alla punta, incurva leggermente le punte verso l'interno. Disponi su teglia con carta forno.",
+        "w": "💡 Arrotola senza stringere troppo: il cornetto deve poter espandere durante la lievitazione. La forma a mezzaluna si ottiene curvando delicatamente le punte dopo aver arrotolato.",
+        "t": null
+      },
+      {
+        "a": "Lascia lievitare i cornetti coperti con un canovaccio umido per 1 ora. Spennella con uovo e latte sbattuti. Cuoci in forno preriscaldato a 180°C per 18-20 minuti fino a doratura.",
+        "w": "💡 Prima di infornare i cornetti devono essere gonfi e \"tremolanti\" se muovi la teglia: segno che la lievitazione è perfetta. Non aprire il forno nei primi 15 minuti.",
+        "t": {
+          "s": 1200,
+          "l": "18-20 min cottura a 180°C"
+        }
+      }
+    ],
+    "fin": "I tuoi cornetti sono pronti! Perfetti caldi, ancora meglio il giorno dopo riscaldati 5 minuti in forno a 150°C. Si conservano in sacchetto per 2 giorni o si congelano da crudi (prima dell'ultima lievitazione).",
+    "id": 172,
+    "level": "trattoria"
+  },
+  {
+    "cat": "☀️ Colazione",
+    "name": "Torta di mele della nonna",
+    "icon": "🍎",
+    "photo": "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=600&auto=format&fit=crop",
+    "time": "1 ora",
+    "diff": "Facile",
+    "subtitle": "La colazione italiana per eccellenza",
+    "portata": "Colazione",
+    "tags": [
+      "colazione",
+      "mele",
+      "torta",
+      "forno"
+    ],
+    "ing": [
+      "3 mele golden o renette",
+      "250g farina 00",
+      "200g zucchero",
+      "3 uova",
+      "100ml olio di semi",
+      "100ml latte intero",
+      "1 bustina lievito per dolci",
+      "scorza di 1 limone",
+      "1 cucchiaino di cannella",
+      "1 pizzico di sale",
+      "zucchero a velo per finire"
+    ],
+    "steps": [
+      {
+        "a": "Preriscalda il forno a 180°C. Sbuccia e taglia le mele a fettine sottili (3mm). Tieni da parte metà delle fettine più belle per decorare.",
+        "w": "💡 Le renette sono la scelta classica: più acidule, reggono meglio la cottura e si ammorbidiscono senza diventare purea. Le golden sono più dolci e ugualmente buone.",
+        "t": null
+      },
+      {
+        "a": "Sbatti le uova con lo zucchero fino a ottenere un composto chiaro e spumoso (3 minuti con le fruste). Aggiungi olio e latte a filo continuando a mescolare.",
+        "w": "💡 Il composto deve diventare quasi bianco e triplicare di volume: questo incorpora aria e rende la torta soffice. Non saltare questo passaggio.",
+        "t": null
+      },
+      {
+        "a": "Aggiungi farina setacciata, lievito, cannella, scorza di limone e sale. Mescola solo fino a incorporare, senza lavorare troppo. Piega le mele a pezzetti nel composto.",
+        "w": "💡 Non mescolare a lungo dopo aver aggiunto la farina: svilupperesti troppo il glutine e la torta diventerebbe dura. Bastano 20-30 giri di spatola.",
+        "t": null
+      },
+      {
+        "a": "Versa in uno stampo da 24cm imburrato e infarinato. Disponi le fettine di mela tenute da parte in cerchi sovrapposti sulla superficie. Spolverizza con un cucchiaio di zucchero.",
+        "w": "💡 Le mele in superficie creeranno una decorazione caramellata naturale. Lo zucchero sopra le aiuterà a dorarsi e a formare una leggera crosticina.",
+        "t": null
+      },
+      {
+        "a": "Cuoci a 180°C per 40-45 minuti. Controlla la cottura con uno stecchino: deve uscire asciutto. Lascia raffreddare 15 minuti prima di sformare. Spolverizza con zucchero a velo.",
+        "w": "💡 Non aprire il forno nei primi 30 minuti o la torta si sgonfia. Se la superficie scurisce troppo prima che sia cotta, copri con un foglio di alluminio.",
+        "t": {
+          "s": 2700,
+          "l": "45 min cottura a 180°C"
+        }
+      }
+    ],
+    "fin": "La torta di mele si conserva 3 giorni a temperatura ambiente coperta. È buonissima anche riscaldata 5 minuti in forno. Ottima a colazione con un cappuccino, ma anche come merenda o dessert leggero.",
+    "id": 173,
+    "level": "casa"
+  },
+  {
+    "cat": "☀️ Colazione",
+    "name": "Ciambella al limone",
+    "icon": "🍋",
+    "photo": "https://images.unsplash.com/photo-1587668178277-295251f900ce?w=600&auto=format&fit=crop",
+    "time": "55 min",
+    "diff": "Facile",
+    "subtitle": "Soffice, profumata, perfetta inzuppata nel latte",
+    "portata": "Colazione",
+    "tags": [
+      "colazione",
+      "limone",
+      "ciambella",
+      "lievitato"
+    ],
+    "ing": [
+      "300g farina 00",
+      "200g zucchero",
+      "3 uova",
+      "150ml olio di semi",
+      "150ml latte",
+      "scorza di 2 limoni",
+      "succo di 1 limone",
+      "1 bustina lievito per dolci",
+      "1 pizzico di sale",
+      "zucchero a velo per finire"
+    ],
+    "steps": [
+      {
+        "a": "Preriscalda il forno a 175°C. Sbatti uova e zucchero con le fruste per 4 minuti fino a composto chiaro e spumoso.",
+        "w": "💡 Più sbatti uova e zucchero, più la ciambella sarà soffice. Non andare di fretta in questo passaggio.",
+        "t": null
+      },
+      {
+        "a": "Aggiungi olio a filo, poi latte, succo e scorza di limone. Mescola bene.",
+        "w": "💡 La scorza è il vero profumo: usa solo la parte gialla, quella bianca è amara. Grattugia con movimenti decisi su una grattugia fine.",
+        "t": null
+      },
+      {
+        "a": "Incorpora farina, lievito e sale setacciati insieme. Mescola con spatola finché il composto è liscio e omogeneo.",
+        "w": "💡 Setacciare farina e lievito insieme evita grumi e distribuisce il lievito uniformemente in tutto l'impasto.",
+        "t": null
+      },
+      {
+        "a": "Versa nello stampo a ciambella imburrato e infarinato. Cuoci a 175°C per 40-45 minuti. Controlla con lo stecchino. Sforma dopo 10 minuti, cospargi di zucchero a velo.",
+        "w": "💡 Lo stampo a ciambella permette una cottura più uniforme perché il calore entra anche dal buco centrale. Non ungere solo i bordi ma anche il tubo centrale.",
+        "t": {
+          "s": 2700,
+          "l": "45 min cottura a 175°C"
+        }
+      }
+    ],
+    "fin": "La ciambella è pronta! Si conserva morbida per 4 giorni sotto una campana di vetro o in sacchetto. Il profumo di limone si intensifica il giorno dopo.",
+    "id": 174,
+    "level": "casa"
+  },
+  {
+    "cat": "☀️ Colazione",
+    "name": "Pancakes italiani (frittelle di latte)",
+    "icon": "🥞",
+    "photo": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=600&auto=format&fit=crop",
+    "time": "20 min",
+    "diff": "Facile",
+    "subtitle": "Le frittelle dolci della tradizione, con miele",
+    "portata": "Colazione",
+    "tags": [
+      "colazione",
+      "frittelle",
+      "latte",
+      "miele"
+    ],
+    "ing": [
+      "200g farina 00",
+      "300ml latte intero",
+      "2 uova",
+      "2 cucchiai di zucchero",
+      "1 cucchiaino di lievito per dolci",
+      "1 pizzico di sale",
+      "scorza di 1 limone",
+      "burro per cuocere",
+      "miele e frutta per servire"
+    ],
+    "steps": [
+      {
+        "a": "Separa i tuorli dagli albumi. Sbatti i tuorli con lo zucchero, aggiungi il latte a filo e la scorza di limone. Incorpora la farina con il lievito e il sale setacciati.",
+        "w": "💡 Il composto deve avere la consistenza di una crema liscia, senza grumi. Se ci sono grumi passa tutto con un colino fine.",
+        "t": null
+      },
+      {
+        "a": "Monta gli albumi a neve ben ferma. Incorporali al composto con movimenti dall'alto verso il basso (non mescolare circolarmente).",
+        "w": "💡 Gli albumi montati sono il segreto della leggerezza: incorporano aria che si espande in cottura. I movimenti dal basso verso l'alto preservano le bolle d'aria.",
+        "t": null
+      },
+      {
+        "a": "Scalda una padella antiaderente a fuoco medio con una noce di burro. Versa un mestolino di composto per ogni frittella. Cuoci 2 minuti finché si formano le bollicine in superficie, gira e cuoci altri 90 secondi.",
+        "w": "💡 Quando le bolle in superficie scoppiano e restano aperte è il momento esatto per girare. Non schiacciare mai la frittella con la paletta o perdi tutta la leggerezza.",
+        "t": {
+          "s": 210,
+          "l": "~3.5 min per frittella"
+        }
+      },
+      {
+        "a": "Servi subito con miele millefiori caldo, frutta di stagione o confettura. Tieni calde le precedenti in forno a 80°C.",
+        "w": "💡 Le frittelle si sgonfiano raffreddandosi: sono buone solo appena fatte. Non prepararle in anticipo.",
+        "t": null
+      }
+    ],
+    "fin": "Le frittelle di latte sono la versione italiana dei pancakes, più leggere e profumate. Tradizionalmente si fanno la domenica mattina in tutta Italia settentrionale.",
+    "id": 175,
+    "level": "casa"
+  },
+  {
+    "cat": "☀️ Colazione",
+    "name": "Crostata di marmellata",
+    "icon": "🥧",
+    "photo": "https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81?w=600&auto=format&fit=crop",
+    "time": "1 ora 15 min",
+    "diff": "Facile",
+    "subtitle": "Frolla classica italiana con marmellata di albicocche",
+    "portata": "Colazione",
+    "tags": [
+      "colazione",
+      "crostata",
+      "marmellata",
+      "frolla"
+    ],
+    "ing": [
+      "300g farina 00",
+      "150g burro freddo a cubetti",
+      "100g zucchero",
+      "2 tuorli",
+      "scorza di 1 limone",
+      "1 pizzico di sale",
+      "400g marmellata di albicocche di qualità",
+      "1 cucchiaio di acqua fredda (se serve)"
+    ],
+    "steps": [
+      {
+        "a": "Impasta velocemente farina, burro freddo a cubetti, zucchero, scorza di limone e sale con la punta delle dita fino a ottenere un composto sabbioso. Aggiungi i tuorli e compatta rapidamente. Se l'impasto è troppo secco aggiungi un cucchiaio d'acqua fredda.",
+        "w": "💡 Il burro deve essere freddo di frigo: il calore delle mani lo scalda abbastanza durante l'impasto. Se lo usi a temperatura ambiente la frolla perde friabilità. Lavora il meno possibile.",
+        "t": null
+      },
+      {
+        "a": "Forma un disco, avvolgi in pellicola e riposa in frigo 30 minuti minimo (meglio 1 ora).",
+        "w": "💡 Il riposo in frigo fa due cose: il burro si solidifica di nuovo (frolla più friabile) e il glutine si rilassa (frolla meno elastica, più facile da stendere).",
+        "t": {
+          "s": 1800,
+          "l": "30 min riposo in frigo"
+        }
+      },
+      {
+        "a": "Preriscalda il forno a 180°C. Stendi 2/3 della frolla a 4mm su carta forno infarinata. Fodera uno stampo da 26cm. Bucherella il fondo con una forchetta. Spalma la marmellata uniformemente lasciando 1cm dai bordi.",
+        "w": "💡 Bucherellare il fondo evita che si gonfi durante la cottura. La marmellata a temperature ambiente si spalma meglio: se è troppo densa scaldala 30 secondi nel microonde.",
+        "t": null
+      },
+      {
+        "a": "Con il resto della frolla forma le strisce della grata. Disponile in diagonale sulla crostata, fissando le estremità al bordo. Cuoci a 180°C per 35-40 minuti fino a doratura uniforme.",
+        "w": "💡 Le strisce devono essere tutte dello stesso spessore per cuocere in modo uniforme. Usa una rotella dentata per bordi decorati. Se la marmellata inizia a bollire fuori dalla grata è normale.",
+        "t": {
+          "s": 2400,
+          "l": "40 min cottura a 180°C"
+        }
+      }
+    ],
+    "fin": "La crostata è una delle torte più amate della tradizione italiana. Si conserva 4-5 giorni a temperatura ambiente, migliorando dopo il primo giorno. La marmellata di albicocche è classica, ma prova anche visciole o lamponi.",
+    "id": 176,
+    "level": "casa"
+  },
+  {
+    "cat": "☀️ Colazione",
+    "name": "Biscotti al burro (Paste frolla)",
+    "icon": "🍪",
+    "photo": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=600&auto=format&fit=crop",
+    "time": "45 min",
+    "diff": "Facile",
+    "subtitle": "I classici biscotti italiani da inzuppare",
+    "portata": "Colazione",
+    "tags": [
+      "colazione",
+      "biscotti",
+      "burro",
+      "frolla"
+    ],
+    "ing": [
+      "300g farina 00",
+      "150g burro morbido",
+      "120g zucchero a velo",
+      "2 tuorli",
+      "1 cucchiaino estratto di vaniglia",
+      "scorza di 1 limone",
+      "1 pizzico di sale"
+    ],
+    "steps": [
+      {
+        "a": "Lavora il burro morbido con lo zucchero a velo fino a crema soffice e bianca (2-3 minuti). Aggiungi i tuorli uno alla volta, poi vaniglia e scorza di limone.",
+        "w": "💡 Il burro deve essere a temperatura ambiente (circa 20°C): se troppo freddo non si amalgama con lo zucchero, se troppo caldo i biscotti si allargano troppo in forno.",
+        "t": null
+      },
+      {
+        "a": "Incorpora farina e sale setacciati mescolando con spatola o a mano, finché l'impasto si compatta. Non lavorare oltre. Forma un cilindro, avvolgi in pellicola, frigo 30 minuti.",
+        "w": "💡 Meno lavori l'impasto dopo la farina, più i biscotti saranno friabili. Il cilindro in frigo permette di tagliare rondelle perfette con il coltello.",
+        "t": {
+          "s": 1800,
+          "l": "30 min riposo in frigo"
+        }
+      },
+      {
+        "a": "Preriscalda il forno a 170°C. Taglia rondelle di 8mm, oppure stendi a 6mm e taglia con le formine. Disponi su carta forno. Cuoci 12-14 minuti: devono essere appena dorati sui bordi, ancora chiari al centro.",
+        "w": "💡 I biscotti sembrano crudi quando li togli dal forno: è normale. Diventano croccanti raffreddandosi. Se li cuoci troppo diventano duri invece che friabili.",
+        "t": {
+          "s": 840,
+          "l": "12-14 min cottura a 170°C"
+        }
+      },
+      {
+        "a": "Lascia raffreddare completamente sulla teglia prima di spostare. Conserva in scatola di latta.",
+        "w": "💡 I biscotti caldi sono fragili: si spezzano se li sposti subito. La scatola di latta mantiene la croccantezza per 2 settimane.",
+        "t": null
+      }
+    ],
+    "fin": "I biscotti al burro sono una base infinitamente personalizzabile: aggiungi cacao, cocco, mandorle, o farcisci due biscotti con marmellata. Si conservano 2 settimane in scatola di latta chiusa.",
+    "id": 177,
+    "level": "casa"
+  },
+  {
+    "cat": "☀️ Colazione",
+    "name": "Granola italiana con miele e noci",
+    "icon": "🌾",
+    "photo": "https://images.unsplash.com/photo-1490818387583-1baba5e638af?w=600&auto=format&fit=crop",
+    "time": "30 min",
+    "diff": "Facile",
+    "subtitle": "Croccante, naturale, con fiocchi d'avena tostati",
+    "portata": "Colazione",
+    "tags": [
+      "colazione",
+      "granola",
+      "avena",
+      "miele",
+      "noci"
+    ],
+    "ing": [
+      "300g fiocchi d'avena grandi",
+      "100g noci miste (noci, nocciole, mandorle)",
+      "60ml miele millefiori",
+      "40ml olio di semi o cocco",
+      "1 cucchiaino cannella",
+      "1 pizzico di sale",
+      "100g frutta secca a piacere (uvetta, cranberry, albicocche)"
+    ],
+    "steps": [
+      {
+        "a": "Preriscalda il forno a 160°C. Mescola fiocchi d'avena e noci spezzettate grossolanamente in una ciotola grande.",
+        "w": "💡 Trita le noci a mano spezzettandole: pezzi irregolari danno texture diversa e risultano più rustici e appetitosi di noci tritate fini.",
+        "t": null
+      },
+      {
+        "a": "Scalda leggermente miele e olio insieme (30 secondi al microonde). Versa sulla miscela di avena e mescola bene finché tutto è rivestito uniformemente. Aggiungi cannella e sale.",
+        "w": "💡 Il miele caldo si distribuisce meglio. L'olio è essenziale per la croccantezza: senza di esso la granola rimane soffice anche raffreddandosi.",
+        "t": null
+      },
+      {
+        "a": "Stendi su teglia con carta forno in strato uniforme. Cuoci 20-25 minuti a 160°C mescolando ogni 8-10 minuti per una doratura uniforme. Togli dal forno quando è dorata (si indurisce raffreddandosi).",
+        "w": "💡 Non cuocere oltre: la granola continua a tostarsi con il calore residuo della teglia. Meglio toglierla un filo chiara che scura.",
+        "t": {
+          "s": 1500,
+          "l": "25 min cottura a 160°C"
+        }
+      },
+      {
+        "a": "Lascia raffreddare completamente senza mescolare (si formano i grumi croccanti). Aggiungi la frutta secca solo una volta fredda. Conserva in vaso di vetro.",
+        "w": "💡 Non mescolare mentre raffredda: il miele si cristallizza formando i caratteristici grumi croccanti. Se mescoli troppo ottieni solo briciole.",
+        "t": null
+      }
+    ],
+    "fin": "La granola si conserva 3 settimane in vaso di vetro chiuso. Servila con yogurt greco e miele, latte freddo, o come topping su frutta fresca.",
+    "id": 178,
+    "level": "casa"
+  },
+  {
+    "cat": "☀️ Colazione",
+    "name": "Budino di riso al forno",
+    "icon": "🍮",
+    "photo": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600&auto=format&fit=crop",
+    "time": "1 ora 15 min",
+    "diff": "Facile",
+    "subtitle": "Antico dolce toscano da colazione, profumato alla vaniglia",
+    "portata": "Colazione",
+    "tags": [
+      "colazione",
+      "riso",
+      "budino",
+      "latte",
+      "vaniglia"
+    ],
+    "ing": [
+      "200g riso originario o Roma",
+      "1 litro latte intero",
+      "150g zucchero",
+      "3 uova",
+      "scorza di 1 limone",
+      "1 baccello di vaniglia (o 1 bustina vanillina)",
+      "50g burro",
+      "1 pizzico di sale",
+      "uvetta sultanina (facoltativa)"
+    ],
+    "steps": [
+      {
+        "a": "Cuoci il riso nel latte con la scorza di limone, la vaniglia aperta e un pizzico di sale a fuoco basso per 25-30 minuti mescolando spesso, finché il riso ha assorbito quasi tutto il latte e il composto è denso.",
+        "w": "💡 Mescola spesso per evitare che il riso attacchi sul fondo. Il composto deve sembrare un risotto molto denso: si asciuga ancora in forno.",
+        "t": {
+          "s": 1800,
+          "l": "25-30 min cottura riso nel latte"
+        }
+      },
+      {
+        "a": "Togli dal fuoco, elimina la scorza di limone e la vaniglia. Aggiungi burro e zucchero, mescola bene. Lascia intiepidire 10 minuti.",
+        "w": "💡 Se aggiungi le uova quando il riso è ancora bollente si cuociono subito e il budino diventa grumoso. I 10 minuti di raffreddamento sono importanti.",
+        "t": {
+          "s": 600,
+          "l": "10 min raffreddamento"
+        }
+      },
+      {
+        "a": "Sbatti le uova a parte e incorporale al composto di riso. Se usi l'uvetta aggiungila ora (precedentemente ammollata in acqua tiepida). Preriscalda forno a 175°C.",
+        "w": "💡 Le uova legano il budino e lo rendono solido una volta cotto. Senza uova il budino rimarrebbe morbido e cremoso (anche buono, ma diverso).",
+        "t": null
+      },
+      {
+        "a": "Versa in una teglia imburrata (o in stampini individuali). Cuoci a 175°C per 35-40 minuti finché è dorato in superficie. Lascia raffreddare e servi a fette o sformato.",
+        "w": "💡 Il budino di riso è buono sia tiepido che freddo. In Toscana si mangia tradizionalmente a colazione, tagliato a quadrati come una torta.",
+        "t": {
+          "s": 2400,
+          "l": "40 min cottura a 175°C"
+        }
+      }
+    ],
+    "fin": "Il budino di riso è una specialità toscana antichissima, citata già nell'800 da Artusi. A Firenze si vende ancora nelle pasticcerie tradizionali. Si conserva 3 giorni in frigo.",
+    "id": 179,
+    "level": "casa"
+  },
+  {
+    "cat": "☀️ Colazione",
+    "name": "Maritozzi con la panna",
+    "icon": "🥐",
+    "photo": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=600&auto=format&fit=crop",
+    "time": "2 ore 30 min",
+    "diff": "Media",
+    "subtitle": "Il dolce della colazione romana per eccellenza",
+    "portata": "Colazione",
+    "tags": [
+      "colazione",
+      "maritozzi",
+      "panna",
+      "roma",
+      "lievitato"
+    ],
+    "ing": [
+      "300g farina 00",
+      "10g lievito fresco",
+      "60ml latte tiepido",
+      "80g zucchero",
+      "2 uova",
+      "60g burro morbido",
+      "scorza di 1 arancia",
+      "1 cucchiaino di sale",
+      "200ml panna fresca da montare",
+      "2 cucchiai zucchero a velo per la panna"
+    ],
+    "steps": [
+      {
+        "a": "Scioglie il lievito nel latte tiepido con un cucchiaino di zucchero. Attendi 10 minuti. Nella ciotola metti farina, zucchero, scorza di arancia, le uova, il latte con il lievito. Impasta 8 minuti.",
+        "w": "💡 Il maritozzo vuole un impasto morbido e leggermente appiccicoso: non aggiungere troppa farina. La consistenza corretta è simile a un lobo d'orecchio.",
+        "t": {
+          "s": 600,
+          "l": "10 min attivazione lievito"
+        }
+      },
+      {
+        "a": "Aggiungi il burro morbido a pezzetti e impasta altri 8-10 minuti fino ad assorbimento completo. L'impasto deve essere liscio ed elastico. Prima lievitazione coperto 1 ora e mezza.",
+        "w": "💡 Il burro va aggiunto a poco a poco: se ne metti troppo tutto insieme l'impasto fatica ad assorbirlo. Ogni pezzetto deve sparire prima di aggiungere il successivo.",
+        "t": {
+          "s": 5400,
+          "l": "1 ora e mezza prima lievitazione"
+        }
+      },
+      {
+        "a": "Dividi in 8 palline da 80g circa. Forma ogni pallina con le mani a testa ovale allungata. Disponi su teglia con carta forno. Seconda lievitazione coperta 45 minuti.",
+        "w": "💡 La forma ovale-allungata è quella tradizionale del maritozzo romano. Rotonda va bene lo stesso ma meno autentica.",
+        "t": {
+          "s": 2700,
+          "l": "45 min seconda lievitazione"
+        }
+      },
+      {
+        "a": "Spennella con uovo sbattuto. Cuoci a 180°C per 18-20 minuti fino a doratura. Raffredda completamente. Taglia a metà longitudinalmente senza separare. Riempi generosamente con panna montata con lo zucchero a velo.",
+        "w": "💡 Il maritozzo deve traboccare di panna: la quantità che sembra eccessiva è quella giusta. Tradizionalmente si livella la panna con una spatola formando una montagna.",
+        "t": {
+          "s": 1200,
+          "l": "18-20 min cottura a 180°C"
+        }
+      }
+    ],
+    "fin": "Il maritozzo è il simbolo della colazione romana: va consumato fresco il giorno stesso. Il nome viene da 'marito': un tempo i giovani romani li regalavano alle fidanzate il venerdì di marzo.",
+    "id": 180,
+    "level": "trattoria"
+  },
+  {
+    "cat": "☀️ Colazione",
+    "name": "Frittata di verdure per il mattino",
+    "icon": "🍳",
+    "photo": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=600&auto=format&fit=crop",
+    "time": "20 min",
+    "diff": "Facile",
+    "subtitle": "Colazione salata ricca e veloce, stile italiano",
+    "portata": "Colazione",
+    "tags": [
+      "colazione",
+      "uova",
+      "frittata",
+      "verdure",
+      "salata"
+    ],
+    "ing": [
+      "4 uova",
+      "1 zucchina piccola",
+      "1 peperone rosso",
+      "50g parmigiano grattugiato",
+      "2 cucchiai olio extravergine",
+      "sale e pepe",
+      "basilico fresco",
+      "1 spicchio d'aglio"
+    ],
+    "steps": [
+      {
+        "a": "Taglia zucchina e peperone a dadini piccoli. Soffriggi in padella con olio e aglio 5 minuti a fuoco medio finché morbidi. Sala, rimuovi l'aglio.",
+        "w": "💡 Le verdure devono perdere l'acqua prima di aggiungere le uova: se sono troppo umide la frittata rimane molle e non si asciuga.",
+        "t": {
+          "s": 300,
+          "l": "5 min soffritto verdure"
+        }
+      },
+      {
+        "a": "Sbatti le uova con il parmigiano, sale e pepe. Versa sulle verdure a fuoco medio-basso. Non mescolare: lascia che i bordi si solidifichino.",
+        "w": "💡 La frittata non si mescola dopo aver versato le uova: si lascia cuocere come un'omelette. Mescolare la renderebbe strapazzata.",
+        "t": null
+      },
+      {
+        "a": "Quando la superficie è ancora leggermente liquida, copri con un coperchio e cuoci a fuoco basso 3-4 minuti. Oppure gira aiutandoti con un piatto e cuoci l'altro lato 2 minuti.",
+        "w": "💡 Il trucco del piatto: poggia un piatto grande sulla padella, capovolgi velocemente e fai scivolare la frittata di nuovo in padella dal lato crudo.",
+        "t": {
+          "s": 240,
+          "l": "3-4 min cottura coperta"
+        }
+      }
+    ],
+    "fin": "La frittata di verdure è buona calda ma anche fredda, ideale da portare in ufficio o in gita. Puoi prepararla la sera prima e scaldarla in padella o mangiarla a temperatura ambiente.",
+    "id": 181,
+    "level": "casa"
+  },
+  {
+    "cat": "☀️ Colazione",
+    "name": "Cantucci di Prato",
+    "icon": "🍪",
+    "photo": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=600&auto=format&fit=crop",
+    "time": "1 ora",
+    "diff": "Facile",
+    "subtitle": "I biscotti toscani alle mandorle da inzuppare",
+    "portata": "Colazione",
+    "tags": [
+      "colazione",
+      "cantucci",
+      "mandorle",
+      "toscana",
+      "biscotti"
+    ],
+    "ing": [
+      "300g farina 00",
+      "200g zucchero",
+      "3 uova",
+      "200g mandorle intere con la buccia",
+      "1 cucchiaino lievito per dolci",
+      "scorza di 1 arancia",
+      "1 cucchiaino di anice (facoltativo)",
+      "1 pizzico di sale"
+    ],
+    "steps": [
+      {
+        "a": "Preriscalda il forno a 180°C. Sbatti uova e zucchero 2 minuti. Aggiungi scorza di arancia e anice. Incorpora farina, lievito e sale. Aggiungi le mandorle intere (non tostate, non pelate) e mescola.",
+        "w": "💡 Le mandorle si mettono crude e intere: si tostano durante la cottura acquistando sapore. Non pelarle: la buccia dà colore e texture caratteristici al cantuccio.",
+        "t": null
+      },
+      {
+        "a": "L'impasto è appiccicoso: bagnati le mani. Forma 2 filoncini lunghi circa 25cm e larghi 5cm sulla teglia con carta forno. Prima cottura 25 minuti a 180°C.",
+        "w": "💡 I filoncini sembrano piatti e brutti prima di cuocere: è normale. Gonfiando in forno prendono la forma giusta. La larghezza di 5cm darà cantucci della dimensione classica.",
+        "t": {
+          "s": 1500,
+          "l": "25 min prima cottura a 180°C"
+        }
+      },
+      {
+        "a": "Sforna i filoncini ancora caldi. Tagliati in diagonale a fette di 1.5cm con un coltello seghettato. Rimetti sulla teglia con il lato tagliato verso l'alto. Seconda cottura 15 minuti a 160°C.",
+        "w": "💡 Taglia quando ancora caldi ma non bollenti: il coltello scivola meglio. La doppia cottura (bis-cotto = due volte cotto) è l'origine del nome biscotto.",
+        "t": {
+          "s": 900,
+          "l": "15 min seconda cottura a 160°C"
+        }
+      }
+    ],
+    "fin": "I cantucci si conservano 3 settimane in scatola di latta. Tradizionalmente si inzuppano nel Vin Santo, ma con il caffè o il latte sono altrettanto buoni. La ricetta originale di Prato li vuole senza aromi diversi dall'anice.",
+    "id": 182,
+    "level": "casa"
+  },
+  {
+    "cat": "☀️ Colazione",
+    "name": "Bomboloni fritti",
+    "icon": "🍩",
+    "photo": "https://images.unsplash.com/photo-1509365465985-25d11c17e812?w=600&auto=format&fit=crop",
+    "time": "2 ore",
+    "diff": "Media",
+    "subtitle": "I krapfen italiani ripieni di crema pasticcera",
+    "portata": "Colazione",
+    "tags": [
+      "colazione",
+      "bomboloni",
+      "fritti",
+      "crema",
+      "krapfen"
+    ],
+    "ing": [
+      "400g farina 00",
+      "20g lievito fresco",
+      "200ml latte tiepido",
+      "80g zucchero",
+      "3 tuorli",
+      "60g burro morbido",
+      "scorza di 1 limone",
+      "1 cucchiaino di sale",
+      "olio di semi per friggere",
+      "zucchero semolato per rotolare",
+      "300ml crema pasticcera già pronta"
+    ],
+    "steps": [
+      {
+        "a": "Scioglie il lievito nel latte tiepido con un cucchiaino di zucchero, attendi 10 minuti. Impasta farina, zucchero, tuorli, latte col lievito e scorza di limone per 8 minuti. Aggiungi burro e sale, impasta altri 8 minuti.",
+        "w": "💡 L'impasto corretto è morbido, liscio e si stacca dalle pareti. Se troppo appiccicoso aggiungi farina una cucchiaiata alla volta.",
+        "t": {
+          "s": 600,
+          "l": "10 min attivazione lievito"
+        }
+      },
+      {
+        "a": "Prima lievitazione coperta 1 ora e mezza. Stendi a 1.5cm di spessore. Taglia cerchi da 7cm. Disponi su carta forno. Seconda lievitazione coperta 45 minuti.",
+        "w": "💡 I bomboloni sono pronti per la frittura quando, premendo leggermente con un dito, l'impronta rimane e torna lentamente: segno che la lievitazione è perfetta.",
+        "t": {
+          "s": 5400,
+          "l": "1 ora e mezza + 45 min lievitazione"
+        }
+      },
+      {
+        "a": "Scalda olio di semi a 170°C. Friggi i bomboloni 2 alla volta, 2 minuti per lato, finché dorati e gonfi. Scola su carta assorbente. Rotola subito nello zucchero semolato.",
+        "w": "💡 Temperatura olio fondamentale: a 170°C cuociono dentro e fuori insieme. Più caldo bruciano fuori crudi dentro, più freddo assorbono olio. Usa un termometro se possibile.",
+        "t": {
+          "s": 240,
+          "l": "4 min totali per bombolone"
+        }
+      },
+      {
+        "a": "Una volta tiepidi, farcisci con crema pasticcera usando una sac à poche con bocchetta lunga: inserisci dal lato e riempi finché la crema comincia a fuoriuscire.",
+        "w": "💡 Farcisci quando i bomboloni sono tiepidi, non caldi: la crema fredda a contatto con i bomboloni caldi si scioglie. Aspetta 15-20 minuti dalla frittura.",
+        "t": null
+      }
+    ],
+    "fin": "I bomboloni vanno mangiati entro poche ore dalla frittura: il giorno dopo diventano gommosi. Per questo motivo le pasticcerie li fanno ogni mattina. La crema può essere sostituita con marmellata o Nutella.",
+    "id": 183,
+    "level": "trattoria"
+  },
+  {
+    "cat": "🥦 Verdure & Contorni",
+    "name": "Melanzane alla parmigiana",
+    "icon": "🍆",
+    "photo": "https://images.unsplash.com/photo-1604909052743-94e838986d24?w=600&auto=format&fit=crop",
+    "time": "1 ora 30 min",
+    "diff": "Media",
+    "subtitle": "Il grande classico del Sud Italia, a strati",
+    "portata": "Secondo",
+    "tags": [
+      "melanzane",
+      "pomodoro",
+      "mozzarella",
+      "parmigiano",
+      "forno"
+    ],
+    "ing": [
+      "1.2kg melanzane (2-3 grandi)",
+      "700ml passata di pomodoro",
+      "400g mozzarella fior di latte",
+      "100g parmigiano reggiano grattugiato",
+      "2 spicchi d'aglio",
+      "basilico fresco abbondante",
+      "olio extravergine d'oliva",
+      "sale, olio di semi per friggere"
+    ],
+    "steps": [
+      {
+        "a": "Taglia le melanzane a fette di 7mm nel senso della lunghezza. Disponile in un colapasta a strati, salando ogni strato. Lascia spurgare 30 minuti con un peso sopra per far uscire l'acqua amara.",
+        "w": "💡 Lo spurgo è fondamentale per due motivi: elimina l'amaro (le melanzane giovani ne hanno poco, quelle grosse di più) e riduce l'acqua che altrimenti renderebbe la parmigiana acquosa.",
+        "t": {
+          "s": 1800,
+          "l": "30 min spurgo melanzane"
+        }
+      },
+      {
+        "a": "Sciacqua le melanzane e asciugale bene con carta da cucina. Friggile in abbondante olio di semi a 170°C fino a doratura su entrambi i lati. Scola su carta assorbente.",
+        "w": "💡 La tradizione vuole le melanzane fritte, non grigliate: il risultato è molto diverso. Le melanzane devono assorbire l'olio, poi rilasciarlo durante la cottura in forno — questo crea la texture cremosa interna.",
+        "t": null
+      },
+      {
+        "a": "Prepara un sugo veloce: soffriggi l'aglio intero in olio extravergine 1 minuto, aggiungi la passata, sale e basilico. Cuoci 15 minuti a fuoco medio.",
+        "w": "💡 Il sugo deve essere saporito ma non troppo ricco: sarà condensato ulteriormente in forno. Non esagerare con l'aglio: la parmigiana deve sapere di melanzane.",
+        "t": {
+          "s": 900,
+          "l": "15 min cottura sugo"
+        }
+      },
+      {
+        "a": "In una teglia dai bordi alti stendi un velo di sugo. Primo strato di melanzane, sugo, fette di mozzarella (ben scolata), basilico, parmigiano. Ripeti per 3-4 strati. Finisci con sugo abbondante e parmigiano.",
+        "w": "💡 Scola bene la mozzarella: è la fonte principale di acqua nella parmigiana. Tagliala il giorno prima e tienila in frigo scoperta se puoi.",
+        "t": null
+      },
+      {
+        "a": "Cuoci in forno a 180°C per 40-45 minuti fino a doratura in superficie. Lascia riposare 20 minuti prima di tagliare.",
+        "w": "💡 Il riposo è fondamentale: la parmigiana appena sfornata è liquida e si smonta. Dopo 20 minuti si compatta e si taglia in quadrati perfetti. È ancora più buona il giorno dopo.",
+        "t": {
+          "s": 2700,
+          "l": "45 min cottura + 20 min riposo"
+        }
+      }
+    ],
+    "fin": "La parmigiana è uno dei piatti più discussi d'Italia: è siciliana o napoletana? Le versioni sono infinite. Questa è quella classica. Si conserva 3 giorni in frigo e migliora col tempo.",
+    "id": 184,
+    "level": "casa"
+  },
+  {
+    "cat": "🥦 Verdure & Contorni",
+    "name": "Carciofi alla romana",
+    "icon": "🌿",
+    "photo": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=600&auto=format&fit=crop",
+    "time": "50 min",
+    "diff": "Media",
+    "subtitle": "Teneri, profumati di mentuccia e aglio, tipicamente romani",
+    "portata": "Contorno",
+    "tags": [
+      "carciofi",
+      "roma",
+      "mentuccia",
+      "aglio",
+      "verdure"
+    ],
+    "ing": [
+      "6 carciofi romaneschi (mammole)",
+      "3 spicchi d'aglio",
+      "mazzo di mentuccia fresca (o menta romana)",
+      "prezzemolo fresco",
+      "100ml olio extravergine d'oliva",
+      "succo di 1 limone",
+      "sale e pepe nero",
+      "acqua q.b."
+    ],
+    "steps": [
+      {
+        "a": "Prepara una bacinella con acqua e succo di limone. Pulisci i carciofi: elimina le foglie esterne dure, ritaglia il gambo lasciandone 5cm, sbuccialo. Apri al centro il carciofo con le dita ed elimina il fieno interno. Immergi nell'acqua acidulata.",
+        "w": "💡 L'acqua acidulata evita l'annerimento. Il carciofo annerisce a contatto con l'aria per ossidazione: lavora velocemente o tieni in acqua. Il gambo si mangia ed è buonissimo.",
+        "t": null
+      },
+      {
+        "a": "Trita finemente aglio, mentuccia e prezzemolo. Mescola con olio, sale e pepe. Con le dita apri le foglie del carciofo e inserisci il ripieno di erbe tra le foglie e nella cavità centrale.",
+        "w": "💡 Più ripieno riesci a far entrare tra le foglie, più il risultato sarà profumato. Non aver paura di aprire le foglie: in cottura si chiuderanno leggermente.",
+        "t": null
+      },
+      {
+        "a": "Sistema i carciofi in una pentola stretta a bordi alti con la testa in giù e i gambi in su. Versa olio abbondante e acqua fino a metà altezza dei carciofi. Sala l'acqua.",
+        "w": "💡 La posizione capovolta permette al condimento di scendere nelle foglie durante la cottura. La pentola stretta li mantiene in posizione.",
+        "t": null
+      },
+      {
+        "a": "Copri con coperchio e cuoci a fuoco medio-basso 35-40 minuti. Sono pronti quando il gambo si buca facilmente con uno stuzzicadenti. Servi con il fondo di cottura come salsina.",
+        "w": "💡 Non scoprire troppo spesso: il vapore è la fonte di calore principale. Il fondo di cottura emulsionato con olio è ottimo da servire sopra i carciofi.",
+        "t": {
+          "s": 2400,
+          "l": "35-40 min cottura"
+        }
+      }
+    ],
+    "fin": "I carciofi alla romana sono uno dei piatti più rappresentativi della cucina laziale. Si servono tiepidi o a temperatura ambiente. Ottimi come antipasto, contorno o piatto unico leggero.",
+    "id": 185,
+    "level": "trattoria"
+  },
+  {
+    "cat": "🥦 Verdure & Contorni",
+    "name": "Peperonata",
+    "icon": "🫑",
+    "photo": "https://images.unsplash.com/photo-1592417817098-8fd3d9eb14a5?w=600&auto=format&fit=crop",
+    "time": "45 min",
+    "diff": "Facile",
+    "subtitle": "Stufato di peperoni colorati con pomodoro, classico estivo",
+    "portata": "Contorno",
+    "tags": [
+      "peperoni",
+      "pomodoro",
+      "stufato",
+      "estate",
+      "verdure"
+    ],
+    "ing": [
+      "1kg peperoni misti (rossi, gialli, verdi)",
+      "400g pomodori pelati",
+      "1 cipolla dorata grande",
+      "3 spicchi d'aglio",
+      "60ml olio extravergine d'oliva",
+      "basilico fresco",
+      "sale e pepe",
+      "1 cucchiaino di zucchero (se i pomodori sono acidi)"
+    ],
+    "steps": [
+      {
+        "a": "Lava i peperoni, eliminare semi e filamenti bianchi interni. Taglia a striscioline di 1.5cm. Affetta la cipolla sottile.",
+        "w": "💡 Elimina bene i filamenti bianchi interni: sono la parte più amara del peperone. Usa peperoni di colori diversi: il risultato è più bello e i sapori si integrano.",
+        "t": null
+      },
+      {
+        "a": "Soffriggi la cipolla in olio abbondante a fuoco medio per 8 minuti finché dorata e morbida. Aggiungi l'aglio e cuoci 1 minuto.",
+        "w": "💡 La cipolla deve caramellarsi leggermente: questa dolcezza bilancia l'acidità del pomodoro e il lieve amaro del peperone.",
+        "t": {
+          "s": 480,
+          "l": "8 min soffritto cipolla"
+        }
+      },
+      {
+        "a": "Aggiungi i peperoni, sale e pepe. Cuoci a fuoco medio mescolando spesso per 15 minuti finché iniziano ad ammorbidirsi.",
+        "w": "💡 I peperoni rilasciano molta acqua: non coprire subito o rimangono lessi. La fiamma deve essere media-alta i primi minuti per far evaporare.",
+        "t": {
+          "s": 900,
+          "l": "15 min cottura peperoni"
+        }
+      },
+      {
+        "a": "Aggiungi i pomodori pelati schiacciati con le mani, il basilico e lo zucchero se serve. Abbassa il fuoco, copri parzialmente e cuoci altri 20 minuti finché il sugo si restringe e i peperoni sono teneri.",
+        "w": "💡 Il piatto è pronto quando non c'è più liquido acquoso sul fondo ma un sughetto denso che avvolge i peperoni. Assaggia: deve essere dolce-acidulo, mai amaro.",
+        "t": {
+          "s": 1200,
+          "l": "20 min cottura finale"
+        }
+      }
+    ],
+    "fin": "La peperonata è buona calda, tiepida e fredda. Ottima come contorno a carni grigliate, come condimento per bruschette, o semplicemente con il pane. Si conserva 4 giorni in frigo.",
+    "id": 186,
+    "level": "casa"
+  },
+  {
+    "cat": "🥦 Verdure & Contorni",
+    "name": "Cipolle in agrodolce",
+    "icon": "🧅",
+    "photo": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=600&auto=format&fit=crop",
+    "time": "40 min",
+    "diff": "Facile",
+    "subtitle": "Le borettane glassate, tipiche dell'Italia del Nord",
+    "portata": "Contorno",
+    "tags": [
+      "cipolle",
+      "agrodolce",
+      "aceto",
+      "contorno",
+      "nord"
+    ],
+    "ing": [
+      "600g cipolline borettane (o cipollotti)",
+      "3 cucchiai aceto di vino rosso",
+      "2 cucchiai zucchero",
+      "30g burro",
+      "2 cucchiai olio extravergine",
+      "sale",
+      "alloro (1-2 foglie)",
+      "chiodi di garofano (2-3, facoltativi)"
+    ],
+    "steps": [
+      {
+        "a": "Sbuccia le cipolline: immergile in acqua bollente 2 minuti, scola e sbuccia facilmente. Se usi cipollotti freschi, puliscili e lascia un po' di verde.",
+        "w": "💡 Il bagno in acqua bollente rende la sbucciatura rapidissima: la buccia scivola via. È uno dei trucchi più utili in cucina.",
+        "t": {
+          "s": 120,
+          "l": "2 min sbollentatura per sbucciare"
+        }
+      },
+      {
+        "a": "In una padella larga scalda burro e olio. Aggiungi le cipolline intere, l'alloro e i chiodi di garofano. Rosola a fuoco medio-alto 5 minuti girandole per dorarle uniformemente.",
+        "w": "💡 La rosolatura iniziale caramelizza la superficie delle cipolline e crea il colore dorato. Non saltare questo passaggio o restano pallide e poco saporite.",
+        "t": {
+          "s": 300,
+          "l": "5 min rosolatura"
+        }
+      },
+      {
+        "a": "Aggiungi lo zucchero e lascia caramellare 2 minuti mescolando. Sfuma con l'aceto: sfrigolerà e si asciugherà velocemente. Aggiusta di sale.",
+        "w": "💡 Quando aggiungi l'aceto al caramello caldo fa molta vapore: allontana il viso. L'aceto dissolve il caramello e crea la glassa agrodolce.",
+        "t": {
+          "s": 120,
+          "l": "2 min caramellatura"
+        }
+      },
+      {
+        "a": "Aggiungi un mestolino d'acqua, copri e cuoci a fuoco basso 20-25 minuti finché le cipolline sono tenere e glassate. Scopri gli ultimi 5 minuti per restringere la salsa.",
+        "w": "💡 Le cipolline sono pronte quando si trapassano senza resistenza con uno stecchino e sono avvolte da una glassa lucida e densa.",
+        "t": {
+          "s": 1500,
+          "l": "20-25 min cottura finale"
+        }
+      }
+    ],
+    "fin": "Le cipolle in agrodolce sono un contorno versatile, ottime con arrosti, bolliti e selvaggina. Si preparano in anticipo e si riscaldano benissimo. In Emilia si servono tradizionalmente con il bollito misto.",
+    "id": 187,
+    "level": "trattoria"
+  },
+  {
+    "cat": "🥦 Verdure & Contorni",
+    "name": "Spinaci all'aglio e olio",
+    "icon": "🥬",
+    "photo": "https://images.unsplash.com/photo-1576045057995-568f588f82fb?w=600&auto=format&fit=crop",
+    "time": "15 min",
+    "diff": "Facile",
+    "subtitle": "Veloce, leggero, profumato — un classico imbattibile",
+    "portata": "Contorno",
+    "tags": [
+      "spinaci",
+      "aglio",
+      "olio",
+      "veloce",
+      "contorno"
+    ],
+    "ing": [
+      "800g spinaci freschi (o 400g già lessati)",
+      "3 spicchi d'aglio",
+      "4 cucchiai olio extravergine d'oliva",
+      "peperoncino (facoltativo)",
+      "sale",
+      "limone per servire"
+    ],
+    "steps": [
+      {
+        "a": "Se usi spinaci freschi, sbollentali in acqua salata 2-3 minuti. Scola e strizza bene per eliminare tutta l'acqua in eccesso. Se usati già lessati, strizza comunque.",
+        "w": "💡 Strizzare bene gli spinaci è il passaggio più importante: se restano acquosi in padella si lessano invece di saltarsi. Premi forte con le mani o usa un canovaccio.",
+        "t": {
+          "s": 180,
+          "l": "2-3 min sbollentatura"
+        }
+      },
+      {
+        "a": "Scalda olio e aglio in fette in padella a fuoco medio. Quando l'aglio inizia a dorare (non bruciare!), aggiungi eventuale peperoncino e gli spinaci strizzati.",
+        "w": "💡 L'aglio deve profumare l'olio senza bruciarsi: basta un cambio di colore da bianco a leggermente dorato. Aglio bruciato dà amaro a tutto il piatto.",
+        "t": null
+      },
+      {
+        "a": "Salta a fuoco vivace 3-4 minuti mescolando. Aggiusta di sale. Servi con un filo d'olio crudo e qualche goccia di limone.",
+        "w": "💡 Il limone a crudo alla fine è fondamentale: esalta il sapore degli spinaci e bilancia il grasso dell'olio. Non cuocere il limone.",
+        "t": {
+          "s": 240,
+          "l": "3-4 min saltatura"
+        }
+      }
+    ],
+    "fin": "Gli spinaci all'aglio e olio sono il contorno più rapido e sano della cucina italiana. Il limone finale è opzionale ma raccomandato. Ottimi anche freddi come insalata, o come ripieno per torte salate.",
+    "id": 188,
+    "level": "casa"
+  },
+  {
+    "cat": "🥦 Verdure & Contorni",
+    "name": "Finocchi gratinati al parmigiano",
+    "icon": "🌿",
+    "photo": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=600&auto=format&fit=crop",
+    "time": "45 min",
+    "diff": "Facile",
+    "subtitle": "Croccanti fuori, fondenti dentro, con crosticina dorata",
+    "portata": "Contorno",
+    "tags": [
+      "finocchi",
+      "parmigiano",
+      "gratinato",
+      "forno",
+      "contorno"
+    ],
+    "ing": [
+      "4 finocchi medi",
+      "80g parmigiano reggiano grattugiato",
+      "40g burro",
+      "sale e pepe",
+      "noce moscata",
+      "pangrattato (facoltativo)"
+    ],
+    "steps": [
+      {
+        "a": "Lava i finocchi, elimina le foglie esterne dure e le barbine (tienile per decorare). Taglia a spicchi di 4-5 cm. Sbollenta in acqua salata 8 minuti. Scola bene.",
+        "w": "💡 La sbollentatura pre-cuoce i finocchi: senza questo passaggio resterebbero duri al centro anche dopo 30 minuti in forno. 8 minuti è il tempo giusto: semi-cotti.",
+        "t": {
+          "s": 480,
+          "l": "8 min sbollentatura"
+        }
+      },
+      {
+        "a": "Disponi gli spicchi in una teglia imburrata. Sala, pepa, grattugia la noce moscata. Distribuisci fiocchetti di burro e parmigiano abbondante sopra. Aggiungi pangrattato se vuoi più croccantezza.",
+        "w": "💡 Il burro a fiocchetti si scioglie in cottura e crea una base dorata sotto i finocchi. Il parmigiano forma la crosticina croccante in superficie.",
+        "t": null
+      },
+      {
+        "a": "Cuoci a 200°C per 20-25 minuti finché la superficie è dorata e croccante. Gli ultimi 5 minuti accendi il grill per una gratinatura perfetta.",
+        "w": "💡 Il grill finale è il segreto della gratinatura: crea una crosticina velocemente senza seccare troppo l'interno. Tieni d'occhio perché brucia in 1-2 minuti.",
+        "t": {
+          "s": 1500,
+          "l": "20-25 min cottura a 200°C"
+        }
+      }
+    ],
+    "fin": "I finocchi gratinati sono un contorno elegante e veloce. Perfetti con carni bianche, pesce al forno o come piatto vegetariano con l'aggiunta di besciamella. Si preparano in anticipo e si gratinano all'ultimo.",
+    "id": 189,
+    "level": "casa"
+  },
+  {
+    "cat": "🥦 Verdure & Contorni",
+    "name": "Zucchine trifolate",
+    "icon": "🥒",
+    "photo": "https://images.unsplash.com/photo-1563252722-6434563a985d?w=600&auto=format&fit=crop",
+    "time": "20 min",
+    "diff": "Facile",
+    "subtitle": "Veloci, saporite, con aglio e prezzemolo fresco",
+    "portata": "Contorno",
+    "tags": [
+      "zucchine",
+      "aglio",
+      "prezzemolo",
+      "veloce",
+      "contorno"
+    ],
+    "ing": [
+      "800g zucchine",
+      "3 spicchi d'aglio",
+      "mazzo di prezzemolo fresco",
+      "4 cucchiai olio extravergine",
+      "sale e pepe",
+      "peperoncino (facoltativo)"
+    ],
+    "steps": [
+      {
+        "a": "Lava le zucchine, taglia le estremità. Taglia a rondelle di 5mm o a bastoncini. Non sbucciare.",
+        "w": "💡 Le rondelle cuociono più velocemente, i bastoncini restano più sodi al morso. Entrambi i metodi sono validi: scegli in base alla texture che preferisci.",
+        "t": null
+      },
+      {
+        "a": "Scalda olio e aglio in fette a fuoco medio. Aggiungi le zucchine in un unico strato (se la padella è piccola cuoci in due riprese). Fuoco vivace, non mescolare per 3 minuti per farle dorare.",
+        "w": "💡 Il segreto delle zucchine trifolate è NON mescolare troppo all'inizio: devono fare la crosticina dorata, non lessarsi nel loro liquido. Padella calda, fuoco alto.",
+        "t": {
+          "s": 180,
+          "l": "3 min senza mescolare"
+        }
+      },
+      {
+        "a": "Gira le zucchine e cuoci altri 5 minuti finché sono dorate e teneri ma non sfatte. Aggiusta di sale e pepe. Fuori dal fuoco aggiungi prezzemolo tritato abbondante.",
+        "w": "💡 Il prezzemolo va sempre aggiunto fuori dal fuoco: il calore lo ingiallisce e ne elimina il profumo fresco che è il punto di forza del piatto.",
+        "t": {
+          "s": 300,
+          "l": "5 min cottura finale"
+        }
+      }
+    ],
+    "fin": "Le zucchine trifolate sono un contorno rapidissimo e versatile. Ottime anche come condimento per pasta o risotto, o come ripieno per frittate e torte salate. Con il basilico invece del prezzemolo cambiano completamente.",
+    "id": 190,
+    "level": "casa"
+  },
+  {
+    "cat": "🥦 Verdure & Contorni",
+    "name": "Parmigiana di zucchine",
+    "icon": "🥒",
+    "photo": "https://images.unsplash.com/photo-1604909052743-94e838986d24?w=600&auto=format&fit=crop",
+    "time": "1 ora",
+    "diff": "Media",
+    "subtitle": "Versione estiva della parmigiana, più leggera",
+    "portata": "Secondo",
+    "tags": [
+      "zucchine",
+      "parmigiano",
+      "forno",
+      "estate",
+      "verdure"
+    ],
+    "ing": [
+      "1kg zucchine",
+      "300g mozzarella fior di latte",
+      "400ml passata di pomodoro",
+      "80g parmigiano grattugiato",
+      "basilico fresco",
+      "1 spicchio d'aglio",
+      "olio extravergine",
+      "sale"
+    ],
+    "steps": [
+      {
+        "a": "Taglia le zucchine a fette longitudinali di 5mm. Grigliale su griglia calda (o padella grill) 2-3 minuti per lato, finché hanno le righe di griglia e sono semi-cotte. Sala e metti da parte.",
+        "w": "💡 Grigliare invece di friggere le zucchine rende il piatto molto più leggero. Assicurati che la griglia sia ben calda prima di appoggiarle: non devono attaccarsi.",
+        "t": null
+      },
+      {
+        "a": "Prepara un sugo veloce con aglio, passata e basilico: 10 minuti. Scola la mozzarella e tagliale a fette sottili.",
+        "w": "💡 La mozzarella va scolata almeno 30 minuti prima: tutta l'acqua che perde in questa fase non finirà nella parmigiana rendendola acquosa.",
+        "t": {
+          "s": 600,
+          "l": "10 min sugo"
+        }
+      },
+      {
+        "a": "Strati nella teglia: sugo, zucchine, mozzarella, parmigiano, basilico. Ripeti per 3-4 strati. Finisci con sugo e parmigiano abbondante. Cuoci a 180°C per 30-35 minuti.",
+        "w": "💡 A differenza della parmigiana di melanzane, quella di zucchine ha tempi di cottura più brevi perché le zucchine sono già semi-cotte dalla griglia.",
+        "t": {
+          "s": 2100,
+          "l": "30-35 min cottura"
+        }
+      }
+    ],
+    "fin": "La parmigiana di zucchine è un'ottima alternativa estiva più leggera di quella di melanzane. Ottima anche fredda il giorno dopo. Puoi prepararla in anticipo e scaldarla 15 minuti prima di servire.",
+    "id": 191,
+    "level": "casa"
+  },
+  {
+    "cat": "🥦 Verdure & Contorni",
+    "name": "Caponata siciliana",
+    "icon": "🍆",
+    "photo": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=600&auto=format&fit=crop",
+    "time": "1 ora",
+    "diff": "Media",
+    "subtitle": "Il grande agrodolce siciliano con melanzane e olive",
+    "portata": "Contorno",
+    "tags": [
+      "sicilia",
+      "melanzane",
+      "olive",
+      "capperi",
+      "agrodolce"
+    ],
+    "ing": [
+      "1kg melanzane",
+      "4 coste di sedano",
+      "2 cipolle",
+      "200g pomodori pelati",
+      "100g olive verdi",
+      "50g capperi sotto sale",
+      "50ml aceto di vino",
+      "2 cucchiai zucchero",
+      "olio di semi per friggere",
+      "olio extravergine",
+      "basilico, sale"
+    ],
+    "steps": [
+      {
+        "a": "Taglia le melanzane a cubetti di 2cm. Sala, lascia spurgare 20 minuti, sciacqua e asciuga. Friggi in olio di semi abbondante a 170°C fino a doratura. Scola su carta assorbente.",
+        "w": "💡 Le melanzane fritte sono il cuore della caponata: devono essere ben dorate, quasi croccanti. Non lesinarci sull'olio.",
+        "t": {
+          "s": 1200,
+          "l": "20 min spurgo + frittura"
+        }
+      },
+      {
+        "a": "Sbollenta il sedano a pezzetti 5 minuti. Soffriggi le cipolle affettate in olio extravergine 8 minuti. Aggiungi il sedano scolato.",
+        "w": "💡 Sbollentare il sedano elimina l'amaro eccessivo che renderebbe la caponata sgradevole. È un passaggio che molte ricette saltano ma fa differenza.",
+        "t": {
+          "s": 780,
+          "l": "5 min sbollentatura sedano + 8 min soffritto"
+        }
+      },
+      {
+        "a": "Aggiungi pomodori, olive, capperi sciacquati. Cuoci 10 minuti. Versa aceto e zucchero: lascia evaporare l'aceto 3 minuti a fuoco vivace. Aggiusta l'equilibrio dolce-acido.",
+        "w": "💡 L'agrodolce è l'anima della caponata: deve sentirsi sia l'aceto che lo zucchero. Assaggia e aggiusta: ogni famiglia ha il suo equilibrio.",
+        "t": {
+          "s": 780,
+          "l": "10 min + 3 min agrodolce"
+        }
+      },
+      {
+        "a": "Unisci le melanzane fritte. Mescola delicatamente senza rompere i cubetti. Cuoci insieme 5 minuti. Lascia raffreddare completamente. Aggiungi basilico e servi a temperatura ambiente.",
+        "w": "💡 La caponata va mangiata fredda o a temperatura ambiente, mai calda. Preparata il giorno prima è nettamente migliore: i sapori si mescolano e si intensificano.",
+        "t": {
+          "s": 300,
+          "l": "5 min cottura finale"
+        }
+      }
+    ],
+    "fin": "La caponata è uno dei piatti più famosi della cucina siciliana. Le varianti sono decine (con pinoli, uvetta, gamberi). Si conserva 5 giorni in frigo e si porta benissimo in barattolo come conserva.",
+    "id": 192,
+    "level": "trattoria"
+  },
+  {
+    "cat": "🥦 Verdure & Contorni",
+    "name": "Fagiolini al pomodoro",
+    "icon": "🫘",
+    "photo": "https://images.unsplash.com/photo-1576045057995-568f588f82fb?w=600&auto=format&fit=crop",
+    "time": "35 min",
+    "diff": "Facile",
+    "subtitle": "Teneri e saporiti, la versione italiana dei green beans",
+    "portata": "Contorno",
+    "tags": [
+      "fagiolini",
+      "pomodoro",
+      "basilico",
+      "estate",
+      "contorno"
+    ],
+    "ing": [
+      "600g fagiolini freschi",
+      "400g pomodori pelati",
+      "2 spicchi d'aglio",
+      "basilico fresco abbondante",
+      "4 cucchiai olio extravergine",
+      "sale e pepe"
+    ],
+    "steps": [
+      {
+        "a": "Spunta i fagiolini (taglia le estremità). Sbollenta in acqua salata 5 minuti. Devono essere ancora croccanti. Scola.",
+        "w": "💡 La sbollentatura pre-cuoce i fagiolini e ne fissa il colore verde brillante. Cinque minuti è il tempo giusto: devono essere al dente perché finiranno di cuocere nel sugo.",
+        "t": {
+          "s": 300,
+          "l": "5 min sbollentatura"
+        }
+      },
+      {
+        "a": "Soffriggi l'aglio in olio 1 minuto. Aggiungi i pomodori pelati schiacciati con le mani e un po' di basilico. Cuoci il sugo 10 minuti.",
+        "w": "💡 Schiacciare i pomodori con le mani invece di tagliarli dà una texture più rustica e autentica. Non devono diventare una crema ma restare spezzati.",
+        "t": {
+          "s": 600,
+          "l": "10 min cottura sugo"
+        }
+      },
+      {
+        "a": "Aggiungi i fagiolini al sugo. Cuoci a fuoco medio 15 minuti finché assorbono il sapore del sugo e sono ben cotti ma non sfatti. Sala, pepa, abbondante basilico fresco.",
+        "w": "💡 I fagiolini devono cuocere a lungo nel sugo per assorbire il sapore: è questo il segreto del piatto. Se restano croccanti il risultato è meno tradizionale.",
+        "t": {
+          "s": 900,
+          "l": "15 min cottura nel sugo"
+        }
+      }
+    ],
+    "fin": "I fagiolini al pomodoro migliorano riscaldati il giorno dopo. Ottimi come contorno ma anche come condimento per la pasta. In estate, con basilico fresco del giardino, sono eccezionali.",
+    "id": 193,
+    "level": "casa"
+  },
+  {
+    "cat": "🥦 Verdure & Contorni",
+    "name": "Broccoli ripassati in padella",
+    "icon": "🥦",
+    "photo": "https://images.unsplash.com/photo-1459411621453-7b03977f4bfc?w=600&auto=format&fit=crop",
+    "time": "20 min",
+    "diff": "Facile",
+    "subtitle": "Il classico della cucina romana, con aglio e peperoncino",
+    "portata": "Contorno",
+    "tags": [
+      "broccoli",
+      "aglio",
+      "peperoncino",
+      "romano",
+      "contorno"
+    ],
+    "ing": [
+      "1 testa di broccolo (circa 700g)",
+      "4 spicchi d'aglio",
+      "1-2 peperoncini secchi",
+      "5 cucchiai olio extravergine",
+      "sale",
+      "succo di limone (facoltativo)"
+    ],
+    "steps": [
+      {
+        "a": "Dividi il broccolo in cimette. Sbollenta in acqua salata 4-5 minuti: devono essere ancora al dente. Scola tenendo da parte 1 mestolo d'acqua di cottura.",
+        "w": "💡 L'acqua di cottura del broccolo serve per mantecare in padella se il fondo si asciuga troppo. Non buttarla subito.",
+        "t": {
+          "s": 300,
+          "l": "4-5 min sbollentatura"
+        }
+      },
+      {
+        "a": "Scalda generosamente olio in padella larga. Aggiungi aglio in fette e peperoncino sbriciolato. A fuoco medio fai profumare 1-2 minuti finché l'aglio è dorato.",
+        "w": "💡 L'olio deve essere abbondante: i broccoli lo assorbono e diventano lucidi e saporiti. Non lesinarci.",
+        "t": {
+          "s": 90,
+          "l": "1-2 min soffritto aglio"
+        }
+      },
+      {
+        "a": "Aggiungi i broccoli. Fuoco vivace, schiaccia leggermente con un cucchiaio per farli aderire alla padella. Cuoci 5-6 minuti mescolando, aggiungendo qualche cucchiaio d'acqua di cottura se serve. Sala.",
+        "w": "💡 Schiacciare leggermente i broccoli aumenta la superficie di contatto con la padella creando una leggera rosolatura che dà sapore. Non devono diventare poltiglia: solo ammorbiditi e saporiti.",
+        "t": {
+          "s": 360,
+          "l": "5-6 min ripassatura"
+        }
+      }
+    ],
+    "fin": "I broccoli ripassati sono un contorno rapidissimo della tradizione laziale. Diventano un ottimo condimento per la pasta (pasta e broccoli). Ottimi anche tiepidi o freddi. Il limone finale è una variante ligure.",
+    "id": 194,
+    "level": "casa"
+  },
+  {
+    "cat": "🥦 Verdure & Contorni",
+    "name": "Cardi in besciamella",
+    "icon": "🌿",
+    "photo": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=600&auto=format&fit=crop",
+    "time": "1 ora 15 min",
+    "diff": "Media",
+    "subtitle": "Un classico del Natale piemontese, ricco e saporito",
+    "portata": "Contorno",
+    "tags": [
+      "cardi",
+      "besciamella",
+      "piemonte",
+      "natale",
+      "forno"
+    ],
+    "ing": [
+      "1kg cardi freschi",
+      "500ml besciamella (già pronta o fatta al momento)",
+      "80g parmigiano grattugiato",
+      "30g burro",
+      "succo di limone",
+      "sale"
+    ],
+    "steps": [
+      {
+        "a": "Pulisci i cardi: elimina le foglie esterne, i filamenti con un pelapatate e taglia a pezzetti di 5cm. Immergili subito in acqua e limone per evitare l'annerimento.",
+        "w": "💡 Il cardo annerisce ancora più velocemente del carciofo. Lavora con una bacinella d'acqua acidulata a portata di mano e immergi ogni pezzo appena tagliato.",
+        "t": null
+      },
+      {
+        "a": "Sbollenta i cardi in acqua salata con succo di limone per 30-40 minuti finché morbidi ma non sfatti. Il tempo dipende dalla freschezza e dalla varietà. Scola.",
+        "w": "💡 I cardi richiedono una cottura lunga: troppo al dente sono filamentosi e amari. Devono essere teneri da forchetta ma mantenere la forma.",
+        "t": {
+          "s": 2100,
+          "l": "30-40 min sbollentatura"
+        }
+      },
+      {
+        "a": "Prepara la besciamella se non già pronta. In una teglia imburrata disponi i cardi. Copri con besciamella abbondante. Spolvera di parmigiano e fiocchetti di burro.",
+        "w": "💡 La besciamella deve essere morbida (non troppo densa) per scorrere bene tra i pezzi di cardo. Se è troppo densa allungala con un po' di latte caldo.",
+        "t": null
+      },
+      {
+        "a": "Cuoci in forno a 180°C per 25-30 minuti finché la superficie è dorata. Ultimi 5 minuti con grill acceso per la crosticina.",
+        "w": "💡 I cardi in besciamella si preparano benissimo in anticipo fino al passaggio in forno. Tieni in frigo e inforna 30 minuti prima di servire.",
+        "t": {
+          "s": 1800,
+          "l": "25-30 min cottura a 180°C"
+        }
+      }
+    ],
+    "fin": "I cardi in besciamella sono un piatto tradizionale piemontese delle feste, soprattutto Natale. Sono un ortaggio invernale poco conosciuto fuori dal Nord Italia ma di sapore unico, simile al carciofo ma più delicato.",
+    "id": 195,
+    "level": "trattoria"
+  },
+  {
+    "cat": "🥦 Verdure & Contorni",
+    "name": "Pomodori ripieni al riso",
+    "icon": "🍅",
+    "photo": "https://images.unsplash.com/photo-1592417817098-8fd3d9eb14a5?w=600&auto=format&fit=crop",
+    "time": "1 ora 15 min",
+    "diff": "Facile",
+    "subtitle": "Pomodori al forno ripieni di riso e basilico, estivi e saporiti",
+    "portata": "Primo",
+    "tags": [
+      "pomodori",
+      "riso",
+      "forno",
+      "estate",
+      "romano"
+    ],
+    "ing": [
+      "6 pomodori rossi grandi e sodi",
+      "150g riso arborio o originario",
+      "basilico fresco abbondante",
+      "2 spicchi d'aglio",
+      "60ml olio extravergine",
+      "sale e pepe",
+      "3-4 patate medie (per contorno)"
+    ],
+    "steps": [
+      {
+        "a": "Taglia il cappello ai pomodori. Svuota la polpa con un cucchiaio in una ciotola. Sala l'interno dei pomodori e capovolgili 15 minuti per far uscire l'acqua.",
+        "w": "💡 Svuotare e salare i pomodori è fondamentale: l'acqua in eccesso rovinerebbe il riso che altrimenti risulterebbe lesso e molliccio invece che saporito.",
+        "t": {
+          "s": 900,
+          "l": "15 min riposo capovolti"
+        }
+      },
+      {
+        "a": "Frulla o schiaccia la polpa con aglio, basilico, olio, sale e pepe. Mescola con il riso crudo. Riempi i pomodori per 2/3 (il riso si gonfia).",
+        "w": "💡 Il riso crudo assorbe il liquido del pomodoro durante la cottura in forno: è per questo che si riempie solo per 2/3. Se riempi troppo trabocca.",
+        "t": null
+      },
+      {
+        "a": "Posiziona i pomodori in teglia. Taglia le patate a spicchi, condiscile con olio e sale e sistemale intorno ai pomodori. Rimetti i cappelli. Versa un filo d'olio e un dito d'acqua sul fondo. Cuoci a 180°C per 50-60 minuti.",
+        "w": "💡 Le patate cuociono nel fondo di sugo che cola dai pomodori diventando straordinariamente saporite. Sono il vero tesoro del piatto.",
+        "t": {
+          "s": 3300,
+          "l": "50-60 min cottura a 180°C"
+        }
+      }
+    ],
+    "fin": "I pomodori al riso sono un piatto iconico della cucina romana estiva. Si mangiano tradizionalmente tiepidi o a temperatura ambiente, mai caldi di forno. Preparali la mattina e servili a pranzo.",
+    "id": 196,
+    "level": "casa"
+  },
+  {
+    "cat": "🥦 Verdure & Contorni",
+    "name": "Verdure gratinate al forno",
+    "icon": "🥗",
+    "photo": "https://images.unsplash.com/photo-1592417817098-8fd3d9eb14a5?w=600&auto=format&fit=crop",
+    "time": "50 min",
+    "diff": "Facile",
+    "subtitle": "Mix di stagione con erbette e pangrattato",
+    "portata": "Contorno",
+    "tags": [
+      "verdure",
+      "gratinate",
+      "forno",
+      "pangrattato",
+      "stagione"
+    ],
+    "ing": [
+      "2 zucchine",
+      "2 peperoni",
+      "1 melanzana",
+      "2 cipolle rosse",
+      "2 pomodori",
+      "60ml olio extravergine",
+      "50g pangrattato",
+      "30g parmigiano",
+      "aglio, timo, rosmarino, origano",
+      "sale e pepe"
+    ],
+    "steps": [
+      {
+        "a": "Taglia tutte le verdure a fette o spicchi di spessore simile (circa 1cm). Mescolale in una ciotola con olio, aglio tritato, sale, pepe e erbe aromatiche.",
+        "w": "💡 Tagliare le verdure di spessore simile garantisce una cottura uniforme. Se alcune sono più spesse si brucierebbero i bordi prima che il centro sia cotto.",
+        "t": null
+      },
+      {
+        "a": "Disponi in un unico strato in teglia grande (o due teglie). Cuoci a 200°C per 25 minuti.",
+        "w": "💡 Un unico strato è fondamentale: le verdure sovrapposte si lessano invece di arrostire. Usa due teglie se necessario.",
+        "t": {
+          "s": 1500,
+          "l": "25 min prima cottura a 200°C"
+        }
+      },
+      {
+        "a": "Mescola pangrattato e parmigiano. Distribuisci sopra le verdure. Rimetti in forno altri 15 minuti finché il pangrattato è dorato e croccante.",
+        "w": "💡 Il pangrattato assorbe i succhi delle verdure e si tosta: crea una crosticina croccante che contrasta con la morbidezza delle verdure sotto.",
+        "t": {
+          "s": 900,
+          "l": "15 min gratinatura"
+        }
+      }
+    ],
+    "fin": "Le verdure gratinate sono un contorno versatile e colorato. Perfette per accompagnare carni grigliate o come piatto vegetariano con legumi. Buone anche fredde il giorno dopo come insalata.",
+    "id": 197,
+    "level": "casa"
+  },
+  {
+    "cat": "🥦 Verdure & Contorni",
+    "name": "Funghi trifolati",
+    "icon": "🍄",
+    "photo": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&auto=format&fit=crop",
+    "time": "25 min",
+    "diff": "Facile",
+    "subtitle": "Porcini o champignon con aglio e prezzemolo, classico italiano",
+    "portata": "Contorno",
+    "tags": [
+      "funghi",
+      "aglio",
+      "prezzemolo",
+      "trifolati",
+      "contorno"
+    ],
+    "ing": [
+      "600g funghi champignon o misti",
+      "3 spicchi d'aglio",
+      "mazzo di prezzemolo fresco",
+      "5 cucchiai olio extravergine",
+      "sale e pepe",
+      "mezzo bicchiere vino bianco secco"
+    ],
+    "steps": [
+      {
+        "a": "Pulisci i funghi con carta umida (non lavarli in acqua: la assorbono). Taglia i cappelli a fette spesse 5mm. Tieni i gambi tritati separatamente.",
+        "w": "💡 I funghi non vanno mai lavati sotto l'acqua corrente: sono spugne e l'assorbono rendendo impossibile la rosolatura. Un panno umido o un pennellino è sufficiente.",
+        "t": null
+      },
+      {
+        "a": "Scalda olio in padella larga a fuoco VIVACE. Aggiungi i funghi in un unico strato senza mescolare per 3 minuti finché dorano. Gira e cuoci altri 3 minuti.",
+        "w": "💡 La regola d'oro dei funghi: padella caldissima, non mescolare. I funghi rilasciano molta acqua: se mescoli subito si lessano nel loro liquido invece di rosolarsi.",
+        "t": {
+          "s": 360,
+          "l": "3+3 min rosolatura senza mescolare"
+        }
+      },
+      {
+        "a": "Aggiungi aglio tritato e i gambi. Sfuma con il vino bianco. Cuoci 2 minuti a fuoco vivace finché l'alcol evapora. Aggiusta di sale e pepe. Fuori dal fuoco, abbondante prezzemolo tritato.",
+        "w": "💡 Il vino recupera il fondo di cottura caramellato sul fondo della padella (si chiama deglassare): dà sapore e profondità. Non saltare questo passaggio.",
+        "t": {
+          "s": 120,
+          "l": "2 min sfumatura vino"
+        }
+      }
+    ],
+    "fin": "I funghi trifolati sono uno dei contorni più amati in tutta Italia. Perfetti con bistecche, pollame o su crostini. Come condimento per pasta o risotto sono eccellenti. Con porcini freschi in autunno diventano un piatto straordinario.",
+    "id": 198,
+    "level": "casa"
+  },
+  {
+    "cat": "🥦 Verdure & Contorni",
+    "name": "Insalata di rinforzo napoletana",
+    "icon": "🥗",
+    "photo": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&auto=format&fit=crop",
+    "time": "40 min",
+    "diff": "Facile",
+    "subtitle": "La storica insalata di Natale napoletana",
+    "portata": "Contorno",
+    "tags": [
+      "napoli",
+      "natale",
+      "olive",
+      "capperi",
+      "cavolfiore"
+    ],
+    "ing": [
+      "1 cavolfiore medio",
+      "100g olive nere e verdi miste",
+      "50g capperi sotto sale",
+      "100g peperoni sott'aceto",
+      "4 alici sott'olio",
+      "aceto di vino bianco",
+      "olio extravergine abbondante",
+      "sale"
+    ],
+    "steps": [
+      {
+        "a": "Dividi il cavolfiore in cimette piccole. Cuoci in acqua salata con un filo d'aceto per 8-10 minuti: deve essere cotto ma al dente (non molle). Scola e lascia raffreddare.",
+        "w": "💡 L'aceto nell'acqua mantiene il cavolfiore bianco e riduce l'odore durante la cottura. Il cavolfiore deve essere al dente: si mangia freddo e una consistenza morbida sarebbe sgradevole.",
+        "t": {
+          "s": 600,
+          "l": "8-10 min cottura cavolfiore"
+        }
+      },
+      {
+        "a": "Sciacqua i capperi dal sale. Taglia i peperoni a listarelle. Denocciolate le olive se necessario. Spezza le alici a pezzetti.",
+        "w": "💡 Sciacqua bene i capperi sotto acqua corrente finché l'acqua è chiara: il sale in eccesso rovinerebbe l'equilibrio del piatto.",
+        "t": null
+      },
+      {
+        "a": "Unisci tutto in una ciotola capiente. Condisci con olio extravergine abbondante e qualche goccia di aceto. Mescola delicatamente. Lascia riposare almeno 1 ora prima di servire.",
+        "w": "💡 Il riposo è fondamentale: i sapori si mescolano e il cavolfiore assorbe il condimento. Preparata il giorno prima è molto meglio.",
+        "t": {
+          "s": 3600,
+          "l": "1 ora riposo (meglio una notte)"
+        }
+      }
+    ],
+    "fin": "L'insalata di rinforzo è un piatto natalizio partenopeo servito dal 24 dicembre in poi. Il nome viene dal fatto che si 'rinforza' aggiungendo ingredienti man mano che la ciotola si svuota. Si conserva in frigo fino a 5 giorni.",
+    "id": 199,
+    "level": "casa"
+  },
+  {
+    "cat": "🥦 Verdure & Contorni",
+    "name": "Patate al rosmarino arrosto",
+    "icon": "🥔",
+    "photo": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=600&auto=format&fit=crop",
+    "time": "50 min",
+    "diff": "Facile",
+    "subtitle": "Croccanti fuori, morbide dentro — il contorno perfetto",
+    "portata": "Contorno",
+    "tags": [
+      "patate",
+      "rosmarino",
+      "forno",
+      "arrosto",
+      "contorno"
+    ],
+    "ing": [
+      "1kg patate a pasta gialla",
+      "4 cucchiai olio extravergine",
+      "3 spicchi d'aglio con la buccia",
+      "rosmarino fresco abbondante",
+      "sale grosso",
+      "pepe"
+    ],
+    "steps": [
+      {
+        "a": "Preriscalda il forno a 210°C con la teglia dentro (questo è il segreto). Sbuccia le patate e tagliale a spicchi. Asciugale molto bene con carta da cucina.",
+        "w": "💡 Asciugare le patate è fondamentale per la croccantezza: l'umidità in superficie crea vapore che le rende molli. Più sono asciutte, più sono croccanti.",
+        "t": null
+      },
+      {
+        "a": "Condisci le patate con olio, rosmarino, aglio schiacciato con la buccia, sale e pepe. Mescola bene.",
+        "w": "💡 L'aglio con la buccia profuma senza bruciare. Gli spicchi sbucciati brucerebbero in 50 minuti a 210°C diventando amari.",
+        "t": null
+      },
+      {
+        "a": "Sforna la teglia caldissima, versa le patate velocemente (sfrigolerà: attento agli schizzi). Disponi in un unico strato. Cuoci 40-45 minuti girandole una sola volta a metà cottura.",
+        "w": "💡 La teglia caldissima sigilla subito la superficie esterna della patata: è il segreto della croccantezza perfetta. Girare una volta sola evita che si sfaldino.",
+        "t": {
+          "s": 2700,
+          "l": "40-45 min cottura a 210°C"
+        }
+      }
+    ],
+    "fin": "Le patate al rosmarino perfette hanno una crosta croccante e un interno soffice e cremoso. Se le vuoi extra croccanti, sbollentale 5 minuti prima di condire e grattugia la superficie con una forchetta.",
+    "id": 200,
+    "level": "casa"
+  },
+  {
+    "cat": "🥦 Verdure & Contorni",
+    "name": "Radicchio tardivo alla griglia con scaglie di grana",
+    "icon": "🥗",
+    "photo": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&auto=format&fit=crop",
+    "time": "20 min",
+    "diff": "Facile",
+    "subtitle": "Amaro e dolce, elegante, tipico veneto",
+    "portata": "Contorno",
+    "tags": [
+      "radicchio",
+      "griglia",
+      "grana",
+      "veneto",
+      "amaro"
+    ],
+    "ing": [
+      "4 cespi di radicchio di Treviso tardivo",
+      "50g grana padano a scaglie",
+      "4 cucchiai olio extravergine",
+      "aceto balsamico di Modena",
+      "sale grosso",
+      "pepe"
+    ],
+    "steps": [
+      {
+        "a": "Taglia i cespi di radicchio a metà per il lungo senza separare le foglie (rimangono unite alla base). Lava delicatamente. Asciuga bene.",
+        "w": "💡 Il radicchio tardivo di Treviso ha foglie allungate e si presta perfettamente alla griglia. Quello precoce (rotondo) è meno indicato per questa preparazione.",
+        "t": null
+      },
+      {
+        "a": "Condisci con olio e sale. Griglia sulla griglia ben calda 3-4 minuti per lato finché le foglie sono appassite e la base è caramellata con le righe di griglia.",
+        "w": "💡 La griglia calda caramellizza leggermente le punte delle foglie riducendo l'amaro e creando note tostate. Non cuocere troppo: deve restare una consistenza.",
+        "t": {
+          "s": 420,
+          "l": "3-4 min per lato"
+        }
+      },
+      {
+        "a": "Disponi i cespi nel piatto. Aggiungi scaglie di grana, qualche goccia di aceto balsamico, un filo d'olio extravergine crudo e pepe.",
+        "w": "💡 L'aceto balsamico non va cotto: aggiunto a crudo sul radicchio caldo si scalda leggermente sprigionando il profumo senza perdere la complessità.",
+        "t": null
+      }
+    ],
+    "fin": "Il radicchio grigliato è un antipasto o contorno tipico del Veneto. L'amaro del radicchio, la dolcezza del balsamico e la sapidità del grana formano un equilibrio perfetto. Ottimo anche con speck o prosciutto crudo.",
+    "id": 201,
+    "level": "trattoria"
+  },
+  {
+    "cat": "🥦 Verdure & Contorni",
+    "name": "Cime di rapa ripassate",
+    "icon": "🥬",
+    "photo": "https://images.unsplash.com/photo-1576045057995-568f588f82fb?w=600&auto=format&fit=crop",
+    "time": "25 min",
+    "diff": "Facile",
+    "subtitle": "Il cuore della cucina pugliese con aglio e acciughe",
+    "portata": "Contorno",
+    "tags": [
+      "cime di rapa",
+      "puglia",
+      "acciughe",
+      "aglio",
+      "Sud Italia"
+    ],
+    "ing": [
+      "1kg cime di rapa",
+      "4 spicchi d'aglio",
+      "4 filetti di acciughe sott'olio",
+      "1-2 peperoncini secchi",
+      "5 cucchiai olio extravergine",
+      "sale"
+    ],
+    "steps": [
+      {
+        "a": "Pulisci le cime di rapa tenendo le cimette florite, le foglie tenere e i gambi più piccoli. Elimina i gambi grandi e coriacei. Lavabene.",
+        "w": "💡 Le cime di rapa vanno selezionate con cura: le cimette florite gialle e le foglie tenere sono la parte migliore. I gambi grossi sono legnosi e amari.",
+        "t": null
+      },
+      {
+        "a": "Sbollenta in abbondante acqua salata 5-6 minuti. Scola tenendo l'acqua di cottura. Non strizzare eccessivamente.",
+        "w": "💡 L'acqua di cottura delle cime di rapa è amarognola ma saporita: usala per mantecare la pasta se stai preparando le orecchiette.",
+        "t": {
+          "s": 360,
+          "l": "5-6 min sbollentatura"
+        }
+      },
+      {
+        "a": "In padella larga scalda olio con aglio in fette e peperoncino. Aggiungi le acciughe: si scioglieranno in 1 minuto creando un fondo saporito. Aggiungi le cime di rapa. Ripassata a fuoco vivace 5 minuti. Aggiusta di sale.",
+        "w": "💡 Le acciughe sciogliendosi nell'olio caldo si 'invisibilizzano' completamente: non si sentono come pesce ma danno un sapore umami profondo e salato.",
+        "t": {
+          "s": 300,
+          "l": "5 min ripassatura"
+        }
+      }
+    ],
+    "fin": "Le cime di rapa ripassate sono il piatto per eccellenza della Puglia. Condiscono le orecchiette nel piatto più famoso della cucina pugliese. Da sole sono un contorno eccellente per salsicce o agnello.",
+    "id": 202,
+    "level": "casa"
+  },
+  {
+    "cat": "🥚 Uova & Verdure",
+    "name": "Uova in purgatorio",
+    "icon": "🍳",
+    "photo": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=600&auto=format&fit=crop",
+    "time": "20 min",
+    "diff": "Facile",
+    "subtitle": "Uova affogate nel sugo piccante, tipico napoletano",
+    "portata": "Secondo",
+    "tags": [
+      "uova",
+      "pomodoro",
+      "piccante",
+      "napoletano",
+      "veloce"
+    ],
+    "ing": [
+      "4 uova",
+      "400g pomodori pelati",
+      "2 spicchi d'aglio",
+      "1-2 peperoncini",
+      "basilico fresco",
+      "4 cucchiai olio extravergine",
+      "sale",
+      "pane per servire"
+    ],
+    "steps": [
+      {
+        "a": "Scalda olio in padella larga. Aggiungi aglio e peperoncino, fai profumare 1 minuto. Aggiungi i pelati schiacciati, basilico e sale. Cuoci il sugo 10 minuti a fuoco medio.",
+        "w": "💡 Il sugo deve essere saporito e leggermente piccante: il bilanciamento con le uova (delicate) crea l'equilibrio caratteristico del piatto.",
+        "t": {
+          "s": 600,
+          "l": "10 min cottura sugo"
+        }
+      },
+      {
+        "a": "Crea 4 conche nel sugo con un cucchiaio. Rompi un uovo in ogni conca. Copri con il coperchio e cuoci a fuoco basso 4-5 minuti finché gli albumi sono opachi ma i tuorli ancora morbidi.",
+        "w": "💡 Il coperchio intrappola il vapore che cuoce la superficie dell'uovo senza lasciarlo crudo. Tieni d'occhio: a differenza del tuorlo, l'albume deve essere completamente cotto.",
+        "t": {
+          "s": 300,
+          "l": "4-5 min cottura uova"
+        }
+      },
+      {
+        "a": "Porta la padella direttamente in tavola. Servi con pane casereccio abbondante per fare la scarpetta.",
+        "w": "💡 Il pane è parte integrante del piatto, non un accessorio. La scarpetta nel sugo piccante con il tuorlo che cola è l'esperienza gastronomica che rende questo piatto così amato.",
+        "t": null
+      }
+    ],
+    "fin": "Le uova in purgatorio sono un piatto povero della cucina napoletana, veloce e soddisfacente. Il nome viene dal colore rosso infernale del sugo. Perfette per pranzo o cena leggera.",
+    "id": 203,
+    "level": "casa"
+  },
+  {
+    "cat": "🥚 Uova & Verdure",
+    "name": "Frittata di pasta avanzata",
+    "icon": "🍳",
+    "photo": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=600&auto=format&fit=crop",
+    "time": "15 min",
+    "diff": "Facile",
+    "subtitle": "Il piatto del recupero per eccellenza della cucina italiana",
+    "portata": "Secondo",
+    "tags": [
+      "uova",
+      "pasta",
+      "frittata",
+      "recupero",
+      "veloce"
+    ],
+    "ing": [
+      "300g pasta avanzata (qualsiasi tipo e condimento)",
+      "3 uova",
+      "40g parmigiano grattugiato",
+      "sale e pepe",
+      "2 cucchiai olio extravergine"
+    ],
+    "steps": [
+      {
+        "a": "Sbatti le uova con il parmigiano, sale e pepe. Mescola la pasta avanzata alle uova sbattute.",
+        "w": "💡 La pasta avanzata è perfetta fredda di frigo: fredda si taglia più facilmente quando la frittata è pronta. Qualsiasi condimento funziona: pomodoro, ragù, cacio e pepe.",
+        "t": null
+      },
+      {
+        "a": "Scalda olio in padella antiaderente a fuoco medio. Versa il composto pasta-uova. Premi leggermente con una spatola per compattare. Cuoci 4-5 minuti finché il fondo è dorato.",
+        "w": "💡 Non mescolare dopo aver versato: deve formarsi una frittata compatta. Premi leggermente per fare in modo che la pasta si compatti e non si separi.",
+        "t": {
+          "s": 300,
+          "l": "4-5 min primo lato"
+        }
+      },
+      {
+        "a": "Gira la frittata con l'aiuto di un piatto. Cuoci l'altro lato 3 minuti. Deve essere dorata su entrambi i lati e compatta al centro.",
+        "w": "💡 Se la frittata è spessa (più di 3cm) puoi finire la cottura con il coperchio a fuoco bassissimo invece di girare: eviti il rischio che si spezzi.",
+        "t": {
+          "s": 180,
+          "l": "3 min secondo lato"
+        }
+      }
+    ],
+    "fin": "La frittata di pasta è il simbolo della cucina del recupero italiana: nessun cibo si butta. Ottima calda, tiepida o fredda. Si porta in ufficio, a scuola, in spiaggia. A Napoli la vendono negli street food bar.",
+    "id": 204,
+    "level": "casa"
+  },
+  {
+    "cat": "🥚 Uova & Verdure",
+    "name": "Uova strapazzate con tartufo",
+    "icon": "🥚",
+    "photo": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=600&auto=format&fit=crop",
+    "time": "10 min",
+    "diff": "Facile",
+    "subtitle": "Cremose e vellutate, esaltate dal profumo del tartufo",
+    "portata": "Secondo",
+    "tags": [
+      "uova",
+      "tartufo",
+      "cremoso",
+      "elegante",
+      "veloce"
+    ],
+    "ing": [
+      "6 uova freschissime",
+      "30g burro",
+      "20g tartufo nero fresco (o 1 cucchiaino pasta di tartufo)",
+      "2 cucchiai panna fresca",
+      "sale fino",
+      "pane tostato per servire"
+    ],
+    "steps": [
+      {
+        "a": "Rompi le uova nella ciotola. Aggiungi panna, sale e pepe. Sbatti leggermente solo per rompere i tuorli, non sbattere troppo: devono restare delle striature gialle e bianche.",
+        "w": "💡 Non sbattere le uova come per un'omelette: le striature di tuorlo e albume creano la texture marmorizzata tipica delle uova strapazzate di qualità.",
+        "t": null
+      },
+      {
+        "a": "Scalda il burro in padella a fuoco bassissimo. Versa le uova. Mescola LENTAMENTE con una spatola di silicone, rachiando dal fondo ogni 20-30 secondi. Togli dal fuoco leggermente prima che siano pronte.",
+        "w": "💡 Il segreto delle uova strapazzate cremose è il fuoco bassissimo e la pazienza: ci vogliono 3-4 minuti. Il calore residuo della padella le finisce di cuocere fuori dal fuoco.",
+        "t": {
+          "s": 240,
+          "l": "3-4 min cottura lentissima"
+        }
+      },
+      {
+        "a": "Distribuisci sopra il tartufo a lamelle sottilissime (o la pasta di tartufo). Servi immediatamente su pane tostato caldo.",
+        "w": "💡 Il tartufo va aggiunto a crudo fuori dal fuoco: il calore diretto ne disperde il profumo volatile. Il calore residuo delle uova è sufficiente ad esaltarlo senza distruggerlo.",
+        "t": null
+      }
+    ],
+    "fin": "Le uova strapazzate al tartufo sono una delle preparazioni più semplici e lussuose della cucina italiana. Con tartufo bianco d'Alba sono un piatto stellato. Con pasta di tartufo restano comunque una coccola.",
+    "id": 205,
+    "level": "stellato"
+  },
+  {
+    "cat": "🥚 Uova & Verdure",
+    "name": "Tortino di carciofi",
+    "icon": "🌿",
+    "photo": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=600&auto=format&fit=crop",
+    "time": "45 min",
+    "diff": "Media",
+    "subtitle": "Sfornato cremoso di carciofi, piatto toscano",
+    "portata": "Secondo",
+    "tags": [
+      "carciofi",
+      "uova",
+      "tortino",
+      "sfornato",
+      "toscano"
+    ],
+    "ing": [
+      "6 carciofi",
+      "4 uova",
+      "100ml panna fresca",
+      "50g parmigiano grattugiato",
+      "1 spicchio d'aglio",
+      "prezzemolo",
+      "30g burro",
+      "succo di limone",
+      "sale e pepe",
+      "noce moscata"
+    ],
+    "steps": [
+      {
+        "a": "Pulisci i carciofi eliminando le foglie esterne e il fieno, taglia a fettine sottili. Immergi in acqua e limone. Soffriggi con aglio in burro 10 minuti finché teneri.",
+        "w": "💡 I carciofi si ossidano rapidissimamente: lavora velocemente e tienili in acqua acidulata. Cuocili subito dopo averli tagliati.",
+        "t": {
+          "s": 600,
+          "l": "10 min cottura carciofi"
+        }
+      },
+      {
+        "a": "Frulla metà dei carciofi fino a crema. L'altra metà tienila a pezzetti. Mescola uova, panna, parmigiano, prezzemolo, sale, pepe e noce moscata. Unisci la crema e i pezzetti di carciofo.",
+        "w": "💡 La doppia consistenza (crema + pezzetti) rende il tortino più interessante: non tutto frullato (monotono) né tutto a pezzi (diverso).",
+        "t": null
+      },
+      {
+        "a": "Imburra e infarina degli stampini monoporzione. Riempi per 3/4. Cuoci a bagnomaria in forno a 170°C per 25-30 minuti finché il centro è sodo.",
+        "w": "💡 Il bagnomaria garantisce una cottura delicata e uniforme: senza di esso il tortino si cucinerebbe troppo fuori e rimarrebbe crudo dentro.",
+        "t": {
+          "s": 1800,
+          "l": "25-30 min cottura a bagnomaria"
+        }
+      }
+    ],
+    "fin": "Il tortino di carciofi è un piatto raffinato della cucina toscana. Si serve sformato caldo con salsa di prezzemolo o fonduta di parmigiano. Ottimo come antipasto elegante o secondo vegetariano.",
+    "id": 206,
+    "level": "trattoria"
+  },
+  {
+    "cat": "🥚 Uova & Verdure",
+    "name": "Frittata di cipolle caramellate",
+    "icon": "🍳",
+    "photo": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=600&auto=format&fit=crop",
+    "time": "35 min",
+    "diff": "Facile",
+    "subtitle": "Dolce e saporita, un classico della cucina contadina",
+    "portata": "Secondo",
+    "tags": [
+      "uova",
+      "cipolle",
+      "frittata",
+      "caramellate",
+      "contadino"
+    ],
+    "ing": [
+      "4 uova",
+      "3 cipolle dorate grandi",
+      "40g parmigiano grattugiato",
+      "3 cucchiai olio extravergine",
+      "sale e pepe",
+      "1 cucchiaino di zucchero",
+      "timo fresco (facoltativo)"
+    ],
+    "steps": [
+      {
+        "a": "Affetta le cipolle sottilissime. Soffriggi in olio a fuoco medio 20 minuti mescolando spesso finché sono dorate e caramellate. Aggiungi lo zucchero negli ultimi 2 minuti. Lascia intiepidire.",
+        "w": "💡 La caramellazione richiede tempo e pazienza: non alzare il fuoco o si bruciano. Le cipolle devono perdere tutta l'acqua e diventare dolci e dorate.",
+        "t": {
+          "s": 1200,
+          "l": "20 min caramellatura cipolle"
+        }
+      },
+      {
+        "a": "Sbatti le uova con parmigiano, sale, pepe e timo. Unisci le cipolle caramellate tiepide.",
+        "w": "💡 Le cipolle devono essere tiepide, non bollenti, quando le aggiungi alle uova: il calore eccessivo comincerebbe a cuocere le uova prima ancora di versare in padella.",
+        "t": null
+      },
+      {
+        "a": "Nella stessa padella con un filo d'olio versa il composto. Fuoco medio-basso, copri e cuoci 8 minuti. Gira con un piatto e cuoci altri 5 minuti.",
+        "w": "💡 Le cipolle caramellate danno molta dolcezza alla frittata: è normale che sembri quasi un dolce. L'equilibrio con il parmigiano salato è il punto di forza del piatto.",
+        "t": {
+          "s": 780,
+          "l": "8+5 min cottura frittata"
+        }
+      }
+    ],
+    "fin": "La frittata di cipolle caramellate è un piatto della cucina contadina italiana, povero ma straordinariamente gustoso. Perfetta calda, tiepida o fredda. In Piemonte la fanno con le cipolle di Tropea.",
+    "id": 207,
+    "level": "casa"
+  },
+  {
+    "cat": "🫘 Legumi",
+    "name": "Pasta e fagioli alla veneta",
+    "icon": "🍲",
+    "photo": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600&auto=format&fit=crop",
+    "time": "2 ore",
+    "diff": "Media",
+    "subtitle": "La zuppa più amata del Veneto, con pasta mista e lardo",
+    "portata": "Primo",
+    "tags": [
+      "fagioli",
+      "pasta",
+      "veneto",
+      "zuppa",
+      "lardo"
+    ],
+    "ing": [
+      "400g fagioli borlotti freschi (o 250g secchi, ammollati 12h)",
+      "200g pasta mista corta o maltagliati",
+      "100g lardo (o pancetta)",
+      "1 cipolla, 1 carota, 1 gambo di sedano",
+      "2 spicchi d'aglio",
+      "2 cucchiai olio extravergine",
+      "rosmarino fresco",
+      "1 cucchiaio concentrato di pomodoro",
+      "sale e pepe",
+      "parmigiano per servire"
+    ],
+    "steps": [
+      {
+        "a": "Trita lardo, cipolla, carota, sedano e aglio finemente (soffritto). Soffriggi in olio a fuoco medio 8 minuti finché dorato. Aggiungi il concentrato di pomodoro e cuoci 2 minuti.",
+        "w": "💡 Il lardo è fondamentale per il sapore autentico veneto: non sostituirlo con olio. Si scioglie completamente durante la cottura cedendo tutto il suo sapore.",
+        "t": {
+          "s": 600,
+          "l": "8 min soffritto"
+        }
+      },
+      {
+        "a": "Aggiungi i fagioli scolati (se secchi, già ammollati). Copri con acqua abbondante (1.5 litri). Porta a bollore, abbassa il fuoco e cuoci 1 ora (secchi) o 40 minuti (freschi) con il rosmarino.",
+        "w": "💡 Non salare i fagioli durante la cottura: il sale indurisce la buccia. Aggiungi sale solo quando sono completamente cotti e morbidi.",
+        "t": {
+          "s": 3600,
+          "l": "40-60 min cottura fagioli"
+        }
+      },
+      {
+        "a": "Togli metà dei fagioli e frullali. Rimetti la crema nella pentola: addensa il brodo. Aggiusta di sale. Porta a bollore e cuoci la pasta direttamente nella zuppa per il tempo indicato sulla confezione.",
+        "w": "💡 Frullare metà dei fagioli è il trucco per la consistenza cremosa della pasta e fagioli veneta. La pasta cuoce nella zuppa assorbendo tutto il sapore.",
+        "t": null
+      }
+    ],
+    "fin": "Pasta e fagioli alla veneta si serve in tre versioni: brodosa (più liquida), densa o quasi secca. Il giorno dopo è ancora più buona. Aggiungi rosmarino fresco e un filo d'olio crudo nel piatto.",
+    "id": 208,
+    "level": "trattoria"
+  },
+  {
+    "cat": "🫘 Legumi",
+    "name": "Lenticchie con cotechino",
+    "icon": "🫘",
+    "photo": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600&auto=format&fit=crop",
+    "time": "1 ora",
+    "diff": "Facile",
+    "subtitle": "Il piatto portafortuna del Capodanno italiano",
+    "portata": "Secondo",
+    "tags": [
+      "lenticchie",
+      "cotechino",
+      "capodanno",
+      "emilia",
+      "fortuna"
+    ],
+    "ing": [
+      "400g lenticchie di Castelluccio (o umbre, non richiedono ammollo)",
+      "1 cotechino precotto (400g)",
+      "1 cipolla, 1 carota, 1 gambo sedano",
+      "2 spicchi aglio",
+      "200g pomodori pelati",
+      "olio extravergine",
+      "alloro, salvia",
+      "sale e pepe"
+    ],
+    "steps": [
+      {
+        "a": "Sciacqua le lenticchie. Prepara il soffritto: cipolla, carota e sedano a dadini piccoli, soffriggi in olio 8 minuti. Aggiungi aglio e cuoci 1 minuto.",
+        "w": "💡 Le lenticchie di Castelluccio non richiedono ammollo: sono piccole e cuociono in 25-30 minuti. Le lenticchie grandi verdi o marroni invece richiedono 8-12 ore di ammollo.",
+        "t": {
+          "s": 480,
+          "l": "8 min soffritto"
+        }
+      },
+      {
+        "a": "Aggiungi le lenticchie, i pomodori pelati schiacciati, alloro e salvia. Copri con acqua (1 litro circa). Cuoci 25-30 minuti a fuoco medio finché le lenticchie sono teneri. Sala solo alla fine.",
+        "w": "💡 Le lenticchie devono cuocere in abbondante acqua: assorbono molto liquido. Se si asciugano troppo aggiungi acqua calda, mai fredda (fermerebbe la cottura).",
+        "t": {
+          "s": 1800,
+          "l": "25-30 min cottura lenticchie"
+        }
+      },
+      {
+        "a": "Scalda il cotechino precotto nel suo sacchetto in acqua bollente 20 minuti. Taglia a fette spesse. Servi sopra le lenticchie con il loro fondo di cottura.",
+        "w": "💡 Il cotechino precotto è già cotto: va solo riscaldato. Il cotechino fresco richiede invece 2-3 ore di bollitura. Per Capodanno è tradizionalmente il cotechino di Modena IGP.",
+        "t": {
+          "s": 1200,
+          "l": "20 min riscaldo cotechino"
+        }
+      }
+    ],
+    "fin": "Lenticchie e cotechino è il piatto del Capodanno italiano per eccellenza: le lenticchie a forma di moneta simboleggiano la ricchezza. Si mangia tradizionalmente il 31 dicembre o il 1° gennaio.",
+    "id": 209,
+    "level": "casa"
+  },
+  {
+    "cat": "🫘 Legumi",
+    "name": "Fagioli all'uccelletto",
+    "icon": "🫘",
+    "photo": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600&auto=format&fit=crop",
+    "time": "45 min",
+    "diff": "Facile",
+    "subtitle": "Fagioli cannellini con salvia e pomodoro, piatto toscano",
+    "portata": "Contorno",
+    "tags": [
+      "fagioli",
+      "toscana",
+      "salvia",
+      "pomodoro",
+      "cannellini"
+    ],
+    "ing": [
+      "500g fagioli cannellini lessati (o 2 barattoli)",
+      "400g pomodori pelati",
+      "3 spicchi d'aglio",
+      "salvia fresca abbondante",
+      "5 cucchiai olio extravergine",
+      "sale e pepe"
+    ],
+    "steps": [
+      {
+        "a": "Scalda olio in casseruola. Aggiungi aglio intero schiacciato e salvia abbondante. Fai profumare a fuoco medio 2 minuti finché l'aglio è leggermente dorato.",
+        "w": "💡 La salvia fritta nell'olio caldo è il profumo caratteristico di questo piatto. Deve diventare croccante senza bruciare.",
+        "t": {
+          "s": 120,
+          "l": "2 min profumatura aglio e salvia"
+        }
+      },
+      {
+        "a": "Aggiungi i pomodori pelati schiacciati con le mani. Cuoci 10 minuti a fuoco medio. Aggiusta di sale.",
+        "w": "💡 Il sugo non deve essere troppo abbondante: questi sono fagioli in sugo, non zuppa. Deve rivestire i fagioli senza sommergerli.",
+        "t": {
+          "s": 600,
+          "l": "10 min cottura sugo"
+        }
+      },
+      {
+        "a": "Aggiungi i fagioli scolati. Mescola delicatamente. Cuoci insieme 15-20 minuti a fuoco basso finché i fagioli assorbono il sugo. Abbondante pepe nero.",
+        "w": "💡 Mescola con delicatezza: i fagioli lessati sono fragili e si sfaldano. L'obiettivo è che metà si schiaccino leggermente addensando il sugo, l'altra metà rimanga intera.",
+        "t": {
+          "s": 1200,
+          "l": "15-20 min cottura finale"
+        }
+      }
+    ],
+    "fin": "I fagioli all'uccelletto sono uno dei pilastri della cucina toscana. Artusi li descrive già nell'Ottocento. Ottimi da soli con il pane, come contorno alla salsiccia o alla bistecca fiorentina.",
+    "id": 210,
+    "level": "casa"
+  },
+  {
+    "cat": "🫘 Legumi",
+    "name": "Ribollita toscana",
+    "icon": "🍲",
+    "photo": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600&auto=format&fit=crop",
+    "time": "2 ore",
+    "diff": "Media",
+    "subtitle": "La zuppa di pane e verdure della tradizione fiorentina",
+    "portata": "Primo",
+    "tags": [
+      "toscana",
+      "fagioli",
+      "cavolo nero",
+      "pane",
+      "zuppa"
+    ],
+    "ing": [
+      "400g fagioli cannellini lessati",
+      "300g cavolo nero",
+      "200g pane toscano raffermo",
+      "2 carote, 2 gambi sedano",
+      "2 cipolle, 4 spicchi aglio",
+      "400g pomodori pelati",
+      "200g verza",
+      "olio extravergine abbondante",
+      "rosmarino, salvia",
+      "sale e pepe"
+    ],
+    "steps": [
+      {
+        "a": "Prepara il soffritto: cipolla, carota e sedano a dadini. Soffriggi in olio abbondante 10 minuti. Aggiungi aglio e le erbe. Aggiungi i pomodori e cuoci 10 minuti.",
+        "w": "💡 La ribollita vuole un soffritto generoso di olio: è una zuppa povera ma ricca di olio. Non fare economia qui.",
+        "t": {
+          "s": 1200,
+          "l": "20 min soffritto e sugo"
+        }
+      },
+      {
+        "a": "Aggiungi cavolo nero a striscioline e verza. Copri con acqua abbondante (2 litri). Cuoci 40 minuti. Aggiungi i fagioli: frulla un terzo, rimetti nella zuppa per addensare. Aggiusta di sale.",
+        "w": "💡 Il cavolo nero è l'ingrediente caratteristico e insostituibile della ribollita. Fuori stagione usa quello surgelato. La verza può essere omessa.",
+        "t": {
+          "s": 2400,
+          "l": "40 min cottura verdure"
+        }
+      },
+      {
+        "a": "Aggiungi il pane raffermo a pezzetti. Cuoci altri 20 minuti finché il pane si assorbe e la zuppa è densa. Servi con abbondante olio extravergine crudo. L'ideale è scaldarla ('ribollirla') il giorno dopo.",
+        "w": "💡 Il nome 'ribollita' significa 'ribollita due volte': si prepara il giorno prima, poi si riscalda (ribolle) il giorno dopo diventando molto più densa e saporita.",
+        "t": {
+          "s": 1200,
+          "l": "20 min cottura con il pane"
+        }
+      }
+    ],
+    "fin": "La ribollita è uno dei simboli della cucina toscana povera e contadina. Pellegrino Artusi la cita nel suo libro. Il giorno dopo è molto migliore: preparala sempre in anticipo.",
+    "id": 211,
+    "level": "trattoria"
+  },
+  {
+    "cat": "🫘 Legumi",
+    "name": "Cicerchie in umido con pancetta",
+    "icon": "🫘",
+    "photo": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600&auto=format&fit=crop",
+    "time": "2 ore",
+    "diff": "Facile",
+    "subtitle": "Legume antico dell'Appennino, rustico e profumato",
+    "portata": "Primo",
+    "tags": [
+      "cicerchie",
+      "pancetta",
+      "umbria",
+      "legumi",
+      "rustico"
+    ],
+    "ing": [
+      "350g cicerchie secche (ammollo 24 ore)",
+      "100g pancetta tesa",
+      "1 cipolla, 2 spicchi aglio",
+      "1 carota, 1 gambo sedano",
+      "400g pomodori pelati",
+      "rosmarino, alloro",
+      "olio extravergine",
+      "sale e pepe",
+      "peperoncino"
+    ],
+    "steps": [
+      {
+        "a": "Scola le cicerchie dall'ammollo (24 ore in acqua fredda). Cambio acqua e lessale 1 ora a fuoco medio finché tenere. Sala solo alla fine.",
+        "w": "💡 Le cicerchie richiedono ammollo lungo (24h) e cottura lenta. Contengono un antinutriente che l'ammollo riduce significativamente. Non consumarle crude o semi-cotte.",
+        "t": {
+          "s": 3600,
+          "l": "1 ora cottura cicerchie"
+        }
+      },
+      {
+        "a": "Soffriggi pancetta a dadini fino a croccante. Aggiungi cipolla, carota, sedano e aglio. Cuoci 8 minuti. Aggiungi pomodori, rosmarino, alloro e peperoncino. Cuoci 15 minuti.",
+        "w": "💡 La pancetta va rosolata fino a croccante prima delle verdure: libera il grasso che insaporisce il soffritto e diventa croccante, contrastando la morbidezza delle cicerchie.",
+        "t": {
+          "s": 1380,
+          "l": "8+15 min soffritto e sugo"
+        }
+      },
+      {
+        "a": "Aggiungi le cicerchie al sugo con un po' della loro acqua di cottura. Cuoci insieme 20 minuti a fuoco basso. Aggiusta di sale. Servi con olio crudo e pane.",
+        "w": "💡 L'acqua di cottura delle cicerchie è saporita: usarla per allungare il sugo invece dell'acqua normale aggiunge sapore e corpo al piatto.",
+        "t": {
+          "s": 1200,
+          "l": "20 min cottura finale"
+        }
+      }
+    ],
+    "fin": "Le cicerchie sono un legume antico dell'Appennino centrale, quasi scomparso e ora riscoperto come presidio Slow Food. Il sapore è tra ceci e fagioli, con una nota terrosa unica. Eccellenti con la pasta mista.",
+    "id": 212,
+    "level": "casa"
+  },
+  {
+    "cat": "🫘 Legumi",
+    "name": "Minestrone alla genovese",
+    "icon": "🍲",
+    "photo": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600&auto=format&fit=crop",
+    "time": "1 ora 15 min",
+    "diff": "Facile",
+    "subtitle": "Il ricco minestrone ligure con il pesto a crudo",
+    "portata": "Primo",
+    "tags": [
+      "minestrone",
+      "genova",
+      "pesto",
+      "verdure",
+      "liguria"
+    ],
+    "ing": [
+      "200g fagioli borlotti lessati",
+      "2 patate",
+      "2 zucchine",
+      "2 carote",
+      "200g fagiolini",
+      "200g cavolo verza",
+      "100g pasta corta o riso",
+      "1 cipolla",
+      "olio extravergine",
+      "sale",
+      "3 cucchiai pesto genovese per servire"
+    ],
+    "steps": [
+      {
+        "a": "Taglia tutte le verdure a dadini simili (1.5cm). Soffriggi la cipolla in olio 5 minuti. Aggiungi le verdure più dure (carote, patate) e cuoci 5 minuti.",
+        "w": "💡 Tagliare le verdure della stessa dimensione garantisce che cuociano tutte insieme. Inizia dalle verdure più dure che richiedono più tempo.",
+        "t": {
+          "s": 600,
+          "l": "5+5 min soffritto e prime verdure"
+        }
+      },
+      {
+        "a": "Aggiungi le verdure tenere (zucchine, fagiolini, verza) e i fagioli. Copri con acqua (1.5 litri). Sala. Cuoci 35-40 minuti a fuoco medio.",
+        "w": "💡 Non mischiare troppo le verdure durante la cottura: si sfaldano. Mescola solo quando necessario con movimenti circolari delicati.",
+        "t": {
+          "s": 2400,
+          "l": "35-40 min cottura"
+        }
+      },
+      {
+        "a": "Negli ultimi 10 minuti aggiungi la pasta (o il riso). Cuoci fino al tempo della pasta. Lascia riposare 5 minuti. Servi con un cucchiaio abbondante di pesto fresco in ogni piatto.",
+        "w": "💡 Il pesto va aggiunto nel piatto a crudo, non in pentola: il calore distrugge il colore verde brillante e il profumo fresco del basilico. Ogni commensale aggiunge il suo.",
+        "t": null
+      }
+    ],
+    "fin": "Il minestrone genovese con il pesto è una delle zuppe più buone della cucina italiana. Il pesto trasforma un semplice minestrone in qualcosa di straordinario. Buono anche il giorno dopo (senza pasta, aggiungila fresca).",
+    "id": 213,
+    "level": "casa"
   }
 ]
